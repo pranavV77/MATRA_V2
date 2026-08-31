@@ -1,0 +1,40 @@
+{
+  "dataset_name": "elements_master",
+  "format": "Apache Parquet",
+  "sha256_checksum": "0d9c1790b211e5e47651ec6930bcb259db36b82acc8efabb720fa26fd6fc651a",
+  "created_at_utc": "2026-08-31T05:42:10.218025+00:00",
+  "element_range": "Z = 1 to 94 (Hydrogen to Plutonium)",
+  "total_elements": 94,
+  "columns_count": 25,
+  "primary_key": "atomic_number",
+  "pn_convention": {
+    "name": "Pierre Villars Mendeleev Periodic Number (PN)",
+    "range": "1 to 103",
+    "citation": "Villars et al., Chem. Met. Alloys 2008; Oran et al., PNcsp+ JCTC 2026",
+    "normalization": "pn_normalized = mendeleev_number / 103.0"
+  },
+  "valence_electron_definitions": {
+    "valence_electrons": "Follows the convention implemented by mendeleev 1.2.0 (Element.nvalence())",
+    "subshell_valence_counts": "Derived from electronic configuration using project active-valence rule (closed 4f14/d10 cores treated as non-valence)",
+    "methodology_note": "These definitions are library- and methodology-specific and must not be presented as a universal IUPAC definition."
+  },
+  "data_provenance": {
+    "mendeleev_version": "1.2.0",
+    "pymatgen_version": "2025.10.7",
+    "pymatgen_data_provenance": "pymatgen Element database value (used for allotropic species melting_point and thermal_conductivity)",
+    "python_version": "3.10.11"
+  },
+  "imputation_policy": {
+    "pauling_electronegativity": "Undefined values for He, Ne, Ar are preserved strictly as NaN (not imputed, not zero)",
+    "atomic_radius_slater": "Linear regression on covalent_radius_cordero for Kr, Xe, At, Rn, Fr (imputed_atomic_radius = True)",
+    "thermal_conductivity": "Group 1 trend extrapolation for Fr (15.0 W/(m*K), imputed_thermal_conductivity = True)",
+    "imputed_elements_count": 5,
+    "imputed_elements_list": [
+      "Kr",
+      "Xe",
+      "At",
+      "Rn",
+      "Fr"
+    ]
+  }
+}
