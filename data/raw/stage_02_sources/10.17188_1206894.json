@@ -1,0 +1,142 @@
+{
+  "data": {
+    "id": "10.17188/1206894",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.17188/1206894",
+      "prefix": "10.17188",
+      "suffix": "1206894",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "None Available",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Materials Data on KSnAs by Materials Project"
+        }
+      ],
+      "publisher": "LBNL Materials Project; Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)",
+      "container": {},
+      "publicationYear": 2020,
+      "subjects": [
+        {
+          "subject": "36 MATERIALS SCIENCE"
+        },
+        {
+          "subject": "crystal structure"
+        },
+        {
+          "subject": "KSnAs"
+        },
+        {
+          "subject": "As-K-Sn"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "The Materials Project",
+          "nameType": "Organizational",
+          "contributorType": "ResearchGroup",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "dates": [
+        {
+          "date": "2020",
+          "dateType": "Issued"
+        }
+      ],
+      "language": "en",
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "Specialized Mix",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [],
+      "descriptions": [
+        {
+          "description": "KSnAs is trigonal omega-derived structured and crystallizes in the hexagonal P6_3mc space group. The structure is two-dimensional and consists of two KSnAs sheets oriented in the (0, 0, 1) direction. K1+ is bonded in a 3-coordinate geometry to three equivalent As3- atoms. All K–As bond lengths are 3.33 Å. Sn2+ is bonded in a distorted trigonal non-coplanar geometry to three equivalent As3- atoms. All Sn–As bond lengths are 2.76 Å. As3- is bonded to three equivalent K1+ and three equivalent Sn2+ atoms to form edge-sharing AsK3Sn3 octahedra.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTcxODgvMTIwNjg5NDwvaWRlbnRpZmllcj4KICA8Y3JlYXRvcnM+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPk5vbmUgQXZhaWxhYmxlPC9jcmVhdG9yTmFtZT4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+TWF0ZXJpYWxzIERhdGEgb24gS1NuQXMgYnkgTWF0ZXJpYWxzIFByb2plY3Q8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+TEJOTCBNYXRlcmlhbHMgUHJvamVjdDsgTGF3cmVuY2UgQmVya2VsZXkgTmF0aW9uYWwgTGFib3JhdG9yeSAoTEJOTCksIEJlcmtlbGV5LCBDQSAoVW5pdGVkIFN0YXRlcyk8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjA8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRhdGFzZXQiPlNwZWNpYWxpemVkIE1peDwvcmVzb3VyY2VUeXBlPgogIDxzdWJqZWN0cz4KICAgIDxzdWJqZWN0PjM2IE1BVEVSSUFMUyBTQ0lFTkNFPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+Y3J5c3RhbCBzdHJ1Y3R1cmU8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5LU25Bczwvc3ViamVjdD4KICAgIDxzdWJqZWN0PkFzLUstU248L3N1YmplY3Q+CiAgPC9zdWJqZWN0cz4KICA8Y29udHJpYnV0b3JzPgogICAgPGNvbnRyaWJ1dG9yIGNvbnRyaWJ1dG9yVHlwZT0iUmVzZWFyY2hHcm91cCI+CiAgICAgIDxjb250cmlidXRvck5hbWUgbmFtZVR5cGU9Ik9yZ2FuaXphdGlvbmFsIj5UaGUgTWF0ZXJpYWxzIFByb2plY3Q8L2NvbnRyaWJ1dG9yTmFtZT4KICAgIDwvY29udHJpYnV0b3I+CiAgPC9jb250cmlidXRvcnM+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9Iklzc3VlZCI+MjAyMDwvZGF0ZT4KICA8L2RhdGVzPgogIDxsYW5ndWFnZT5lbjwvbGFuZ3VhZ2U+CiAgPHNpemVzLz4KICA8Zm9ybWF0cy8+CiAgPHZlcnNpb24vPgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+S1NuQXMgaXMgdHJpZ29uYWwgb21lZ2EtZGVyaXZlZCBzdHJ1Y3R1cmVkIGFuZCBjcnlzdGFsbGl6ZXMgaW4gdGhlIGhleGFnb25hbCBQNl8zbWMgc3BhY2UgZ3JvdXAuIFRoZSBzdHJ1Y3R1cmUgaXMgdHdvLWRpbWVuc2lvbmFsIGFuZCBjb25zaXN0cyBvZiB0d28gS1NuQXMgc2hlZXRzIG9yaWVudGVkIGluIHRoZSAoMCwgMCwgMSkgZGlyZWN0aW9uLiBLMSsgaXMgYm9uZGVkIGluIGEgMy1jb29yZGluYXRlIGdlb21ldHJ5IHRvIHRocmVlIGVxdWl2YWxlbnQgQXMzLSBhdG9tcy4gQWxsIEvigJNBcyBib25kIGxlbmd0aHMgYXJlIDMuMzMgw4UuIFNuMisgaXMgYm9uZGVkIGluIGEgZGlzdG9ydGVkIHRyaWdvbmFsIG5vbi1jb3BsYW5hciBnZW9tZXRyeSB0byB0aHJlZSBlcXVpdmFsZW50IEFzMy0gYXRvbXMuIEFsbCBTbuKAk0FzIGJvbmQgbGVuZ3RocyBhcmUgMi43NiDDhS4gQXMzLSBpcyBib25kZWQgdG8gdGhyZWUgZXF1aXZhbGVudCBLMSsgYW5kIHRocmVlIGVxdWl2YWxlbnQgU24yKyBhdG9tcyB0byBmb3JtIGVkZ2Utc2hhcmluZyBBc0szU24zIG9jdGFoZWRyYS48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPgo=",
+      "url": "https://www.osti.gov/servlets/purl/1206894/",
+      "contentUrl": null,
+      "metadataVersion": 3,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2015-08-04T15:42:48.000Z",
+      "registered": "2015-08-04T15:42:49.000Z",
+      "published": "2020",
+      "updated": "2021-01-29T06:22:21.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "doe.lbnl",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "doe",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.17188/1206894",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

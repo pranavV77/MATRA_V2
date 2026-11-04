@@ -1,0 +1,17 @@
+{
+  "original_tracked_files_checked": 40,
+  "original_tracked_files_changed": [],
+  "release_hash_mismatches": [],
+  "local_links_checked": 15,
+  "missing_links": [],
+  "python_files_compiled": 9,
+  "strict_json_files_checked": 23,
+  "figures_visually_checked": [
+    "native_missingness.png",
+    "radius_estimation.png",
+    "benchmark_evidence_status.png"
+  ],
+  "scientific_benchmark_ready": false,
+  "audio_generated": false,
+  "engineering_integrity_pass": true
+}

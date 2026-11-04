@@ -1,0 +1,13 @@
+{
+  "release": "2.0.0-audit",
+  "created_at_utc": "2026-11-04T23:01:56.652770+00:00",
+  "files": {
+    "data\\processed\\v2_0_0\\cell_provenance.jsonl": "28fc1ba3649fee453681aa7c4a8b34724401b2f4005db2693bb56aff644b3e2e",
+    "data\\processed\\v2_0_0\\elements_native.parquet": "08709934cc805dcf1680ac5d4edee647b8218155dfa9ff865d5d7ad1e6bb303c",
+    "data\\processed\\v2_0_0\\element_registry.json": "b544913b130dfc9f98e1f9cb0c253a4918e9f9e91e71597e2cd51b4dcc58d68f",
+    "data\\processed\\v2_0_0\\feature_metadata.json": "dbd2de320870da72caa11e1149b6c77e3d6ca10cf68a71ec127fe8f2167e29cd",
+    "data\\processed\\v2_0_0\\radius_estimates.json": "40f675f2ccf4b52d9559c233c53e6ac208dc7c6168fbd533909d1b938984f558",
+    "data\\benchmark\\v2_0_0\\benchmark_review.json": "f3d3aaf114238b2c00c61792c22540ea38c048e631d12d9d60a7b8b86015f6bb"
+  },
+  "activation": "Not wired into legacy engines. Stage 3 must choose an explicit missing-data/support policy."
+}

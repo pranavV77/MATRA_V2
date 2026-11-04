@@ -1,0 +1,24 @@
+Capturing local source properties: 1 / 94
+Capturing local source properties: 16 / 94
+Capturing local source properties: 31 / 94
+Capturing local source properties: 46 / 94
+Capturing local source properties: 61 / 94
+Capturing local source properties: 76 / 94
+Capturing local source properties: 91 / 94
+Resolving DOI metadata (does not certify scientific claims)...
+BM-P01 ['Structural and electronic properties of Ga2O3-Al2O3 alloys']
+BM-P02 ['Growth and applications of Group III-nitrides']
+BM-P03 HTTPError HTTP Error 404: Not Found
+BM-P04 ['Band Gap Engineering and Layer-by-Layer Mapping of Selenium-Doped Molybdenum Disulfide']
+BM-P05 ['Integrated pyroelectric detector arrays with the sensor material PVDF']
+BM-P06 HTTPError HTTP Error 404: Not Found
+BM-P07 ['Materials Data on KSnAs by Materials Project']
+BM-P09 HTTPError HTTP Error 404: Not Found
+BM-P10 ['High-Thermoelectric Performance of Nanostructured Bismuth Antimony Telluride Bulk Alloys']
+BM-P11 HTTPError HTTP Error 404: Not Found
+BM-S01 ['Enhanced Conversion Efficiencies of Cu\n                    <sub>2</sub>\n                    ZnSnS\n                    <sub>4</sub>\n                    -Based Thin Film Solar Cells by Using Preferential Etching Technique']
+BM-S02 ['<i>In-situ</i> electron holography of surface potential response to gate voltage application in a sub-30-nm gate-length metal-oxide-semiconductor field-effect transistor']
+BM-S03 ['High-Brightness InGaN Blue, Green and Yellow Light-Emitting Diodes with Quantum Well Structures']
+BM-S04 ['Order within disorder']
+BM-S05 HTTPError HTTP Error 404: Not Found
+Source capture complete. Existing datasets unchanged.

@@ -1,0 +1,649 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          4
+        ]
+      ],
+      "date-time": "2026-11-04T02:52:53Z",
+      "timestamp": 1793760773760,
+      "version": "4.6.1"
+    },
+    "reference-count": 16,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "5876",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:p>The dimensionless thermoelectric figure of merit (ZT) in bismuth antimony telluride (BiSbTe) bulk alloys has remained around 1 for more than 50 years. We show that a peak ZT of 1.4 at 100°C can be achieved in a p-type nanocrystalline BiSbTe bulk alloy. These nanocrystalline bulk materials were made by hot pressing nanopowders that were ball-milled from crystalline ingots under inert conditions. Electrical transport measurements, coupled with microstructure studies and modeling, show that the ZT improvement is the result of low thermal conductivity caused by the increased phonon scattering by grain boundaries and defects. More importantly, ZT is about 1.2 at room temperature and 0.8 at 250°C, which makes these materials useful for cooling and power generation. Cooling devices that use these materials have produced high-temperature differences of 86°, 106°, and 119°C with hot-side temperatures set at 50°, 100°, and 150°C, respectively. This discovery sets the stage for use of a new nanocomposite approach in developing high-performance low-cost bulk thermoelectric materials.</jats:p>",
+    "DOI": "10.1126/science.1156446",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2008,
+          3,
+          20
+        ]
+      ],
+      "date-time": "2008-03-20T21:43:32Z",
+      "timestamp": 1206049412000
+    },
+    "page": "634-638",
+    "source": "Crossref",
+    "is-referenced-by-count": 5459,
+    "title": [
+      "High-Thermoelectric Performance of Nanostructured Bismuth Antimony Telluride Bulk Alloys"
+    ],
+    "prefix": "10.1126",
+    "volume": "320",
+    "author": [
+      {
+        "given": "Bed",
+        "family": "Poudel",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qing",
+        "family": "Hao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yi",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yucheng",
+        "family": "Lan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Austin",
+        "family": "Minnich",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bo",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiao",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dezhi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew",
+        "family": "Muto",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daryoosh",
+        "family": "Vashaee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoyuan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junming",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mildred S.",
+        "family": "Dresselhaus",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gang",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhifeng",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "221",
+    "reference": [
+      {
+        "key": "e_1_3_2_2_2",
+        "unstructured": "D. M. Rowe Ed. CRC Handbook of Thermoelectrics (CRC Boca Raton FL 1995)."
+      },
+      {
+        "key": "e_1_3_2_3_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. J. Goldsmid Thermoelectric Refrigeration (Plenum New York 1964).",
+        "DOI": "10.1007/978-1-4899-5723-8"
+      },
+      {
+        "key": "e_1_3_2_4_2",
+        "unstructured": "T. M. Tritt Ed. Semiconductors and Semimetals Recent Trends in Thermoelectric Materials Research: Part One to Three (Academic San Diego CA 2001) vol. 69 to 71."
+      },
+      {
+        "key": "e_1_3_2_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/35098012"
+      },
+      {
+        "key": "e_1_3_2_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1072886"
+      },
+      {
+        "key": "e_1_3_2_7_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1092963"
+      },
+      {
+        "key": "e_1_3_2_8_2",
+        "first-page": "40",
+        "year": "1995",
+        "unstructured": "J. P. Fluerial, T. Caillat, A. Borshchevsky, in Proceedings of the 13th International Conference on Thermoelectrics, Kansas City, MO, 30August to 1 September 1994 (AIP, New York, 1995), pp. 40–44.",
+        "journal-title": "Proceedings of the 13th International Conference on Thermoelectrics"
+      },
+      {
+        "key": "e_1_3_2_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.57.14958"
+      },
+      {
+        "key": "e_1_3_2_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adma.200600527"
+      },
+      {
+        "key": "e_1_3_2_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1863440"
+      },
+      {
+        "key": "e_1_3_2_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.2425007"
+      },
+      {
+        "key": "e_1_3_2_13_2",
+        "unstructured": "Bulk p-type BiSbTe alloy ingots were loaded into a jar with balls inside the argon-filled glove box to avoid oxidation of the nanopowder. The jar was loaded into a ball mill and processed for several hours. When the nanopowder was ready it was loaded into 1.25- to 2.5-cm (inner diameter) dies and compacted into a 100% dense solid NC bulk sample by a hot press. Samples are available for testing upon request."
+      },
+      {
+        "key": "e_1_3_2_14_2",
+        "unstructured": "We cut hot-pressed NC bulk pellets into blocks (2 mm by 3 mm by 1 mm) that were ground down into smaller blocks (2 mm by 3 mm by 0.002 mm) using a mechanical tripod polisher. We then glued the sample to a copper grid and milled it using a precision ion polishing system (Gatan Inc. Warrendale Pennsylvania USA) for 30 min with incident energy of 3.2 kV and beam current of 15 μA at an incident angle of 3.5°."
+      },
+      {
+        "key": "e_1_3_2_15_2",
+        "first-page": "35",
+        "volume": "30",
+        "year": "1955",
+        "unstructured": "T. C. Harman, S. E. Miller, H. L. Goeing, Bull. Am. Phys. Soc.30, 35 (1955).",
+        "journal-title": "Bull. Am. Phys. Soc."
+      },
+      {
+        "key": "e_1_3_2_16_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.68.205207"
+      },
+      {
+        "key": "e_1_3_2_17_2",
+        "unstructured": "The work is supported by the U.S. Department of Energy (DOE) grant no. DE-FG02-00ER45805 (Z.F.R.) DOE grant no. DE-FG02-02ER45977 (G.C.) NSF–Nanoscale Interdisciplinary Research Team grant no. 0506830 (G.C. Z.F.R. and M.S.D.) National Science Foundation of China project no. 50528203 (J.M.L. and Z.F.R.) and the Ministry of Science and Technology of China project no. 2006CB921802 (J.M.L.). G.C. and Z.F.R. are cofounders of GMZ Energy Inc."
+      }
+    ],
+    "container-title": [
+      "Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.science.org/doi/pdf/10.1126/science.1156446",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ],
+      "date-time": "2024-01-10T03:55:13Z",
+      "timestamp": 1704858913000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.science.org/doi/10.1126/science.1156446"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          2
+        ]
+      ]
+    },
+    "references-count": 16,
+    "journal-issue": {
+      "issue": "5876",
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            5,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1126/science.1156446"
+    ],
+    "URL": "https://doi.org/10.1126/science.1156446",
+    "relation": {},
+    "ISSN": [
+      "0036-8075",
+      "1095-9203"
+    ],
+    "issn-type": [
+      {
+        "value": "0036-8075",
+        "type": "print"
+      },
+      {
+        "value": "1095-9203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          2
+        ]
+      ]
+    }
+  }
+}

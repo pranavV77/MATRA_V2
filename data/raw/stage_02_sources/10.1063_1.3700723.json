@@ -1,0 +1,338 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2026-09-29T02:54:45Z",
+      "timestamp": 1790650485745,
+      "version": "4.1.0"
+    },
+    "reference-count": 14,
+    "publisher": "AIP Publishing",
+    "issue": "14",
+    "content-domain": {
+      "domain": [
+        "pubs.aip.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          2
+        ]
+      ]
+    },
+    "abstract": "<jats:p>The response of the electrostatic potential distribution within a metal-oxide-semiconductor field-effect transistor (MOSFET) to an external electric field was revealed using electron holography cross-sectional in-situ observation while applying the gate voltage to a transistor scaled down to a 25-nm gate length. Charging effects due to electron irradiation were taken into account by using complementary numerical device simulation. Direct observation of the channel potential and its response to the gate voltage can be used to determine the gate electrode effective work-function for scaled MOSFETs.</jats:p>",
+    "DOI": "10.1063/1.3700723",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          4
+        ]
+      ],
+      "date-time": "2012-04-04T22:44:11Z",
+      "timestamp": 1333579451000
+    },
+    "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "<i>In-situ</i> electron holography of surface potential response to gate voltage application in a sub-30-nm gate-length metal-oxide-semiconductor field-effect transistor"
+    ],
+    "prefix": "10.1063",
+    "volume": "100",
+    "author": [
+      {
+        "given": "Nobuyuki",
+        "family": "Ikarashi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "LSI Research Laboratory, Renesas Electronics Corporation, 1120 Shimokuzawa , Chuo-ku, Sagamihara 252-5298, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hiroshi",
+        "family": "Takeda",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LSI Research Laboratory, Renesas Electronics Corporation, 1120 Shimokuzawa , Chuo-ku, Sagamihara 252-5298, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Koichi",
+        "family": "Yako",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LSI Research Laboratory, Renesas Electronics Corporation, 1120 Shimokuzawa , Chuo-ku, Sagamihara 252-5298, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Masami",
+        "family": "Hane",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LSI Research Laboratory, Renesas Electronics Corporation, 1120 Shimokuzawa , Chuo-ku, Sagamihara 252-5298, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "317",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2023062411424736800_c1",
+        "volume-title": "Physics of Semiconductors",
+        "year": "1981",
+        "edition": "2nd"
+      },
+      {
+        "key": "2023062411424736800_c2"
+      },
+      {
+        "key": "2023062411424736800_c3",
+        "doi-asserted-by": "publisher",
+        "first-page": "2603",
+        "DOI": "10.1063/1.112581",
+        "volume": "65",
+        "year": "1994",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023062411424736800_c4",
+        "doi-asserted-by": "publisher",
+        "first-page": "2614",
+        "DOI": "10.1103/PhysRevLett.82.2614",
+        "volume": "82",
+        "year": "1999",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "2023062411424736800_c5",
+        "doi-asserted-by": "publisher",
+        "first-page": "025502",
+        "DOI": "10.1103/PhysRevLett.89.025502",
+        "volume": "89",
+        "year": "2002",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "2023062411424736800_c6",
+        "doi-asserted-by": "publisher",
+        "first-page": "114514",
+        "DOI": "10.1063/1.2937246",
+        "volume": "103",
+        "year": "2008",
+        "journal-title": "J. Appl. Phys."
+      },
+      {
+        "key": "2023062411424736800_c7",
+        "doi-asserted-by": "publisher",
+        "first-page": "C1D5",
+        "DOI": "10.1116/1.3207964",
+        "volume": "28",
+        "year": "2010",
+        "journal-title": "J. Vac. Sci. Technol. B"
+      },
+      {
+        "key": "2023062411424736800_c8",
+        "first-page": "202",
+        "volume": "2009",
+        "journal-title": "Dig. Tech. Pap. – Symp. VLSI Technol."
+      },
+      {
+        "key": "2023062411424736800_c9",
+        "volume-title": "Introduction to Electron Holography",
+        "year": "1998"
+      },
+      {
+        "key": "2023062411424736800_c10",
+        "doi-asserted-by": "publisher",
+        "first-page": "238302",
+        "DOI": "10.1103/PhysRevLett.88.238302",
+        "volume": "88",
+        "year": "2002",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "2023062411424736800_c11",
+        "doi-asserted-by": "publisher",
+        "first-page": "239",
+        "DOI": "10.1093/jmicro/54.3.239",
+        "volume": "54",
+        "year": "2005",
+        "journal-title": "J. Electron Microsc."
+      },
+      {
+        "key": "2023062411424736800_c12",
+        "doi-asserted-by": "publisher",
+        "first-page": "012064",
+        "DOI": "10.1088/1742-6596/209/1/012064",
+        "volume": "209",
+        "year": "2010",
+        "journal-title": "J. Phys.: Conf. Ser."
+      },
+      {
+        "key": "2023062411424736800_c13",
+        "first-page": "6",
+        "volume": "2011",
+        "journal-title": "Tech. Dig. - Int. Electron Devices Meet."
+      },
+      {
+        "key": "2023062411424736800_c14",
+        "first-page": "909",
+        "volume": "2008",
+        "journal-title": "Tech. Dig. - Int. Electron Devices Meet."
+      }
+    ],
+    "container-title": [
+      "Applied Physics Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.3700723/14244669/143508_1_online.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.3700723/14244669/143508_1_online.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          25
+        ]
+      ],
+      "date-time": "2023-06-25T00:55:47Z",
+      "timestamp": 1687654547000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.aip.org/apl/article/100/14/143508/151443/In-situ-electron-holography-of-surface-potential"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          2
+        ]
+      ]
+    },
+    "references-count": 14,
+    "journal-issue": {
+      "issue": "14",
+      "published-print": {
+        "date-parts": [
+          [
+            2012,
+            4,
+            2
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1063/1.3700723",
+    "relation": {},
+    "ISSN": [
+      "0003-6951",
+      "1077-3118"
+    ],
+    "issn-type": [
+      {
+        "value": "0003-6951",
+        "type": "print"
+      },
+      {
+        "value": "1077-3118",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          2
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          4,
+          2
+        ]
+      ]
+    },
+    "article-number": "143508"
+  }
+}

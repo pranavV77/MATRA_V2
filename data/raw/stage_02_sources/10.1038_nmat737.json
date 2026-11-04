@@ -1,0 +1,287 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T05:18:06Z",
+      "timestamp": 1791263886777,
+      "version": "4.1.0"
+    },
+    "reference-count": 7,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2002,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2002-10-01T00:00:00Z",
+          "timestamp": 1033430400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springer.com/tdm"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2002,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2002-10-01T00:00:00Z",
+          "timestamp": 1033430400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nature Mater"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2002,
+          10,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1038/nmat737",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2003,
+          3,
+          20
+        ]
+      ],
+      "date-time": "2003-03-20T11:26:10Z",
+      "timestamp": 1048159570000
+    },
+    "page": "87-88",
+    "source": "Crossref",
+    "is-referenced-by-count": 68,
+    "title": [
+      "Order within disorder"
+    ],
+    "prefix": "10.1038",
+    "volume": "1",
+    "author": [
+      {
+        "given": "Philip S.",
+        "family": "Salmon",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "reference": [
+      {
+        "key": "BFnmat737_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "381",
+        "DOI": "10.1038/nature01022",
+        "volume": "419",
+        "author": "JD Martin",
+        "year": "2002",
+        "unstructured": "Martin, J.D., Goettler, S.J., Fossé, N. & Iton, L. Nature 419, 381–384 (2002).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "BFnmat737_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "57",
+        "DOI": "10.1016/0022-3093(82)90189-2",
+        "volume": "51",
+        "author": "JAE Desa",
+        "year": "1982",
+        "unstructured": "Desa, J.A.E., Wright, A.C., Wong, J. & Sinclair, R.N. J. Non-Cryst. Solids 51, 57–86 (1982).",
+        "journal-title": "J. Non-Cryst. Solids"
+      },
+      {
+        "key": "BFnmat737_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "2413",
+        "DOI": "10.1103/PhysRevLett.84.2413",
+        "volume": "84",
+        "author": "I Petri",
+        "year": "2000",
+        "unstructured": "Petri, I., Salmon, P.S. & Fischer, H.E. Phys. Rev. Lett. 84, 2413–2416 (2000).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "BFnmat737_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "77",
+        "DOI": "10.1007/978-1-4613-2513-0_8",
+        "volume-title": "Physics of Disordered Materials",
+        "author": "SC Moss",
+        "year": "1985",
+        "unstructured": "Moss, S.C. & Price, D.L. in Physics of Disordered Materials (eds Adler, D., Fritzsche, H. & Ovshinsky, S.R.) 77–95 (Plenum, New York, 1985)."
+      },
+      {
+        "key": "BFnmat737_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "445",
+        "DOI": "10.1038/354445a0",
+        "volume": "354",
+        "author": "SR Elliott",
+        "year": "1991",
+        "unstructured": "Elliott, S.R. Nature 354, 445–452 (1991).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "BFnmat737_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "351",
+        "DOI": "10.1098/rspa.1994.0065",
+        "volume": "445",
+        "author": "PS Salmon",
+        "year": "1994",
+        "unstructured": "Salmon, P.S. Proc. R. Soc. Lond. A 445, 351–365 (1994).",
+        "journal-title": "Proc. R. Soc. Lond. A"
+      },
+      {
+        "key": "BFnmat737_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "2699",
+        "DOI": "10.1021/cm9802550",
+        "volume": "10",
+        "author": "JD Martin",
+        "year": "1998",
+        "unstructured": "Martin, J.D. et al. Chem. Mater. 10, 2699–2713 (1998).",
+        "journal-title": "Chem. Mater."
+      }
+    ],
+    "container-title": [
+      "Nature Materials"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/nmat737.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/nmat737",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/doifinder/10.1038/nmat737",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      },
+      {
+        "URL": "https://www.nature.com/articles/nmat737.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          6
+        ]
+      ],
+      "date-time": "2022-07-06T20:16:40Z",
+      "timestamp": 1657138600000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/nmat737"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2002,
+          10,
+          1
+        ]
+      ]
+    },
+    "references-count": 7,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2002,
+            10,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "BFnmat737"
+    ],
+    "URL": "https://doi.org/10.1038/nmat737",
+    "relation": {},
+    "ISSN": [
+      "1476-1122",
+      "1476-4660"
+    ],
+    "issn-type": [
+      {
+        "value": "1476-1122",
+        "type": "print"
+      },
+      {
+        "value": "1476-4660",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2002,
+          10,
+          1
+        ]
+      ]
+    }
+  }
+}

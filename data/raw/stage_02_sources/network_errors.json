@@ -1,0 +1,32 @@
+[
+  {
+    "doi": "10.1021/nn4011442",
+    "url": "https://api.crossref.org/works/10.1021/nn4011442",
+    "exception": "HTTPError",
+    "message": "HTTP Error 404: Not Found"
+  },
+  {
+    "doi": "10.1007/b71004",
+    "url": "https://api.crossref.org/works/10.1007/b71004",
+    "exception": "HTTPError",
+    "message": "HTTP Error 404: Not Found"
+  },
+  {
+    "doi": "10.1021/ja403010m",
+    "url": "https://api.crossref.org/works/10.1021/ja403010m",
+    "exception": "HTTPError",
+    "message": "HTTP Error 404: Not Found"
+  },
+  {
+    "doi": "10.17188/1188166",
+    "url": "https://api.datacite.org/dois/10.17188/1188166",
+    "exception": "HTTPError",
+    "message": "HTTP Error 404: Not Found"
+  },
+  {
+    "doi": "10.1021/acs.nanolett.6b00080",
+    "url": "https://api.crossref.org/works/10.1021/acs.nanolett.6b00080",
+    "exception": "HTTPError",
+    "message": "HTTP Error 404: Not Found"
+  }
+]

@@ -1,0 +1,1041 @@
+{
+  "metadata": {
+    "version": "2.0.0-audit",
+    "status": "scientific_evidence_review_incomplete",
+    "purpose": "Legacy-preserving claim-level evidence review; not a newly certified benchmark",
+    "admission_policy": "Only independently verified host/phase/site/concentration claims may earn quantitative credit.",
+    "unknown_is_not_negative": true
+  },
+  "substitution_cases": [
+    {
+      "case_id": "BM-P01",
+      "track": "substitution",
+      "legacy_record": {
+        "case_id": "BM-P01",
+        "parent_material": "Gallium Oxide",
+        "phase": "beta-phase (monoclinic)",
+        "formula": "Ga2O3",
+        "space_group": "C2/m (#12)",
+        "target_element": "Ga",
+        "target_site": "Octahedral Ga_II",
+        "wyckoff_position": "4i",
+        "coordination": "6-fold octahedral (GaO6)",
+        "known_substituents": [
+          "Al",
+          "In"
+        ],
+        "resulting_compositions": [
+          "(Al_x Ga_{1-x})2 O3 (monoclinic beta-phase up to x ≈ 0.70)",
+          "(In_x Ga_{1-x})2 O3 (monoclinic beta-phase up to x ≈ 0.35)"
+        ],
+        "evidence_type": "EXPERIMENTAL_DIRECT",
+        "experimental_status": "Synthesized as single crystals, bulk ceramics, and epitaxial thin films (MBE, MOCVD, PLD) preserving C2/m space group.",
+        "computational_status": "Supported by DFT formation energy convex hulls and phonon stability calculations (Peelaers et al., 2017).",
+        "source_reference": "Peelaers et al., Appl. Phys. Lett. 112, 242101 (2018); Baldini et al., J. Phys.: Condens. Matter 30, 194001 (2018)",
+        "doi": "10.1063/1.5036991",
+        "icsd_identifiers": [
+          "ICSD-16757",
+          "ICSD-27431"
+        ],
+        "materials_project_identifiers": [
+          "mp-886",
+          "mp-2740",
+          "mp-1070"
+        ],
+        "oqmd_identifiers": [
+          "oqmd-2780"
+        ],
+        "verification_notes": "Both Al and In substitute directly on the Ga_II octahedral 4i site forming verified solid solutions. Heterovalent/dilute donors (Si, Sn) are strictly excluded from primary targets and moved to secondary cases."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-P01:Al",
+          "candidate": "Al",
+          "label": "unknown",
+          "review_status": "partial_support",
+          "review_reason": "Al-alloy paper is computational; does not by itself verify every Al/In experimental, concentration and site claim.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Structural and electronic properties of Ga2O3-Al2O3 alloys"
+          ],
+          "legacy_doi": "10.1063/1.5036991",
+          "registry_record_file": "10.1063_1.5036991.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        },
+        {
+          "claim_id": "BM-P01:In",
+          "candidate": "In",
+          "label": "unknown",
+          "review_status": "partial_support",
+          "review_reason": "Al-alloy paper is computational; does not by itself verify every Al/In experimental, concentration and site claim.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Structural and electronic properties of Ga2O3-Al2O3 alloys"
+          ],
+          "legacy_doi": "10.1063/1.5036991",
+          "registry_record_file": "10.1063_1.5036991.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-P02",
+      "track": "substitution",
+      "legacy_record": {
+        "case_id": "BM-P02",
+        "parent_material": "Gallium Nitride",
+        "phase": "Wurtzite (hexagonal)",
+        "formula": "GaN",
+        "space_group": "P6_3mc (#186)",
+        "target_element": "Ga",
+        "target_site": "Tetrahedral Ga",
+        "wyckoff_position": "2b",
+        "coordination": "4-fold tetrahedral (GaN4)",
+        "known_substituents": [
+          "Al",
+          "In"
+        ],
+        "resulting_compositions": [
+          "Al_x Ga_{1-x} N (continuous solid solution, 0 <= x <= 1.0)",
+          "In_x Ga_{1-x} N (solid solution up to x ≈ 0.40 in commercial LEDs)"
+        ],
+        "evidence_type": "EXPERIMENTAL_DIRECT",
+        "experimental_status": "Extensively commercialized optoelectronic alloys grown via MOVPE and MBE; complete tetrahedral cation sublattice substitution.",
+        "computational_status": "Well-documented electronic band gap bowing and formation enthalpies across the ternary phase diagram.",
+        "source_reference": "Ambacher, J. Phys. D: Appl. Phys. 31, 2653 (1998); Nakamura et al., Nobel Lecture (2015)",
+        "doi": "10.1088/0022-3727/31/20/001",
+        "icsd_identifiers": [
+          "ICSD-61103",
+          "ICSD-94522"
+        ],
+        "materials_project_identifiers": [
+          "mp-804",
+          "mp-661",
+          "mp-21227"
+        ],
+        "oqmd_identifiers": [
+          "oqmd-2490"
+        ],
+        "verification_notes": "Hexagonal wurtzite has exactly one Wyckoff site (2b) for the cation; substitution is geometrically unique and experimentally proven. Mg acceptor doping is moved to secondary cases."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-P02:Al",
+          "candidate": "Al",
+          "label": "unknown",
+          "review_status": "review_source",
+          "review_reason": "Registered source is a III-nitride review, not extracted direct experimental evidence for each claimed condition.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Growth and applications of Group III-nitrides"
+          ],
+          "legacy_doi": "10.1088/0022-3727/31/20/001",
+          "registry_record_file": "10.1088_0022-3727_31_20_001.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        },
+        {
+          "claim_id": "BM-P02:In",
+          "candidate": "In",
+          "label": "unknown",
+          "review_status": "review_source",
+          "review_reason": "Registered source is a III-nitride review, not extracted direct experimental evidence for each claimed condition.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Growth and applications of Group III-nitrides"
+          ],
+          "legacy_doi": "10.1088/0022-3727/31/20/001",
+          "registry_record_file": "10.1088_0022-3727_31_20_001.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-P03",
+      "track": "substitution",
+      "legacy_record": {
+        "case_id": "BM-P03",
+        "parent_material": "Molybdenum Disulfide",
+        "phase": "2H-phase (hexagonal)",
+        "formula": "MoS2",
+        "space_group": "P6_3/mmc (#194)",
+        "target_element": "Mo",
+        "target_site": "Trigonal Prismatic Mo",
+        "wyckoff_position": "2c",
+        "coordination": "6-fold trigonal prismatic (MoS6)",
+        "known_substituents": [
+          "W"
+        ],
+        "resulting_compositions": [
+          "Mo_{1-x} W_x S2 (continuous isostructural solid solution, 0 <= x <= 1.0)"
+        ],
+        "evidence_type": "EXPERIMENTAL_DIRECT",
+        "experimental_status": "Synthesized as 2D monolayers and bulk layered crystals across the entire compositional join via CVD and CVT.",
+        "computational_status": "Negative mixing enthalpy across the entire binary join; ideal solid solution (Chen et al., 2013).",
+        "source_reference": "Chen et al., ACS Nano 7, 4610-4616 (2013)",
+        "doi": "10.1021/nn4011442",
+        "icsd_identifiers": [
+          "ICSD-644158"
+        ],
+        "materials_project_identifiers": [
+          "mp-2815",
+          "mp-224"
+        ],
+        "oqmd_identifiers": [
+          "oqmd-3924"
+        ],
+        "verification_notes": "Continuous isostructural replacement of Mo by W on the 2c site preserving the 2H polytype."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-P03:W",
+          "candidate": "W",
+          "label": "unknown",
+          "review_status": "unresolved_identifier",
+          "review_reason": "DOI registry query returned HTTP 404. This does not prove the chemistry is false or that no correct paper exists.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "unresolved",
+          "resolved_titles": [],
+          "legacy_doi": "10.1021/nn4011442",
+          "registry_record_file": null,
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-P04",
+      "track": "substitution",
+      "legacy_record": {
+        "case_id": "BM-P04",
+        "parent_material": "Molybdenum Disulfide",
+        "phase": "2H-phase (hexagonal)",
+        "formula": "MoS2",
+        "space_group": "P6_3/mmc (#194)",
+        "target_element": "S",
+        "target_site": "Trigonal S",
+        "wyckoff_position": "4f",
+        "coordination": "3-fold pyramidal / trigonal to Mo",
+        "known_substituents": [
+          "Se"
+        ],
+        "resulting_compositions": [
+          "MoS_{2(1-x)} Se_{2x} (continuous isostructural solid solution, 0 <= x <= 1.0)"
+        ],
+        "evidence_type": "EXPERIMENTAL_DIRECT",
+        "experimental_status": "Synthesized via chemical vapor deposition (CVD) as single-layer alloys and bulk crystals with continuously tunable optical band gaps.",
+        "computational_status": "DFT-calculated formation energies confirm thermodynamic stability and miscibility (Gong et al., 2014).",
+        "source_reference": "Gong et al., Nano Lett. 14, 442-449 (2014)",
+        "doi": "10.1021/nl4032296",
+        "icsd_identifiers": [
+          "ICSD-4981"
+        ],
+        "materials_project_identifiers": [
+          "mp-2815",
+          "mp-1634"
+        ],
+        "oqmd_identifiers": [
+          "oqmd-3924"
+        ],
+        "verification_notes": "Isovalent anion substitution on the 4f Wyckoff position preserving space group P6_3/mmc."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-P04:Se",
+          "candidate": "Se",
+          "label": "unknown",
+          "review_status": "partial_support",
+          "review_reason": "Registered title concerns Se-containing MoS2, but the complete phase, site, authorship and concentration assertions need primary passage review.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Band Gap Engineering and Layer-by-Layer Mapping of Selenium-Doped Molybdenum Disulfide"
+          ],
+          "legacy_doi": "10.1021/nl4032296",
+          "registry_record_file": "10.1021_nl4032296.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-P05",
+      "track": "substitution",
+      "legacy_record": {
+        "case_id": "BM-P05",
+        "parent_material": "Barium Titanate",
+        "phase": "Perovskite (cubic / tetragonal)",
+        "formula": "BaTiO3",
+        "space_group": "Pm-3m (#221)",
+        "target_element": "Ti",
+        "target_site": "Octahedral B-site",
+        "wyckoff_position": "1b",
+        "coordination": "6-fold octahedral (TiO6)",
+        "known_substituents": [
+          "Zr",
+          "Sn",
+          "Hf"
+        ],
+        "resulting_compositions": [
+          "BaTi_{1-x} Zr_x O3 (BaZrO3-BaTiO3 continuous solid solution, 0 <= x <= 1.0)",
+          "BaTi_{1-x} Sn_x O3 (BaSnO3-BaTiO3 continuous solid solution, 0 <= x <= 1.0)",
+          "BaTi_{1-x} Hf_x O3 (BaHfO3-BaTiO3 continuous solid solution, 0 <= x <= 1.0)"
+        ],
+        "evidence_type": "EXPERIMENTAL_DIRECT",
+        "experimental_status": "Widely fabricated as lead-free piezoelectric ceramics, multilayer ceramic capacitors (MLCCs), and thin films.",
+        "computational_status": "DFT phonon dispersion and tolerance factor modeling verify stability of B-site replacement.",
+        "source_reference": "Ravez et al., Ferroelectrics 109, 219 (1990); Wei et al., J. Appl. Phys. 101, 054110 (2007)",
+        "doi": "10.1080/00150199008211417",
+        "icsd_identifiers": [
+          "ICSD-89257",
+          "ICSD-156166"
+        ],
+        "materials_project_identifiers": [
+          "mp-5986",
+          "mp-5229",
+          "mp-2998",
+          "mp-4198"
+        ],
+        "oqmd_identifiers": [
+          "oqmd-4019"
+        ],
+        "verification_notes": "Isovalent Group 4 / Group 14 metal substitution on the 1b octahedral B-site. Si is rejected due to ionic radius collapse and phase separation."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-P05:Zr",
+          "candidate": "Zr",
+          "label": "unknown",
+          "review_status": "citation_mismatch",
+          "review_reason": "Registered paper is about PVDF pyroelectric detector arrays, not the stated BaTiO3 substitution study.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Integrated pyroelectric detector arrays with the sensor material PVDF"
+          ],
+          "legacy_doi": "10.1080/00150199008211417",
+          "registry_record_file": "10.1080_00150199008211417.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        },
+        {
+          "claim_id": "BM-P05:Sn",
+          "candidate": "Sn",
+          "label": "unknown",
+          "review_status": "citation_mismatch",
+          "review_reason": "Registered paper is about PVDF pyroelectric detector arrays, not the stated BaTiO3 substitution study.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Integrated pyroelectric detector arrays with the sensor material PVDF"
+          ],
+          "legacy_doi": "10.1080/00150199008211417",
+          "registry_record_file": "10.1080_00150199008211417.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        },
+        {
+          "claim_id": "BM-P05:Hf",
+          "candidate": "Hf",
+          "label": "unknown",
+          "review_status": "citation_mismatch",
+          "review_reason": "Registered paper is about PVDF pyroelectric detector arrays, not the stated BaTiO3 substitution study.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Integrated pyroelectric detector arrays with the sensor material PVDF"
+          ],
+          "legacy_doi": "10.1080/00150199008211417",
+          "registry_record_file": "10.1080_00150199008211417.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-P06",
+      "track": "substitution",
+      "legacy_record": {
+        "case_id": "BM-P06",
+        "parent_material": "Barium Titanate",
+        "phase": "Perovskite (cubic / tetragonal)",
+        "formula": "BaTiO3",
+        "space_group": "Pm-3m (#221)",
+        "target_element": "Ba",
+        "target_site": "Cuboctahedral A-site",
+        "wyckoff_position": "1a",
+        "coordination": "12-fold cuboctahedral (BaO12)",
+        "known_substituents": [
+          "Sr",
+          "Ca"
+        ],
+        "resulting_compositions": [
+          "Ba_{1-x} Sr_x TiO3 (BST, continuous solid solution, 0 <= x <= 1.0)",
+          "Ba_{1-x} Ca_x TiO3 (BCT, solid solution up to x ≈ 0.30)"
+        ],
+        "evidence_type": "EXPERIMENTAL_DIRECT",
+        "experimental_status": "Barium strontium titanate (BST) is the gold standard tunable microwave dielectric ceramic, verified by thousands of diffraction studies.",
+        "computational_status": "Convex hull analysis in Materials Project shows complete stability of mixed A-site titanates.",
+        "source_reference": "Landolt-Bornstein Group III Vol. 36A (Springer-Verlag, 2001); MP database",
+        "doi": "10.1007/b71004",
+        "icsd_identifiers": [
+          "ICSD-28946"
+        ],
+        "materials_project_identifiers": [
+          "mp-5986",
+          "mp-4648"
+        ],
+        "oqmd_identifiers": [
+          "oqmd-5986"
+        ],
+        "verification_notes": "Isovalent alkaline earth substitution on the 12-coordinated A-site preserving the perovskite framework."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-P06:Sr",
+          "candidate": "Sr",
+          "label": "unknown",
+          "review_status": "unresolved_identifier",
+          "review_reason": "Book DOI did not resolve through the queried registry; exact supporting chapter and passage not established.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "unresolved",
+          "resolved_titles": [],
+          "legacy_doi": "10.1007/b71004",
+          "registry_record_file": null,
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        },
+        {
+          "claim_id": "BM-P06:Ca",
+          "candidate": "Ca",
+          "label": "unknown",
+          "review_status": "unresolved_identifier",
+          "review_reason": "Book DOI did not resolve through the queried registry; exact supporting chapter and passage not established.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "unresolved",
+          "resolved_titles": [],
+          "legacy_doi": "10.1007/b71004",
+          "registry_record_file": null,
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-P07",
+      "track": "substitution",
+      "legacy_record": {
+        "case_id": "BM-P07",
+        "parent_material": "Strontium Titanate",
+        "phase": "Perovskite (cubic)",
+        "formula": "SrTiO3",
+        "space_group": "Pm-3m (#221)",
+        "target_element": "Ti",
+        "target_site": "Octahedral B-site",
+        "wyckoff_position": "1b",
+        "coordination": "6-fold octahedral (TiO6)",
+        "known_substituents": [
+          "Zr",
+          "Hf"
+        ],
+        "resulting_compositions": [
+          "SrTi_{1-x} Zr_x O3 (continuous solid solution, 0 <= x <= 1.0)",
+          "SrTi_{1-x} Hf_x O3 (continuous solid solution, 0 <= x <= 1.0)"
+        ],
+        "evidence_type": "EXPERIMENTAL_DIRECT",
+        "experimental_status": "Synthesized via solid-state reaction and pulsed laser deposition as high-k gate dielectrics.",
+        "computational_status": "Negative enthalpy of mixing across the solid-solution series in OQMD and Materials Project.",
+        "source_reference": "Materials Project entry mp-4648; ICSD entry 89258",
+        "doi": "10.17188/1206894",
+        "icsd_identifiers": [
+          "ICSD-89258"
+        ],
+        "materials_project_identifiers": [
+          "mp-4648",
+          "mp-4019",
+          "mp-2559"
+        ],
+        "oqmd_identifiers": [
+          "oqmd-4648"
+        ],
+        "verification_notes": "Homovalent Group 4 B-site replacement. Nb donor doping is moved to secondary cases."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-P07:Zr",
+          "candidate": "Zr",
+          "label": "unknown",
+          "review_status": "citation_mismatch",
+          "review_reason": "DataCite DOI identifies Materials Data on KSnAs, not SrTiO3.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Materials Data on KSnAs by Materials Project"
+          ],
+          "legacy_doi": "10.17188/1206894",
+          "registry_record_file": "10.17188_1206894.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        },
+        {
+          "claim_id": "BM-P07:Hf",
+          "candidate": "Hf",
+          "label": "unknown",
+          "review_status": "citation_mismatch",
+          "review_reason": "DataCite DOI identifies Materials Data on KSnAs, not SrTiO3.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Materials Data on KSnAs by Materials Project"
+          ],
+          "legacy_doi": "10.17188/1206894",
+          "registry_record_file": "10.17188_1206894.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-P08",
+      "track": "substitution",
+      "legacy_record": {
+        "case_id": "BM-P08",
+        "parent_material": "Strontium Titanate",
+        "phase": "Perovskite (cubic)",
+        "formula": "SrTiO3",
+        "space_group": "Pm-3m (#221)",
+        "target_element": "Sr",
+        "target_site": "Cuboctahedral A-site",
+        "wyckoff_position": "1a",
+        "coordination": "12-fold cuboctahedral (SrO12)",
+        "known_substituents": [
+          "Ba",
+          "Ca"
+        ],
+        "resulting_compositions": [
+          "Sr_{1-x} Ba_x TiO3 (continuous solid solution, 0 <= x <= 1.0)",
+          "Sr_{1-x} Ca_x TiO3 (continuous solid solution, 0 <= x <= 1.0)"
+        ],
+        "evidence_type": "EXPERIMENTAL_DIRECT",
+        "experimental_status": "Well-characterized quantum paraelectric ceramic solid solutions.",
+        "computational_status": "DFT-verified tolerance factor and phonon stability.",
+        "source_reference": "Materials Project entry mp-4648; ICSD entry 24111",
+        "doi": "10.17188/1206894",
+        "icsd_identifiers": [
+          "ICSD-24111"
+        ],
+        "materials_project_identifiers": [
+          "mp-4648",
+          "mp-5986",
+          "mp-4019"
+        ],
+        "oqmd_identifiers": [
+          "oqmd-4648"
+        ],
+        "verification_notes": "A-site isovalent substitution preserving the 1a Wyckoff site."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-P08:Ba",
+          "candidate": "Ba",
+          "label": "unknown",
+          "review_status": "citation_mismatch",
+          "review_reason": "DataCite DOI identifies Materials Data on KSnAs, not SrTiO3.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Materials Data on KSnAs by Materials Project"
+          ],
+          "legacy_doi": "10.17188/1206894",
+          "registry_record_file": "10.17188_1206894.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        },
+        {
+          "claim_id": "BM-P08:Ca",
+          "candidate": "Ca",
+          "label": "unknown",
+          "review_status": "citation_mismatch",
+          "review_reason": "DataCite DOI identifies Materials Data on KSnAs, not SrTiO3.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Materials Data on KSnAs by Materials Project"
+          ],
+          "legacy_doi": "10.17188/1206894",
+          "registry_record_file": "10.17188_1206894.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-P09",
+      "track": "substitution",
+      "legacy_record": {
+        "case_id": "BM-P09",
+        "parent_material": "Cesium Lead Iodide",
+        "phase": "Perovskite (cubic alpha-phase)",
+        "formula": "CsPbI3",
+        "space_group": "Pm-3m (#221)",
+        "target_element": "Pb",
+        "target_site": "Octahedral B-site",
+        "wyckoff_position": "1b",
+        "coordination": "6-fold octahedral (PbI6)",
+        "known_substituents": [
+          "Sn"
+        ],
+        "resulting_compositions": [
+          "CsPb_{1-x} Sn_x I3 (continuous lead-free halide perovskite solid solution, 0 <= x <= 1.0)"
+        ],
+        "evidence_type": "EXPERIMENTAL_DIRECT",
+        "experimental_status": "Synthesized as single crystals, thin films, and colloidal quantum dots for photovoltaic solar cells.",
+        "computational_status": "Bandgap bowing and thermodynamic miscibility confirmed by DFT (Stoumpos et al., 2013).",
+        "source_reference": "Stoumpos et al., J. Am. Chem. Soc. 135, 9093-9109 (2013)",
+        "doi": "10.1021/ja403010m",
+        "icsd_identifiers": [
+          "ICSD-250736"
+        ],
+        "materials_project_identifiers": [
+          "mp-1069538",
+          "mp-27407"
+        ],
+        "oqmd_identifiers": [
+          "oqmd-27407"
+        ],
+        "verification_notes": "Ge is rejected from primary ground truth due to negligible solubility (<5%) and severe octahedral distortion. Sn forms an experimentally validated isostructural solid solution. Bi is rejected due to double perovskite phase separation."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-P09:Sn",
+          "candidate": "Sn",
+          "label": "unknown",
+          "review_status": "unresolved_identifier",
+          "review_reason": "DOI did not resolve in the query. The recorded journal/case pairing needs re-identification and primary evidence.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "unresolved",
+          "resolved_titles": [],
+          "legacy_doi": "10.1021/ja403010m",
+          "registry_record_file": null,
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-P10",
+      "track": "substitution",
+      "legacy_record": {
+        "case_id": "BM-P10",
+        "parent_material": "Bismuth Telluride",
+        "phase": "Tetradymite (rhombohedral / hexagonal)",
+        "formula": "Bi2Te3",
+        "space_group": "R-3m (#166)",
+        "target_element": "Bi",
+        "target_site": "Octahedral Bi",
+        "wyckoff_position": "6c (hex) / 2c (rhom)",
+        "coordination": "6-fold octahedral (BiTe6 quintuple layer)",
+        "known_substituents": [
+          "Sb"
+        ],
+        "resulting_compositions": [
+          "(Bi_{1-x} Sb_x)2 Te3 (continuous solid solution, 0 <= x <= 1.0)"
+        ],
+        "evidence_type": "EXPERIMENTAL_DIRECT",
+        "experimental_status": "The preeminent commercial p-type thermoelectric alloy at room temperature, produced industrially via zone melting and spark plasma sintering.",
+        "computational_status": "Electronic structure and topological surface states thoroughly characterized across the binary join.",
+        "source_reference": "Poudel et al., Science 320, 634-638 (2008)",
+        "doi": "10.1126/science.1156446",
+        "icsd_identifiers": [
+          "ICSD-1204"
+        ],
+        "materials_project_identifiers": [
+          "mp-1204",
+          "mp-1210"
+        ],
+        "oqmd_identifiers": [
+          "oqmd-1204"
+        ],
+        "verification_notes": "Bi and Sb form an uninterrupted isostructural solid solution on the 6c cation site."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-P10:Sb",
+          "candidate": "Sb",
+          "label": "unknown",
+          "review_status": "partial_support",
+          "review_reason": "Registered paper concerns Bi/Sb telluride alloys; this alone does not establish every full-range site-specific legacy assertion.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "High-Thermoelectric Performance of Nanostructured Bismuth Antimony Telluride Bulk Alloys"
+          ],
+          "legacy_doi": "10.1126/science.1156446",
+          "registry_record_file": "10.1126_science.1156446.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-P11",
+      "track": "substitution",
+      "legacy_record": {
+        "case_id": "BM-P11",
+        "parent_material": "Bismuth Telluride",
+        "phase": "Tetradymite (rhombohedral / hexagonal)",
+        "formula": "Bi2Te3",
+        "space_group": "R-3m (#166)",
+        "target_element": "Te",
+        "target_site": "Octahedral / Mixed Anion",
+        "wyckoff_position": "3a and 6c (hex)",
+        "coordination": "6-fold distorted octahedral",
+        "known_substituents": [
+          "Se"
+        ],
+        "resulting_compositions": [
+          "Bi2 (Te_{1-x} Se_x)3 (continuous solid solution, 0 <= x <= 1.0)"
+        ],
+        "evidence_type": "EXPERIMENTAL_DIRECT",
+        "experimental_status": "The commercial standard n-type thermoelectric cooling material; Se occupies preferential 3a/6c anion sublattices.",
+        "computational_status": "First-principles electronic structure calculations confirm site preference and band convergence.",
+        "source_reference": "Materials Project entry mp-1204; ICSD entry 627122",
+        "doi": "10.17188/1188166",
+        "icsd_identifiers": [
+          "ICSD-627122"
+        ],
+        "materials_project_identifiers": [
+          "mp-1204",
+          "mp-541837"
+        ],
+        "oqmd_identifiers": [
+          "oqmd-1204"
+        ],
+        "verification_notes": "Isovalent chalcogen substitution across the entire composition join preserving R-3m symmetry."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-P11:Se",
+          "candidate": "Se",
+          "label": "unknown",
+          "review_status": "unresolved_identifier",
+          "review_reason": "DataCite DOI query returned HTTP 404; actual supporting structure and experimental claim not verified.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "unresolved",
+          "resolved_titles": [],
+          "legacy_doi": "10.17188/1188166",
+          "registry_record_file": null,
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    }
+  ],
+  "doping_cases": [
+    {
+      "case_id": "BM-S01",
+      "track": "doping",
+      "legacy_record": {
+        "case_id": "BM-S01",
+        "parent_material": "Gallium Oxide",
+        "phase": "beta-phase (monoclinic)",
+        "formula": "Ga2O3",
+        "target_element": "Ga",
+        "target_site": "Tetrahedral Ga_I / Octahedral Ga_II",
+        "known_dopant": "Si",
+        "dopant_role": "n-type shallow donor (carrier concentrations 1e16 to 1e19 cm^-3)",
+        "evidence_type": "DOPING_CONTEXT",
+        "experimental_status": "Verified by Hall effect, SIMS, and C-V profiling on beta-Ga2O3 single crystals.",
+        "source_reference": "Villora et al., Appl. Phys. Express 1, 041201 (2008)",
+        "doi": "10.1143/APEX.1.041201",
+        "context_usage_note": "Used ONLY for qualitative interpretation of recommendations (e.g. explaining why Si appears in Ga2O3 recommendations). STRICTLY EXCLUDED from Hit@K and MRR."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-S01:Si",
+          "candidate": "Si",
+          "label": "unknown",
+          "review_status": "citation_mismatch",
+          "review_reason": "Registered DOI is a Cu2ZnSnS4 solar-cell etching paper, not Si doping in Ga2O3.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Enhanced Conversion Efficiencies of Cu\n                    <sub>2</sub>\n                    ZnSnS\n                    <sub>4</sub>\n                    -Based Thin Film Solar Cells by Using Preferential Etching Technique"
+          ],
+          "legacy_doi": "10.1143/APEX.1.041201",
+          "registry_record_file": "10.1143_APEX.1.041201.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-S02",
+      "track": "doping",
+      "legacy_record": {
+        "case_id": "BM-S02",
+        "parent_material": "Gallium Oxide",
+        "phase": "beta-phase (monoclinic)",
+        "formula": "Ga2O3",
+        "target_element": "Ga",
+        "target_site": "Octahedral Ga_II",
+        "known_dopant": "Sn",
+        "dopant_role": "n-type donor (carrier concentrations 1e17 to 1e19 cm^-3)",
+        "evidence_type": "DOPING_CONTEXT",
+        "experimental_status": "Sn-doped beta-Ga2O3 grown by floating zone and edge-defined film-fed growth (EFG).",
+        "source_reference": "Sasaki et al., Appl. Phys. Lett. 100, 142106 (2012)",
+        "doi": "10.1063/1.3700723",
+        "context_usage_note": "Used ONLY for qualitative interpretation. STRICTLY EXCLUDED from Hit@K and MRR."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-S02:Sn",
+          "candidate": "Sn",
+          "label": "unknown",
+          "review_status": "citation_mismatch",
+          "review_reason": "Registered DOI is an electron-holography/MOSFET paper, not Sn doping in Ga2O3.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "<i>In-situ</i> electron holography of surface potential response to gate voltage application in a sub-30-nm gate-length metal-oxide-semiconductor field-effect transistor"
+          ],
+          "legacy_doi": "10.1063/1.3700723",
+          "registry_record_file": "10.1063_1.3700723.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-S03",
+      "track": "doping",
+      "legacy_record": {
+        "case_id": "BM-S03",
+        "parent_material": "Gallium Nitride",
+        "phase": "Wurtzite (hexagonal)",
+        "formula": "GaN",
+        "target_element": "Ga",
+        "target_site": "Tetrahedral Ga (2b)",
+        "known_dopant": "Mg",
+        "dopant_role": "p-type acceptor dopant (activation via LEEBI / thermal annealing)",
+        "evidence_type": "DOPING_CONTEXT",
+        "experimental_status": "Enabled the commercial blue LED (Nakamura, Akasaki, Amano; Nobel Prize 2014).",
+        "source_reference": "Nakamura et al., Jpn. J. Appl. Phys. 34, L797 (1995)",
+        "doi": "10.1143/JJAP.34.L797",
+        "context_usage_note": "Mg is a dilute acceptor (< 0.1 at%), not a bulk solid solution. Strictly excluded from primary evaluation."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-S03:Mg",
+          "candidate": "Mg",
+          "label": "unknown",
+          "review_status": "partial_support",
+          "review_reason": "Registered source concerns InGaN quantum-well LEDs; Mg-on-Ga site, dilute level and activation assertions require an exact supporting passage or replacement primary study.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "High-Brightness InGaN Blue, Green and Yellow Light-Emitting Diodes with Quantum Well Structures"
+          ],
+          "legacy_doi": "10.1143/JJAP.34.L797",
+          "registry_record_file": "10.1143_JJAP.34.L797.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-S04",
+      "track": "doping",
+      "legacy_record": {
+        "case_id": "BM-S04",
+        "parent_material": "Strontium Titanate",
+        "phase": "Perovskite (cubic)",
+        "formula": "SrTiO3",
+        "target_element": "Ti",
+        "target_site": "Octahedral B-site (1b)",
+        "known_dopant": "Nb",
+        "dopant_role": "n-type conducting donor substrate (0.1 to 0.7 wt% Nb)",
+        "evidence_type": "DOPING_CONTEXT",
+        "experimental_status": "Commercial conducting substrate for perovskite oxide thin-film epitaxy.",
+        "source_reference": "Szot et al., Nature Mater. 1, 102 (2002)",
+        "doi": "10.1038/nmat737",
+        "context_usage_note": "Dilute donor doping. Strictly excluded from primary substitution metrics."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-S04:Nb",
+          "candidate": "Nb",
+          "label": "unknown",
+          "review_status": "citation_mismatch",
+          "review_reason": "Publisher and Crossref identify Order within disorder, about glass structure, not Nb doping in SrTiO3.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "metadata_resolved",
+          "resolved_titles": [
+            "Order within disorder"
+          ],
+          "legacy_doi": "10.1038/nmat737",
+          "registry_record_file": "10.1038_nmat737.json",
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    },
+    {
+      "case_id": "BM-S05",
+      "track": "doping",
+      "legacy_record": {
+        "case_id": "BM-S05",
+        "parent_material": "Molybdenum Disulfide",
+        "phase": "2H-phase (hexagonal)",
+        "formula": "MoS2",
+        "target_element": "Mo",
+        "target_site": "Trigonal Prismatic Mo (2c)",
+        "known_dopant": "Re",
+        "dopant_role": "n-type donor dopant in 2D MoS2",
+        "evidence_type": "DOPING_CONTEXT",
+        "experimental_status": "Direct atomic imaging of Re dopant atoms substituting Mo via STM and STEM.",
+        "source_reference": "Zhang et al., Nano Lett. 16, 2485-2491 (2016)",
+        "doi": "10.1021/acs.nanolett.6b00080",
+        "context_usage_note": "Sub-percent defect doping. Strictly excluded from primary substitution metrics."
+      },
+      "claims": [
+        {
+          "claim_id": "BM-S05:Re",
+          "candidate": "Re",
+          "label": "unknown",
+          "review_status": "unresolved_identifier",
+          "review_reason": "DOI registry query returned HTTP 404; Re-on-Mo evidence and concentration remain unverified.",
+          "eligible_for_quantitative_evaluation": false,
+          "host_verified": false,
+          "phase_verified": false,
+          "site_verified": false,
+          "concentration_verified": false,
+          "supporting_source_url": null,
+          "source_locator": null,
+          "bibliographic_resolution": "unresolved",
+          "resolved_titles": [],
+          "legacy_doi": "10.1021/acs.nanolett.6b00080",
+          "registry_record_file": null,
+          "warning": "Citation status does not establish whether the chemical claim is true or false."
+        }
+      ]
+    }
+  ]
+}

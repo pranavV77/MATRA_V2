@@ -1,0 +1,415 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          18
+        ]
+      ],
+      "date-time": "2026-10-18T02:51:12Z",
+      "timestamp": 1792291872701,
+      "version": "4.4.0"
+    },
+    "reference-count": 14,
+    "publisher": "IOP Publishing",
+    "issue": "7A",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              1995,
+              7,
+              1
+            ]
+          ],
+          "date-time": "1995-07-01T00:00:00Z",
+          "timestamp": 804556800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://iopscience.iop.org/page/copyright"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              1995,
+              7,
+              1
+            ]
+          ],
+          "date-time": "1995-07-01T00:00:00Z",
+          "timestamp": 804556800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Jpn. J. Appl. Phys."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1995,
+          7,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>High-brightness blue, green and yellow light-emitting diodes (LEDs) with quantum well structures based on III-V nitrides were grown by metalorganic chemical vapor deposition on sapphire substrates. The typical green LEDs had a peak wavelength of 525 nm and full width at half-maximum (FWHM) of 45 nm. The output power, the external quantum efficiency and the luminous intensity of green LEDs at a forward current of 20 mA were 1 mW, 2.1% and 4 cd, respectively. The luminous intensity of green LEDs (4 cd) was about 40 times higher than that of conventional green GaP LEDs (0.1 cd). Typical yellow LEDs had a peak wavelength of 590 nm and FWHM of 90 nm. The output power of yellow LEDs was 0.5 mW at 20 mA. When the emission wavelength of III-V nitride LEDs with quantum well structures increased from the region of blue to yellow, the output power decreased dramatically.</jats:p>",
+    "DOI": "10.1143/jjap.34.l797",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2002,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2002-10-01T18:07:18Z",
+      "timestamp": 1033495638000
+    },
+    "page": "L797",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1385,
+    "title": [
+      "High-Brightness InGaN Blue, Green and Yellow Light-Emitting Diodes with Quantum Well Structures"
+    ],
+    "prefix": "10.35848",
+    "volume": "34",
+    "author": [
+      {
+        "given": "Shuji",
+        "family": "Nakamura",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Masayuki",
+        "family": "Senoh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Naruhito",
+        "family": "Iwasa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shin-ichi Nagahama",
+        "family": "Shin-ichi Nagahama",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "266",
+    "reference": [
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "1237",
+        "DOI": "10.1116/1.585897",
+        "volume": "10",
+        "year": "1992",
+        "journal-title": "J. Vac. Sci. & Technol. B"
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "1363",
+        "DOI": "10.1063/1.358463",
+        "volume": "76",
+        "year": "1994",
+        "journal-title": "J. Appl. Phys."
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "L2112",
+        "DOI": "10.1143/JJAP.28.L2112",
+        "volume": "28",
+        "year": "1989",
+        "journal-title": "Jpn. J. Appl. Phys."
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "L1457",
+        "DOI": "10.1143/JJAP.31.L1457",
+        "volume": "31",
+        "year": "1992",
+        "journal-title": "Jpn. J. Appl. Phys."
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "2455",
+        "DOI": "10.1063/1.110473",
+        "volume": "63",
+        "year": "1993",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "1258",
+        "DOI": "10.1143/JJAP.31.1258",
+        "volume": "31",
+        "year": "1992",
+        "journal-title": "Jpn. J. Appl. Phys."
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "990",
+        "DOI": "10.1063/1.109816",
+        "volume": "63",
+        "year": "1993",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "1687",
+        "DOI": "10.1063/1.111832",
+        "volume": "64",
+        "year": "1994",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "8189",
+        "DOI": "10.1063/1.357872",
+        "volume": "76",
+        "year": "1994",
+        "journal-title": "J. Appl. Phys."
+      },
+      {
+        "key": ""
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "115",
+        "DOI": "10.1063/1.113534",
+        "volume": "66",
+        "year": "1995",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "651",
+        "DOI": "10.1016/0026-2692(94)90131-7",
+        "volume": "25",
+        "year": "1994",
+        "journal-title": "Microelec. J."
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "3911",
+        "DOI": "10.1063/1.354486",
+        "volume": "74",
+        "year": "1993",
+        "journal-title": "J. Appl. Phys."
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "1620",
+        "DOI": "10.1143/JJAP.30.1620",
+        "volume": "30",
+        "year": "1991",
+        "journal-title": "Jpn. J. Appl. Phys."
+      }
+    ],
+    "container-title": [
+      "Japanese Journal of Applied Physics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.1143/JJAP.34.L797",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1143/JJAP.34.L797/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1143/JJAP.34.L797/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1143/JJAP.34.L797/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          7
+        ]
+      ],
+      "date-time": "2022-12-07T12:42:43Z",
+      "timestamp": 1670416963000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1143/JJAP.34.L797"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1995,
+          7,
+          1
+        ]
+      ]
+    },
+    "references-count": 14,
+    "journal-issue": {
+      "issue": "7A",
+      "published-print": {
+        "date-parts": [
+          [
+            1995,
+            7,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1143/jjap.34.l797",
+    "relation": {},
+    "ISSN": [
+      "0021-4922",
+      "1347-4065"
+    ],
+    "issn-type": [
+      {
+        "value": "0021-4922",
+        "type": "print"
+      },
+      {
+        "value": "1347-4065",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1995,
+          7,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "High-Brightness InGaN Blue, Green and Yellow Light-Emitting Diodes with Quantum Well Structures",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "Japanese Journal of Applied Physics",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "Copyright (c) 1995 The Japan Society of Applied Physics",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "1995-05-02",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "1995-05-24",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "version": "2.0.0-audit",
+  "native_scope": "Z=1..94",
+  "registry_scope": "Z=1..118",
+  "pn_convention": {
+    "name": "Mendeleev library extended periodic-number ordering",
+    "source_field": "mendeleev_number",
+    "full_library_range": [
+      1,
+      118
+    ],
+    "retained_native_range": [
+      1,
+      117
+    ],
+    "normalization": "PN/118, a derived convenience field unused by legacy engines",
+    "source_citation_keys": "Pettifor1984,Villars2004; source metadata describes extension to all elements",
+    "verification_limit": "Agreement with pinned library source established; full independent historical-scale reproduction not claimed"
+  },
+  "features": {
+    "pauling_electronegativity": {
+      "unit": "dimensionless",
+      "description": "Pauling electronegativity; unavailable values remain missing",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "covalent_radius_cordero_pm": {
+      "unit": "pm",
+      "description": "Cordero covalent radius",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "atomic_radius_slater_pm": {
+      "unit": "pm",
+      "description": "Mendeleev atomic_radius; source metadata cites Slater1964",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "first_ionization_energy_ev": {
+      "unit": "eV",
+      "description": "First atomic ionization energy",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "melting_point_k": {
+      "unit": "K",
+      "description": "Library-selected allotrope or pymatgen fallback; not a compound melting point",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "thermal_conductivity_w_mk": {
+      "unit": "W/(m K)",
+      "description": "Elemental thermal conductivity; source temperature/phase conventions apply",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "dipole_polarizability_bohr3": {
+      "unit": "bohr^3",
+      "description": "Stored polarizability-volume convention, not Angstrom^3",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "valence_electrons": {
+      "unit": "electron count",
+      "description": "Mendeleev nvalence convention, not a universal definition",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "s_valence_electrons": {
+      "unit": "electron count",
+      "description": "Existing project active-subshell rule",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "p_valence_electrons": {
+      "unit": "electron count",
+      "description": "Existing project active-subshell rule",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "d_valence_electrons": {
+      "unit": "electron count",
+      "description": "Existing project active-subshell rule",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "f_valence_electrons": {
+      "unit": "electron count",
+      "description": "Existing project active-subshell rule",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "density_g_cm3": {
+      "unit": "g/cm^3",
+      "description": "Source density near room temperature; gases and upstream estimates explicitly flagged",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    },
+    "atomic_molar_volume_cm3_mol_atoms": {
+      "unit": "cm^3/mol atoms",
+      "description": "Atomic weight divided by source density; not uniformly a solid-state molar volume",
+      "native_missing_policy": "Preserve missing source values; no implicit zero or project imputation"
+    }
+  },
+  "source_versions": {
+    "mendeleev": "1.2.0",
+    "pymatgen": "2025.10.7"
+  },
+  "captured_source_property_metadata": [
+    {
+      "id": 4,
+      "table_name": "elements",
+      "column_name": "atomic_radius",
+      "class_name": "Element",
+      "attribute_name": "atomic_radius",
+      "category": "atomic size properties",
+      "value_origin": "STORED",
+      "description": "Atomic radius",
+      "unit": "pm",
+      "annotations": null,
+      "citation_keys": "Slater1964"
+    },
+    {
+      "id": 7,
+      "table_name": "elements",
+      "column_name": "atomic_weight",
+      "class_name": "Element",
+      "attribute_name": "atomic_weight",
+      "category": "basic properties",
+      "value_origin": "STORED",
+      "description": "Relative atomic weight",
+      "unit": "Da",
+      "annotations": "Atomic weights and their uncertainties were retrieved mainly from ref. :cite:`iupac-weights`. For elements whose values were given as ranges the *conventional atomic weights* from Table 3 in ref. :cite:`Meija2016` were taken. For radioactive elements the standard approach was adopted where the weight is taken as the mass number of the most stable isotope. The data was obtained from `CIAAW page on radioactive elements <http://www.ciaaw.org/radioactive-elements.htm>`_. In cases where two isotopes were specified the one with the smaller standard deviation was chosen. In case of Tc and Pm relative weights of their isotopes were used, for Tc isotope 98, and for Pm isotope 145 were taken from `CIAAW <http://www.ciaaw.org/atomic-masses.htm>`_.",
+      "citation_keys": "Meija2016,iupac-weights"
+    },
+    {
+      "id": 14,
+      "table_name": "elements",
+      "column_name": "covalent_radius_cordero",
+      "class_name": "Element",
+      "attribute_name": "covalent_radius_cordero",
+      "category": "atomic size properties",
+      "value_origin": "STORED",
+      "description": "Covalent radius by Cerdero et al.",
+      "unit": "pm",
+      "annotations": "In order to have a more homogeneous data for covalent radii taken from ref. :cite:`Cordero2008` the values for 3 different valences for C, also the low and high spin values for Mn, Fe Co, were respectively averaged.",
+      "citation_keys": "Cordero2008"
+    },
+    {
+      "id": 19,
+      "table_name": "elements",
+      "column_name": "density",
+      "class_name": "Element",
+      "attribute_name": "density",
+      "category": "material properties",
+      "value_origin": "STORED",
+      "description": "Density at 295K",
+      "unit": "g/cm^3",
+      "annotations": "Density values for solids and liquids are always in units of grams per cubic centimeter and can be assumed to refer to temperatures near room temperature unless otherwise stated. Values for gases are the calculated ideal gas densities at 25°C and 101.325 kPa. \n\nOriginal values for gasses are converted from g/L to g/cm\\ :sup:`3`.\n\nFor elements where several allotropes exist, the density corresponding to the most abundant are reported (for full list refer to :cite:`haynes2014crc`), namely:\n\n- Antimony (gray)\n- Berkelium (α form)\n- Carbon (graphite)\n- Phosphorus (white)\n- Selenium (gray)\n- Sulfur (rhombic)\n- Tin (white)\n\nFor elements where experimental data is not available, theoretical estimates taken from :cite:`enwiki:1039678864` are used, namely for:\n\n- Astatine\n- Francium\n- Einsteinium\n- Fermium\n- Mendelevium\n- Nobelium\n- Lawrencium\n- Rutherfordium\n- Dubnium\n- Seaborgium\n- Bohrium\n- Hassium\n- Meitnerium\n- Darmstadtium\n- Roentgenium\n- Copernicium\n- Nihonium\n- Flerovium\n- Moscovium\n- Livermorium\n- Tennessine\n- Oganesson\n",
+      "citation_keys": "haynes2014crc,enwiki:1039678864"
+    },
+    {
+      "id": 21,
+      "table_name": "elements",
+      "column_name": "dipole_polarizability",
+      "class_name": "Element",
+      "attribute_name": "dipole_polarizability",
+      "category": "electric and optical properties",
+      "value_origin": "STORED",
+      "description": "Dipole polarizability",
+      "unit": "bohr^3",
+      "annotations": null,
+      "citation_keys": "Schwerdtfeger2023"
+    },
+    {
+      "id": 43,
+      "table_name": "elements",
+      "column_name": "mendeleev_number",
+      "class_name": "Element",
+      "attribute_name": "mendeleev_number",
+      "category": "classifier",
+      "value_origin": "STORED",
+      "description": "Mendeleev's number",
+      "unit": null,
+      "annotations": "Mendeleev numbers were sourced from :cite:`Villars2004` but the range was extended to cover the whole periodic table following the prescription in the article of increasing the numbers going from top to bottom in each group and group by group from left to right in the periodic table.",
+      "citation_keys": "Pettifor1984,Villars2004"
+    },
+    {
+      "id": 56,
+      "table_name": "elements",
+      "column_name": "thermal_conductivity",
+      "class_name": "Element",
+      "attribute_name": "thermal_conductivity",
+      "category": "thermodynamic properties",
+      "value_origin": "STORED",
+      "description": "Thermal conductivity @25 C",
+      "unit": "W/m/K",
+      "annotations": null,
+      "citation_keys": null
+    },
+    {
+      "id": 68,
+      "table_name": "phasetransitions",
+      "column_name": "melting_point",
+      "class_name": "Element",
+      "attribute_name": "melting_point",
+      "category": "material properties",
+      "value_origin": "STORED",
+      "description": "Melting point at 101.325 kPa pressure",
+      "unit": "K",
+      "annotations": null,
+      "citation_keys": "haynes2016crc"
+    },
+    {
+      "id": 98,
+      "table_name": null,
+      "column_name": null,
+      "class_name": "Element",
+      "attribute_name": "nvalence",
+      "category": "basic properties",
+      "value_origin": "COMPUTED",
+      "description": "Number of valence electrons",
+      "unit": null,
+      "annotations": null,
+      "citation_keys": null
+    },
+    {
+      "id": 149,
+      "table_name": "phasetransitions",
+      "column_name": "melting_point",
+      "class_name": "PhaseTransition",
+      "attribute_name": "melting_point",
+      "category": "physical properties",
+      "value_origin": "STORED",
+      "description": "Melting point at 101.325 kPa pressure",
+      "unit": "K",
+      "annotations": "Melting points for carbon from the original source are not included since they are not at standard pressure",
+      "citation_keys": "haynes2016crc"
+    }
+  ],
+  "source_urls": {
+    "mendeleev": "https://mendeleev.readthedocs.io/en/stable/data.html",
+    "models": "https://mendeleev.readthedocs.io/en/stable/api/models.html",
+    "pymatgen": "https://pymatgen.org/pymatgen.core.html"
+  },
+  "quality_notes": [
+    "Source-provided does not mean experimentally measured.",
+    "Upstream density estimates flagged separately from project imputation.",
+    "Atomic volume ratio uses source density conditions; not uniformly condensed-solid molar volume.",
+    "No new data supports element Z>94 feature vectors; registry recognition does not invent them.",
+    "Legacy radius-imputed table and Fr value remain archived unchanged; new native table has genuine gaps."
+  ],
+  "validation": {
+    "rows": 94,
+    "features": 14,
+    "provenance_cells": 1316,
+    "missing_cells": 9
+  },
+  "benchmark_validation": {
+    "cases": 16,
+    "claims": 23,
+    "eligible_claims": 0
+  },
+  "source_snapshot_sha256": "c0a1a10ec17df108160115e2de24ae060156d274ba8125a3aa50cb28386d9e41",
+  "legacy_master_sha256": "0d9c1790b211e5e47651ec6930bcb259db36b82acc8efabb720fa26fd6fc651a"
+}

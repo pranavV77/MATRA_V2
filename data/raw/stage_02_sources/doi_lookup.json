@@ -1,0 +1,1260 @@
+{
+  "10.1063/1.5036991": {
+    "status": "metadata_resolved",
+    "registry": "crossref",
+    "url": "https://api.crossref.org/works/10.1063/1.5036991",
+    "local_file": "10.1063_1.5036991.json",
+    "titles": [
+      "Structural and electronic properties of Ga2O3-Al2O3 alloys"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7141-8688",
+        "authenticated-orcid": false,
+        "given": "Hartwin",
+        "family": "Peelaers",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Materials Department, University of California 1 , Santa Barbara, California 93106-5050, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joel B.",
+        "family": "Varley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lawrence Livermore National Laboratory 2 , Livermore, California 94550, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James S.",
+        "family": "Speck",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Department, University of California 1 , Santa Barbara, California 93106-5050, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4212-5990",
+        "authenticated-orcid": false,
+        "given": "Chris G.",
+        "family": "Van de Walle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Department, University of California 1 , Santa Barbara, California 93106-5050, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "abstract_or_descriptions": "<jats:p>Ga2O3 is emerging as an important electronic material. Alloying with Al2O3 is a viable method to achieve carrier confinement, to increase the bandgap, or to modify the lattice parameters. However, the two materials have very different ground-state crystal structures (monoclinic β-gallia for Ga2O3 and corundum for Al2O3). Here, we use hybrid density functional theory calculations to assess the alloy stabilities and electronic properties of the alloys. We find that the monoclinic phase is the preferred structure for up to 71% Al incorporation, in close agreement with experimental phase diagrams, and that the ordered monoclinic AlGaO3 alloy is exceptionally stable. We also discuss bandgap bowing, lattice constants, and band offsets that can guide future synthesis and device design efforts.</jats:p>",
+    "scientific_claim_admission": "not established by DOI metadata"
+  },
+  "10.1088/0022-3727/31/20/001": {
+    "status": "metadata_resolved",
+    "registry": "crossref",
+    "url": "https://api.crossref.org/works/10.1088/0022-3727/31/20/001",
+    "local_file": "10.1088_0022-3727_31_20_001.json",
+    "titles": [
+      "Growth and applications of Group III-nitrides"
+    ],
+    "authors": [
+      {
+        "given": "O",
+        "family": "Ambacher",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "abstract_or_descriptions": null,
+    "scientific_claim_admission": "not established by DOI metadata"
+  },
+  "10.1021/nn4011442": {
+    "status": "unresolved",
+    "scientific_claim_admission": "not verified"
+  },
+  "10.1021/nl4032296": {
+    "status": "metadata_resolved",
+    "registry": "crossref",
+    "url": "https://api.crossref.org/works/10.1021/nl4032296",
+    "local_file": "10.1021_nl4032296.json",
+    "titles": [
+      "Band Gap Engineering and Layer-by-Layer Mapping of Selenium-Doped Molybdenum Disulfide"
+    ],
+    "authors": [
+      {
+        "given": "Yongji",
+        "family": "Gong",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department\rof Chemistry, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zheng",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          },
+          {
+            "name": "School\rof Materials Science and Engineering, School of Electrical and Electronic\rEngineering Nanyang Technological University, 639798, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew R.",
+        "family": "Lupini",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Science & Technology Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gang",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junhao",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Science & Technology Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, United States"
+          },
+          {
+            "name": "Department\rof Physics and Astronomy, Vanderbilt University, Nashville, Tennessee 37235, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sina",
+        "family": "Najmaei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhong",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Physics and Center for 2-Dimensional and Layered Materials, The Pennsylvania State University, University Park, Pennsylvania 16802, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ana Laura",
+        "family": "Elías",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Physics and Center for 2-Dimensional and Layered Materials, The Pennsylvania State University, University Park, Pennsylvania 16802, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ayse",
+        "family": "Berkdemir",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Physics and Center for 2-Dimensional and Layered Materials, The Pennsylvania State University, University Park, Pennsylvania 16802, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ge",
+        "family": "You",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Humberto",
+        "family": "Terrones",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Physics and Center for 2-Dimensional and Layered Materials, The Pennsylvania State University, University Park, Pennsylvania 16802, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mauricio",
+        "family": "Terrones",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Physics and Center for 2-Dimensional and Layered Materials, The Pennsylvania State University, University Park, Pennsylvania 16802, United States"
+          },
+          {
+            "name": "Department of Chemistry, Department of Materials Science and Engineering & Materials Research Institute, The Pennsylvania State University, University Park, Pennsylvania 16802, United States"
+          },
+          {
+            "name": "Research\rCenter for Exotic Nanocarbons (JST), Shinshu University, Wakasato\r4-17-1, Nagano 380-8553, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert",
+        "family": "Vajtai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sokrates T.",
+        "family": "Pantelides",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Science & Technology Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, United States"
+          },
+          {
+            "name": "Department\rof Physics and Astronomy, Vanderbilt University, Nashville, Tennessee 37235, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stephen J.",
+        "family": "Pennycook",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Science & Technology Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jun",
+        "family": "Lou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wu",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Science & Technology Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pulickel M.",
+        "family": "Ajayan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Chemistry, Rice University, Houston, Texas 77005, United States"
+          },
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "abstract_or_descriptions": null,
+    "scientific_claim_admission": "not established by DOI metadata"
+  },
+  "10.1080/00150199008211417": {
+    "status": "metadata_resolved",
+    "registry": "crossref",
+    "url": "https://api.crossref.org/works/10.1080/00150199008211417",
+    "local_file": "10.1080_00150199008211417.json",
+    "titles": [
+      "Integrated pyroelectric detector arrays with the sensor material PVDF"
+    ],
+    "authors": [
+      {
+        "given": "B.",
+        "family": "Ploss",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Lehmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Schopf",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "Lessle",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Bauer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "U.",
+        "family": "Thiemann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "abstract_or_descriptions": null,
+    "scientific_claim_admission": "not established by DOI metadata"
+  },
+  "10.1007/b71004": {
+    "status": "unresolved",
+    "scientific_claim_admission": "not verified"
+  },
+  "10.17188/1206894": {
+    "status": "metadata_resolved",
+    "registry": "datacite",
+    "url": "https://api.datacite.org/dois/10.17188/1206894",
+    "local_file": "10.17188_1206894.json",
+    "titles": [
+      "Materials Data on KSnAs by Materials Project"
+    ],
+    "authors": [
+      {
+        "name": "None Available",
+        "affiliation": [],
+        "nameIdentifiers": []
+      }
+    ],
+    "abstract_or_descriptions": [
+      {
+        "description": "KSnAs is trigonal omega-derived structured and crystallizes in the hexagonal P6_3mc space group. The structure is two-dimensional and consists of two KSnAs sheets oriented in the (0, 0, 1) direction. K1+ is bonded in a 3-coordinate geometry to three equivalent As3- atoms. All K–As bond lengths are 3.33 Å. Sn2+ is bonded in a distorted trigonal non-coplanar geometry to three equivalent As3- atoms. All Sn–As bond lengths are 2.76 Å. As3- is bonded to three equivalent K1+ and three equivalent Sn2+ atoms to form edge-sharing AsK3Sn3 octahedra.",
+        "descriptionType": "Abstract"
+      }
+    ],
+    "scientific_claim_admission": "not established by DOI metadata"
+  },
+  "10.1021/ja403010m": {
+    "status": "unresolved",
+    "scientific_claim_admission": "not verified"
+  },
+  "10.1126/science.1156446": {
+    "status": "metadata_resolved",
+    "registry": "crossref",
+    "url": "https://api.crossref.org/works/10.1126/science.1156446",
+    "local_file": "10.1126_science.1156446.json",
+    "titles": [
+      "High-Thermoelectric Performance of Nanostructured Bismuth Antimony Telluride Bulk Alloys"
+    ],
+    "authors": [
+      {
+        "given": "Bed",
+        "family": "Poudel",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qing",
+        "family": "Hao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yi",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yucheng",
+        "family": "Lan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Austin",
+        "family": "Minnich",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bo",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiao",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dezhi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew",
+        "family": "Muto",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daryoosh",
+        "family": "Vashaee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoyuan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junming",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mildred S.",
+        "family": "Dresselhaus",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gang",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhifeng",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, Boston College, Chestnut Hill, MA 02467, USA."
+          },
+          {
+            "name": "GMZ Energy, Incorporated, 12A Hawthorn Street, Newton, MA 02458, USA."
+          },
+          {
+            "name": "Department of Mechanical Engineering, Massachusetts Institute of Technology (MIT), Cambridge, MA 02139, USA."
+          },
+          {
+            "name": "Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, China."
+          },
+          {
+            "name": "Department of Physics and Department of Electrical Engineering and Computer Science, MIT, Cambridge, MA 02139, USA."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "abstract_or_descriptions": "<jats:p>The dimensionless thermoelectric figure of merit (ZT) in bismuth antimony telluride (BiSbTe) bulk alloys has remained around 1 for more than 50 years. We show that a peak ZT of 1.4 at 100°C can be achieved in a p-type nanocrystalline BiSbTe bulk alloy. These nanocrystalline bulk materials were made by hot pressing nanopowders that were ball-milled from crystalline ingots under inert conditions. Electrical transport measurements, coupled with microstructure studies and modeling, show that the ZT improvement is the result of low thermal conductivity caused by the increased phonon scattering by grain boundaries and defects. More importantly, ZT is about 1.2 at room temperature and 0.8 at 250°C, which makes these materials useful for cooling and power generation. Cooling devices that use these materials have produced high-temperature differences of 86°, 106°, and 119°C with hot-side temperatures set at 50°, 100°, and 150°C, respectively. This discovery sets the stage for use of a new nanocomposite approach in developing high-performance low-cost bulk thermoelectric materials.</jats:p>",
+    "scientific_claim_admission": "not established by DOI metadata"
+  },
+  "10.17188/1188166": {
+    "status": "unresolved",
+    "scientific_claim_admission": "not verified"
+  },
+  "10.1143/APEX.1.041201": {
+    "status": "metadata_resolved",
+    "registry": "crossref",
+    "url": "https://api.crossref.org/works/10.1143/APEX.1.041201",
+    "local_file": "10.1143_APEX.1.041201.json",
+    "titles": [
+      "Enhanced Conversion Efficiencies of Cu\n                    <sub>2</sub>\n                    ZnSnS\n                    <sub>4</sub>\n                    -Based Thin Film Solar Cells by Using Preferential Etching Technique"
+    ],
+    "authors": [
+      {
+        "given": "Hironori",
+        "family": "Katagiri",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kazuo",
+        "family": "Jimbo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Satoru",
+        "family": "Yamada",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tsuyoshi",
+        "family": "Kamimura",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Win Shwe",
+        "family": "Maw",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tatsuo",
+        "family": "Fukano",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tadashi",
+        "family": "Ito",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tomoyoshi",
+        "family": "Motohiro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "abstract_or_descriptions": null,
+    "scientific_claim_admission": "not established by DOI metadata"
+  },
+  "10.1063/1.3700723": {
+    "status": "metadata_resolved",
+    "registry": "crossref",
+    "url": "https://api.crossref.org/works/10.1063/1.3700723",
+    "local_file": "10.1063_1.3700723.json",
+    "titles": [
+      "<i>In-situ</i> electron holography of surface potential response to gate voltage application in a sub-30-nm gate-length metal-oxide-semiconductor field-effect transistor"
+    ],
+    "authors": [
+      {
+        "given": "Nobuyuki",
+        "family": "Ikarashi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "LSI Research Laboratory, Renesas Electronics Corporation, 1120 Shimokuzawa , Chuo-ku, Sagamihara 252-5298, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hiroshi",
+        "family": "Takeda",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LSI Research Laboratory, Renesas Electronics Corporation, 1120 Shimokuzawa , Chuo-ku, Sagamihara 252-5298, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Koichi",
+        "family": "Yako",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LSI Research Laboratory, Renesas Electronics Corporation, 1120 Shimokuzawa , Chuo-ku, Sagamihara 252-5298, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Masami",
+        "family": "Hane",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LSI Research Laboratory, Renesas Electronics Corporation, 1120 Shimokuzawa , Chuo-ku, Sagamihara 252-5298, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "abstract_or_descriptions": "<jats:p>The response of the electrostatic potential distribution within a metal-oxide-semiconductor field-effect transistor (MOSFET) to an external electric field was revealed using electron holography cross-sectional in-situ observation while applying the gate voltage to a transistor scaled down to a 25-nm gate length. Charging effects due to electron irradiation were taken into account by using complementary numerical device simulation. Direct observation of the channel potential and its response to the gate voltage can be used to determine the gate electrode effective work-function for scaled MOSFETs.</jats:p>",
+    "scientific_claim_admission": "not established by DOI metadata"
+  },
+  "10.1143/JJAP.34.L797": {
+    "status": "metadata_resolved",
+    "registry": "crossref",
+    "url": "https://api.crossref.org/works/10.1143/JJAP.34.L797",
+    "local_file": "10.1143_JJAP.34.L797.json",
+    "titles": [
+      "High-Brightness InGaN Blue, Green and Yellow Light-Emitting Diodes with Quantum Well Structures"
+    ],
+    "authors": [
+      {
+        "given": "Shuji",
+        "family": "Nakamura",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Masayuki",
+        "family": "Senoh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Naruhito",
+        "family": "Iwasa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shin-ichi Nagahama",
+        "family": "Shin-ichi Nagahama",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "abstract_or_descriptions": "<jats:p>High-brightness blue, green and yellow light-emitting diodes (LEDs) with quantum well structures based on III-V nitrides were grown by metalorganic chemical vapor deposition on sapphire substrates. The typical green LEDs had a peak wavelength of 525 nm and full width at half-maximum (FWHM) of 45 nm. The output power, the external quantum efficiency and the luminous intensity of green LEDs at a forward current of 20 mA were 1 mW, 2.1% and 4 cd, respectively. The luminous intensity of green LEDs (4 cd) was about 40 times higher than that of conventional green GaP LEDs (0.1 cd). Typical yellow LEDs had a peak wavelength of 590 nm and FWHM of 90 nm. The output power of yellow LEDs was 0.5 mW at 20 mA. When the emission wavelength of III-V nitride LEDs with quantum well structures increased from the region of blue to yellow, the output power decreased dramatically.</jats:p>",
+    "scientific_claim_admission": "not established by DOI metadata"
+  },
+  "10.1038/nmat737": {
+    "status": "metadata_resolved",
+    "registry": "crossref",
+    "url": "https://api.crossref.org/works/10.1038/nmat737",
+    "local_file": "10.1038_nmat737.json",
+    "titles": [
+      "Order within disorder"
+    ],
+    "authors": [
+      {
+        "given": "Philip S.",
+        "family": "Salmon",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "abstract_or_descriptions": null,
+    "scientific_claim_admission": "not established by DOI metadata"
+  },
+  "10.1021/acs.nanolett.6b00080": {
+    "status": "unresolved",
+    "scientific_claim_admission": "not verified"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "stage": 2,
+  "experiment": "E00 data/provenance correction and claim triage",
+  "scope": "engineering and source audit; no new predictive benchmark",
+  "source_versions": {
+    "mendeleev": "1.2.0",
+    "pymatgen": "2025.10.7"
+  },
+  "source_snapshot_sha256": "c0a1a10ec17df108160115e2de24ae060156d274ba8125a3aa50cb28386d9e41",
+  "parameters": {
+    "feature_scope": [
+      1,
+      94
+    ],
+    "registry_scope": [
+      1,
+      118
+    ],
+    "pn_denominator": 118,
+    "project_imputation_in_native": false,
+    "radius_fit": "OLS, 89 source pairs",
+    "radius_validation": "leave-one-element-out"
+  },
+  "results": {
+    "checks": {
+      "native": {
+        "rows": 94,
+        "features": 14,
+        "provenance_cells": 1316,
+        "missing_cells": 9
+      },
+      "registry": {
+        "recognized": 118,
+        "feature_table_elements": 94
+      },
+      "benchmark": {
+        "cases": 16,
+        "claims": 23,
+        "eligible_claims": 0
+      }
+    },
+    "tests": {
+      "total": 73,
+      "stage_02": 47,
+      "legacy": 26,
+      "failed": 0
+    },
+    "native_shape": [
+      94,
+      24
+    ],
+    "native_complete_elements": 86,
+    "missing_cells": 9,
+    "case_review_status_counts": {
+      "partial_support": 4,
+      "review_source": 1,
+      "unresolved_identifier": 5,
+      "citation_mismatch": 6
+    },
+    "radius_training_r2": 0.7728483651524058,
+    "radius_loo_mae_pm": 13.286621321787397,
+    "production_engines_modified": false,
+    "scientific_benchmark_ready": false,
+    "audio_generated": false
+  },
+  "limitations": [
+    "0 strict contextual claims admitted",
+    "primary scientific curation remains",
+    "legacy engines unchanged"
+  ],
+  "execution": "Python 3.10.11 local Windows environment; cached registry responses for offline rebuild"
+}

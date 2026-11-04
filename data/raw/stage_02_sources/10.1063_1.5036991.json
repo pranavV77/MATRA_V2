@@ -1,0 +1,837 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T17:44:23Z",
+      "timestamp": 1793727863976,
+      "version": "4.6.1"
+    },
+    "reference-count": 47,
+    "publisher": "AIP Publishing",
+    "issue": "24",
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ACI-1548562"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ACI-1548562"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "CNS-0960316"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CNS-0960316"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DMR-1121053"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DMR-1121053"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DMR-1720256"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DMR-1720256"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-AC52-07NA27344"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC52-07NA27344"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000181",
+        "name": "Air Force Office of Scientific Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "FA9550-18-1-0059"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "FA9550-18-1-0059"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000181",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "pubs.aip.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Ga2O3 is emerging as an important electronic material. Alloying with Al2O3 is a viable method to achieve carrier confinement, to increase the bandgap, or to modify the lattice parameters. However, the two materials have very different ground-state crystal structures (monoclinic β-gallia for Ga2O3 and corundum for Al2O3). Here, we use hybrid density functional theory calculations to assess the alloy stabilities and electronic properties of the alloys. We find that the monoclinic phase is the preferred structure for up to 71% Al incorporation, in close agreement with experimental phase diagrams, and that the ordered monoclinic AlGaO3 alloy is exceptionally stable. We also discuss bandgap bowing, lattice constants, and band offsets that can guide future synthesis and device design efforts.</jats:p>",
+    "DOI": "10.1063/1.5036991",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          11
+        ]
+      ],
+      "date-time": "2018-06-11T14:47:05Z",
+      "timestamp": 1528728425000
+    },
+    "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+    "source": "Crossref",
+    "is-referenced-by-count": 297,
+    "title": [
+      "Structural and electronic properties of Ga2O3-Al2O3 alloys"
+    ],
+    "prefix": "10.1063",
+    "volume": "112",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7141-8688",
+        "authenticated-orcid": false,
+        "given": "Hartwin",
+        "family": "Peelaers",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Materials Department, University of California 1 , Santa Barbara, California 93106-5050, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joel B.",
+        "family": "Varley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lawrence Livermore National Laboratory 2 , Livermore, California 94550, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James S.",
+        "family": "Speck",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Department, University of California 1 , Santa Barbara, California 93106-5050, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4212-5990",
+        "authenticated-orcid": false,
+        "given": "Chris G.",
+        "family": "Van de Walle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Department, University of California 1 , Santa Barbara, California 93106-5050, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "317",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          11
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2023080608445950900_c1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1578",
+        "DOI": "10.1143/JJAP.13.1578",
+        "volume": "13",
+        "year": "1974",
+        "journal-title": "Jpn. J. Appl. Phys., Part 1"
+      },
+      {
+        "key": "2023080608445950900_c2",
+        "doi-asserted-by": "publisher",
+        "first-page": "072105",
+        "DOI": "10.1063/1.4818620",
+        "volume": "103",
+        "year": "2013",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023080608445950900_c3",
+        "doi-asserted-by": "publisher",
+        "first-page": "044101",
+        "DOI": "10.7567/APEX.6.044101",
+        "volume": "6",
+        "year": "2013",
+        "journal-title": "Appl. Phys. Express"
+      },
+      {
+        "key": "2023080608445950900_c4",
+        "doi-asserted-by": "publisher",
+        "first-page": "142106",
+        "DOI": "10.1063/1.3499306",
+        "volume": "97",
+        "year": "2010",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023080608445950900_c5",
+        "doi-asserted-by": "publisher",
+        "first-page": "828",
+        "DOI": "10.1002/pssb.201451551",
+        "volume": "252",
+        "year": "2015",
+        "journal-title": "Phys. Status Solidi B"
+      },
+      {
+        "key": "2023080608445950900_c6",
+        "doi-asserted-by": "publisher",
+        "first-page": "334212",
+        "DOI": "10.1088/0953-8984/23/33/334212",
+        "volume": "23",
+        "year": "2011",
+        "journal-title": "J. Phys. Condens. Matter"
+      },
+      {
+        "key": "2023080608445950900_c7",
+        "doi-asserted-by": "publisher",
+        "first-page": "013504",
+        "DOI": "10.1063/1.3674287",
+        "volume": "100",
+        "year": "2012",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023080608445950900_c8",
+        "doi-asserted-by": "publisher",
+        "first-page": "203111",
+        "DOI": "10.1063/1.4879800",
+        "volume": "104",
+        "year": "2014",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023080608445950900_c9",
+        "doi-asserted-by": "publisher",
+        "first-page": "493",
+        "DOI": "10.1109/LED.2013.2244057",
+        "volume": "34",
+        "year": "2013",
+        "journal-title": "IEEE Electron Device Lett."
+      },
+      {
+        "key": "2023080608445950900_c10",
+        "doi-asserted-by": "publisher",
+        "first-page": "05LT02",
+        "DOI": "10.1088/1361-6641/aaba98",
+        "volume": "33",
+        "year": "2018",
+        "journal-title": "Semicond. Sci. Technol."
+      },
+      {
+        "key": "2023080608445950900_c11",
+        "doi-asserted-by": "publisher",
+        "first-page": "032108",
+        "DOI": "10.1063/1.5009423",
+        "volume": "112",
+        "year": "2018",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023080608445950900_c12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1240",
+        "DOI": "10.1364/OME.7.001240",
+        "volume": "7",
+        "year": "2017",
+        "journal-title": "Opt. Mater. Express"
+      },
+      {
+        "key": "2023080608445950900_c13",
+        "doi-asserted-by": "publisher",
+        "first-page": "477",
+        "DOI": "10.1111/j.1151-2916.1990.tb06541.x",
+        "volume": "73",
+        "year": "1990",
+        "journal-title": "J. Am. Ceram. Soc."
+      },
+      {
+        "key": "2023080608445950900_c14",
+        "doi-asserted-by": "publisher",
+        "first-page": "100207",
+        "DOI": "10.1143/JJAP.51.100207",
+        "volume": "51",
+        "year": "2012",
+        "journal-title": "Jpn. J. Appl. Phys."
+      },
+      {
+        "key": "2023080608445950900_c15",
+        "doi-asserted-by": "publisher",
+        "first-page": "150",
+        "DOI": "10.1016/j.jcrysgro.2015.12.013",
+        "volume": "436",
+        "year": "2016",
+        "journal-title": "J. Cryst. Growth"
+      },
+      {
+        "key": "2023080608445950900_c16",
+        "doi-asserted-by": "publisher",
+        "first-page": "030301",
+        "DOI": "10.7567/JJAP.54.030301",
+        "volume": "54",
+        "year": "2015",
+        "journal-title": "Jpn. J. Appl. Phys., Part 1"
+      },
+      {
+        "key": "2023080608445950900_c17",
+        "doi-asserted-by": "publisher",
+        "first-page": "162107",
+        "DOI": "10.1063/1.4900522",
+        "volume": "105",
+        "year": "2014",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023080608445950900_c18",
+        "doi-asserted-by": "publisher",
+        "first-page": "015111",
+        "DOI": "10.1063/1.4940763",
+        "volume": "6",
+        "year": "2016",
+        "journal-title": "AIP Adv."
+      },
+      {
+        "key": "2023080608445950900_c19",
+        "doi-asserted-by": "publisher",
+        "first-page": "125703",
+        "DOI": "10.1063/1.4915627",
+        "volume": "117",
+        "year": "2015",
+        "journal-title": "J. Appl. Phys."
+      },
+      {
+        "key": "2023080608445950900_c20",
+        "doi-asserted-by": "publisher",
+        "first-page": "165307",
+        "DOI": "10.1063/1.4919088",
+        "volume": "117",
+        "year": "2015",
+        "journal-title": "J. Appl. Phys."
+      },
+      {
+        "key": "2023080608445950900_c21",
+        "doi-asserted-by": "publisher",
+        "first-page": "070202",
+        "DOI": "10.1143/JJAP.48.070202",
+        "volume": "48",
+        "year": "2009",
+        "journal-title": "Jpn. J. Appl. Phys., Part 1"
+      },
+      {
+        "key": "2023080608445950900_c22",
+        "doi-asserted-by": "publisher",
+        "first-page": "035701",
+        "DOI": "10.7567/APEX.10.035701",
+        "volume": "10",
+        "year": "2017",
+        "journal-title": "Appl. Phys. Express"
+      },
+      {
+        "key": "2023080608445950900_c23",
+        "doi-asserted-by": "publisher",
+        "first-page": "035004",
+        "DOI": "10.1088/1361-6641/aa53a7",
+        "volume": "32",
+        "year": "2017",
+        "journal-title": "Semicond. Sci. Technol."
+      },
+      {
+        "key": "2023080608445950900_c24",
+        "doi-asserted-by": "publisher",
+        "first-page": "2573",
+        "DOI": "10.1111/j.1551-2916.2005.00484.x",
+        "volume": "88",
+        "year": "2005",
+        "journal-title": "J. Am. Ceram. Soc."
+      },
+      {
+        "key": "2023080608445950900_c25",
+        "doi-asserted-by": "publisher",
+        "first-page": "2467",
+        "DOI": "10.1111/jace.14222",
+        "volume": "99",
+        "year": "2016",
+        "journal-title": "J. Am. Ceram. Soc."
+      },
+      {
+        "key": "2023080608445950900_c26",
+        "doi-asserted-by": "publisher",
+        "first-page": "135",
+        "DOI": "10.1111/j.1151-2916.1952.tb13087.x",
+        "volume": "35",
+        "year": "1952",
+        "journal-title": "J. Am. Ceram. Soc."
+      },
+      {
+        "key": "2023080608445950900_c27",
+        "doi-asserted-by": "publisher",
+        "first-page": "2614",
+        "DOI": "10.1246/bcsj.43.2614",
+        "volume": "43",
+        "year": "1970",
+        "journal-title": "Bull. Chem. Soc. Jpn."
+      },
+      {
+        "key": "2023080608445950900_c28",
+        "doi-asserted-by": "publisher",
+        "first-page": "258",
+        "DOI": "10.1111/j.1151-2916.1997.tb02821.x",
+        "volume": "80",
+        "year": "1997",
+        "journal-title": "J. Am. Ceram. Soc."
+      },
+      {
+        "key": "2023080608445950900_c29",
+        "doi-asserted-by": "publisher",
+        "first-page": "192104",
+        "DOI": "10.1063/1.4876920",
+        "volume": "104",
+        "year": "2014",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023080608445950900_c30",
+        "doi-asserted-by": "publisher",
+        "first-page": "1202B6",
+        "DOI": "10.7567/JJAP.55.1202B6",
+        "volume": "55",
+        "year": "2016",
+        "journal-title": "Jpn. J. Appl. Phys., Part 1"
+      },
+      {
+        "key": "2023080608445950900_c31",
+        "doi-asserted-by": "publisher",
+        "first-page": "52",
+        "DOI": "10.1016/j.vacuum.2017.05.006",
+        "volume": "142",
+        "year": "2017",
+        "journal-title": "Vacuum"
+      },
+      {
+        "key": "2023080608445950900_c32",
+        "doi-asserted-by": "publisher",
+        "first-page": "162106",
+        "DOI": "10.1063/1.4873546",
+        "volume": "104",
+        "year": "2014",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023080608445950900_c33",
+        "doi-asserted-by": "publisher",
+        "first-page": "17953",
+        "DOI": "10.1103/PhysRevB.50.17953",
+        "volume": "50",
+        "year": "1994",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "2023080608445950900_c34",
+        "doi-asserted-by": "publisher",
+        "first-page": "11169",
+        "DOI": "10.1103/PhysRevB.54.11169",
+        "volume": "54",
+        "year": "1996",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "2023080608445950900_c35",
+        "doi-asserted-by": "publisher",
+        "first-page": "719",
+        "DOI": "10.1021/ja01123a039",
+        "volume": "74",
+        "year": "1952",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "2023080608445950900_c36a",
+        "doi-asserted-by": "publisher",
+        "first-page": "8207",
+        "DOI": "10.1063/1.1564060",
+        "volume": "118",
+        "year": "2003",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "2023080608445950900_c36b",
+        "doi-asserted-by": "publisher",
+        "first-page": "219906",
+        "DOI": "10.1063/1.2204597",
+        "volume": "124",
+        "year": "2006",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "2023080608445950900_c37",
+        "doi-asserted-by": "publisher",
+        "first-page": "1862",
+        "DOI": "10.1063/1.1840945",
+        "volume": "46",
+        "year": "1967",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "2023080608445950900_c38",
+        "doi-asserted-by": "publisher",
+        "first-page": "1336",
+        "DOI": "10.1107/S0108270195016404",
+        "volume": "52",
+        "year": "1996",
+        "journal-title": "Acta Crystallogr. Sect. C Cryst. Struct. Commun."
+      },
+      {
+        "key": "2023080608445950900_c39",
+        "doi-asserted-by": "publisher",
+        "first-page": "235",
+        "DOI": "10.1524/zkri.1962.117.2-3.235",
+        "volume": "117",
+        "year": "1962",
+        "journal-title": "Z. Kristallogr."
+      },
+      {
+        "key": "2023080608445950900_c40",
+        "doi-asserted-by": "publisher",
+        "first-page": "617",
+        "DOI": "10.1107/S0108768191002719",
+        "volume": "47",
+        "year": "1991",
+        "journal-title": "Acta Crystallogr. Sect. B Struct. Sci."
+      },
+      {
+        "key": "2023080608445950900_c41",
+        "doi-asserted-by": "publisher",
+        "first-page": "085206",
+        "DOI": "10.1103/PhysRevB.92.085206",
+        "volume": "92",
+        "year": "2015",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "2023080608445950900_c42",
+        "doi-asserted-by": "publisher",
+        "first-page": "112601",
+        "DOI": "10.7567/JJAP.54.112601",
+        "volume": "54",
+        "year": "2015",
+        "journal-title": "Jpn. J. Appl. Phys., Part 1"
+      },
+      {
+        "key": "2023080608445950900_c43",
+        "doi-asserted-by": "publisher",
+        "first-page": "933",
+        "DOI": "10.1063/1.119693",
+        "volume": "71",
+        "year": "1997",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023080608445950900_c44",
+        "doi-asserted-by": "publisher",
+        "first-page": "182104",
+        "DOI": "10.1063/1.5001323",
+        "volume": "111",
+        "year": "2017",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023080608445950900_c45",
+        "doi-asserted-by": "publisher",
+        "first-page": "041508",
+        "DOI": "10.1116/1.4922340",
+        "volume": "33",
+        "year": "2015",
+        "journal-title": "J. Vac. Sci. Technol. A Vac., Surf., Film"
+      },
+      {
+        "key": "2023080608445950900_c46",
+        "doi-asserted-by": "publisher",
+        "first-page": "023502",
+        "DOI": "10.1063/1.4993569",
+        "volume": "111",
+        "year": "2017",
+        "journal-title": "Appl. Phys. Lett."
+      }
+    ],
+    "updated-by": [
+      {
+        "DOI": "10.1063/5.0059239",
+        "type": "correction",
+        "label": "Correction",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              23
+            ]
+          ],
+          "date-time": "2021-06-23T00:00:00Z",
+          "timestamp": 1624406400000
+        }
+      },
+      {
+        "DOI": "10.1063/1.5127763",
+        "type": "correction",
+        "label": "Correction",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              8
+            ]
+          ],
+          "date-time": "2019-10-08T00:00:00Z",
+          "timestamp": 1570492800000
+        }
+      }
+    ],
+    "container-title": [
+      "Applied Physics Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://aip.scitation.org/doi/am-pdf/10.1063/1.5036991",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.5036991/14511675/242101_1_online.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.5036991/14511675/242101_1_online.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2023-08-06T04:45:08Z",
+      "timestamp": 1691297108000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.aip.org/apl/article/112/24/242101/1021955/Structural-and-electronic-properties-of-Ga2O3"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          11
+        ]
+      ]
+    },
+    "references-count": 47,
+    "journal-issue": {
+      "issue": "24",
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            11
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1063/1.5036991",
+    "relation": {},
+    "ISSN": [
+      "0003-6951",
+      "1077-3118"
+    ],
+    "issn-type": [
+      {
+        "value": "0003-6951",
+        "type": "print"
+      },
+      {
+        "value": "1077-3118",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          11
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          11
+        ]
+      ]
+    },
+    "article-number": "242101"
+  }
+}

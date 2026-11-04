@@ -1,0 +1,2286 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T18:59:17Z",
+      "timestamp": 1792695557370,
+      "version": "4.5.0"
+    },
+    "reference-count": 368,
+    "publisher": "IOP Publishing",
+    "issue": "20",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J. Phys. D: Appl. Phys."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1998,
+          10,
+          21
+        ]
+      ]
+    },
+    "DOI": "10.1088/0022-3727/31/20/001",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2002,
+          8,
+          25
+        ]
+      ],
+      "date-time": "2002-08-25T09:44:22Z",
+      "timestamp": 1030268662000
+    },
+    "page": "2653-2710",
+    "source": "Crossref",
+    "is-referenced-by-count": 1394,
+    "title": [
+      "Growth and applications of Group III-nitrides"
+    ],
+    "prefix": "10.1088",
+    "volume": "31",
+    "author": [
+      {
+        "given": "O",
+        "family": "Ambacher",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "266",
+    "published-online": {
+      "date-parts": [
+        [
+          1999,
+          1,
+          1
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.322064"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.366309"
+      },
+      {
+        "key": "3",
+        "first-page": "8",
+        "volume": "1",
+        "author": "Bremser M D",
+        "year": "1996",
+        "journal-title": "Mater. Res. Soc. Int. J. Nitr. Semi. Res."
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.338387"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.119650"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(94)00464-1"
+      },
+      {
+        "key": "7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02666636"
+      },
+      {
+        "key": "8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.113672"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.88210"
+      },
+      {
+        "key": "10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1116/1.585897"
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0040-6090(93)90713-Y"
+      },
+      {
+        "key": "12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/5.469300"
+      },
+      {
+        "key": "13",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1557/S0883769400033753",
+        "volume": "22",
+        "author": "Ponce F",
+        "year": "1997",
+        "journal-title": "Mater. Res. Soc. Bull.",
+        "ISSN": "https://id.crossref.org/issn/0883-7694",
+        "issn-type": "print"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0038-1098(91)90004-F"
+      },
+      {
+        "key": "15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0567740869003220"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.56.R10024"
+      },
+      {
+        "key": "17",
+        "author": "Edgar J H",
+        "year": "1994"
+      },
+      {
+        "key": "18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.357133"
+      },
+      {
+        "key": "19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.337929"
+      },
+      {
+        "key": "20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.118052"
+      },
+      {
+        "key": "21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.79.3934"
+      },
+      {
+        "key": "22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.368240"
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1149/1.2425975"
+      },
+      {
+        "key": "24",
+        "author": "Nye J F",
+        "year": "1985"
+      },
+      {
+        "key": "25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.64.1777"
+      },
+      {
+        "key": "26",
+        "doi-asserted-by": "crossref",
+        "first-page": "634",
+        "DOI": "10.1109/T-SU.1985.31647",
+        "volume": "32",
+        "author": "Tsubouchi K",
+        "year": "1985",
+        "journal-title": "IEEE Trans. Sonics Ultrason.",
+        "ISSN": "https://id.crossref.org/issn/0018-9537",
+        "issn-type": "print"
+      },
+      {
+        "key": "27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1654804"
+      },
+      {
+        "key": "28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.88002"
+      },
+      {
+        "key": "29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.364368"
+      },
+      {
+        "key": "30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.7.743"
+      },
+      {
+        "key": "31",
+        "first-page": "375",
+        "volume": "1",
+        "author": "Tsubouchi K",
+        "year": "1981",
+        "journal-title": "IEEE Ultrason. Symp."
+      },
+      {
+        "key": "32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.366114"
+      },
+      {
+        "key": "33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0921-4526(95)00807-1"
+      },
+      {
+        "key": "34",
+        "first-page": "1598",
+        "volume": "15",
+        "author": "Sheleg A V",
+        "year": "1979",
+        "journal-title": "Izv. Akad. Nauk. SSSR, Neorg. Mater",
+        "ISSN": "https://id.crossref.org/issn/0002-337X",
+        "issn-type": "print"
+      },
+      {
+        "key": "35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.53.16310"
+      },
+      {
+        "key": "36",
+        "first-page": "566",
+        "author": "Böer K W",
+        "year": "1990"
+      },
+      {
+        "key": "37",
+        "doi-asserted-by": "crossref",
+        "first-page": "513",
+        "DOI": "10.1557/PROC-482-513",
+        "volume": "482",
+        "author": "Im J S",
+        "year": "1998",
+        "journal-title": "Mater. Res. Symp. Proc."
+      },
+      {
+        "key": "38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.50.10715"
+      },
+      {
+        "key": "39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.72.3618"
+      },
+      {
+        "key": "40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1663432"
+      },
+      {
+        "key": "41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.321373"
+      },
+      {
+        "key": "42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1134/1.1129837"
+      },
+      {
+        "key": "43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1652845"
+      },
+      {
+        "key": "44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pssa.2210230160"
+      },
+      {
+        "key": "45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.357273"
+      },
+      {
+        "key": "46",
+        "doi-asserted-by": "crossref",
+        "first-page": "887",
+        "DOI": "10.12693/APhysPolA.90.887",
+        "volume": "90",
+        "author": "Leszczynski M",
+        "year": "1996",
+        "journal-title": "Acta. Phys. Polon.",
+        "ISSN": "https://id.crossref.org/issn/0587-4246",
+        "issn-type": "print"
+      },
+      {
+        "key": "47",
+        "doi-asserted-by": "crossref",
+        "first-page": "863",
+        "DOI": "10.1557/PROC-482-863",
+        "volume": "482",
+        "author": "Wang K",
+        "year": "1998",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "48",
+        "author": "Grzegory I",
+        "year": "1998",
+        "journal-title": "High. Pressure Res.",
+        "ISSN": "https://id.crossref.org/issn/0895-7959",
+        "issn-type": "print"
+      },
+      {
+        "key": "49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02651400"
+      },
+      {
+        "key": "50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.353906"
+      },
+      {
+        "key": "51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0025-5408(70)90028-0"
+      },
+      {
+        "key": "52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/j150340a015"
+      },
+      {
+        "key": "53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/j150540a033"
+      },
+      {
+        "key": "54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1149/1.2404274"
+      },
+      {
+        "key": "55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1149/1.2425318"
+      },
+      {
+        "key": "56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(84)90070-8"
+      },
+      {
+        "key": "57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(75)90131-1"
+      },
+      {
+        "key": "58",
+        "author": "Class W",
+        "year": "1968"
+      },
+      {
+        "key": "59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(76)90139-1"
+      },
+      {
+        "key": "60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.7.1479"
+      },
+      {
+        "key": "61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1116/1.588793"
+      },
+      {
+        "key": "62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0042-207X(62)90978-8"
+      },
+      {
+        "key": "63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-3115(78)90234-9"
+      },
+      {
+        "key": "64",
+        "first-page": "53",
+        "author": "Frank W",
+        "year": "1984"
+      },
+      {
+        "key": "65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pssb.19680290202"
+      },
+      {
+        "key": "66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10408439108244631"
+      },
+      {
+        "key": "67",
+        "first-page": "1305",
+        "volume": "121",
+        "author": "Goldstein B",
+        "year": "1960",
+        "journal-title": "Phys. Rev. Lett.",
+        "ISSN": "https://id.crossref.org/issn/0031-9007",
+        "issn-type": "print"
+      },
+      {
+        "key": "68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1149/1.2127222"
+      },
+      {
+        "key": "69",
+        "first-page": "2342",
+        "volume": "76",
+        "author": "Wang L",
+        "year": "1995",
+        "journal-title": "Phys. Rev."
+      },
+      {
+        "key": "70",
+        "volume": "37",
+        "author": "Ambacher O",
+        "year": "1998",
+        "journal-title": "Japan. J. Appl. Phys.",
+        "ISSN": "https://id.crossref.org/issn/0021-4922",
+        "issn-type": "print"
+      },
+      {
+        "key": "71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jlac.18621230212"
+      },
+      {
+        "key": "72",
+        "first-page": "453",
+        "volume": "14",
+        "author": "Ahrons L",
+        "year": "1899",
+        "journal-title": "Naturwiss. Rundschau"
+      },
+      {
+        "key": "73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/zaac.19643340306"
+      },
+      {
+        "key": "74",
+        "first-page": "2561",
+        "volume": "36",
+        "author": "Johnson W C",
+        "year": "1932",
+        "journal-title": "J. Phys. Chem.",
+        "ISSN": "https://id.crossref.org/issn/0092-7325",
+        "issn-type": "print"
+      },
+      {
+        "key": "75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(74)90057-8"
+      },
+      {
+        "key": "76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116315"
+      },
+      {
+        "key": "77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.120394"
+      },
+      {
+        "key": "78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.366786"
+      },
+      {
+        "key": "79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.37.84"
+      },
+      {
+        "key": "80",
+        "author": "Fischer S",
+        "year": "1996"
+      },
+      {
+        "key": "81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116898"
+      },
+      {
+        "key": "82",
+        "first-page": "SP8",
+        "author": "Okazaki H",
+        "year": "1995"
+      },
+      {
+        "key": "83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.114445"
+      },
+      {
+        "key": "84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116708"
+      },
+      {
+        "key": "85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.115735"
+      },
+      {
+        "key": "86",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1557/PROC-395-51",
+        "volume": "395",
+        "author": "Hellman E S",
+        "year": "1996",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.120343"
+      },
+      {
+        "key": "88",
+        "doi-asserted-by": "crossref",
+        "first-page": "R3",
+        "DOI": "10.1002/1521-396X(199701)159:1<R3::AID-PSSA99993>3.0.CO;2-F",
+        "volume": "153",
+        "author": "Kelly M K",
+        "year": "1997",
+        "journal-title": "Phys. Status Solidi"
+      },
+      {
+        "key": "89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(75)90122-0"
+      },
+      {
+        "key": "90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(75)90123-2"
+      },
+      {
+        "key": "91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02655475"
+      },
+      {
+        "key": "92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(81)90201-3"
+      },
+      {
+        "key": "93",
+        "first-page": "702",
+        "volume": "50",
+        "author": "Mizuno D",
+        "year": "1980",
+        "journal-title": "J. Crystal Growth",
+        "ISSN": "https://id.crossref.org/issn/0022-0248",
+        "issn-type": "print"
+      },
+      {
+        "key": "94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(71)90225-9"
+      },
+      {
+        "key": "95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1149/1.2423963"
+      },
+      {
+        "key": "96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.27.L1546"
+      },
+      {
+        "key": "97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(72)90184-4"
+      },
+      {
+        "key": "98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-0248(97)00075-4"
+      },
+      {
+        "key": "99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.121017"
+      },
+      {
+        "key": "100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(90)90548-Y"
+      },
+      {
+        "key": "101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.112143"
+      },
+      {
+        "key": "102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.117688"
+      },
+      {
+        "key": "103",
+        "first-page": "537",
+        "volume": "17",
+        "author": "Vodakov Y A",
+        "year": "1980",
+        "journal-title": "Inorgan. Mater."
+      },
+      {
+        "key": "104",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0022-0248(97)00413-2"
+      },
+      {
+        "key": "105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pssa.2210390119"
+      },
+      {
+        "key": "106",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pssa.2210490226"
+      },
+      {
+        "key": "107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cber.19100430249"
+      },
+      {
+        "key": "108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.354822"
+      },
+      {
+        "key": "109",
+        "doi-asserted-by": "crossref",
+        "first-page": "567",
+        "DOI": "10.1557/PROC-162-567",
+        "volume": "162",
+        "author": "Bryden W A",
+        "year": "1990",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1654051"
+      },
+      {
+        "key": "111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0040-6090(85)90235-4"
+      },
+      {
+        "key": "112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0169-4332(85)90112-6"
+      },
+      {
+        "key": "113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0040-6090(76)90423-5"
+      },
+      {
+        "key": "114",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0040-6090(80)90441-1"
+      },
+      {
+        "key": "115",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0040-6090(85)90056-2"
+      },
+      {
+        "key": "116",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0040-6090(81)90229-7"
+      },
+      {
+        "key": "117",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.330682"
+      },
+      {
+        "key": "118",
+        "first-page": "267",
+        "author": "Liaw H M",
+        "year": "1993"
+      },
+      {
+        "key": "119",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.344181"
+      },
+      {
+        "key": "120",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0921-4526(93)90221-Q"
+      },
+      {
+        "key": "121",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(84)90070-8"
+      },
+      {
+        "key": "122",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(82)90014-8"
+      },
+      {
+        "key": "123",
+        "first-page": "21",
+        "author": "Porowski S",
+        "year": "1989"
+      },
+      {
+        "key": "124",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.118052"
+      },
+      {
+        "key": "125",
+        "doi-asserted-by": "crossref",
+        "first-page": "351",
+        "DOI": "10.1557/PROC-395-351",
+        "volume": "395",
+        "author": "Liliental-Weber Z",
+        "year": "1996",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "126",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1088/0022-3727/28/4A/029",
+        "volume": "28",
+        "author": "Leszczynski M",
+        "year": "1995",
+        "journal-title": "J. Phys. D: Appl. Phys.",
+        "ISSN": "https://id.crossref.org/issn/0022-3727",
+        "issn-type": "print"
+      },
+      {
+        "key": "127",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.30.L1705"
+      },
+      {
+        "key": "128",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.20.L173"
+      },
+      {
+        "key": "129",
+        "first-page": "88",
+        "author": "Coates G E",
+        "year": "1960"
+      },
+      {
+        "key": "130",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0039-6028(94)00512-5"
+      },
+      {
+        "key": "131",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cvde.19950010302"
+      },
+      {
+        "key": "132",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/cm00016a031"
+      },
+      {
+        "key": "133",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/cm00018a027"
+      },
+      {
+        "key": "134",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.353906"
+      },
+      {
+        "key": "135",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cvde.19960020102"
+      },
+      {
+        "key": "136",
+        "author": "Mizuta M",
+        "year": "1987"
+      },
+      {
+        "key": "137",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/jm9940401591"
+      },
+      {
+        "key": "138",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adma.19940060310"
+      },
+      {
+        "key": "139",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/jm9940401245"
+      },
+      {
+        "key": "140",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cvde.19960020102"
+      },
+      {
+        "key": "141",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/cm00004a017"
+      },
+      {
+        "key": "142",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/cm00051a016"
+      },
+      {
+        "key": "143",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ja00126a046"
+      },
+      {
+        "key": "144",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cvde.19960020206"
+      },
+      {
+        "key": "145",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(95)00296-0"
+      },
+      {
+        "key": "146",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.96886"
+      },
+      {
+        "key": "147",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.113964"
+      },
+      {
+        "key": "148",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(94)91052-9"
+      },
+      {
+        "key": "149",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ic00080a016"
+      },
+      {
+        "key": "150",
+        "first-page": "1357",
+        "volume": "8",
+        "author": "Fischer R A",
+        "year": "1996",
+        "journal-title": "Chem. Mater."
+      },
+      {
+        "key": "151",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.20.L169"
+      },
+      {
+        "key": "152",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0040-6090(95)06901-1"
+      },
+      {
+        "key": "153",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1149/1.2113929"
+      },
+      {
+        "key": "154",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(95)00296-0"
+      },
+      {
+        "key": "155",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1116/1.578135"
+      },
+      {
+        "key": "156",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(93)90496-J"
+      },
+      {
+        "key": "157",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/1521-396X(199701)159:1<105::AID-PSSA105>3.0.CO;2-H"
+      },
+      {
+        "key": "158",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.118181"
+      },
+      {
+        "key": "159",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1557/PROC-449-3",
+        "volume": "449",
+        "author": "Scholz F",
+        "year": "1997",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "160",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(90)90382-U"
+      },
+      {
+        "key": "161",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1557/PROC-449-89",
+        "volume": "449",
+        "author": "Kawaguchi Y",
+        "year": "1997",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "162",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.96549"
+      },
+      {
+        "key": "163",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(89)90200-5"
+      },
+      {
+        "key": "164",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(91)90816-N"
+      },
+      {
+        "key": "165",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.30.L1705"
+      },
+      {
+        "key": "166",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.355740"
+      },
+      {
+        "key": "167",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02659682"
+      },
+      {
+        "key": "168",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116083"
+      },
+      {
+        "key": "169",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.35.L285"
+      },
+      {
+        "key": "170",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.27.L161"
+      },
+      {
+        "key": "171",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(94)90979-2"
+      },
+      {
+        "key": "172",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.33.688"
+      },
+      {
+        "key": "173",
+        "first-page": "39",
+        "volume": "185",
+        "author": "Moustakas T D",
+        "year": "1993",
+        "journal-title": "Physica"
+      },
+      {
+        "key": "174",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1116/1.579805"
+      },
+      {
+        "key": "175",
+        "doi-asserted-by": "crossref",
+        "first-page": "2071",
+        "DOI": "10.1063/1.116883",
+        "volume": "69",
+        "author": "Grandjean N",
+        "journal-title": "Appl. Phys. Lett.",
+        "ISSN": "https://id.crossref.org/issn/0003-6951",
+        "issn-type": "print"
+      },
+      {
+        "key": "176",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.361398"
+      },
+      {
+        "key": "177",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.115687"
+      },
+      {
+        "key": "178",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.93508"
+      },
+      {
+        "key": "179",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.107064"
+      },
+      {
+        "key": "180",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(91)90734-M"
+      },
+      {
+        "key": "181",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116271"
+      },
+      {
+        "key": "182",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/el:19890282"
+      },
+      {
+        "key": "183",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.32.L104"
+      },
+      {
+        "key": "184",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1557/S0883769400034011",
+        "volume": "22",
+        "author": "Ponce F A",
+        "year": "1997",
+        "journal-title": "Mater. Res. Soc. Bull.",
+        "ISSN": "https://id.crossref.org/issn/0883-7694",
+        "issn-type": "print"
+      },
+      {
+        "key": "185",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.120874"
+      },
+      {
+        "key": "186",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.120091"
+      },
+      {
+        "key": "187",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(94)90448-0"
+      },
+      {
+        "key": "188",
+        "first-page": "3",
+        "volume": "3",
+        "author": "Marchand H",
+        "year": "1998",
+        "journal-title": "Mater. Res. Soc. Inter. J. Nit. Semi. Res."
+      },
+      {
+        "key": "189",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.119626"
+      },
+      {
+        "key": "190",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02655831"
+      },
+      {
+        "key": "191",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(94)91052-9"
+      },
+      {
+        "key": "192",
+        "first-page": "14",
+        "volume": "2",
+        "author": "Sohmer A",
+        "year": "1997",
+        "journal-title": "Mater. Res. Soc. Inter. J. Nit. Semi. Res."
+      },
+      {
+        "key": "193",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.117683"
+      },
+      {
+        "key": "194",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.35.L673"
+      },
+      {
+        "key": "195",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1557/PROC-449-89",
+        "volume": "449",
+        "author": "Kawaguchi Y",
+        "year": "1997",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "196",
+        "first-page": "27",
+        "volume": "2",
+        "author": "Ruffenach-Clur S",
+        "year": "1997",
+        "journal-title": "Mater. Res. Soc. Inter. J. Nit. Semi. Res."
+      },
+      {
+        "key": "197",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1557/PROC-449-79",
+        "volume": "449",
+        "author": "Kung P",
+        "year": "1997",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "198",
+        "author": "Herman M A",
+        "year": "1989"
+      },
+      {
+        "key": "199",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/qr9581200116"
+      },
+      {
+        "key": "200",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/cr60221a001"
+      },
+      {
+        "key": "201",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ange.19700820502"
+      },
+      {
+        "key": "202",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1116/1.579996"
+      },
+      {
+        "key": "203",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1116/1.588858"
+      },
+      {
+        "key": "204",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(91)91125-T"
+      },
+      {
+        "key": "205",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02659687"
+      },
+      {
+        "key": "206",
+        "first-page": "15",
+        "volume": "1",
+        "author": "Angerer H",
+        "year": "1996",
+        "journal-title": "Mater. Res. Soc. Inter. J. Nit. Semi. Res."
+      },
+      {
+        "key": "207",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.365575"
+      },
+      {
+        "key": "208",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1557/JMR.1990.0852"
+      },
+      {
+        "key": "209",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.121909"
+      },
+      {
+        "key": "210",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.117349"
+      },
+      {
+        "key": "211",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(95)01023-8"
+      },
+      {
+        "key": "212",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1147/rd.326.0804"
+      },
+      {
+        "key": "213",
+        "doi-asserted-by": "crossref",
+        "first-page": "537",
+        "DOI": "10.1557/PROC-162-537",
+        "volume": "162",
+        "author": "Sitar Z",
+        "year": "1990",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "214",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.109026"
+      },
+      {
+        "key": "215",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.350529"
+      },
+      {
+        "key": "216",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1557/PROC-449-149",
+        "volume": "449",
+        "author": "Riechert H",
+        "year": "1997",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "217",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(95)01066-1"
+      },
+      {
+        "key": "218",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/el:19980198"
+      },
+      {
+        "key": "219",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.121368"
+      },
+      {
+        "key": "220",
+        "author": "Holleman A F",
+        "year": "1985"
+      },
+      {
+        "key": "221",
+        "doi-asserted-by": "crossref",
+        "first-page": "317",
+        "DOI": "10.6028/jres.071A.038",
+        "volume": "71",
+        "author": "Schneider S J",
+        "year": "1967",
+        "journal-title": "J. Res. Nat. Bur. Stand."
+      },
+      {
+        "key": "222",
+        "first-page": "9819h",
+        "volume": "65",
+        "author": "Gitlesen G",
+        "year": "1966",
+        "journal-title": "Chem. Abstr.",
+        "ISSN": "https://id.crossref.org/issn/0009-2258",
+        "issn-type": "print"
+      },
+      {
+        "key": "223",
+        "doi-asserted-by": "crossref",
+        "first-page": "569",
+        "DOI": "10.1051/metal/196360060569",
+        "volume": "60",
+        "author": "Olette M",
+        "year": "1963",
+        "journal-title": "Rev. Met.",
+        "ISSN": "https://id.crossref.org/issn/0035-1563",
+        "issn-type": "print"
+      },
+      {
+        "key": "224",
+        "first-page": "289",
+        "volume": "2",
+        "author": "Anderson R N",
+        "year": "1970",
+        "journal-title": "High Temp. Sci.",
+        "ISSN": "https://id.crossref.org/issn/0018-1536",
+        "issn-type": "print"
+      },
+      {
+        "key": "225",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0025-5408(70)90028-0"
+      },
+      {
+        "key": "226",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-3697(73)90092-9"
+      },
+      {
+        "key": "227",
+        "doi-asserted-by": "crossref",
+        "first-page": "687",
+        "DOI": "10.1557/PROC-339-687",
+        "volume": "339",
+        "author": "Neugebauer J",
+        "year": "1994",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "228",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.54.16676"
+      },
+      {
+        "key": "229",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cber.19280610721"
+      },
+      {
+        "key": "230",
+        "first-page": "118944v",
+        "volume": "79",
+        "author": "Kamyshov V M",
+        "year": "1973",
+        "journal-title": "Chem. Abstr.",
+        "ISSN": "https://id.crossref.org/issn/0009-2258",
+        "issn-type": "print"
+      },
+      {
+        "key": "231",
+        "first-page": "108947j",
+        "volume": "79",
+        "author": "Gorbatov A G",
+        "year": "1973",
+        "journal-title": "Chem. Abstr.",
+        "ISSN": "https://id.crossref.org/issn/0009-2258",
+        "issn-type": "print"
+      },
+      {
+        "key": "232",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.115805"
+      },
+      {
+        "key": "233",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.113293"
+      },
+      {
+        "key": "234",
+        "first-page": "62",
+        "volume": "87",
+        "author": "Kawabe K",
+        "year": "1967",
+        "journal-title": "Elect. Eng. Japan"
+      },
+      {
+        "key": "235",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1149/1.2427686"
+      },
+      {
+        "key": "236",
+        "author": "Pankove J I",
+        "year": "1991"
+      },
+      {
+        "key": "237",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.28.L2112"
+      },
+      {
+        "key": "238",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.31.1258"
+      },
+      {
+        "key": "239",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.111639"
+      },
+      {
+        "key": "240",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116503"
+      },
+      {
+        "key": "241",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.75.4452"
+      },
+      {
+        "key": "242",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.117690"
+      },
+      {
+        "key": "243",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0040-6090(88)90458-0"
+      },
+      {
+        "key": "244",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-2313(91)90215-H"
+      },
+      {
+        "key": "245",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.338366"
+      },
+      {
+        "key": "246",
+        "author": "Neugebauer J",
+        "year": "1998",
+        "journal-title": "Japan. J. Appl. Phys.",
+        "ISSN": "https://id.crossref.org/issn/0021-4922",
+        "issn-type": "print"
+      },
+      {
+        "key": "247",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.117685"
+      },
+      {
+        "key": "248",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.115634"
+      },
+      {
+        "key": "249",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0921-5107(97)00165-7"
+      },
+      {
+        "key": "250",
+        "doi-asserted-by": "crossref",
+        "first-page": "233",
+        "DOI": "10.1557/PROC-449-233",
+        "volume": "449",
+        "author": "Korakakis D",
+        "year": "1996",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "251",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(94)00501-X"
+      },
+      {
+        "key": "252",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0248(91)90820-U"
+      },
+      {
+        "key": "253",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.32.L16"
+      },
+      {
+        "key": "254",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.113829"
+      },
+      {
+        "key": "255",
+        "author": "",
+        "year": "1982"
+      },
+      {
+        "key": "256",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.112247"
+      },
+      {
+        "key": "257",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116177"
+      },
+      {
+        "key": "258",
+        "first-page": "1",
+        "author": "Yu E",
+        "year": "1992"
+      },
+      {
+        "key": "259",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116355"
+      },
+      {
+        "key": "260",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0040-6090(91)90203-A"
+      },
+      {
+        "key": "261",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.112764"
+      },
+      {
+        "key": "262",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1116/1.587786"
+      },
+      {
+        "key": "263",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.117689"
+      },
+      {
+        "key": "264",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.49.4710"
+      },
+      {
+        "key": "265",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.114980"
+      },
+      {
+        "key": "266",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.120758"
+      },
+      {
+        "key": "267",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.115689"
+      },
+      {
+        "key": "268",
+        "doi-asserted-by": "crossref",
+        "first-page": "L8",
+        "DOI": "10.1149/1.1837355",
+        "volume": "33",
+        "author": "Lu H",
+        "year": "1997",
+        "journal-title": "J. Electrochem. Lett."
+      },
+      {
+        "key": "269",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/el:19970121"
+      },
+      {
+        "key": "270",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.120879"
+      },
+      {
+        "key": "271",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.110331"
+      },
+      {
+        "key": "272",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.110985"
+      },
+      {
+        "key": "273",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/el:19941247"
+      },
+      {
+        "key": "274",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.115039"
+      },
+      {
+        "key": "275",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.113746"
+      },
+      {
+        "key": "276",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.112191"
+      },
+      {
+        "key": "277",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.114387"
+      },
+      {
+        "key": "278",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.111648"
+      },
+      {
+        "key": "279",
+        "doi-asserted-by": "crossref",
+        "first-page": "310",
+        "DOI": "10.1088/0268-1242/8/2/026",
+        "volume": "8",
+        "author": "Pearton S J",
+        "year": "1993",
+        "journal-title": "Semicond. Sci. Technol.",
+        "ISSN": "https://id.crossref.org/issn/0268-1242",
+        "issn-type": "print"
+      },
+      {
+        "key": "280",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116718"
+      },
+      {
+        "key": "281",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1116/1.578423"
+      },
+      {
+        "key": "282",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1116/1.580123"
+      },
+      {
+        "key": "283",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.120463"
+      },
+      {
+        "key": "284",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.117077"
+      },
+      {
+        "key": "285",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.117473"
+      },
+      {
+        "key": "286",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116471"
+      },
+      {
+        "key": "287",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0038-1101(82)90036-3"
+      },
+      {
+        "key": "288",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.111961"
+      },
+      {
+        "key": "289",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.39.3317"
+      },
+      {
+        "key": "290",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1116/1.586700"
+      },
+      {
+        "key": "291",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.115901"
+      },
+      {
+        "key": "292",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/el:19940565"
+      },
+      {
+        "key": "293",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.117060"
+      },
+      {
+        "key": "294",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.117237"
+      },
+      {
+        "key": "295",
+        "author": "Weast R C",
+        "year": "1990"
+      },
+      {
+        "key": "296",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1655276"
+      },
+      {
+        "key": "297",
+        "first-page": "12",
+        "author": "Michaelson H B",
+        "year": "1994"
+      },
+      {
+        "key": "298",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.109207"
+      },
+      {
+        "key": "299",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.110417"
+      },
+      {
+        "key": "300",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.114327"
+      },
+      {
+        "key": "301",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.115948"
+      },
+      {
+        "key": "302",
+        "first-page": "2",
+        "volume": "2",
+        "author": "Cordes H",
+        "year": "1997",
+        "journal-title": "Mater. Res. Soc. Inter. J. Nit. Semi. Res."
+      },
+      {
+        "key": "303",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.118551"
+      },
+      {
+        "key": "304",
+        "author": "Rieger W",
+        "year": "1998"
+      },
+      {
+        "key": "305",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1116/1.588791"
+      },
+      {
+        "key": "306",
+        "author": "Campbell C",
+        "year": "1989"
+      },
+      {
+        "key": "307",
+        "first-page": "1503",
+        "volume": "230",
+        "author": "Foster N F",
+        "year": "1964",
+        "journal-title": "Trans. AIME"
+      },
+      {
+        "key": "308",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1754565"
+      },
+      {
+        "key": "309",
+        "first-page": "845",
+        "volume": "31",
+        "author": "Kuwano Y",
+        "year": "1977",
+        "journal-title": "Television"
+      },
+      {
+        "key": "310",
+        "author": "Hickernell F S",
+        "year": "1971"
+      },
+      {
+        "key": "311",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.31.3446"
+      },
+      {
+        "key": "312",
+        "first-page": "299",
+        "author": "Tsubouchi K",
+        "year": "1983"
+      },
+      {
+        "key": "313",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02666163"
+      },
+      {
+        "key": "314",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.322169"
+      },
+      {
+        "key": "315",
+        "first-page": "466",
+        "author": "Lakin K M",
+        "year": "1982"
+      },
+      {
+        "key": "316",
+        "first-page": "536",
+        "author": "Lakin K M",
+        "year": "1989"
+      },
+      {
+        "key": "317",
+        "first-page": "128",
+        "volume": "95",
+        "author": "Shur M S",
+        "year": "1995",
+        "journal-title": "Electrochem. Soc. Proc."
+      },
+      {
+        "key": "318",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.362677"
+      },
+      {
+        "key": "319",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.106819"
+      },
+      {
+        "key": "320",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.329998"
+      },
+      {
+        "key": "321",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.115597"
+      },
+      {
+        "key": "322",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.118838"
+      },
+      {
+        "key": "323",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.118837"
+      },
+      {
+        "key": "324",
+        "first-page": "2154",
+        "volume": "7",
+        "author": "Zhu G Y",
+        "year": "1997",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "325",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.119366"
+      },
+      {
+        "key": "326",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.114776"
+      },
+      {
+        "key": "327",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.112116"
+      },
+      {
+        "key": "328",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.88002"
+      },
+      {
+        "key": "329",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.354787"
+      },
+      {
+        "key": "330",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.356650"
+      },
+      {
+        "key": "331",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.113294"
+      },
+      {
+        "key": "332",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.119021"
+      },
+      {
+        "key": "333",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.120852"
+      },
+      {
+        "key": "334",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.118940"
+      },
+      {
+        "key": "335",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-3697(77)90112-3"
+      },
+      {
+        "key": "336",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/el:19960206"
+      },
+      {
+        "key": "337",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.117420"
+      },
+      {
+        "key": "338",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.117607"
+      },
+      {
+        "key": "339",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/55.622522"
+      },
+      {
+        "key": "340",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/55.585362"
+      },
+      {
+        "key": "341",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/55.661174"
+      },
+      {
+        "key": "342",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.120138"
+      },
+      {
+        "key": "343",
+        "volume": "482",
+        "author": "Eastman L",
+        "year": "1998",
+        "journal-title": "Mater. Res. Soc. Symp. Proc.",
+        "ISSN": "https://id.crossref.org/issn/0272-9172",
+        "issn-type": "print"
+      },
+      {
+        "key": "344",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.107123"
+      },
+      {
+        "key": "345",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0960-8974(92)90021-H"
+      },
+      {
+        "key": "346",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.113534"
+      },
+      {
+        "key": "347",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1654648"
+      },
+      {
+        "key": "348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-2313(73)90062-8"
+      },
+      {
+        "key": "349",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0038-1101(74)90161-0"
+      },
+      {
+        "key": "350",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.334277"
+      },
+      {
+        "key": "351",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.89424"
+      },
+      {
+        "key": "352",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.325137"
+      },
+      {
+        "key": "353",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.30.L1998"
+      },
+      {
+        "key": "354",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.111832"
+      },
+      {
+        "key": "355",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1116/1.579811"
+      },
+      {
+        "key": "356",
+        "first-page": "24",
+        "author": "Craford M G",
+        "year": "1992"
+      },
+      {
+        "key": "357",
+        "first-page": "32",
+        "volume": "2",
+        "author": "Meyer M",
+        "year": "1996",
+        "journal-title": "Semicond. Comp."
+      },
+      {
+        "key": "358",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1653730"
+      },
+      {
+        "key": "359",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.118104"
+      },
+      {
+        "key": "360",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116882"
+      },
+      {
+        "key": "361",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116913"
+      },
+      {
+        "key": "362",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.34.L1429"
+      },
+      {
+        "key": "363",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.120575"
+      },
+      {
+        "key": "364",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.115599"
+      },
+      {
+        "key": "365",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.36.L1130"
+      },
+      {
+        "key": "366",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.116830"
+      },
+      {
+        "key": "367",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.36.L1568"
+      },
+      {
+        "key": "368",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.121250"
+      }
+    ],
+    "container-title": [
+      "Journal of Physics D: Applied Physics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://stacks.iop.org/0022-3727/31/i=20/a=001/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          10
+        ]
+      ],
+      "date-time": "2020-04-10T23:04:13Z",
+      "timestamp": 1586559853000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1088/0022-3727/31/20/001"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1998,
+          10,
+          21
+        ]
+      ]
+    },
+    "references-count": 368,
+    "journal-issue": {
+      "issue": "20",
+      "published-print": {
+        "date-parts": [
+          [
+            1998,
+            10,
+            21
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0022-3727(98)68952-X"
+    ],
+    "URL": "https://doi.org/10.1088/0022-3727/31/20/001",
+    "relation": {},
+    "ISSN": [
+      "0022-3727",
+      "1361-6463"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-3727",
+        "type": "print"
+      },
+      {
+        "value": "1361-6463",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1998,
+          10,
+          21
+        ]
+      ]
+    }
+  }
+}
