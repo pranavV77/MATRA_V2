@@ -76,3 +76,8 @@ docs/stages/stage_01/** -text
 experiments/stage_01/** -text
 results/stage_01/** -text
 logs/stage_01/** -text
+
+# Preserve newly archived original execution records
+logs/stage_02/run_001/** -text
+results/stage_02/run_001/** -text
+results/runs/task2_benchmark_evaluation.json -text
