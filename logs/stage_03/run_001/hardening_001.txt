@@ -1,0 +1,275 @@
+........................................................................ [ 61%]
+..........s..........................F...F....                           [100%]
+================================== FAILURES ===================================
+_____________ test_small_training_cache_reload_and_seed_metadata ______________
+
+tmp_path = WindowsPath('C:/Final Project/work/stage_03/pytest_hardening_001/test_small_training_cache_relo0')
+
+    def test_small_training_cache_reload_and_seed_metadata(tmp_path):
+        raw = corpus(tmp_path / 'corpus.gz')
+>       first = Atom2VecEngine(raw, tmp_path / 'a.npz', embedding_dim=2)
+
+tests\stage_03\test_engine_hardening.py:194: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\atom2vec\atom2vec_engine.py:83: in __init__
+    self._load_or_train()
+src\atom2vec\atom2vec_engine.py:126: in _load_or_train
+    self._train_from_corpus()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <src.atom2vec.atom2vec_engine.Atom2VecEngine object at 0x0000016EBC423DF0>
+
+    def _train_from_corpus(self):
+        """Train Atom2Vec representation matrix via SVD on MP inorganic compounds."""
+        if not self.raw_mp_path.is_file():
+            raise FileNotFoundError(f"Materials Project raw dataset not found at: {self.raw_mp_path}")
+    
+        with gzip.open(self.raw_mp_path, "rt", encoding="utf-8") as f:
+            raw = json.load(f)
+    
+        if not isinstance(raw, dict) or not all(k in raw for k in ('data', 'index', 'columns')):
+            raise ValueError('Corpus must have data, index and columns fields')
+        try:
+            df = pd.DataFrame(data=raw['data'], index=raw['index'], columns=raw['columns'])
+        except (ValueError, TypeError) as exc:
+            raise ValueError('Malformed corpus table') from exc
+        if list(df.columns).count('formula') != 1:
+            raise ValueError('Corpus requires exactly one formula column')
+    
+        symbol_counter = Counter()
+        compound_pairs = []
+        valid_formulas = 0
+    
+        for formula in df["formula"]:
+            if not isinstance(formula, str) or not formula:
+                continue
+            try:
+                comp = mg.Composition(formula)
+                elements = comp.elements
+                n_el = len(elements)
+                if 2 <= n_el <= 4:
+                    red = comp.reduced_composition
+                    items = []
+                    valid = True
+                    for el, amt in red.items():
+                        validate_symbol(str(el), 'corpus element')
+                        if np.isfinite(amt) and amt > 0 and (amt.is_integer() or abs(amt - round(amt)) < 1e-4):
+                            items.append((str(el), int(round(amt))))
+                        else:
+                            valid = False
+                            break
+                    if not valid:
+                        continue
+                    valid_formulas += 1
+                    items.sort(key=lambda x: x[0])
+                    for target_el, count in items:
+                        symbol_counter[target_el] += 1
+                        env_parts = [f"{el}{amt}" for el, amt in items if el != target_el]
+                        env_str = f"({count})" + "".join(env_parts)
+                        compound_pairs.append((target_el, env_str))
+            except (ValueError, TypeError):
+                continue
+        self.training_stats = {'input_rows': len(df), 'valid_binary_to_quaternary_rows': valid_formulas,
+                               'skipped_rows': len(df)-valid_formulas}
+        LOGGER.info('Atom2Vec corpus preprocessing: %s', self.training_stats)
+        if not symbol_counter:
+            raise ValueError('Corpus has no supported binary-to-quaternary integer compositions')
+        max_count = max(symbol_counter.values())
+        threshold = 0.01 * max_count
+        self.common_symbols = sorted([s for s, c in symbol_counter.items() if c >= threshold])
+        self.atom2idx = {s: i for i, s in enumerate(self.common_symbols)}
+    
+        env_counter = Counter()
+        for target_el, env_str in compound_pairs:
+            if target_el in self.atom2idx:
+                env_counter[env_str] += 1
+    
+        env2idx = {env: j for j, env in enumerate(env_counter.keys())}
+        N = len(self.common_symbols)
+        M = len(env2idx)
+        if self.embedding_dim >= min(N, M):
+            raise ValueError(f'embedding_dim must be below min(vocabulary, environments)={min(N, M)} for sparse SVD')
+    
+        counts = {}
+        for target_el, env_str in compound_pairs:
+            if target_el in self.atom2idx and env_str in env2idx:
+                pair = (self.atom2idx[target_el], env2idx[env_str])
+                counts[pair] = counts.get(pair, 0) + 1
+    
+        row_ind = [k[0] for k in counts.keys()]
+        col_ind = [k[1] for k in counts.keys()]
+        data_vals = [float(v) for v in counts.values()]
+        X = csr_matrix((data_vals, (row_ind, col_ind)), shape=(N, M), dtype=np.float64)
+    
+        # Row L2 normalization (p=2)
+        row_norms = np.sqrt(np.array(X.power(2).sum(axis=1)).flatten())
+        row_norms[row_norms == 0] = 1.0
+        inv_diag = diags(1.0 / row_norms)
+        X_norm = inv_diag.dot(X)
+    
+        # Truncated SVD
+        U, S, Vt = svds(X_norm, k=self.embedding_dim, random_state=self.random_seed)
+        idx_sort = np.argsort(S)[::-1]
+        U = U[:, idx_sort]
+        S = S[idx_sort]
+        F = U * S
+    
+        # Row normalize for cosine similarity
+        norms = np.linalg.norm(F, axis=1, keepdims=True)
+        if not np.isfinite(norms).all() or (norms <= 0).any():
+            raise ValueError('SVD produced zero or nonfinite embedding vectors')
+        self.F_norm = F / norms
+        self._validate_arrays(np.array(self.common_symbols), self.F_norm, S)
+        metadata = {'schema_version': 1, 'algorithm': ALGORITHM,
+                    'embedding_dim': self.embedding_dim, 'random_seed': self.random_seed,
+                    'corpus_sha256': hashlib.sha256(self.raw_mp_path.read_bytes()).hexdigest()}
+        self.cache_embedding_path.parent.mkdir(parents=True, exist_ok=True)
+        # Publish only a completed archive; hard-link creation refuses an existing destination.
+        temp_path = None
+        try:
+            with tempfile.NamedTemporaryFile(dir=self.cache_embedding_path.parent, prefix='.atom2vec-', suffix='.npz', delete=False) as stream:
+                temp_path = Path(stream.name)
+                np.savez_compressed(stream, common_symbols=np.array(self.common_symbols), F_norm=self.F_norm,
+                                    singular_values=S, metadata_json=np.array(json.dumps(metadata, sort_keys=True)))
+>           os.link(temp_path, self.cache_embedding_path)
+E           PermissionError: [WinError 5] Access is denied: 'C:\\Final Project\\work\\stage_03\\pytest_hardening_001\\test_small_training_cache_relo0\\.atom2vec-4u_dxchl.npz' -> 'C:\\Final Project\\work\\stage_03\\pytest_hardening_001\\test_small_training_cache_relo0\\a.npz'
+
+src\atom2vec\atom2vec_engine.py:258: PermissionError
+___________________ test_invalid_formulas_are_accounted_for ___________________
+
+tmp_path = WindowsPath('C:/Final Project/work/stage_03/pytest_hardening_001/test_invalid_formulas_are_acco0')
+
+    def test_invalid_formulas_are_accounted_for(tmp_path):
+        raw = corpus(tmp_path / 'corpus.gz', ['LiF', 'LiCl', 'NaF', 'NaCl', None, '', 'H'])
+>       engine = Atom2VecEngine(raw, tmp_path / 'cache.npz', embedding_dim=1)
+
+tests\stage_03\test_engine_hardening.py:218: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\atom2vec\atom2vec_engine.py:83: in __init__
+    self._load_or_train()
+src\atom2vec\atom2vec_engine.py:126: in _load_or_train
+    self._train_from_corpus()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <src.atom2vec.atom2vec_engine.Atom2VecEngine object at 0x0000016EBC6926B0>
+
+    def _train_from_corpus(self):
+        """Train Atom2Vec representation matrix via SVD on MP inorganic compounds."""
+        if not self.raw_mp_path.is_file():
+            raise FileNotFoundError(f"Materials Project raw dataset not found at: {self.raw_mp_path}")
+    
+        with gzip.open(self.raw_mp_path, "rt", encoding="utf-8") as f:
+            raw = json.load(f)
+    
+        if not isinstance(raw, dict) or not all(k in raw for k in ('data', 'index', 'columns')):
+            raise ValueError('Corpus must have data, index and columns fields')
+        try:
+            df = pd.DataFrame(data=raw['data'], index=raw['index'], columns=raw['columns'])
+        except (ValueError, TypeError) as exc:
+            raise ValueError('Malformed corpus table') from exc
+        if list(df.columns).count('formula') != 1:
+            raise ValueError('Corpus requires exactly one formula column')
+    
+        symbol_counter = Counter()
+        compound_pairs = []
+        valid_formulas = 0
+    
+        for formula in df["formula"]:
+            if not isinstance(formula, str) or not formula:
+                continue
+            try:
+                comp = mg.Composition(formula)
+                elements = comp.elements
+                n_el = len(elements)
+                if 2 <= n_el <= 4:
+                    red = comp.reduced_composition
+                    items = []
+                    valid = True
+                    for el, amt in red.items():
+                        validate_symbol(str(el), 'corpus element')
+                        if np.isfinite(amt) and amt > 0 and (amt.is_integer() or abs(amt - round(amt)) < 1e-4):
+                            items.append((str(el), int(round(amt))))
+                        else:
+                            valid = False
+                            break
+                    if not valid:
+                        continue
+                    valid_formulas += 1
+                    items.sort(key=lambda x: x[0])
+                    for target_el, count in items:
+                        symbol_counter[target_el] += 1
+                        env_parts = [f"{el}{amt}" for el, amt in items if el != target_el]
+                        env_str = f"({count})" + "".join(env_parts)
+                        compound_pairs.append((target_el, env_str))
+            except (ValueError, TypeError):
+                continue
+        self.training_stats = {'input_rows': len(df), 'valid_binary_to_quaternary_rows': valid_formulas,
+                               'skipped_rows': len(df)-valid_formulas}
+        LOGGER.info('Atom2Vec corpus preprocessing: %s', self.training_stats)
+        if not symbol_counter:
+            raise ValueError('Corpus has no supported binary-to-quaternary integer compositions')
+        max_count = max(symbol_counter.values())
+        threshold = 0.01 * max_count
+        self.common_symbols = sorted([s for s, c in symbol_counter.items() if c >= threshold])
+        self.atom2idx = {s: i for i, s in enumerate(self.common_symbols)}
+    
+        env_counter = Counter()
+        for target_el, env_str in compound_pairs:
+            if target_el in self.atom2idx:
+                env_counter[env_str] += 1
+    
+        env2idx = {env: j for j, env in enumerate(env_counter.keys())}
+        N = len(self.common_symbols)
+        M = len(env2idx)
+        if self.embedding_dim >= min(N, M):
+            raise ValueError(f'embedding_dim must be below min(vocabulary, environments)={min(N, M)} for sparse SVD')
+    
+        counts = {}
+        for target_el, env_str in compound_pairs:
+            if target_el in self.atom2idx and env_str in env2idx:
+                pair = (self.atom2idx[target_el], env2idx[env_str])
+                counts[pair] = counts.get(pair, 0) + 1
+    
+        row_ind = [k[0] for k in counts.keys()]
+        col_ind = [k[1] for k in counts.keys()]
+        data_vals = [float(v) for v in counts.values()]
+        X = csr_matrix((data_vals, (row_ind, col_ind)), shape=(N, M), dtype=np.float64)
+    
+        # Row L2 normalization (p=2)
+        row_norms = np.sqrt(np.array(X.power(2).sum(axis=1)).flatten())
+        row_norms[row_norms == 0] = 1.0
+        inv_diag = diags(1.0 / row_norms)
+        X_norm = inv_diag.dot(X)
+    
+        # Truncated SVD
+        U, S, Vt = svds(X_norm, k=self.embedding_dim, random_state=self.random_seed)
+        idx_sort = np.argsort(S)[::-1]
+        U = U[:, idx_sort]
+        S = S[idx_sort]
+        F = U * S
+    
+        # Row normalize for cosine similarity
+        norms = np.linalg.norm(F, axis=1, keepdims=True)
+        if not np.isfinite(norms).all() or (norms <= 0).any():
+            raise ValueError('SVD produced zero or nonfinite embedding vectors')
+        self.F_norm = F / norms
+        self._validate_arrays(np.array(self.common_symbols), self.F_norm, S)
+        metadata = {'schema_version': 1, 'algorithm': ALGORITHM,
+                    'embedding_dim': self.embedding_dim, 'random_seed': self.random_seed,
+                    'corpus_sha256': hashlib.sha256(self.raw_mp_path.read_bytes()).hexdigest()}
+        self.cache_embedding_path.parent.mkdir(parents=True, exist_ok=True)
+        # Publish only a completed archive; hard-link creation refuses an existing destination.
+        temp_path = None
+        try:
+            with tempfile.NamedTemporaryFile(dir=self.cache_embedding_path.parent, prefix='.atom2vec-', suffix='.npz', delete=False) as stream:
+                temp_path = Path(stream.name)
+                np.savez_compressed(stream, common_symbols=np.array(self.common_symbols), F_norm=self.F_norm,
+                                    singular_values=S, metadata_json=np.array(json.dumps(metadata, sort_keys=True)))
+>           os.link(temp_path, self.cache_embedding_path)
+E           PermissionError: [WinError 5] Access is denied: 'C:\\Final Project\\work\\stage_03\\pytest_hardening_001\\test_invalid_formulas_are_acco0\\.atom2vec-2otc3ytf.npz' -> 'C:\\Final Project\\work\\stage_03\\pytest_hardening_001\\test_invalid_formulas_are_acco0\\cache.npz'
+
+src\atom2vec\atom2vec_engine.py:258: PermissionError
+=========================== short test summary info ===========================
+FAILED tests/stage_03/test_engine_hardening.py::test_small_training_cache_reload_and_seed_metadata
+FAILED tests/stage_03/test_engine_hardening.py::test_invalid_formulas_are_accounted_for
+2 failed, 115 passed, 1 skipped in 23.54s

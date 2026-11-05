@@ -1,0 +1,30 @@
+Cached-engine comparisons passed; running fresh full-corpus Atom2Vec training.
+C:\Final Project\.venv\lib\site-packages\pymatgen\core\composition.py:1366: UserWarning: No Pauling electronegativity for He. Setting to NaN. This has no physical meaning, and is mainly done to avoid errors caused by the code expecting a float.
+  syms: list[str] = sorted(sym_amt, key=lambda x: [get_el_sp(x).X, x])
+{
+  "fresh_training": {
+    "seconds": 5.752566399984062,
+    "embedding_dim": 20,
+    "random_seed": 42,
+    "max_abs_similarity_change_vs_original": 6.661338147750939e-16,
+    "top10_changes": 0,
+    "reload_rankings_identical": true,
+    "training_stats": {
+      "input_rows": 83989,
+      "valid_binary_to_quaternary_rows": 75841,
+      "skipped_rows": 8148
+    },
+    "cache_info": {
+      "schema_version": 1,
+      "algorithm": "atom-environment-row-l2-svd-v1",
+      "embedding_dim": 20,
+      "random_seed": 42,
+      "corpus_sha256": "48481abc390e0772defbbfa68d7db3b9bdef2519d407b82a581f2298f7df080f",
+      "metadata_present": true,
+      "corpus_verified": true
+    },
+    "cache_path": "results/stage_03/run_001/fresh_atom2vec_d20.npz"
+  },
+  "checked_pairs": 22821,
+  "changed_top10": 0
+}

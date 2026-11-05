@@ -1,0 +1,36 @@
+{
+  "final": {
+    "tests": 320,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "seconds": 8.564,
+  "historical_failures": {
+    "PN:invalid_k:-1": true,
+    "PN:invalid_k:True": true,
+    "Atom2Vec:invalid_k:-1": true,
+    "Atom2Vec:invalid_k:True": true,
+    "Property:invalid_k:-1": true,
+    "Property:invalid_k:True": true,
+    "PN:duplicate": true,
+    "Property:duplicate": true,
+    "Property:infinite_feature": true,
+    "Property:negative_density": true,
+    "Atom2Vec:nan_cache": true,
+    "Atom2Vec:cache_dimension": true,
+    "PN:duplicate_candidate": true,
+    "Property:duplicate_candidate": true,
+    "Atom2Vec:zero_vectors": true
+  },
+  "previous_files_checked": 226,
+  "intentionally_changed_previous_files": [
+    "src/atom2vec/atom2vec_engine.py",
+    "docs/progress.md",
+    ".gitattributes",
+    "src/property_similarity/property_engine.py",
+    "src/pn_similarity/pn_engine.py"
+  ],
+  "scientific_benchmark_status": "incomplete; no accuracy claims",
+  "stage4_started": false
+}

@@ -39,6 +39,11 @@ import os
 import gzip
 import json
 import time
+import hashlib
+import logging
+from pathlib import Path
+import tempfile
+import zipfile
 from collections import Counter
 from typing import List, Dict, Any, Optional
 import numpy as np
@@ -46,20 +51,30 @@ import pandas as pd
 from scipy.sparse import csr_matrix, diags
 from scipy.sparse.linalg import svds
 import pymatgen.core as mg
+from src.similarity_validation import PROJECT_ROOT, cosine, real_matrix, require_supported, support_status, validate_integer, validate_symbol
+
+LOGGER = logging.getLogger(__name__)
+ALGORITHM = 'atom-environment-row-l2-svd-v1'
 
 
 class Atom2VecEngine:
     def __init__(
         self,
-        raw_mp_path: str = os.path.join("data", "raw", "mp_nostruct_20181018.json.gz"),
-        cache_embedding_path: str = os.path.join("data", "processed", "atom2vec_embeddings_d20.npz"),
+        raw_mp_path=PROJECT_ROOT / 'data/raw/mp_nostruct_20181018.json.gz',
+        cache_embedding_path=PROJECT_ROOT / 'data/processed/atom2vec_embeddings_d20.npz',
         embedding_dim: int = 20,
-        random_seed: int = 42
+        random_seed: int = 42,
+        require_cache_metadata: bool = False,
     ):
-        self.raw_mp_path = raw_mp_path
-        self.cache_embedding_path = cache_embedding_path
-        self.embedding_dim = embedding_dim
-        self.random_seed = random_seed
+        self.raw_mp_path = Path(raw_mp_path)
+        self.cache_embedding_path = Path(cache_embedding_path)
+        self.embedding_dim = validate_integer(embedding_dim, 'embedding_dim', minimum=1)
+        self.random_seed = validate_integer(random_seed, 'random_seed', maximum=2**32-1)
+        if type(require_cache_metadata) is not bool:
+            raise TypeError('require_cache_metadata must be boolean')
+        self.require_cache_metadata = require_cache_metadata
+        self.cache_info = {}
+        self.training_stats = None
         
         self.common_symbols: List[str] = []
         self.atom2idx: Dict[str, int] = {}
@@ -69,28 +84,97 @@ class Atom2VecEngine:
         
     def _load_or_train(self):
         """Load cached embeddings if present, otherwise train from the MP dataset."""
-        if os.path.exists(self.cache_embedding_path):
-            data = np.load(self.cache_embedding_path, allow_pickle=True)
-            self.common_symbols = list(data["common_symbols"])
-            self.atom2idx = {s: i for i, s in enumerate(self.common_symbols)}
-            self.F_norm = data["F_norm"]
+        if self.cache_embedding_path.exists():
+            if not self.cache_embedding_path.is_file():
+                raise ValueError('Embedding cache must be a file')
+            try:
+                with np.load(self.cache_embedding_path, allow_pickle=False) as data:
+                    symbols, features, singular = data['common_symbols'], data['F_norm'], data['singular_values']
+                    self._validate_arrays(symbols, features, singular)
+                    if 'metadata_json' in data:
+                        encoded = data['metadata_json']
+                        if encoded.shape != () or encoded.dtype.kind != 'U':
+                            raise ValueError('Cache metadata must be a scalar Unicode JSON string')
+                        metadata = json.loads(str(encoded.item()))
+                        if not isinstance(metadata, dict) or type(metadata.get('schema_version')) is not int or metadata['schema_version'] != 1 or metadata.get('algorithm') != ALGORITHM:
+                            raise ValueError('Unsupported cache metadata schema/algorithm')
+                        if type(metadata.get('embedding_dim')) is not int or metadata['embedding_dim'] != self.embedding_dim:
+                            raise ValueError('Cached embedding configuration mismatch')
+                        if type(metadata.get('random_seed')) is not int or metadata['random_seed'] != self.random_seed:
+                            raise ValueError('Cached random seed configuration mismatch')
+                        checksum = metadata.get('corpus_sha256')
+                        if not isinstance(checksum, str) or len(checksum) != 64 or any(c not in '0123456789abcdef' for c in checksum):
+                            raise ValueError('Invalid cached corpus checksum')
+                        corpus_verified = False
+                        if self.raw_mp_path.is_file():
+                            if hashlib.sha256(self.raw_mp_path.read_bytes()).hexdigest() != checksum:
+                                raise ValueError('Cached corpus checksum does not match supplied corpus')
+                            corpus_verified = True
+                        self.cache_info = {**metadata, 'metadata_present': True, 'corpus_verified': corpus_verified}
+                    else:
+                        if self.require_cache_metadata:
+                            raise ValueError('Legacy cache has no training metadata; strict cache policy rejects it')
+                        if self.random_seed != 42:
+                            raise ValueError('Legacy cache cannot verify a non-default random seed; use a metadata-bearing cache or a new cache path')
+                        self.cache_info = {'metadata_present': False, 'corpus_verified': False,
+                                           'requested_seed_verified': False, 'note': 'Legacy cache: shape/norm checked; training seed and corpus provenance unavailable'}
+                        LOGGER.info(self.cache_info['note'])
+                    self.common_symbols = symbols.tolist()
+                    self.atom2idx = {s: i for i, s in enumerate(self.common_symbols)}
+                    self.F_norm = features.astype(np.float64, copy=True)
+            except (KeyError, ValueError, TypeError, OSError, EOFError, zipfile.BadZipFile) as exc:
+                raise ValueError(f'Invalid embedding cache {self.cache_embedding_path}: {exc}') from exc
         else:
             self._train_from_corpus()
+
+    def _validate_arrays(self, symbols, features, singular):
+        if symbols.ndim != 1 or symbols.dtype.kind != 'U' or len(symbols) < 2:
+            raise ValueError('Cache vocabulary must contain at least two Unicode element symbols')
+        for symbol in symbols.tolist():
+            validate_symbol(symbol, 'cache element')
+        if len(set(symbols.tolist())) != len(symbols):
+            raise ValueError('Duplicate cache element symbols')
+        features = real_matrix(features, 'Embeddings')
+        singular = real_matrix(singular, 'Singular values')
+        if features.shape != (len(symbols), self.embedding_dim):
+            raise ValueError('Embedding rows/dimension do not match vocabulary/requested dimension')
+        if singular.shape != (self.embedding_dim,) or (singular < 0).any() or (np.diff(singular) > 0).any():
+            raise ValueError('Singular values must be nonnegative, descending and dimension-matched')
+        with np.errstate(over='ignore', invalid='ignore'):
+            norms = np.linalg.norm(features, axis=1)
+        if not np.isfinite(norms).all() or not np.allclose(norms, 1.0, rtol=0, atol=1e-8):
+            raise ValueError('Cached vectors must be nonzero and L2-normalized within 1e-8')
             
     def _train_from_corpus(self):
         """Train Atom2Vec representation matrix via SVD on MP inorganic compounds."""
-        if not os.path.exists(self.raw_mp_path):
+        if not self.raw_mp_path.is_file():
             raise FileNotFoundError(f"Materials Project raw dataset not found at: {self.raw_mp_path}")
             
-        with gzip.open(self.raw_mp_path, "rt", encoding="utf-8") as f:
-            raw = json.load(f)
+        # Decode one byte snapshot so the metadata hash describes exactly the trained corpus.
+        corpus_bytes = self.raw_mp_path.read_bytes()
+        corpus_checksum = hashlib.sha256(corpus_bytes).hexdigest()
+        try:
+            raw = json.loads(gzip.decompress(corpus_bytes).decode('utf-8'))
+        except (OSError, ValueError, EOFError) as exc:
+            raise ValueError(f'Invalid gzip/JSON corpus: {self.raw_mp_path}') from exc
+        del corpus_bytes
             
-        df = pd.DataFrame(data=raw["data"], index=raw["index"], columns=raw["columns"])
+        if not isinstance(raw, dict) or not all(k in raw for k in ('data', 'index', 'columns')):
+            raise ValueError('Corpus must have data, index and columns fields')
+        try:
+            df = pd.DataFrame(data=raw['data'], index=raw['index'], columns=raw['columns'])
+        except (ValueError, TypeError) as exc:
+            raise ValueError('Malformed corpus table') from exc
+        if list(df.columns).count('formula') != 1:
+            raise ValueError('Corpus requires exactly one formula column')
         
         symbol_counter = Counter()
         compound_pairs = []
+        valid_formulas = 0
         
         for formula in df["formula"]:
+            if not isinstance(formula, str) or not formula:
+                continue
             try:
                 comp = mg.Composition(formula)
                 elements = comp.elements
@@ -100,22 +184,28 @@ class Atom2VecEngine:
                     items = []
                     valid = True
                     for el, amt in red.items():
-                        if amt.is_integer() or abs(amt - round(amt)) < 1e-4:
+                        validate_symbol(str(el), 'corpus element')
+                        if np.isfinite(amt) and amt > 0 and (amt.is_integer() or abs(amt - round(amt)) < 1e-4):
                             items.append((str(el), int(round(amt))))
                         else:
                             valid = False
                             break
                     if not valid:
                         continue
+                    valid_formulas += 1
                     items.sort(key=lambda x: x[0])
                     for target_el, count in items:
                         symbol_counter[target_el] += 1
                         env_parts = [f"{el}{amt}" for el, amt in items if el != target_el]
                         env_str = f"({count})" + "".join(env_parts)
                         compound_pairs.append((target_el, env_str))
-            except Exception:
+            except (ValueError, TypeError):
                 continue
-                
+        self.training_stats = {'input_rows': len(df), 'valid_binary_to_quaternary_rows': valid_formulas,
+                               'skipped_rows': len(df)-valid_formulas}
+        LOGGER.info('Atom2Vec corpus preprocessing: %s', self.training_stats)
+        if not symbol_counter:
+            raise ValueError('Corpus has no supported binary-to-quaternary integer compositions')
         max_count = max(symbol_counter.values())
         threshold = 0.01 * max_count
         self.common_symbols = sorted([s for s, c in symbol_counter.items() if c >= threshold])
@@ -129,6 +219,8 @@ class Atom2VecEngine:
         env2idx = {env: j for j, env in enumerate(env_counter.keys())}
         N = len(self.common_symbols)
         M = len(env2idx)
+        if self.embedding_dim >= min(N, M):
+            raise ValueError(f'embedding_dim must be below min(vocabulary, environments)={min(N, M)} for sparse SVD')
         
         counts = {}
         for target_el, env_str in compound_pairs:
@@ -155,27 +247,43 @@ class Atom2VecEngine:
         F = U * S
         
         # Row normalize for cosine similarity
-        self.F_norm = F / np.linalg.norm(F, axis=1, keepdims=True)
-        
-        # Save cache
-        os.makedirs(os.path.dirname(self.cache_embedding_path), exist_ok=True)
-        np.savez_compressed(
-            self.cache_embedding_path,
-            common_symbols=np.array(self.common_symbols),
-            F_norm=self.F_norm,
-            singular_values=S
-        )
+        norms = np.linalg.norm(F, axis=1, keepdims=True)
+        if not np.isfinite(norms).all() or (norms <= 0).any():
+            raise ValueError('SVD produced zero or nonfinite embedding vectors')
+        self.F_norm = F / norms
+        self._validate_arrays(np.array(self.common_symbols), self.F_norm, S)
+        metadata = {'schema_version': 1, 'algorithm': ALGORITHM,
+                    'embedding_dim': self.embedding_dim, 'random_seed': self.random_seed,
+                    'corpus_sha256': corpus_checksum}
+        self.cache_embedding_path.parent.mkdir(parents=True, exist_ok=True)
+        # Publish only a completed archive. Windows rename refuses an existing destination;
+        # POSIX uses an exclusive hard link because POSIX rename would overwrite a file.
+        temp_path = None
+        try:
+            with tempfile.NamedTemporaryFile(dir=self.cache_embedding_path.parent, prefix='.atom2vec-', suffix='.npz', delete=False) as stream:
+                temp_path = Path(stream.name)
+                np.savez_compressed(stream, common_symbols=np.array(self.common_symbols), F_norm=self.F_norm,
+                                    singular_values=S, metadata_json=np.array(json.dumps(metadata, sort_keys=True)))
+            if os.name == 'nt':
+                os.rename(temp_path, self.cache_embedding_path)
+            else:
+                os.link(temp_path, self.cache_embedding_path)
+        finally:
+            if temp_path is not None:
+                temp_path.unlink(missing_ok=True)
+        self.cache_info = {**metadata, 'metadata_present': True, 'corpus_verified': True}
 
     def compute_similarity(self, target_element: str, candidate_element: str) -> float:
         """Compute cosine similarity between Atom2Vec embeddings."""
-        if target_element not in self.atom2idx:
-            raise ValueError(f"Target element '{target_element}' is not in Atom2Vec vocabulary.")
-        if candidate_element not in self.atom2idx:
-            raise ValueError(f"Candidate element '{candidate_element}' is not in Atom2Vec vocabulary.")
+        require_supported(target_element, self.atom2idx, 'Atom2Vec')
+        require_supported(candidate_element, self.atom2idx, 'Atom2Vec', 'candidate')
             
         i = self.atom2idx[target_element]
         j = self.atom2idx[candidate_element]
-        return float(np.dot(self.F_norm[i], self.F_norm[j]))
+        return cosine(np.dot(self.F_norm[i], self.F_norm[j]))
+
+    def get_support_status(self, element):
+        return support_status(element, self.atom2idx, self.common_symbols, 'Atom2Vec')
 
     def get_top_k(self, target_element: str, k: int = 10) -> List[Dict[str, Any]]:
         """
@@ -188,11 +296,14 @@ class Atom2VecEngine:
         - candidate_element: str
         - similarity_score: float
         """
-        if target_element not in self.atom2idx:
-            raise ValueError(f"Target element '{target_element}' not in Atom2Vec vocabulary.")
+        k = validate_integer(k, 'k')
+        require_supported(target_element, self.atom2idx, 'Atom2Vec')
             
         i = self.atom2idx[target_element]
         sims = self.F_norm.dot(self.F_norm[i])
+        if not np.isfinite(sims).all():
+            raise ValueError('Nonfinite embedding similarity scores')
+        sims = np.clip(sims, -1.0, 1.0)
         
         scored_candidates = []
         for idx, cand in enumerate(self.common_symbols):

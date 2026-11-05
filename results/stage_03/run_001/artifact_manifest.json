@@ -1,0 +1,29 @@
+{
+  "sha256": {
+    ".gitattributes": "91eeb6e9e85d63bf3daf0060a9595b32f3c53109fc93a693f4ee547a696fb0bb",
+    "docs/progress.md": "2f8b41132a4fdf8b0ffdb27d54ca5c71675cfd1f2c6465910a8587ba987e4ef8",
+    "docs/stages/stage_03/completion_report.md": "09bb80b64ef982793e78058ab52a15915e24623a82fd87bc386a77d1ec639f9a",
+    "docs/stages/stage_03/edge_case_report.md": "9d7ed243ad18d38e3e6c8ae10a4f0bc6db0e62e443201c0cd77c497d892de627",
+    "docs/stages/stage_03/implementation_guide.md": "ac3377c8bf675c7a264e976a644dbd98820bd733f257a8525b7eafa01badb099",
+    "docs/stages/stage_03/index.html": "2636fbc403db7cc6bed1caabe8ea03c0024c589f2e508eee5d98cc7a13cf74d0",
+    "docs/stages/stage_03/reproducibility.md": "ddb29928517426f6acb4a9d78db2e7f632d08f1aad00a9ae985541fad5d68aa6",
+    "docs/stages/stage_03/results_and_metrics.md": "8e5bb9af67f036ca91598a5194ba1716ad3c640478a4aee541adb5b3dc61473c",
+    "docs/stages/stage_03/telugu_transcript.md": "d10633456cf74acf07d23b9d4f9d5372358259fc2efe15d28280e306e1733e06",
+    "docs/stages/stage_03/validation_report.md": "01d4262a1cb9333962943a2112b7f611750f0deb6c603f1a04d07fc9ff27d037",
+    "experiments/stage_03/build_reports.py": "6dc47c14d2df5ff8c6bae6d039e61b5ba16c9820c278772ce58cec7e57458359",
+    "experiments/stage_03/capture_baseline.py": "817c8fffadb3b60d965cc6507f7b6e15556654ec107900d66ff124e401f994f6",
+    "experiments/stage_03/verify_engines.py": "9a704cd7914aa8113ca23f1f72f19fb26a7e750b4f1dc058b0ea53a87b79b039",
+    "results/stage_03/run_001/baseline.json": "074c46b3605c09a66d6b392124a967706d0541c2166119705309ef8ce9b9e2ad",
+    "results/stage_03/run_001/engine_verification.json": "b3229b4e12c8a82a6d060a2565e36ad5d210dbe33ba48a4c0eca89c395f907a8",
+    "results/stage_03/run_001/environment.json": "8ce221a8c66d2a19d63b247fc838afd97c2fea328fbf6bc5fb7478a7934a4cf9",
+    "results/stage_03/run_001/final_verification.json": "4c3e987c2d875f935325df421a1c7e42e2afdaf5ef23647b7307981eb3b95ad8",
+    "results/stage_03/run_001/fresh_atom2vec_d20.npz": "e57a9c85949064fc1af1a142b8b4258a0ce004cffb8c03441e6bfa2bbb7f7f24",
+    "results/stage_03/run_001/score_comparison.npz": "b22980f21eeb2f8877075763212ac6562be65959fbc565e459c7248f6aa712bb",
+    "src/atom2vec/atom2vec_engine.py": "0802a7394e350919d1b3686de190b7d3ac2ef6152875a20016a2730aecb6f761",
+    "src/pn_similarity/pn_engine.py": "523320bd57db25984d94775b6febddbc4501acc0d38d0ca4417923bb70baf9a9",
+    "src/property_similarity/property_engine.py": "12d065df6cadb98ecc3e2a0c2ab8c540b352b81393b42f0dddce436003d7ad3e",
+    "src/similarity_validation.py": "a8dc2d284b1a55c7df71eceae8da9575232a84f749d3b3a3f26209192c8eee9f",
+    "tests/stage_03/test_engine_hardening.py": "16721740157ed875c105f3624e8aed3c55b70d240331738517c389e2027b6ecb"
+  },
+  "report_links_verified": 10
+}

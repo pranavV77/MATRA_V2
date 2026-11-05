@@ -18,3 +18,13 @@ docs/stages/stage_02_doping_review/** -text
 experiments/stage_02/*doping*.py -text
 src/data_audit/doping_review.py -text
 tests/stage_02/test_doping_review.py -text
+src/similarity_validation.py -text
+src/pn_similarity/pn_engine.py -text
+src/property_similarity/property_engine.py -text
+src/atom2vec/atom2vec_engine.py -text
+tests/stage_03/** -text
+experiments/stage_03/** -text
+docs/stages/stage_03/** -text
+results/stage_03/run_001/original_engines/** -text
+results/stage_03/** -text
+docs/progress.md -text

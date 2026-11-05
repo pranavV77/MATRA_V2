@@ -2,7 +2,7 @@
 Pierre Villars Mendeleev Periodic Number (PN) Similarity Engine.
 
 Implementation of Signal 1 from the project architecture:
-Uses the Pierre Villars Mendeleev Periodic Number (PN) scale (1 to 103)
+Uses the project's recorded Mendeleev Periodic Number scale (1 to 118)
 derived from Pierre Villars et al. (Chem. Met. Alloys 2008) and validated in
 PNcsp / PNcsp+ (Oran et al., Inorg. Chem. 2024, JCTC 2026).
 
@@ -17,17 +17,17 @@ Filtering & Constraints:
 - Returns Top-K candidates formatted with strict common output schema.
 """
 
-import os
 from typing import List, Dict, Any
-import pandas as pd
+import numpy as np
+from src.similarity_validation import DEFAULT_MASTER, read_master, require_supported, support_status, validate_integer
 
 
 class PNSimilarityEngine:
-    def __init__(self, master_parquet_path: str = os.path.join("data", "processed", "elements_master.parquet")):
-        if not os.path.exists(master_parquet_path):
-            raise FileNotFoundError(f"Master elements table not found at: {master_parquet_path}")
-        
-        self.df = pd.read_parquet(master_parquet_path)
+    def __init__(self, master_parquet_path=DEFAULT_MASTER):
+        self.df = read_master(master_parquet_path, ('symbol', 'group_id', 'mendeleev_number'))
+        pn = self.df['mendeleev_number']
+        if pn.dtype.kind not in 'iu' or pn.isna().any() or not np.isfinite(pn).all() or not pn.between(1, 118).all() or not pn.is_unique:
+            raise ValueError('PN values must be unique integers in 1..118')
         self.pn_dict = dict(zip(self.df["symbol"], self.df["mendeleev_number"]))
         
         # Filter candidate universe: exclude noble gases (group_id == 18)
@@ -38,13 +38,15 @@ class PNSimilarityEngine:
         
     def compute_similarity(self, target_element: str, candidate_element: str) -> float:
         """Compute S_PN between two elements."""
-        if target_element not in self.pn_dict:
-            raise ValueError(f"Unknown target element: {target_element}")
-        if candidate_element not in self.pn_dict:
-            raise ValueError(f"Unknown candidate element: {candidate_element}")
+        require_supported(target_element, self.pn_dict, 'PN')
+        require_supported(candidate_element, self.pn_dict, 'PN', 'candidate')
             
         dist = abs(self.pn_dict[target_element] - self.pn_dict[candidate_element])
         return 1.0 / (1.0 + float(dist))
+
+    def get_support_status(self, element):
+        """Distinguish recognition, query data and ranking-candidate policy."""
+        return support_status(element, self.pn_dict, self.candidate_elements, 'PN')
 
     def get_top_k(self, target_element: str, k: int = 10) -> List[Dict[str, Any]]:
         """
@@ -57,8 +59,8 @@ class PNSimilarityEngine:
         - candidate_element: str
         - similarity_score: float
         """
-        if target_element not in self.pn_dict:
-            raise ValueError(f"Target element '{target_element}' not found in master database.")
+        k = validate_integer(k, 'k')
+        require_supported(target_element, self.pn_dict, 'PN')
             
         t_pn = self.pn_dict[target_element]
         scored_candidates = []

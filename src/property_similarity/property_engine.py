@@ -23,7 +23,7 @@ Methodology:
      13. density
      14. molar_volume
 2. Preprocessing & Scaling:
-   - Candidate universe: All 88 non-noble elements (noble gases excluded as unreactive).
+   - Legacy ranking policy: exclude noble gases; this is not a universal chemistry rule.
    - Standard Z-score normalization: z = (x - mu) / sigma across the candidate universe.
 3. Similarity Metric:
    - Cosine similarity between normalized 14-dimensional feature vectors:
@@ -33,10 +33,10 @@ Methodology:
    - Output schema matching PN and Atom2Vec engines.
 """
 
-import os
 from typing import List, Dict, Any
 import numpy as np
 import pandas as pd
+from src.similarity_validation import DEFAULT_MASTER, cosine, read_master, require_supported, support_status, validate_integer
 
 
 class PropertySimilarityEngine:
@@ -57,11 +57,8 @@ class PropertySimilarityEngine:
         "molar_volume"
     ]
 
-    def __init__(self, master_parquet_path: str = os.path.join("data", "processed", "elements_master.parquet")):
-        if not os.path.exists(master_parquet_path):
-            raise FileNotFoundError(f"Master elements table not found at: {master_parquet_path}")
-            
-        self.df = pd.read_parquet(master_parquet_path)
+    def __init__(self, master_parquet_path=DEFAULT_MASTER):
+        self.df = read_master(master_parquet_path, ('symbol', 'group_id', *self.FEATURE_NAMES))
         
         # Exclude noble gases (group_id == 18)
         self.candidate_df = self.df[self.df["group_id"] != 18].copy().reset_index(drop=True)
@@ -69,30 +66,47 @@ class PropertySimilarityEngine:
         self.sym2idx = {s: i for i, s in enumerate(self.symbols)}
         
         # Extract feature matrix (88 x 14)
+        if len(self.candidate_df) < 2:
+            raise ValueError('At least two non-noble feature rows are required for standardization')
+        shell_bounds = {'s_valence_electrons': 2, 'p_valence_electrons': 6, 'd_valence_electrons': 10, 'f_valence_electrons': 14}
+        for name in self.FEATURE_NAMES:
+            series = self.candidate_df[name]
+            if not pd.api.types.is_numeric_dtype(series) or pd.api.types.is_bool_dtype(series) or pd.api.types.is_complex_dtype(series):
+                raise ValueError(f'{name}: real numeric feature dtype required')
+            values = series.to_numpy(dtype=np.float64)
+            if not np.isfinite(values).all() or (values < 0).any() or (name not in shell_bounds and (values == 0).any()):
+                raise ValueError(f'{name}: nonfinite, negative or invalid zero feature')
+            if name in shell_bounds or name == 'valence_electrons':
+                bound = shell_bounds.get(name, 18)
+                if (values > bound).any() or not np.equal(values, np.floor(values)).all():
+                    raise ValueError(f'{name}: electron count outside integer bounds')
         raw_features = self.candidate_df[self.FEATURE_NAMES].values.astype(np.float64)
-        assert not np.isnan(raw_features).any(), "NaN values found in property candidate features!"
         
         # Standardize (Z-score)
-        self.means = np.mean(raw_features, axis=0)
-        self.stds = np.std(raw_features, axis=0)
-        self.stds[self.stds == 0] = 1.0
-        standardized = (raw_features - self.means) / self.stds
-        
-        # L2 normalize rows for cosine similarity
-        norms = np.linalg.norm(standardized, axis=1, keepdims=True)
-        norms[norms == 0] = 1.0
-        self.normed_features = standardized / norms
+        try:
+            with np.errstate(over='raise', invalid='raise', divide='raise'):
+                self.means = np.mean(raw_features, axis=0)
+                self.stds = np.std(raw_features, axis=0)
+                self.stds[self.stds == 0] = 1.0  # Constant columns contribute zero, not invented variation.
+                standardized = (raw_features - self.means) / self.stds
+                norms = np.linalg.norm(standardized, axis=1, keepdims=True)
+                if not np.isfinite(norms).all() or (norms <= 0).any():
+                    raise ValueError('Zero or invalid standardized vector: cosine direction is undefined')
+                self.normed_features = standardized / norms
+        except FloatingPointError as exc:
+            raise ValueError('Property standardization is numerically unstable') from exc
 
     def compute_similarity(self, target_element: str, candidate_element: str) -> float:
         """Compute cosine similarity between 14-property vectors."""
-        if target_element not in self.sym2idx:
-            raise ValueError(f"Target element '{target_element}' not in property candidate set.")
-        if candidate_element not in self.sym2idx:
-            raise ValueError(f"Candidate element '{candidate_element}' not in property candidate set.")
+        require_supported(target_element, self.sym2idx, 'Property')
+        require_supported(candidate_element, self.sym2idx, 'Property', 'candidate')
             
         i = self.sym2idx[target_element]
         j = self.sym2idx[candidate_element]
-        return float(np.dot(self.normed_features[i], self.normed_features[j]))
+        return cosine(np.dot(self.normed_features[i], self.normed_features[j]))
+
+    def get_support_status(self, element):
+        return support_status(element, self.sym2idx, self.symbols, 'Property')
 
     def get_top_k(self, target_element: str, k: int = 10) -> List[Dict[str, Any]]:
         """
@@ -105,11 +119,14 @@ class PropertySimilarityEngine:
         - candidate_element: str
         - similarity_score: float
         """
-        if target_element not in self.sym2idx:
-            raise ValueError(f"Target element '{target_element}' not in property candidate universe.")
+        k = validate_integer(k, 'k')
+        require_supported(target_element, self.sym2idx, 'Property')
             
         i = self.sym2idx[target_element]
         sims = self.normed_features.dot(self.normed_features[i])
+        if not np.isfinite(sims).all():
+            raise ValueError('Nonfinite property similarity scores')
+        sims = np.clip(sims, -1.0, 1.0)
         
         scored_candidates = []
         for idx, cand in enumerate(self.symbols):
