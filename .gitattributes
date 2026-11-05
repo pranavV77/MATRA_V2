@@ -1,0 +1,8 @@
+# Preserve exact bytes for source-audited evidence and its hashed artifacts.
+# These rules are deliberately scoped; legacy project files are unaffected.
+data/raw/stage_02_primary_sources/** -text
+data/benchmark/v2_1_0/** -text
+docs/stages/stage_02_source_verification/** -text
+experiments/stage_02/*primary*.py -text
+src/data_audit/primary_evidence.py -text
+tests/stage_02/test_primary_evidence.py -text

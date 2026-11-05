@@ -1,0 +1,475 @@
+--- PAGE 1 ---
+© 2014 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim 2857
+www.advmat.de
+www.MaterialsViews.com
+wileyonlinelibrary.com
+COMMUNICATION
+ Properties of Individual Dopant Atoms in Single-Layer 
+MoS 2 : Atomic Structure, Migration, and Enhanced 
+Reactivity 
+   Yung-Chang    Lin     ,        Dumitru O.    Dumcenco     ,        Hannu-Pekka    Komsa     ,        Yoshiko    Niimi     ,    
+    Arkady V.    Krasheninnikov     ,        Ying-Sheng    Huang     ,       and        Kazu    Suenaga   *   
+observations of individual B and N dopants as well as single 
+three or four coordinated Si impurity atoms in graphene lat-
+tice were reported. 
+[ 20–22 ]  Besides these, the dynamics of single 
+Fe atom and Si cluster in graphene vacancies under the elec-
+tron beam were also monitored in TEM. 
+[ 23,24 ]  Finally, the pres-
+ence of Co and Ni dopants at the edges of MoS 2  hydrotreating 
+catalysts was demonstrated in scanning tunneling microscopy 
+studies. 
+[ 25,26 ]  However, no direct experimental information on 
+the atomic conﬁ gurations of dopants in 2D TMDs is available 
+so far. Moreover, correlations between their dynamic behavior 
+and nano-scale properties have never been studied before. 
+ Here we perform an STEM study focused on the atomic 
+structures of single-layered MoS 
+2  doped with Re and Au. By 
+combining the experimental STEM observations with ﬁ  rst-
+principles calculations carried out within the framework of the 
+density functional theory (DFT), we unequivocally identify the 
+atomic positions of Re and Au dopants in the host MoS 
+2  lat-
+tice and correlate the migration behaviors of dopant atoms with 
+their energetics. Dynamic observations of the atomic structure 
+evolution reveal the interaction of the dopant atoms with impu-
+rity atoms deposited on the doped MoS 
+2  sheet, which proves 
+local enhancement of the chemical afﬁ nity of the system. 
+ Typical ADF images of single-layered Re-doped and Au-
+doped MoS 2  are presented in  Figure    1  a and  1 b, respectively. 
+The dopants, Re ( Z  = 75) and Au ( Z  = 79), appear in brighter 
+contrast in the ADF images than both Mo ( Z  = 42) and S ( Z  = 
+16) as indicated by arrows. Chemical analysis by means of EDX 
+was also done to conﬁ rm the doping elements (Figure S2 and 
+S3). The high resolution ADF image in the inset of Figure  1 a 
+clearly shows that Re atoms sit at the Mo sites. The Re dopants 
+are well dispersed in MoS 
+2  layers and seldom form clusters on 
+the host material. The observed doping concentration is around 
+∼0.6 at% Re in agreement with the synthesis condition. On the 
+other hand, the Au dopants at similar concentration ( ∼0.6 at% 
+Au) tend to aggregate on the MoS 
+2  surface (open circles). The 
+Au atoms are mobile under the electron beam and can be found 
+either on top of the Mo, S, or the hollow center (HC) of MoS 
+2  
+hexagons, as shown in the inset of Figure  1 b.  
+ In order to understand the dynamic behaviors of Re dopants 
+in MoS 2 , we analyzed ∼450 Re dopant atoms. 89% of the Re 
+atoms (∼400) are substitutional dopants at the Mo sites (Re@
+Mo), and they did not migrate at all throughout the acquisi-
+tion time (typically 240 s). We found that the rest 11% of Re 
+were adatoms ( ∼51) and changed their positions in sequential 
+images.  Figures    2  a–c show a set of sequential ADF images 
+illustrating the migration of four Re dopant atoms in a MoS 
+2  
+single-layer. Three Re atoms (Re@Mo) remained stationary DOI: 10.1002/adma.201304985
+  Dr. Y .-C. Lin, Y . Niimi, Prof. K. Suenaga 
+ National Institute of Advanced Industrial 
+Science and Technology (AIST) 
+  Tsukuba    305–8565  ,   Japan  
+E-mail:   suenaga-kazu@aist.go.jp    
+ Dr. D. O. Dumcenco, Prof. Y .-S. Huang 
+ Department of Electronic Engineering 
+ National Taiwan University of Science and Technology 
+  Taipei    10607  ,   Taiwan    
+ Dr. H.-P. Komsa, Prof. A. V. Krasheninnikov 
+ Department of Physics 
+ University of Helsinki 
+   P.O. Box 43  ,   Fl    00014  ,   Helsinki  ,   Finland    
+ Dr. H.-P. Komsa, Prof. A. V. Krasheninnikov 
+ Department of Applied Physics 
+ Aalto University 
+   P.O. Box 11100  ,   FI    00076  ,   Aalto  ,   Finland   
+  Dopants generally govern physical and chemical properties of 
+all kinds of solids, especially semiconductors where doping is 
+widely used to adjust carrier densities and tailor the electronic 
+characteristics of the devices. The effects of doping become 
+more signiﬁ cant in case of two-dimensional (2D) materials, 
+as in addition to the substitutional doping, carrier concentra-
+tion can be controlled by adding adatoms or layers of another 
+material. For the case of graphene, the Fermi level can be tuned 
+efﬁ ciently by metal contact 
+[ 1 ]  or noncovalent chemical func-
+tionalization. [ 2 ]  Recently, layered inorganic transition-metal 
+dichalcogenides (TMDs) exhibiting a wide variety of electronic 
+properties 
+[ 3–5 ]  have received lots of attention. Among them, 
+single-layer MoS 2  possesses a direct gap [ 6,7 ]  and exhibits car-
+rier mobility comparable to the graphene nano-ribbons with 
+high current on-off ratios. 
+[ 8 ]  The electrical conductivity of MoS 2  
+may then be further modulated by substitutional doping, such 
+as Re (n-type) 
+[ 9–11 ]  and Nb (p-type). [ 12,13 ]  The MoS 2  sheets with 
+adsorbed Au particles show a remarkable p-type character. [ 14,15 ]  
+Besides, intercalation of noble metals (Au or Ag) in MoS 2  
+nanotubes has been reported [ 16,17 ]  so that the knowledge of 
+how dopant atoms interact with the host TMD crystal lattices 
+is highly important in the context of both fundamental science 
+and future device technology. 
+ The Z-contrast annular dark-ﬁ eld (ADF) imaging by means 
+of STEM is a powerful method to identify not only the struc-
+ture but also chemical composition atom-by-atom. Voyles 
+[ 18 ]  
+visualized individual Sb atoms and clusters in bulk Si, and our 
+previous work reported a random distribution of hetero-transi-
+tion metals in the single-layer Mo 
+1-x W x S 2  alloy. [ 19 ]  Recently, the 
+Adv. Mater. 2014, 26, 2857–2861
+--- PAGE 2 ---
+2858
+www.advmat.de
+www.MaterialsViews.com
+wileyonlinelibrary.com © 2014 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+COMMUNICATION
+for the whole acquisition time (up to  t  = 335.4 s). In Figure  2 b, 
+the Re adatom on S (Re-S, indicated by open arrow) jump to 
+the Mo site (Re-Mo) and then move to another S site (Re-S) 
+(Figure  2 c) to form again the complex Re-S+Re@Mo dopant 
+structure (Movie M1). Interestingly, the Re-S structure always 
+appears in the vicinity of Re@Mo, and therefore forms the 
+dopant structure as a complex of Re-S+Re@Mo among 17 
+cases observed. The experimental ADF image (Figure  2 h) was 
+corroborated by STEM simulation with DFT calculated atomic 
+model (Figure  2 g) using the appropriate the experimental 
+parameters. The simulated ADF proﬁ le shows a perfect match 
+with the experiment (Figure  2 i), if possible specimen inclina-
+tion is taken into account. Other observed Re doped structures 
+are summarized in Figure S4.  
+ On the contrary, 95% of Au dopants are highly mobile 
+adatoms easily migrating under the electron beam, and the rest 
+5% of Au dopants are stable Au@Mo complexes in the dataset 
+of 220 Au dopant atoms observed. Figures  2 d–f show sequential 
+ADF images of Au migrations (Movie M3). One Au-S atom in 
+the single layer region is continuously moving and has a dif-
+ferent position in each frame. Another Au atom continues to 
+migrate in the bilayer region. The bilayer MoS 
+2  region shows 
+unconventional rhombohedral stacking (Figure S7), which 
+probably comes from the intercalation of Au atoms. [ 27 ]  It was 
+not possible, though, to unambiguously determine if the Au 
+atoms were migrating between the layers. 
+[ 16,17 ]  Figures  2 j-l 
+show the identiﬁ  cation of Au-S structure by comparing the 
+ADF proﬁ le with the STEM simulation. The other Au dopant 
+structures are summarized in Figure S5 and S6. Statistically, 
+most of the Re atoms are in stable Re@Mo positions, and Au 
+atoms are mobile adatoms (Figure S8). 
+ To conﬁ rm the migration behavior of the dopant atoms 
+under electron beam, we carried out spin-polarized DFT cal-
+culations of doped MoS 
+2  layers using the VASP simulation 
+package [ 28,29 ]  as described in supporting information and com-
+puted the energetics of dopant atoms in the subsitutional and 
+adatom positions. The formation energies ( E 
+f  ) of a dopant atom 
+in adatom and substitutional conﬁ gurations was calculated as
+ EE Eft o t a l
+D
+total Y D() δμ μ=− − +   (1) 
+ where Etotal
+D  and  E total   are the total energies of the doped and 
+pristine supercells;  μ D   and  μ Y   are the chemical potentials of a 
+single dopant (D = Re or Au) and the substituted atom in the 
+host lattice (Y = Mo or S), respectively.  μ Y   and  μ D   were chosen 
+to correspond to the bulk phase of each element. In the case of 
+adatom,  
+μ Y   term was omitted: δ = 0; while δ = 1 in Equation  ( 1)   
+corresponds to the case of the substitutional dopant. 
+ The formation energies of dopant atom in different conﬁ gu-
+rations are presented in  T able    1  . The values of  E f   give an idea 
+of what the favored sites for the dopants are after high-temper-
+ature CVT growth, which is relatively close to thermal equilib-
+rium conditions. In the case of Re dopants, substitution to Mo 
+site has the lowest formation energy by a large margin. Among 
+the adatom sites, the position over Mo is favored. This is in a 
+good agreement with the observations that nearly all Re atoms 
+are located at Mo sites, and rarely on the adatom sites on top of 
+Mo and S. In a stark contrast, substituting Mo with Au is highly 
+unfavorable, and the Au atoms are expected to be located pre-
+dominantly at the adatom sites, which is also consistent with 
+our experimental ﬁ  ndings. We calculated the migration bar-
+rier for Au adatom diffusion between the lowest energy S-site 
+and the second lowest energy HC-site which proved to be very 
+close to the formation energy difference ∼40 meV. It should be 
+pointed out, though that DFT with semilocal exchange and cor-
+relation functionals generally underestimates the barriers, 
+[ 30 ]  
+and besides the diffusion may be somewhat suppressed by light 
+atoms present on the surface, which are not visible in the TEM 
+images. Several possible conﬁ gurations for the complex struc-
+tures with two Re atoms were considered (Table S1). The com-
+plex dopant structure is energetically more stable than the two 
+isolated ones according to the DFT calculations.  
+ Local densities of states (LDOS) around the dopant atoms 
+were also calculated for all the experimentally found atomic 
+conﬁ gurations including the very rare occasions as shown in 
+ Figure    3  . Re dopants substituting Mo atoms provide extra elec-
+trons into the conduction band of the MoS 
+2  (n-type). On the 
+other hand, Au dopants in/on MoS 2  give rise to similar mid-
+gap states at all the sites and may compensate n-type doping. 
+For larger Au clusters, the work function is expected to lie 
+close to valence band, subsequently leading to p-type doping. 
+[ 14 ]  
+Adv. Mater. 2014, 26, 2857–2861
+ Figure 1.    (a) Large area ADF image of clean Re-doped single-layer MoS 2 . 
+The inset shows a Re dopant substitution at the Mo site with atomic 
+resolution as evident from a brighter contrast. Blue and orange balls 
+indicate Mo and two overlapped S atoms, respectively. There are 10 Re 
+atoms (one pointed by the arrow) found in ∼1500 MoS 
+2  unit cells, which 
+corresponds to a doping concentration of ∼0.6 at%. (b) Large area ADF 
+image of ∼0.6 at% Au-doped single-layer MoS 2 . The insets (i), (ii), and 
+(iii) show Au adatom (indicated by arrows) located on top of the Mo, S, 
+and HC site, respectively.
+--- PAGE 3 ---
+2859
+www.advmat.de
+www.MaterialsViews.com
+wileyonlinelibrary.com© 2014 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+COMMUNICATION
+Interestingly, our simulations suggest that Au adatoms can pos-
+sess magnetic moments on MoS 2  surfaces, so that the introduc-
+tion of Au impurities may lead to new functionalities of MoS 2  
+and likely other TMDs. Magnetic moments of Re adatoms were 
+generally larger than for Au adatoms: 3, 3, and 5 µ 
+B  for the Mo-, 
+S-, and HC-sites, but their contribution should be very small due 
+to their rarity in our samples. Moreover, gold nanoparticles on 
+MoS 
+2  were reported to dramatically enhance the photocurrent. [ 31 ]   
+ In order to prove that the dopants indeed alter the local phys-
+ical/chemical properties of MoS 2  layers, we took advantage of 
+the inevitable carbon deposition in the TEM chamber, while the 
+surface coverage rate of carbon can be reduced after 15 min of 
+e-beam shower. Interesting interaction between carbon contami-
+nations and dopants was recorded afterwards on a reasonable 
+time scale. In  Figure    4  , a sequence of STEM images illustrates 
+the observation of the coverage with amorphous carbon on MoS 
+2  
+surface. The dopants were indeed found to behave as defective 
+sites in the MoS 
+2  lattice, which caused lower adsorption energy 
+and provided anchoring points for accumulating amorphous 
+carbon. The carbon coverage starts in the doped area (Figure  4 a to 
+4c). By  in situ  EELS monitoring (Figure S10), we conﬁ rmed that 
+the amorphous carbon moved and eventually anchored at the Re 
+dopant sites. The carbon coverage areas are very localized and 
+extend over a few atomic distances from the dopant sites only. 
+This phenomenon directly proves that the dopants cause the 
+alteration of local physical/chemical properties of MoS 
+2  layers.  
+ The C agglomeration process is further corroborated by DFT 
+calculations. We ﬁ rst note that the calculated C adatom diffusion 
+Adv. Mater. 2014, 26, 2857–2861
+ Figure 2.    Sequential ADF images of single-layer Re-doped and Au-doped MoS 2 . (a) Three Re@Mo are indicated by green arrows and one Re-S adatom is 
+indicated by the open arrow. (b) At t = 16.7 s, the Re-S adatom moves to the Mo site as a Re-Mo and (c) move to another S site as a Re-S again at t = 28.5 s. 
+(d-f) Au adatoms on single- and bilayer regions (indicated by red open arrows) change their atomic positions in every frame. Th e bilayer region shows 
+rhombohedral stacking [see Fig. S4]. (g)(j)The atomic model of Re-S+Re@Mo complex dopant structure and Au-S. (h)(k) The corresponding ADF images 
+and simulated images of Re-S+Re@Mo and Au-S. (i)(l) The proﬁ le of experimental ADF counts and ﬁ tting of simulation line proﬁ les for the two cases.
+  Table 1.    Formation energy of Re and Au adatom/substitutional defect 
+complexes on Mo, S, and HC sites, as calculated using DFT. E k  is the 
+maximum kinetic energy of each dopant atom received from 60 kV elec-
+tron beam.  
+  Adatom [eV] Substitutional [eV]
+Dopant  E k   (eV) Mo S HC Mo S
+Re 0.75 6.09 7.37 7.28 1.9 6.0
+Au 0.71 2.46 2.33 2.37 6.9 3.1
+ Figure 3.    Local density of states of the Re and Au dopant atoms at eight 
+considered atomic structures. The blue and red lines represent the spin-
+up and spin-down components, and the electron occupied states are 
+shown as ﬁ  lled curves. The grey areas denote the valence band (lower) 
+and conduction band (upper) energy ranges.
+--- PAGE 4 ---
+2860
+www.advmat.de
+www.MaterialsViews.com
+wileyonlinelibrary.com © 2014 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+COMMUNICATION
+barrier on MoS 2  is 0.81 eV, evidencing that C atoms are mobile 
+under the experimental conditions. As illustrated in Figures  4 d 
+and 4e, the C atom agglomeration around both Re@Mo and 
+Re-Mo is energetically favored. Due to its under-coordination, 
+the Re-Mo adatom binds strongly to the surrounding C atoms 
+even in the case of C 
+6  hexagon. This is in agreement with exper-
+iments, where clusters formed more readily around the Re-Mo 
+impurities. Also in the case of Re@Mo, the C adatoms prefer 
+the sites around the Re impurity, but once the C atoms form 
+larger stable clusters, their binding to the impurity becomes 
+fairly weak and is likely dominated by van der Waals forces for 
+larger ﬂ akes. In fact, on the basis of these results, we envisage 
+possibility of Re@Mo behaving as a chemically active site. 
+ In summary, the successful doping of MoS 
+2  with Re and 
+Au has been demonstrated suggesting the possibility of 
+nano-electronic devices made of doped single-layered MoS 
+2 . 
+In comparison with the graphene electronics, the doped MoS 2  
+layers will ﬁ nd broader applications with their suitable bandgaps 
+for nano-electronics. We performed in situ experiments pro-
+viding direct observations of how single dopant atoms interact 
+with other dopants or impurities (such as carbon). Re substitu-
+tion in Mo site is proved to lower the doping energy for adjacent 
+sites, which results in Re adatom segregation and may explain 
+the difﬁ culties in achieving a high compositional rate of homo-
+geneous Re doping in MoS 
+2 . Because the doping sites exhibit 
+local enhancement of chemical reactivity, they likely provide 
+catalytically active sites. Furthermore, the doped MoS 
+2  surface 
+can be used as an ideal specimen support to ﬁ x individual mol-
+ecules for molecular imaging or bio-sensor measurements. [ 32 ]    
+ Experimental Section 
+ MoS 2  single-crystals doped with 0.5∼1 at% of Re or Au (purity: 99.99%) 
+were synthesized by the chemical vapor transport (CVT) method with 
+Br 
+2  and I 2  as transport agents, respectively. [ 9,27 ]  The suspended single-
+layered MoS 2  ﬂ akes were then prepared by micromechanical cleavage 
+Adv. Mater. 2014, 26, 2857–2861
+ Figure 4.    Dynamic behavior of carbon contaminations on Re-doped MoS 2  surface. (a-c) Three sequential ADF images with Re dopants are indicated 
+by arrows. The yellow dotted regions indicate the area covered by amorphous carbon contaminations. (d-e) Illustration of the C segregation processes 
+around Re-Mo (d) and Re@Mo (e) impurities, and the related energies as obtained from DFT calculations.  E ads   corresponds to the energy required to 
+remove the molecule from the surface.
+--- PAGE 5 ---
+2861
+www.advmat.de
+www.MaterialsViews.com
+wileyonlinelibrary.com© 2014 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+COMMUNICATION
+Adv. Mater. 2014, 26, 2857–2861
+and transferred to a TEM grid (quantifoil) (Figure S1). ADF imaging was 
+carried out in an aberration-corrected STEM JEOL-2100F equipped with a 
+DELTA corrector and a cold ﬁ eld emission gun operated at 60 kV which 
+is theoretically below the threshold of knock-on damage of MoS 
+2 . [ 33 ]  The 
+scanning rate was set ranging widely from 8 to 128 µs/pixel and beam 
+current 15∼20 pA. The dwell time per pixel was 16 ∼58 µs and the pixel 
+size 0.07–0.137 Å for taking movies (sequential images), corresponding 
+to the electron dose of 1.5∼7.2 × 10 
+5  e/Å 2 . The pixel time was increase to 
+76–128 µs for taking single high resolution images at low magniﬁ cations 
+(<10 M). The electron beam damage on MoS 2  lattice would be observed 
+when the total electron dose exceed 5–11 × 10 6  e/Å 2 . We observed a 
+similar beam-damage threshold as in the report from Novoselov and 
+co-workers, 
+[ 34 ]  but we could achieve longer acquisition times due to the 
+lower beam current used in our experiments. The EDX was performed 
+by a JEOL ARM-200F microscope operating at 80 kV with approximately 
+0.16 nm probe of 200 pA, 0.5 second/pixels, 50 steps line scan 
+ The single-layered MoS 
+2  ﬂ akes transferred from the SiO 2  surface 
+to the quantifoil by 2-Propanol and cleaned by chloroform. Then the 
+specimens were cleaned by baking in air at 200 °C for 10 min, after 
+which they were placed in the TEM chamber. The JEOL double tilt holder 
+was pre-cleaned by ion-plasma (JEOL ion cleaner, 360 V, 10 min) after 
+ethanol treatment. The vacuum level in the TEM chamber was ∼1.7 × 
+10 
+–5  Pa; 15 min of high current e-beam shower (current density ∼107 
+pA/cm 2 ) was introduced to ﬁ  x the mobile amorphous carbon and to 
+reduce its migration toward the e-beam scanned area. 
+ Image simulations were carried out by using the MacTempasX 
+software packages. The ADF images were recorded at a convergence 
+angle of  
+α   = 24 mrad and an annular detector inner semiangle of β 1  
+= 55 mrad. STEM simulation parameters were using a probe size of 
+1 Å, Cs = 1 µm, spread of defocus = 53 Å, and microscope focus value 
+= -2 nm with possible specimen inclinations taken into account. For 
+the DFT calculation, the system was modeled using 5 × 5 supercell of 
+single-layered MoS 2 . The Perdew-Burke-Ernzerhof form of the exchange-
+correction functional [ 35 ]  was used. Brillouin zone sampled with a 
+2 × 2 × 1 k-point mesh and 500 eV plane wave cutoff were found to 
+yield converged results. Atom diffusion barriers were calculated using 
+the Nudged Elastic Band method. 
+[ 36 ]   
+  Supporting Information 
+ Supporting Information is available from the Wiley Online Library or 
+from the author.  
+  Acknowledgements 
+ Y .C.L. and K.S. acknowledge a support from JST Research Acceleration 
+programme, and H.K. and A.V.K. from the Academy of Finland through 
+projects 218545 and 263416. We further thank CSC Finland for generous 
+grants of computer time. Dr. Bernhart Schaffer is gratefully acknowledged 
+for letting us to use his script to record sequential ADF images. D.O.D. 
+and Y .S.H. acknowledge the support of the National Science Council 
+of Taiwan under Projects NSC 100–2112-M-011–001-MY3 and NSC 
+101–2811-M-011–002.   
+[1]     G.    Giovannetti  ,   P. A.    Khomyakov  ,   G.    Brocks  ,   V. M.    Karpan  , 
+  J.    van den Brink  ,   P. J.    Kelly  ,  Phys. Rev. Lett.    2008 ,  101 ,  026803 .  
+[2]     T. O.    Wehling  ,   K. S.    Novoselov  ,   S. V.    Morozov  ,   E. E.    Vdoin  , 
+  M. I.    Katsnelson  ,   A. K.    Geim  ,   A. I.    Lichtenstein  ,  Nano Lett.    2008 ,  8 ,  173 .  
+[3]     M.    Chhowalla  ,   H. S.    Shin  ,   G.    Eda  ,   L. J.    Li  ,   K. P.    Loh  ,   H.    Zhang  ,  Nat. 
+Chem.    2013 ,  5 ,  263 .  
+[4]     Q. H.    Wang  ,   K.    Kalantar-Zadeh  ,   A.    Kis  ,   J. N.    Coleman  ,   M. S.    Strano  , 
+ Nat. Nanotech.    2012 ,  7 ,  699 .  
+[5]     W.    Zhou  ,   X.    Zou  ,   S.    Najmaei  ,   Z.    Liu  ,   Y .    Shi  ,   J   ,  Kong  ,   J.    Lou  , 
+  P. M.    Ajayan  ,   B. I.    Yakobson  ,   J. C.    Idrobo  ,  Nano Lett.    2013 ,  13 ,  2615 .  
+[6]     S. W.    Han  ,   H.    Kwon  ,   S. K.    Kim  ,   S.    Ryu  ,   W. S.    Yun  ,   D. H.    Kim  , 
+  J. H.    Hwang  ,   J. S.    Kang  ,   J.    Baik  ,   H. J.    Shin  ,   S. C.    Hong  ,  Phys. Rev. B   
+ 2011 ,  84 ,  045409 .  
+[7]     K. L.    Mak  ,   C.    Lee  ,   J.    Hone  ,   J.    Shan  ,   T. F.    Heinz  ,  Phys. Rev. Lett.    2010 , 
+ 105 ,  136805 .  
+[8]     B.    Radisavljevic  ,   A.    Radenovic  ,   J.    Brivio  ,   V.    Giacometti  ,   A.    Kis  ,  Nat. 
+Nanotechnol.    2011 ,  6 ,  147 .  
+[9]     K. K.    Tiong  ,   Y . S.    Huang  ,   C. H.    Ho  ,  J. Alloys Compd.    2001 ,  317–318 ,  208 .  
+[10]     F. L.    Deepak  ,   R.    Popovitz-Brio  ,   Y .    Feldman  ,   H.    Cohen  ,   A.    Enyashin  , 
+  G.    Seifert  ,   R.    Tenne  ,  Chem. Asian. J.    2008 ,  3 ,  1568 .  
+[11]     L.    Rapoport  ,   A.    Moshkovich  ,   V.    Perﬁ  lyev  ,   A.    Laikhtman  ,   I.    Lapsker  , 
+  L.    Yadgarov  ,   R.    Rosentsveig  ,   R.    Tenne  ,  Tribol. Lett.    2012 ,  45 ,  257 .  
+[12]     V. V.    Ivanovskaya  ,   A.    Zobelli  ,   A.    Gloter  ,   N.    Brun  ,   V.    Serin  ,   C.    Colliex  , 
+ Phys. Rev. B    2008 ,  78 ,  134104 .  
+[13]     F. L.    Deepak  ,   H.    Cohen  ,   S.    Cohen  ,   Y .    Feldman  ,   R.    Popovitz-Brio  , 
+  D.    Azulay  ,   O.    Millo  ,   R.    Tenne  ,  J. Am. Chem. Soc.   
+ 2007 ,  129 ,  12549 .  
+[14]     Y .    Shi  ,   J. K.    Huang  ,   L.    Jin  ,   Y . T.    Hsu  ,   S. F.    Yu  ,   L. J.    Li  ,   H. Y .    Yang  ,  Sci. 
+Rep.    2013 ,  3 ,  1839 .  
+[15]     T. S.    Sreeprasad  ,   P.    Nguyen  ,   N.    Kim  ,   V.    Berry  ,  Nano Lett.    2013 ,  13 ,  4434 .  
+[16]     M.    Remskar  ,   Z.    Skraba  ,   P.    Stadelmann  ,   F.    Levy  ,  Adv. Mater.    2000 , 
+ 12 ,  814 .  
+[17]     M.    Remskar  ,   Z.    Skraba  ,   R.    Sanjines  ,   F.    Levy  ,  Surf. Rev. Lett.    1999 ,  6 , 
+ 1283 .  
+[18]     P. M.    Voyles  ,   D. A.    Muller  ,   J. L.    Grazul  ,   P. H.    Citrin  ,   H. J. L.    Gossmann  , 
+ Nature ,    2002 ,  416 ,  826 .  
+[19]     D. O.    Dumcenco  ,   H.    Kobayashi  ,   Z.    Liu  ,   Y . S.    Huang  ,   K.    Suenaga  , 
+ Nat. Comm.    2013 ,  4 ,  1351 .  
+[20]     W.    Zhou  ,   M. D.    Kapetanakis  ,   M. P.    Prange  ,   S. T.    Pantelides  , 
+  S. J.    Pennycook  ,   J. C.    Idrobo  ,  Phys. Rev. Lett.    2012 ,  109 ,  206803 .  
+[21]     Q. M.    Ramasse  ,   C. R.    Seabourne  ,   D. M.    Kepaptsoglou  ,   R.    Zan  , 
+  U.    Bangert  ,   A. J.    Scott  ,  Nano Lett.    2013 ,  13 ,  4989 .  
+[22]     U.    Bangert  ,   W.    Pierce  ,   D. M.    Kepaptsoglou  ,   Q.    Ramasse  ,   R.    Zan  , 
+  M. H.    Gass  ,   J.    A. Van den Berg  ,   C. B.    Boothroyd  ,   J.    Amani  , 
+  H.    Hofsäss  ,  Nano Lett.    2013 ,  13 ,  4902 .  
+[23]     A. W.    Robertson  ,   B.    Montanari  ,   K.    He  ,   J.    Kim  ,   C. S.    Allen  ,   Y . A.    Wu  , 
+  J.    Olivier  ,   J.    Neethling  ,   N.    Harrison  ,   A. I.    Kirkland  ,   J. H.    Warner  , 
+ Nano Lett.    2013 ,  13 ,  1468 .  
+[24]     J.    Lee  ,   W.    Zhou  ,   S. J.    Pennycook  ,   J. C.    Idrobo  ,   S. T.    Pantelides  ,  Nat. 
+Commun.    2013 ,  4 ,  1650 .  
+[25]     J. V.    Lauritsen  ,   J.    Kibsgaard  ,   G. H.    Olesen  ,   P. G.    Moses  , 
+  B.    Hinnemann  ,   S.    Helveg  ,   J. K.    Nørskov  ,   B. S.    Clausen  ,   H.    Topsøe  , 
+  E.    Lægsgaard  ,   F.    Besenbacher  ,  J. Catal.    2007 ,  249 ,  220 .  
+[26]     J.    Kibsgaard  ,   A.    Tuxen  ,   K. G.    Knudsen  ,   M.    Brorson  ,   H.    Topsøe  , 
+  E.    Lægsgaard  ,   J. V.    Lauritsen  ,   F.    Besenbacher  ,  J. Catal.    2010 ,  272 , 
+ 195 .  
+[27]     D. O.    Dumcenco  ,   H. P.    Hsu  ,   Y . S.    Huang  ,   C. H.    Liang  ,   K. K.    Tiong  , 
+  C. H.    Du  ,  Mater. Chem. Phys.    2008 ,  111 ,  475 .  
+[28]     G.    Kresse  ,   J.    Hafner  ,  Phys. Rev. B    1993 ,  47 ,  558 .  
+[29]     G.    Kresse  ,   J.    Furthmuller  ,  Comput. Mater. Sci.    1996 ,  6 ,  15 .  
+[30]     F.    Bruneval  ,  Phys. Rev. Lett.    2012 ,  108 ,  256403 .  
+[31]     J.    Lin  ,   H.    Li  ,   H.    Zhang  ,   W.    Chen  ,  Appl. Phys. Lett.    2013 ,  102 ,  203109 .  
+[32]     N. R.    Wilson  ,   P. A.    Pandey  ,   R.    Beanland  ,   R. J.    Young  ,   I. A.    Kinloch  , 
+  L.    Gong  ,   Z.    Liu  ,   K.    Suenaga  ,   J. P.    Rourke  ,   S. J.    York  ,   J.    Sloan  ,  ACS 
+Nano    2009 ,  3 ,  2547 .  
+[33]     H. P.    Komsa  ,   J.    Kotakoski  ,   S.    Kurasch  ,   O.    Lehtinen  ,   U.    Kaiser  , 
+  A. V.    Krasheninnikov  ,  Phys. Rev. Lett.    2012 ,  109 ,  035503 .  
+[34]      R.    Zan  ,   Q. M.    Ramasse  ,   R.    Jalil  ,   T.    Georgiou  ,   U.    Bangert  , 
+  K. S.    Novoselov  ,  ACS Nano    2013 ,  7 ,  10167 .  
+[35]     J. P.    Perdew  ,   K.    Burke  ,   M.    Ernzerhof  ,  Phys. Rev. Lett.    1996 ,  77 ,  3865 .  
+[36]     G.    Henkelman  ,   B. P.    Uberuaga  ,   H.    Jonsson  ,  J. Chem. Phys.     2000 , 
+ 113 ,  9901 .   
+Received:  October 7, 2013 
+Revised:  November 27, 2013 
+Published online:  February 22, 2014 

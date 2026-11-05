@@ -1,0 +1,499 @@
+--- PAGE 1 ---
+LLNL-JRNL-752768
+Structural and Electronic
+Properties of Ga2O3-Al2O3
+Alloys
+H. Peelaers, J. B. Varley, J. S. Speck, C. G. Van
+de Walle
+June 11, 2018
+Applied Physics Letters
+--- PAGE 2 ---
+Disclaimer 
+ 
+This document was prepared as an account of work sponsored by an agency of the United States 
+government. Neither the United States government nor Lawrence Livermore National Security, LLC, 
+nor any of their employees makes any warranty, expressed or implied, or assumes any legal liability or 
+responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or 
+process disclosed, or represents that its use would not infringe privately owned rights. Reference herein 
+to any specific commercial product, process, or service by trade name, trademark, manufacturer, or 
+otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the 
+United States government or Lawrence Livermore National Security, LLC. The views and opinions of 
+authors expressed herein do not necessarily state or reflect those of the United States government or 
+Lawrence Livermore National Security, LLC, and shall not be used for advertising or product 
+endorsement purposes. 
+ 
+--- PAGE 3 ---
+AUTHOR QUERY FORM
+Journal: Appl. Phys. Lett.
+Article Number: 028824APL
+Please provide your responses and any corrections by
+annotating this PDF and uploading it according to the instructions
+provided in the proof notification email.
+Dear Author,
+Below are the queries associated with your article; please answer all of these queries before sending the proof back to AIP.
+Article checklist: In order to ensure greater accuracy, please check the following and make all necessary corrections before
+returning your proof.
+1. Is the title of your article accurate and spelled correctly?
+2. Please check affiliations including spelling, completeness, and correct linking to authors.
+3. Did you remember to include acknowledgment of funding, if required, and is it accurate?
+Location in
+article
+Query / Remark: click on the Q link to navigate
+to the appropriate spot in the proof. There, insert your comments as a PDF annotation.
+AQ1 Please check that the author names are in the proper order and spelled correctly. Also, please ensure that each author’s given
+and surnames have been correctly identified (given names are highlighted in red and surnames appear in blue).
+AQ2 We were unable to locate a digital object identifier (doi) for Ref(s) 14. Please verify and correct author names and journal details
+(journal title, volume number, page number, and year) as needed and provide the doi. If a doi is not available, no other information
+is needed from you. For additional information on doi’s, please select this link: http://www.doi.org/.
+Thank you for your assistance.
+--- PAGE 4 ---
+PROOF COPY [APL18-AR-03643R] 028824APL
+1 Structural and electronic properties of Ga 2O3-Al2O3 alloys
+2AQ1 Hartwin Peelaers,1 Joel B. Varley,2 James S. Speck,1 and Chris G. Van de Walle1
+3 1Materials Department, University of California, Santa Barbara, California 93106-5050, USA
+4 2Lawrence Livermore National Laboratory, Livermore, California 94550, USA
+5 (Received 20 April 2018; accepted 27 May 2018; published online xx xx xxxx)
+6 Ga2O3 is emerging as an important electronic material. Alloying with Al 2O3 is a viable method to
+7 achieve carrier conﬁnement, to increase the bandgap, or to modify the lattice parameters. However,
+8 the two materials have very different ground-state crystal structures (monoclinic b-gallia for Ga2O3
+9 and corundum for Al 2O3). Here, we use hybrid density functional theory calculations to assess the
+10 alloy stabilities and electronic properties of the alloys. We ﬁnd that the monoclinic phase is the pre-
+11 ferred structure for up to 71% Al incorporation, in close agreement with experimental phase dia-
+12 grams, and that the ordered monoclinic AlGaO 3 alloy is exceptionally stable. We also discuss
+13 bandgap bowing, lattice constants, and band offsets that can guide future synthesis and device
+14 design efforts. Published by AIP Publishing. https://doi.org/10.1063/1.5036991
+15 Ga2O3 is a wide-bandgap semiconductor with a funda-
+16 mental bandgap of 4.76 eV. 1 Its transparency into the UV
+17 allows applications such as solar-blind photodetectors 2 and
+18 deep-UV transparent contacts. 3 Its high breakdown voltage
+19 and low effective mass and the ability to achieve controllable
+20 n-type doping 4–6 render it suitable for high-voltage ﬁeld
+21 effect transistors 7,8 and Schottky barrier diodes. 9 p-Type
+22 doping is unlikely to occur.10,11 These properties, along with
+23 the availability of high-quality single-crystal substrates, ren-
+24 der Ga2O3 a promising material for next-generation devices.
+25 Many applications require a material with a bandgap
+26 even larger than Ga2O3, as a dielectric, or to form heterostruc-
+27 tures for carrier conﬁnement, or to enable optoelectronics
+28 deeper into the UV.12 Al2O3 is an excellent candidate, with a
+29 bandgap of 8.82 eV in the corundum (sapphire) phase. 13
+30 Sapphire can also be used as a substrate for the growth of
+31 Ga2O3.14–18 Alloy formation also permits tuning of the lattice
+32 parameters, which can minimize stress when the material is
+33 grown on a substrate and may offer additional control over
+34 the transport properties. Ga2O3-Al2O3 alloys [(AlxGa1/C0 x)2O3]
+35 have already been grown using chemical vapor deposition
+36 (CVD),14–16 pulsed laser deposition (PLD),17–20 or molecular
+37 beam epitaxy (MBE)12,21–23 or through grinding or solid com-
+38 bustion synthesis.24–28
+39 The ground-state crystal structures of Ga 2O3 and Al2O3
+40 are very different: Ga 2O3 adopts the monoclinic ( b) phase
+41 with symmetry group C2/m, while Al 2O3 adopts the corun-
+42 dum (a) phase with symmetry group R/C223c. Corundum Ga2O3
+43 is also known as a-Ga2O3, while the h phase of Al 2O3 has
+44 the same structure as the monoclinic b phase of Ga2O3. The
+45 primitive cells of both structures contain 10 atoms (see insets
+46 of Fig. 1). In the monoclinic phase, two types of cation envi-
+47 ronments are present: an octahedrally coordinated and a tet-
+48 rahedrally coordinated site. In contrast, only octahedrally
+49 coordinated cation sites are present in the corundum phase.
+50 These different crystal structures and coordination environ-
+51 ments raise the question what the preferred crystal structure
+52 will be in (Al xGa1/C0 x)2O3 alloys as a function of the alloy
+53 composition. Experimentally reported upper limits on the
+54 stability of the monoclinic structure have exhibited a wide
+55range, with maximum Al concentrations ranging from 67 to
+5685%.14,17–19,21,25–27 For the corundum structure, the upper
+57limit is lower, with maximum Ga concentrations between 12
+58and 25%.15,16,26,28
+59There is clearly a need to elucidate the stability of
+60(AlxGa1/C0 x)2O3 alloys in different structures and the evolu-
+61tion of the lattice parameters. In parallel, information about
+62the change in bandgap as a function of the alloy composition
+63is required for device applications; a strong nonlinearity
+64(“bandgap bowing”) is expected due to the structure mis-
+65match between the binary endpoints. Information about band
+66alignments between Ga 2O3 and Al 2O3 in their different
+67phases is also currently incomplete, with experimental mea-
+68surements reporting a wide spread of values. 29–32 In the
+FIG. 1. Pseudocubic lattice parameter as a function of alloy composition x
+for the corundum and monoclinic structures. Experimental values for mono-
+clinic are shown as solid black triangles (Ref. 24), open triangles (Ref. 19),
+and solid downward triangles (Ref. 25). The top inset shows the monoclinic
+unit cell and the bottom inset the corundum unit cell. Octahedrally coordi-
+nated sites are indicated in blue and tetrahedrally coordinated sites in green.
+Small red spheres depict O atoms.
+J_ID: APPLAB DOI: 10.1063/1.5036991 Date: 2-June-18 Stage: Page: 1 Total Pages: 6
+ID: aipepub3b2server Time: 20:25 I Path: D:/AIP/Support/XML_Signal_Tmp/AI-APL#181113
+0003-6951/2018/112(24)/000000/5/$30.00 Published by AIP Publishing.112, 000000-1
+APPLIED PHYSICS LETTERS 112, 000000 (2018)
+--- PAGE 5 ---
+PROOF COPY [APL18-AR-03643R] 028824APL
+69 present work, we address all of these issues using hybrid
+70 density functional theory (DFT) calculations.
+71 Our DFT calculations employ projector augmented
+72 wave (PAW) potentials 33 as implemented in the Vienna Ab-
+73 initio Simulation Package (VASP)34 code, with a 500 eV cut-
+74 off in the plane-wave expansion and a 4 /C2 4 /C2 4 k-point grid.
+75 All structures were considered converged when all residual
+76 forces were smaller than 5 meV/A˚ and all stress components
+77 were smaller than 50 meV/A˚ 3. Including the Ga 3 d electrons
+78 in the valence is important; if they are treated as core elec-
+79 trons, the corundum a phase of Ga 2O3 is 56 meV lower in
+80 energy than the monoclinic b phase, which disagrees with
+81 the fact that the monoclinic phase is the actual ground state
+82 of Ga2O3.35 We use the common approach of adjusting the
+83 mixing parameter a in the hybrid functional of Heyd,
+84 Scuseria, and Ernzerhof (HSE) 36 to reproduce the experi-
+85 mental bandgap. A single value of a needs to be used in all
+86 calculations involving both Ga 2O3 and Al2O3. As shown in
+87 Table I, a ¼ 0.32 produces good values for the well-
+88 established gaps of b-Ga2O3 and a-Al2O3 and also yields
+89 structural parameters, which is in very good agreement with
+90 the experiment. We used 10-atom monoclinic and corundum
+91 cells and explicitly considered all alloys that can be modeled
+92 within these cells. Band alignments with respect to vacuum
+93 were obtained from surface calculations using 120-atom
+94 slabs terminated along the ð10/C2210Þ direction for corundum
+95 and 100-atom slabs terminated along the (010) direction for
+96 the monoclinic structure. A 20-A˚ vacuum layer, which is suf-
+97 ﬁcient to eliminate interactions between periodic images,
+98 was used together with a 2 /C2 4 /C2 1 k-point sampling. Full
+99 relaxation of internal coordinates and in-plane lattice con-
+100 stants was performed. Both surface orientations are nonpolar
+101 in the sense that they contain both atom types in each layer.
+102 The dependence of lattice parameters on the alloy com-
+103 position is summarized in Fig. 1 by plotting the pseudocubic
+104 lattice parameter (the cube root of the volume per formula
+105 unit). The corundum structure has a smaller volume com-
+106 pared to the monoclinic structure because it is more compact
+107 due to all cations being octahedrally coordinated, while in
+108 the monoclinic structure, half the sites are tetrahedrally
+109coordinated. When alloying Ga 2O3 with Al, the lattice
+110parameters shrink, consistent with the smaller atomic radius
+111of Al compared to Ga. The change in the pseudocubic lattice
+112parameter is linear, in agreement with Vegard’s law. The
+113same trend is observed in the experimental values for the
+114monoclinic structure, also included in Fig. 1; the fact that
+115the experimental data points lie slightly above the calculated
+116curve is consistent with the small underestimate of our
+117calculated lattice parameters compared to the experiment
+118(Table I). Our results show that the individual lattice parame-
+119ters ( a, b, c, and b) closely follow Vegard’s law, and the
+120values for alloys can therefore be obtained by linear interpo-
+121lation of the entries in Table I.
+122We examine the stability of alloys by comparing their
+123enthalpies of formation (DH)
+DH ðAlxGa1/C0 xÞ2O3
+/C2/C3 ¼ E ðAlxGa1/C0 xÞ2O3
+/C2/C3
+/C0ð 1 /C0 xÞ E Ga2O3½/C138 /C0 xE Al2O3½/C138 ;
+(1)
+124where E½Ga2O3/C138 and E½Al2O3/C138 are the energies of the lowest
+125energy structures, corundum for Al 2O3 and monoclinic b-
+126gallia for Ga2O3. Within a regular solution model, the enthalpy
+127of mixing of heterostructural alloys is given by
+DHðxÞ¼ xð1 /C0 xÞX0 þ X1ðx2 /C0 xÞðx /C0 0:5Þ
+þð1 /C0 xÞH0 þ xH1; (2)
+128where X0 is the regular alloy interaction parameter, X1
+129describes the asymmetry of the enthalpy of mixing, and H0
+130and H1 are the enthalpies of the endpoints. In Fig. 2, we plot
+131the calculated DHðxÞ for the lowest-energy alloy structures
+132using ﬁlled symbols at each composition, as well as a ﬁt to
+133Eq. (2). For corundum, we ﬁt over the entire composition
+134range, obtaining X0 ¼ 0.164 eV and X1 ¼ 0.012 eV. For the
+135monoclinic phase, Eq. (2) fails to describe the mixing
+136enthalpy due to the local minimum at AlGaO 3; instead,
+137we perform separate ﬁts over the intervals 0%–50% and
+13850%–100% Al without the asymmetry terms and with the
+TABLE I. Calculated and experimental lattice parameters and bandgaps for
+the a (corundum) and b (monoclinic) phases of Ga2O3 and the a (corundum)
+and h (monoclinic) phases of Al2O3.
+a-Ga2O3 b-Ga2O3 a-Al2O3 h-Al2O3
+Calc. Exp. Calc. Exp. Calc. Exp. Calc. Exp.
+a (A˚ ) 4.97 4.98 a 12.21 12.21 c 4.74 4.76 e 11.75 11.85 g
+b (A˚ ) 4.97 4.98 a 3.03 3.04 c 4.74 4.76 e 2.92 2.90 g
+c (A˚ ) 13.39 13.43 a 5.79 5.80 c 12.94 12.99e 5.57 5.62 g
+b … … 103 :80/C14 103:83/C14 c … … 103 :80/C14 103:83/C14 g
+Edirect
+gap (eV) 5.59 5.32 b 4.870 4.76 d 8.82 8.8 f 7.51
+Eindirect
+gap (eV) 5.34 4.865 … … 7.24
+aReference 37.
+bReference 14.
+cReference 38.
+dReference 1.
+eReference 39.
+fReference 13.
+gReference 40.
+FIG. 2. Enthalpy of formation as a function of the alloy composition for the
+corundum and monoclinic structures. The shaded area indicates the compo-
+sition range where Al preferentially occupies the octahedral sublattice in the
+monoclinic structure. The lines are ﬁts as described in the text. The lowest
+energy structures are indicated by ﬁlled symbols and the higher-energy
+structures by open symbols.
+J_ID: APPLAB DOI: 10.1063/1.5036991 Date: 2-June-18 Stage: Page: 2 Total Pages: 6
+ID: aipepub3b2server Time: 20:25 I Path: D:/AIP/Support/XML_Signal_Tmp/AI-APL#181113
+000000-2 Peelaers et al. Appl. Phys. Lett. 112, 000000 (2018)
+--- PAGE 6 ---
+PROOF COPY [APL18-AR-03643R] 028824APL
+139 composition ranges scaled accordingly. This choice treats
+140 the octahedral and tetrahedral cations separately, where Al
+141 preferentially ﬁlls the octahedral sublattice for compositions
+142 up to 50%, as described below. These ﬁts yield X0 values of
+143 0.081 eV and 0.101 eV for the two respective composition
+144 regimes; we thus ﬁnd that the alloy interaction parameters
+145 are smaller in the monoclinic phase compared to the corun-
+146 dum phase.
+147 Temperature effects are included in the Gibbs free
+148 energy of mixing, DGðxÞ¼ DHðxÞ/C0 TDSðxÞ, where the
+149 mixing entropy DSðxÞ is given by a random mixture model.
+150 Full miscibility, as determined by the common tangent
+151 method, is achieved at 952 K for corundum; for the mono-
+152 clinic phase in the range up to x ¼ 0.5, this is achieved at
+153 472 K and for x > 0.5 at 584 K. These temperatures are an
+154 estimate of the upper bound since the model neglects vibra-
+155 tional entropy and additional conﬁguration interactions.
+156 Starting on the Ga2O3 side, the monoclinic crystal struc-
+157 ture has the lowest energy; for bulk Ga 2O3, the corundum
+158 phase is signiﬁcantly higher in energy (by 0.14 eV per cation)
+159 than the monoclinic phase, consistent with the monoclinic
+160 phase being the stable structure.35 In the alloys, the monoclinic
+161 phase remains energetically preferable for Al concentrations
+162 up to 71%. For a higher Al content, the corundum structure is
+163 preferred, and for pure Al 2O3, the energy per cation site is
+164 0.11 eV higher for monoclinic relative to the corundum ground
+165 state. For x values in the vicinity of 0.71, the energy difference
+166 between corundum and monoclinic is small and can easily be
+167 overcome at high temperatures, explaining why some experi-
+168 ments have observed the monoclinic structure for Al concen-
+169 trations above 71%17–19,21,25–27 or the corundum structure for
+170 Al concentrations lower than 71%.14–16,26,28
+171 The energetics in the alloy strongly correlate with the pre-
+172 ferred coordination environment of Al and Ga: Al atoms are
+173 found to always favor octahedral positions, which is the coor-
+174 dination of the cation sites in corundum. In the monoclinic
+175 structure, only half the sites are octahedrally coordinated, and
+176 in the alloys, we indeed ﬁnd that these sites are preferentially
+177 occupied by Al atoms. This explains the relatively lowDH for
+178 the Al content up to 50% Al (Fig.2). Above 50%, Al is forced
+179 to incorporate on tetrahedral sites, signiﬁcantly increasingDH
+180 of the monoclinic-phase alloys. The open symbols in Fig. 2
+181 indicate higher-energy structures. For the monoclinic struc-
+182 tures (squares), the higher energy reﬂects the energy cost for
+183 Al atoms to occupy tetrahedral positions. For corundum, the
+184 higher energy cost is associated with a different arrangement
+185 of the cations, where having a nearest neighbor of the same
+186 atom type leads to a larger energy. Details about the structure
+187 and energetics of the higher-energy structures are presented in
+188 the supplementary material.
+189 At x ¼ 0.5, the monoclinic AlGaO 3 structure is an
+190 ordered alloy with an exceptionally low enthalpy of forma-
+191 tion (4 meV). In this structure, all Al atoms are on octahedral
+192 sites and all Ga atoms on tetrahedral sites. This type of struc-
+193 ture was previously found to be highly stable for alloys of
+194 Ga2O3 with In 2O3, where In preferentially incorporates on
+195 the octahedral sites. 41 Such an arrangement also minimizes
+196 the local strain since the local environment around both types
+197 of cations is very close to the local environment in their bulk
+198 ground-state structures.
+199We now examine the electronic structure of the alloys.
+200Figure 3 shows the calculated bandgaps for the lowest-
+201energy structures in both monoclinic and corundum phases.
+202The bandgaps reported are fundamental bandgaps; the opti-
+203cal bandgaps can depend on the polarization of the light,
+204especially in the monoclinic phases. 1,42–44 In the monoclinic
+205phase, the valence-band maximum (VBM) of both Ga 2O3
+206and Al2O3 is located on the I-L line in the Brillouin zone, 5
+207and the conduction-band minimum (CBM) is at the C point.
+208This indirect nature of the gap is maintained throughout the
+209alloy composition range, with the difference between direct
+210and indirect bandgaps increasing from 5 meV for x ¼ 0t o
+211270 meV for x ¼ 1 and the VBM shifting toward the L point.
+212In the corundum phase, the bandgap is direct near x ¼ 1; add-
+213ing Ga (i.e., decreasing x) leads to an indirect bandgap. In
+214corundum Ga2O3, the direct bandgap is 250 meV above the
+215indirect gap.
+216Bowing parameters b are obtained from
+EgðxÞ¼ð 1 /C0 xÞEg Ga2O3½/C138 þ xEg Al2O3½/C138 /C0 bxð1 /C0 xÞ ; (3)
+217where Eg½Ga2O3/C138 and Eg½Al2O3/C138 are the gaps of the end points
+218(Table I). For the monoclinic phase, we ﬁndb ¼ 1.78 eV (indi-
+219rect) and b ¼ 1.87 eV (direct), and for corundum, b ¼ 0.93 eV
+220(indirect) and b ¼ 1.37 eV (direct). Generally, good agreement
+221is found between calculated and experimental values, with the
+222largest deviations occurring for the high Al-limit of mono-
+223clinic alloys. We attribute this deviation to the lower crystal-
+224line quality of experimental samples as the monoclinic phase
+225becomes unstable abovex ¼ 0.71 (Fig. 2).
+226Information about band alignments is essential for the
+227design of heterostructures. 22,23,45,46 In Fig. 4(a), we summa-
+228rize our results as determined by alignment to the vacuum
+229level. The CBM of the Al2O3 compounds is located higher in
+230energy compared to Ga2O3, consistent with the energy of the
+231cation s states that dominate in the CBM. For a heterostruc-
+232ture in the monoclinic phase, the conduction-band offset
+233between Ga 2O3 and Al 2O3 is 2.74 eV; in the corundum
+234phase, it is 3.24 eV. The valence-band offsets are relatively
+235small, as the VBM is dominated by O p states. Assuming
+FIG. 3. Direct (solid symbols) and indirect (open symbols) bandgaps for the
+monoclinic and corundum structures as a function of the alloy composition.
+The solid (dashed) lines are quadratic ﬁts to the indirect (direct) bandgaps,
+as described in the text. The computed values are shown in color and experi-
+mental values in black.
+J_ID: APPLAB DOI: 10.1063/1.5036991 Date: 2-June-18 Stage: Page: 3 Total Pages: 6
+ID: aipepub3b2server Time: 20:25 I Path: D:/AIP/Support/XML_Signal_Tmp/AI-APL#181113
+000000-3 Peelaers et al. Appl. Phys. Lett. 112, 000000 (2018)
+--- PAGE 7 ---
+PROOF COPY [APL18-AR-03643R] 028824APL
+236 that the absolute position of the VBM changes linearly, the
+237 bandgap information from Fig. 3 can be combined with the
+238 alignment from Fig. 4(a) to predict band offsets in monoclinic
+239 alloy heterostructures, as shown in Fig. 4(b). Experimentally,
+240 band offsets have been determined using X-ray photoelectron
+241 spectroscopy (XPS) 29–31 and C-V measurements. 29,32 The
+242 reported values exhibit a large spread, partly due to the fact
+243 that the overlayers are not always crystalline. Comparisons
+244 with our calculated values are therefore difﬁcult.
+245 In conclusion, we performed a detailed ﬁrst-principles
+246 study of Ga 2O3-Al2O3 alloys in both the corundum and
+247 monoclinic structures. We ﬁnd that the pseudocubic lattice
+248 constant decreases linearly with the increasing Al concentra-
+249 tion, while the bandgap increases but exhibits signiﬁcant
+250 bowing. For alloy concentrations smaller than 71% Al,
+251 the monoclinic structure is the preferred structure, with Al
+252 preferentially occupying the octahedral positions. This
+253preference for the octahedral site also explains the unusual
+254stability of the ordered monoclinic AlGaO 3 alloy. We ﬁnd
+255that the technologically attractive monoclinic (Al xGa1– x)2O3
+256alloys should be fully miscible over the composition range
+257of 0%–50% at typical growth temperatures. Ga 2O3 and
+258Al2O3 have large conduction-band offsets, 2.74 eV for mono-
+259clinic and 3.24 eV for corundum structures. Band offsets in
+260(AlxGa1/C0 x)2O3 alloys can be predicted by combining our cal-
+261culated values for alloy bandgaps with interpolated values
+262for band offsets between the binaries.
+263
+264See supplementary material for details about the struc-
+265ture and energetics of the higher-energy structures.
+266
+267The work at UCSB was supported by the MRSEC
+268Program of the National Science Foundation (NSF) (DMR-
+2691121053) and by the Air Force Ofﬁce of Scientiﬁc Research
+FIG. 4. (a) Valence- and conduction-
+band edges with respect to the vacuum
+level for monoclinic and corundum
+Ga2O3 and Al 2O3. The values at the
+VBM indicate valence-band offsets
+and values at the CBM conduction-
+band offsets, all with respect to mono-
+clinic Ga 2O3 (valence-band edge at
+/C0 8.77 eV and conduction-band edge at
+/C0 3.90 eV). Bandgaps are also indi-
+cated. (b) Predicted band offsets as a
+function of the alloy concentration for
+alloys in the monoclinic structure.
+J_ID: APPLAB DOI: 10.1063/1.5036991 Date: 2-June-18 Stage: Page: 4 Total Pages: 6
+ID: aipepub3b2server Time: 20:25 I Path: D:/AIP/Support/XML_Signal_Tmp/AI-APL#181113
+000000-4 Peelaers et al. Appl. Phys. Lett. 112, 000000 (2018)
+--- PAGE 8 ---
+PROOF COPY [APL18-AR-03643R] 028824APL
+270 (FA9550-18-1-0059). The work at the Lawrence Livermore
+271 National Laboratory was performed under the auspices of
+272 the U.S. Department of Energy (DOE) under Contract No.
+273 DE-AC52-07NA27344. Computing resources were provided
+274 by the Center for Scientiﬁc Computing at the CNSI and
+275 MRL: an NSF MRSEC (DMR-1720256) and NSF CNS-
+276 0960316 and by the Extreme Science and Engineering
+277 Discovery Environment (XSEDE), which was supported by
+278 NSF Grant No. ACI-1548562.
+279
+280 1T. Matsumoto, M. Aoki, A. Kinoshita, and T. Aono, Jpn. J. Appl. Phys.,
+281 Part 1 13, 1578 (1974).
+282 2S. Nakagomi, T. Momo, S. Takahashi, and Y. Kokubun, Appl. Phys. Lett.
+283 103, 072105 (2013).
+284 3T. Minami, Y. Nishi, and T. Miyata, Appl. Phys. Express 6, 044101
+285 (2013).
+286 4J. B. Varley, J. R. Weber, A. Janotti, and C. G. Van de Walle, Appl. Phys.
+287 Lett. 97, 142106 (2010).
+288 5H. Peelaers and C. G. Van de Walle, Phys. Status Solidi B 252, 828
+289 (2015).
+290 6J. B. Varley, H. Peelaers, A. Janotti, and C. G. Van de Walle, J. Phys.
+291 Condens. Matter 23, 334212 (2011).
+292 7M. Higashiwaki, K. Sasaki, A. Kuramata, T. Masui, and S. Yamakoshi,
+293 Appl. Phys. Lett. 100, 013504 (2012).
+294 8W. S. Hwang, A. Verma, H. Peelaers, V. Protasenko, S. Rouvimov, H. G.
+295 Xing, A. Seabaugh, W. Haensch, C. Van de Walle, Z. Galazka, M.
+296 Albrecht, R. Fornari, and D. Jena, Appl. Phys. Lett. 104, 203111 (2014).
+297 9K. Sasaki, M. Higashiwaki, A. Kuramata, T. Masui, and S. Yamakoshi,
+298 IEEE Electron Device Lett. 34, 493 (2013).
+299 10J. L. Lyons, Semicond. Sci. Technol. 33, 05LT02 (2018).
+300 11A. Kyrtsos, M. Matsubara, and E. Bellotti, Appl. Phys. Lett. 112, 032108
+301 (2018).
+302 12Q. Feng, X. Li, G. Han, L. Huang, F. Li, W. Tang, J. Zhang, and Y. Hao,
+303 Opt. Mater. Express 7, 1240 (2017).
+304 13R. H. French, J. Am. Ceram. Soc. 73, 477 (1990).
+305 14H. Ito, K. Kaneko, and S. Fujita, Jpn. J. Appl. Phys., Part 1 51, 100207
+306 (2012)AQ2 .
+307 15K. Kaneko, K. Suzuki, Y. Ito, and S. Fujita, J. Cryst. Growth 436, 150
+308 (2016).
+309 16S.-D. Lee, Y. Ito, K. Kaneko, and S. Fujita, Jpn. J. Appl. Phys., Part 1 54,
+310 030301 (2015).
+311 17F. Zhang, K. Saito, T. Tanaka, M. Nishio, M. Arita, and Q. Guo, Appl.
+312 Phys. Lett. 105, 162107 (2014).
+313 18X. Wang, Z. Chen, F. Zhang, K. Saito, T. Tanaka, M. Nishio, and Q. Guo,
+314 AIP Adv. 6, 015111 (2016).
+315 19C. Kranert, M. Jenderka, J. Lenzner, M. Lorenz, H. von Wenckstern, R.
+316 Schmidt-Grund, and M. Grundmann, J. Appl. Phys. 117, 125703 (2015).
+31720R. Schmidt-Grund, C. Kranert, H. von Wenckstern, V. Zviagin, M.
+318Lorenz, and M. Grundmann, J. Appl. Phys. 117, 165307 (2015).
+31921T. Oshima, T. Okuno, N. Arai, Y. Kobayashi, and S. Fujita, Jpn. J. Appl.
+320Phys., Part 1 48, 070202 (2009).
+32122T. Oshima, Y. Kato, N. Kawano, A. Kuramata, S. Yamakoshi, S. Fujita, T.
+322Oishi, and M. Kasu, Appl. Phys. Express 10, 035701 (2017).
+32323E. Ahmadi, Y. Oshima, F. Wu, and J. S. Speck, Semicond. Sci. Technol.
+32432, 035004 (2017).
+32524A. L. Jaromin and D. D. Edwards, J. Am. Ceram. Soc. 88, 2573 (2005).
+32625B. W. Krueger, C. S. Dandeneau, E. M. Nelson, S. T. Dunham, F. S.
+327Ohuchi, and M. A. Olmstead, J. Am. Ceram. Soc. 99, 2467 (2016).
+32826V. G. Hill, R. Roy, and E. F. Osborn, J. Am. Ceram. Soc. 35, 135 (1952).
+32927M. Mizuno, T. Noguchi, and T. Yamada, Bull. Chem. Soc. Jpn. 43, 2614
+330(1970).
+33128R. Stalder and K.-H. Nitsch, J. Am. Ceram. Soc. 80, 258 (1997).
+33229T. Kamimura, K. Sasaki, M. Hoi Wong, D. Krishnamurthy, A. Kuramata,
+333T. Masui, S. Yamakoshi, and M. Higashiwaki, Appl. Phys. Lett. 104,
+334192104 (2014).
+33530M. Hattori, T. Oshima, R. Wakabayashi, K. Yoshimatsu, K. Sasaki, T.
+336Masui, A. Kuramata, S. Yamakoshi, K. Horiba, H. Kumigashira, and A.
+337Ohtomo, Jpn. J. Appl. Phys., Part 1 55, 1202B6 (2016).
+33831P. H. Carey, F. Ren, D. C. Hays, B. Gila, S. Pearton, S. Jang, and A.
+339Kuramata, Vacuum 142, 52 (2017).
+34032T.-H. Hung, K. Sasaki, A. Kuramata, D. N. Nath, P. Sung Park, C.
+341Polchinski, and S. Rajan, Appl. Phys. Lett. 104, 162106 (2014).
+34233P. E. Bl€ochl, Phys. Rev. B 50, 17953 (1994).
+34334G. Kresse and J. Furthm€uller, Phys. Rev. B 54, 11169 (1996).
+34435R. Roy, V. G. Hill, and E. F. Osborn, J. Am. Chem. Soc. 74, 719 (1952).
+34536J. Heyd, G. E. Scuseria, and M. Ernzerhof, J. Chem. Phys. 118, 8207
+346(2003); J. Heyd, G. E. Scuseria, and M. Ernzerhof, J. Chem. Phys. 124,
+347219906 (2006).
+34837M. Marezio and J. P. Remeika, J. Chem. Phys. 46, 1862 (1967).
+34938J. A˚ hman, G. Svensson, and J. Albertsson, Acta Crystallogr. Sect. C Cryst.
+350Struct. Commun. 52, 1336 (1996).
+35139R. E. Newnham and Y. M. de Haan, Z. Kristallogr. 117, 235 (1962).
+35240R. Zhou and R. L. Snyder, Acta Crystallogr. Sect. B Struct. Sci. 47, 617
+353(1991).
+35441H. Peelaers, D. Steiauf, J. B. Varley, A. Janotti, and C. G. Van de Walle,
+355Phys. Rev. B 92, 085206 (2015).
+35642T. Onuma, S. Saito, K. Sasaki, T. Masui, T. Yamaguchi, T. Honda, and M.
+357Higashiwaki, Jpn. J. Appl. Phys., Part 1 54, 112601 (2015).
+35843N. Ueda, H. Hosono, R. Waseda, and H. Kawazoe, Appl. Phys. Lett. 71,
+359933 (1997).
+36044H. Peelaers and C. G. Van de Walle, Appl. Phys. Lett. 111, 182104
+361(2017).
+36245S. W. Kaun, F. Wu, and J. S. Speck, J. Vac. Sci. Technol. A Vac., Surf.,
+363Film 33, 041508 (2015).
+36446S. Krishnamoorthy, Z. Xia, C. Joishi, Y. Zhang, J. McGlone, J. Johnson,
+365M. Brenner, A. R. Arehart, J. Hwang, S. Lodha, and S. Rajan, Appl. Phys.
+366Lett. 111, 023502 (2017).
+J_ID: APPLAB DOI: 10.1063/1.5036991 Date: 2-June-18 Stage: Page: 5 Total Pages: 6
+ID: aipepub3b2server Time: 20:26 I Path: D:/AIP/Support/XML_Signal_Tmp/AI-APL#181113
+000000-5 Peelaers et al. Appl. Phys. Lett. 112, 000000 (2018)

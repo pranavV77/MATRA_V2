@@ -1,0 +1,518 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2026-11-02T22:50:00Z",
+      "timestamp": 1793659800782,
+      "version": "4.5.1"
+    },
+    "reference-count": 46,
+    "publisher": "American Physical Society (APS)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              7,
+              31
+            ]
+          ],
+          "date-time": "2018-07-31T00:00:00Z",
+          "timestamp": 1532995200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://link.aps.org/licenses/aps-default-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              31
+            ]
+          ],
+          "date-time": "2019-07-31T00:00:00Z",
+          "timestamp": 1564531200000
+        },
+        "content-version": "am",
+        "delay-in-days": 365,
+        "URL": "https://link.aps.org/licenses/aps-default-accepted-manuscript-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DMR-1652994"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DMR-1652994"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ACI-1053575"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ACI-1053575"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "II-VI Foundation"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.aps.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Phys. Rev. Applied"
+    ],
+    "DOI": "10.1103/physrevapplied.10.011003",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          31
+        ]
+      ],
+      "date-time": "2018-07-31T11:06:14Z",
+      "timestamp": 1533035174000
+    },
+    "update-policy": "https://doi.org/10.1103/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 167,
+    "title": [
+      "Band Gap and Band Offset of \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" overflow=\"scroll\"><mml:msub><mml:mi>Ga</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant=\"normal\">O</mml:mi></mml:mrow><mml:mn>3</mml:mn></mml:msub></mml:math>\n and \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" overflow=\"scroll\"><mml:mo stretchy=\"false\">(</mml:mo><mml:msub><mml:mi>Al</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:msub><mml:mi>Ga</mml:mi><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mo stretchy=\"false\">)</mml:mo><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant=\"normal\">O</mml:mi></mml:mrow><mml:mn>3</mml:mn></mml:msub></mml:math>\n Alloys"
+    ],
+    "prefix": "10.1103",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Tianshi",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chaoying",
+        "family": "Ni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anderson",
+        "family": "Janotti",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "16",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          31
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "PhysRevApplied.10.011003Cc1R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.3674287"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc2R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0268-1242/31/3/034001"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc4R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/APEX.1.011202"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.46.7217"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc6R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.47.8506"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc7R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10853-015-8893-4"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc8R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1149/2.0081702jss"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc9R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.2164407"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc10R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4993569"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7567/APEX.10.035701"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc12R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7567/APEX.10.071101"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc13R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-648X/aa6f66"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc14R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4968550"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.5025704"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc16R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jace.14222"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc17R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4900522"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc18R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7567/JJAP.51.100207"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc19R1",
+        "volume-title": "2016 Compound Semiconductor Week (CSW) [Includes 28th International Conference on Indium Phosphide & Related Materials (IPRM) & 43rd International Symposium on Compound Semiconductors (ISCS)",
+        "author": "T. Uchida"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc20R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/OME.7.001240"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc21R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1246/bcsj.43.2487"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc22R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0108768191002719"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc23R1",
+        "first-page": "1223",
+        "volume": "33",
+        "author": "E. Husson",
+        "year": "1996",
+        "journal-title": "Eur. J. Solid State Inorg. Chem."
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc24R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1524/zkri.1962.117.2-3.235"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc25R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1840945"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc26R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1107/S0108270195016404"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc27R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1149/1.2133172"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc28R1",
+        "volume-title": "Thermochem. Data Pure Subst.",
+        "author": "Ihsan Barin",
+        "year": "2008"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc29R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1151-2916.1990.tb06541.x"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc30R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/JJAP.47.7311"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc31R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7567/JJAP.54.112601"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc32R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1330559"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc33R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRev.136.B864"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc34R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRev.140.A1133"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc35R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.50.17953"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc36R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.47.558"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc37R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.49.14251"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc38R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.100.136406"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc39R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1564060"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc40R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.2204597"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc41R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.77.3865"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc42R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pssb.201451551"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc43R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.65.353"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc44R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.calphad.2013.06.006"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc45R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.92.085206"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc47R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.75.121201"
+      },
+      {
+        "key": "PhysRevApplied.10.011003Cc48R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jpcc.5b06843"
+      }
+    ],
+    "container-title": [
+      "Physical Review Applied"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.aps.org/accepted/10.1103/PhysRevApplied.10.011003",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "unspecified"
+      },
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevApplied.10.011003",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevApplied.10.011003/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          31
+        ]
+      ],
+      "date-time": "2018-07-31T11:06:19Z",
+      "timestamp": 1533035179000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.aps.org/doi/10.1103/PhysRevApplied.10.011003"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          31
+        ]
+      ]
+    },
+    "references-count": 46,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            7
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1103/physrevapplied.10.011003",
+    "relation": {},
+    "ISSN": [
+      "2331-7019"
+    ],
+    "issn-type": [
+      {
+        "value": "2331-7019",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          31
+        ]
+      ]
+    },
+    "article-number": "011003"
+  }
+}

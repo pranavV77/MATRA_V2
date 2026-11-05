@@ -1,0 +1,575 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2026-10-09T03:22:48Z",
+      "timestamp": 1791516168125,
+      "version": "4.3.4"
+    },
+    "reference-count": 34,
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "issue": "9",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              18
+            ]
+          ],
+          "date-time": "2024-03-18T00:00:00Z",
+          "timestamp": 1710720000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 77,
+        "URL": "http://creativecommons.org/licenses/by-nc/3.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "rsc.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Mater. Adv."
+    ],
+    "abstract": "<jats:p>\n                    Cubic CsPbI\n                    <jats:sub>3</jats:sub>\n                    is a promising perovskite material for optoelectronic applications.\n                  </jats:p>",
+    "DOI": "10.1039/d4ma00034j",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          18
+        ]
+      ],
+      "date-time": "2024-03-18T12:05:22Z",
+      "timestamp": 1710763522000
+    },
+    "page": "3742-3750",
+    "update-policy": "https://doi.org/10.1039/rsc_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Stability of CsPbI\n                    <sub>3</sub>\n                    with divalent cations incorporated\n                    <i>via</i>\n                    mechanochemical alloying"
+    ],
+    "prefix": "10.1039",
+    "volume": "5",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0878-7410",
+        "authenticated-orcid": false,
+        "given": "Mahsa",
+        "family": "Shekarnoush",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Material Science & Engineering, The University of Texas at Dallas, Richardson, Texas 75080, USA"
+          },
+          {
+            "name": "Department of Chemistry & Biochemistry, The University of Texas at Dallas, Richardson, Texas 75080, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Francisco S.",
+        "family": "Aguirre-Tostado",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Material Science & Engineering, The University of Texas at Dallas, Richardson, Texas 75080, USA"
+          },
+          {
+            "name": "Centro de Investigación en Materiales Avanzados, S. C. (CIMAV), Unidad Monterrey, Apodaca, Nuevo León 66628, Mexico"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Manuel Quevedo",
+        "family": "López",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Material Science & Engineering, The University of Texas at Dallas, Richardson, Texas 75080, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "292",
+    "published-online": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "37",
+        "key": "D4MA00034J/cit1/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "14501",
+        "DOI": "10.1021/jacs.9b05924",
+        "volume": "141",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "issue": "12",
+        "key": "D4MA00034J/cit2/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2210223",
+        "DOI": "10.1002/adma.202210223",
+        "volume": "35",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "issue": "1",
+        "key": "D4MA00034J/cit3/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "216",
+        "DOI": "10.1186/s11671-020-03430-w",
+        "volume": "15",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "Nanoscale Res. Lett."
+      },
+      {
+        "issue": "22",
+        "key": "D4MA00034J/cit4/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2002098",
+        "DOI": "10.1002/advs.202002098",
+        "volume": "7",
+        "author": "Kakavelakis",
+        "year": "2020",
+        "journal-title": "Adv. Sci."
+      },
+      {
+        "issue": "23",
+        "key": "D4MA00034J/cit5/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "11433",
+        "DOI": "10.1016/j.ijleo.2016.09.013",
+        "volume": "127",
+        "author": "Afsari",
+        "year": "2016",
+        "journal-title": "Optik"
+      },
+      {
+        "key": "D4MA00034J/cit6/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "012115",
+        "DOI": "10.1088/1742-6596/1096/1/012115",
+        "volume": "1096",
+        "author": "Saleev",
+        "year": "2018",
+        "journal-title": "J. Phys.: Conf. Ser."
+      },
+      {
+        "issue": "1",
+        "key": "D4MA00034J/cit7/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "4199",
+        "DOI": "10.1038/s41467-018-06721-0",
+        "volume": "9",
+        "author": "De Weerd",
+        "year": "2018",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "D4MA00034J/cit8/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "412118",
+        "DOI": "10.1016/j.physb.2020.412118",
+        "volume": "585",
+        "author": "Fadla",
+        "year": "2020",
+        "journal-title": "Phys. B"
+      },
+      {
+        "issue": "17",
+        "key": "D4MA00034J/cit9/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "11545",
+        "DOI": "10.1021/acsomega.1c00734",
+        "volume": "6",
+        "author": "Gao",
+        "year": "2021",
+        "journal-title": "ACS Omega"
+      },
+      {
+        "issue": "1",
+        "key": "D4MA00034J/cit10/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1076",
+        "DOI": "10.1038/s41467-018-03169-0",
+        "volume": "9",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "issue": "3",
+        "key": "D4MA00034J/cit11/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2000089",
+        "DOI": "10.1002/sstr.202000089",
+        "volume": "2",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Small Struct."
+      },
+      {
+        "issue": "2",
+        "key": "D4MA00034J/cit12/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "472",
+        "DOI": "10.1021/acs.chemmater.7b04516",
+        "volume": "30",
+        "author": "Maughan",
+        "year": "2018",
+        "journal-title": "Chem. Mater."
+      },
+      {
+        "issue": "28",
+        "key": "D4MA00034J/cit13/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "10500",
+        "DOI": "10.1021/jacs.1c05046",
+        "volume": "143",
+        "author": "Steele",
+        "year": "2021",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "issue": "8",
+        "key": "D4MA00034J/cit14/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1787",
+        "DOI": "10.1021/acsenergylett.8b00672",
+        "volume": "3",
+        "author": "Sutton",
+        "year": "2018",
+        "journal-title": "ACS\nEnergy Lett."
+      },
+      {
+        "key": "D4MA00034J/cit15/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "170459",
+        "DOI": "10.1016/j.jallcom.2023.170459",
+        "volume": "960",
+        "author": "Ku",
+        "year": "2023",
+        "journal-title": "J. Alloys Compd."
+      },
+      {
+        "key": "D4MA00034J/cit16/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "167719",
+        "DOI": "10.1016/j.jallcom.2022.167719",
+        "volume": "934",
+        "author": "Huang",
+        "year": "2023",
+        "journal-title": "J. Alloys Compd."
+      },
+      {
+        "key": "D4MA00034J/cit17/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2009515",
+        "DOI": "10.1002/adfm.202009515",
+        "volume": "31",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Adv. Funct. Mater."
+      },
+      {
+        "key": "D4MA00034J/cit18/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "104634",
+        "DOI": "10.1016/j.nanoen.2020.104634",
+        "volume": "71",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Nano Energy"
+      },
+      {
+        "issue": "21",
+        "key": "D4MA00034J/cit19/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "13831",
+        "DOI": "10.1021/acsomega.1c01383",
+        "volume": "6",
+        "author": "Ji",
+        "year": "2021",
+        "journal-title": "ACS Omega"
+      },
+      {
+        "issue": "48",
+        "key": "D4MA00034J/cit20/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "23400",
+        "DOI": "10.1021/acs.jpcc.3c05770",
+        "volume": "127",
+        "author": "Teunissen",
+        "year": "2023",
+        "journal-title": "J. Phys. Chem. C"
+      },
+      {
+        "issue": "1",
+        "key": "D4MA00034J/cit21/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "6125",
+        "DOI": "10.1038/s41467-023-41853-y",
+        "volume": "14",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "issue": "6",
+        "key": "D4MA00034J/cit22/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "817",
+        "DOI": "10.1016/j.jsps.2019.05.003",
+        "volume": "27",
+        "author": "Assirey",
+        "year": "2019",
+        "journal-title": "Saudi Pharm. J."
+      },
+      {
+        "issue": "21",
+        "key": "D4MA00034J/cit23/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "12956",
+        "DOI": "10.1021/acs.chemrev.6b00136",
+        "volume": "116",
+        "author": "Manser",
+        "year": "2016",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "issue": "36",
+        "key": "D4MA00034J/cit24/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "11609",
+        "DOI": "10.1021/acs.langmuir.9b00855",
+        "volume": "35",
+        "author": "Ng",
+        "year": "2019",
+        "journal-title": "Langmuir"
+      },
+      {
+        "issue": "5",
+        "key": "D4MA00034J/cit25/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1900877",
+        "DOI": "10.1002/smtd.201900877",
+        "volume": "4",
+        "author": "Qiu",
+        "year": "2020",
+        "journal-title": "Small Methods"
+      },
+      {
+        "issue": "50",
+        "key": "D4MA00034J/cit26/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "24011",
+        "DOI": "10.1021/acs.jpcc.3c05787",
+        "volume": "127",
+        "author": "Hwang",
+        "year": "2023",
+        "journal-title": "J. Phys. Chem. C"
+      },
+      {
+        "issue": "33",
+        "key": "D4MA00034J/cit27/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2202880",
+        "DOI": "10.1002/aenm.202202880",
+        "volume": "13",
+        "author": "Yang",
+        "year": "2023",
+        "journal-title": "Adv. Energy Mater."
+      },
+      {
+        "issue": "1",
+        "key": "D4MA00034J/cit28/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "13",
+        "DOI": "10.1021/acscentsci.6b00277",
+        "volume": "3",
+        "author": "Do",
+        "year": "2017",
+        "journal-title": "ACS Cent. Sci."
+      },
+      {
+        "issue": "3",
+        "key": "D4MA00034J/cit29/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "937",
+        "DOI": "10.1039/C8NA00238J",
+        "volume": "1",
+        "author": "Piras",
+        "year": "2019",
+        "journal-title": "Nanoscale Adv."
+      },
+      {
+        "issue": "4",
+        "key": "D4MA00034J/cit30/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1900788",
+        "DOI": "10.1002/ente.201900788",
+        "volume": "8",
+        "author": "El Ajjouri",
+        "year": "2019",
+        "journal-title": "Energy Technol."
+      },
+      {
+        "key": "D4MA00034J/cit31/1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.17188/1274524",
+        "volume-title": "Materials Data on CsSnI3 by Materials Project; mp-568570",
+        "author": "Berkeley Lab",
+        "year": "2020",
+        "unstructured": "Berkeley Lab\n             Materials Data on CsSnI3 by Materials Project; mp-568570 ,  Lawrence Berkeley National Lab. (LBNL) ,  Berkeley, CA (United States) , LBNL Materials Project,  2020 10.17188/1274524"
+      },
+      {
+        "key": "D4MA00034J/cit32/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "114573",
+        "DOI": "10.1016/j.ssc.2021.114573",
+        "volume": "341",
+        "author": "Landi",
+        "year": "2022",
+        "journal-title": "Solid State Commun."
+      },
+      {
+        "issue": "9",
+        "key": "D4MA00034J/cit33/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2183",
+        "DOI": "10.1021/acsenergylett.7b00707",
+        "volume": "2",
+        "author": "Akkerman",
+        "year": "2017",
+        "journal-title": "ACS Energy Lett."
+      },
+      {
+        "key": "D4MA00034J/cit34/1",
+        "doi-asserted-by": "publisher",
+        "first-page": "127547",
+        "DOI": "10.1016/j.cej.2020.127547",
+        "volume": "413",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Chem. Eng. J."
+      }
+    ],
+    "container-title": [
+      "Materials Advances"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.rsc.org/en/content/articlepdf/2024/MA/D4MA00034J",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          1
+        ]
+      ],
+      "date-time": "2026-07-01T05:06:05Z",
+      "timestamp": 1782882365000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.rsc.org/ma/article/5/9/3742-3750/853719"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "references-count": 34,
+    "journal-issue": {
+      "issue": "9",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            7
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1039/d4ma00034j",
+    "relation": {},
+    "ISSN": [
+      "2633-5409"
+    ],
+    "issn-type": [
+      {
+        "value": "2633-5409",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T22:36:38Z",
+      "timestamp": 1793745398813,
+      "version": "4.6.1"
+    },
+    "reference-count": 8,
+    "publisher": "IOP Publishing",
+    "issue": "12A",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              1989,
+              12,
+              1
+            ]
+          ],
+          "date-time": "1989-12-01T00:00:00Z",
+          "timestamp": 628473600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://iopscience.iop.org/page/copyright"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              1989,
+              12,
+              1
+            ]
+          ],
+          "date-time": "1989-12-01T00:00:00Z",
+          "timestamp": 628473600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Jpn. J. Appl. Phys."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1989,
+          12,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                    Distinct p-type conduction is realized with Mg-doped GaN by the low-energy electron-beam irradiation (LEEBI) treatment, and the properties of the GaN p-n junction LED are reported for the first time. It was found that the LEEBI treatment drastically lowers the resistivity and remarkably enhances the PL efficiency of MOVPE-grown Mg-doped GaN. The Hall effect measurement of this Mg-doped GaN treated with LEEBI at room temperature showed that the hole concentration is ∼2·10\n                    <jats:sup>16</jats:sup>\n                    cm\n                    <jats:sup>-3</jats:sup>\n                    , the hole mobility is ∼8 cm\n                    <jats:sup>2</jats:sup>\n                    /V·s and the resistivity is ∼35 Ω·cm. The p-n junction LED using Mg-doped GaN treated with LEEBI as the p-type material showed strong near-band-edge emission due to the hole injection from the p-layer to the n-layer at room temperature.\n                  </jats:p>",
+    "DOI": "10.1143/jjap.28.l2112",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2005,
+          2,
+          22
+        ]
+      ],
+      "date-time": "2005-02-22T20:38:04Z",
+      "timestamp": 1109104684000
+    },
+    "page": "L2112",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1812,
+    "title": [
+      "P-Type Conduction in Mg-Doped GaN Treated with Low-Energy Electron Beam Irradiation (LEEBI)"
+    ],
+    "prefix": "10.35848",
+    "volume": "28",
+    "author": [
+      {
+        "given": "Hiroshi",
+        "family": "Amano",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Masahiro",
+        "family": "Kito",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kazumasa",
+        "family": "Hiramatsu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Isamu",
+        "family": "Akasaki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "266",
+    "reference": [
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "353",
+        "DOI": "10.1063/1.96549",
+        "volume": "48",
+        "year": "1986",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "1156",
+        "DOI": "10.1016/0040-6090(88)90458-0",
+        "volume": "163",
+        "year": "1988",
+        "journal-title": "Thin Solid Films"
+      },
+      {
+        "key": ""
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "79",
+        "DOI": "10.1016/0022-0248(88)90509-X",
+        "volume": "93",
+        "year": "1988",
+        "journal-title": "J. Cryst. Growth"
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "197",
+        "DOI": "10.1016/0022-0248(75)90131-1",
+        "volume": "31",
+        "year": "1975",
+        "journal-title": "J. Cryst. Growth"
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "121",
+        "DOI": "10.1016/0022-2313(88)90117-2",
+        "volume": "40",
+        "year": "1988",
+        "journal-title": "J. Lumin."
+      },
+      {
+        "key": "",
+        "journal-title": "Proc. 16th Int. Symp. on Gallium Arsenide and Related Compounds, Karuizawa 1989."
+      },
+      {
+        "key": "",
+        "doi-asserted-by": "publisher",
+        "first-page": "1922",
+        "DOI": "10.1364/AO.5.001922",
+        "volume": "5",
+        "year": "1966",
+        "journal-title": "Appl. Optics"
+      }
+    ],
+    "container-title": [
+      "Japanese Journal of Applied Physics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.1143/JJAP.28.L2112",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1143/JJAP.28.L2112/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1143/JJAP.28.L2112/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.1143/JJAP.28.L2112/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          6
+        ]
+      ],
+      "date-time": "2022-12-06T09:14:31Z",
+      "timestamp": 1670318071000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1143/JJAP.28.L2112"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1989,
+          12,
+          1
+        ]
+      ]
+    },
+    "references-count": 8,
+    "journal-issue": {
+      "issue": "12A",
+      "published-print": {
+        "date-parts": [
+          [
+            1989,
+            12,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1143/jjap.28.l2112",
+    "relation": {},
+    "ISSN": [
+      "0021-4922",
+      "1347-4065"
+    ],
+    "issn-type": [
+      {
+        "value": "0021-4922",
+        "type": "print"
+      },
+      {
+        "value": "1347-4065",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1989,
+          12,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "P-Type Conduction in Mg-Doped GaN Treated with Low-Energy Electron Beam Irradiation (LEEBI)",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "Japanese Journal of Applied Physics",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "Copyright (c) 1989 The Japan Society of Applied Physics",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "1989-10-06",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "1989-11-08",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  }
+}

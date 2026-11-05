@@ -1,0 +1,1448 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2026-11-02T16:48:35Z",
+      "timestamp": 1793638115995,
+      "version": "4.5.1"
+    },
+    "reference-count": 107,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              31
+            ]
+          ],
+          "date-time": "2020-03-31T00:00:00Z",
+          "timestamp": 1585612800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 90,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100018985",
+        "name": "Walloon Region",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/100018985",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000161",
+        "name": "National Institute of Standards and Technology",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/100000161",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000190",
+        "name": "U.S. Department of Commerce",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "70NANB19H005"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "70NANB19H005"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000190",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "NASA Science Missions Directorate’s Radioisotope Power Systems Technology Advancement Program"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                    Alloying bismuth telluride with antimony telluride and bismuth selenide for\n                    <jats:inline-formula>\n                      <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:mi>p</mml:mi>\n                      </mml:math>\n                    </jats:inline-formula>\n                    - and\n                    <jats:inline-formula>\n                      <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:mi>n</mml:mi>\n                      </mml:math>\n                    </jats:inline-formula>\n                    -type materials, respectively, improves the thermoelectric quality factor for use in room temperature modules. As the electronic and thermal transports can vary substantially, the alloy composition is a key engineering parameter. The\n                    <jats:inline-formula>\n                      <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:mi>n</mml:mi>\n                      </mml:math>\n                    </jats:inline-formula>\n                    -type Bi\n                    <jats:sub>2</jats:sub>\n                    Te\n                    <jats:sub>3-</jats:sub>\n                    <jats:inline-formula>\n                      <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:msub>\n                          <mml:mrow/>\n                          <mml:mrow>\n                            <mml:mi>x</mml:mi>\n                          </mml:mrow>\n                        </mml:msub>\n                      </mml:math>\n                    </jats:inline-formula>\n                    Se\n                    <jats:inline-formula>\n                      <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:msub>\n                          <mml:mrow/>\n                          <mml:mrow>\n                            <mml:mi>x</mml:mi>\n                          </mml:mrow>\n                        </mml:msub>\n                      </mml:math>\n                    </jats:inline-formula>\n                    alloy lags its\n                    <jats:inline-formula>\n                      <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" overflow=\"scroll\">\n                        <mml:mi>p</mml:mi>\n                      </mml:math>\n                    </jats:inline-formula>\n                    -type counterpart in thermoelectric performance and does not lend itself as readily to simple transport modeling which complicates engineering. Combining literature data with recent results across the entire alloy composition range, the complex electronic structure dynamics and trends in lattice thermal conductivity are explored. Spin-orbit interaction plays a critical role in determining the position and degeneracy of the various conduction band minima. This behavior is incorporated into a two-band effective mass model to estimate the transport parameters in each band. An alloy scattering model is utilized to demonstrate how phonon scattering behaves differently on either side of the intermediate ordered compound Bi\n                    <jats:sub>2</jats:sub>\n                    Te\n                    <jats:sub>2</jats:sub>\n                    Se due to chalcogen site occupancy preference. The parametrization of the electronic and thermal transports presented can be used in future optimization efforts.\n                  </jats:p>",
+    "DOI": "10.34133/2020/4361703",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2020-03-31T19:55:03Z",
+      "timestamp": 1585684503000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 144,
+    "title": [
+      "The Thermoelectric Properties of n-Type Bismuth Telluride: Bismuth Selenide Alloys Bi2Te3−xSex"
+    ],
+    "prefix": "10.34133",
+    "volume": "2020",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5412-6491",
+        "authenticated-orcid": false,
+        "given": "Ian T.",
+        "family": "Witting",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Materials Science and Engineering, Northwestern University, 2220 Campus Drive, Cook Hall 2036, Evanston, IL 60208, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Francesco",
+        "family": "Ricci",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Condensed Matter and Nanosciences, Université Catholique de Louvain, Louvain-la-Neuve 1348, Belgium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thomas C.",
+        "family": "Chasapis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Materials Science and Engineering, Northwestern University, 2220 Campus Drive, Cook Hall 2036, Evanston, IL 60208, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1754-2220",
+        "authenticated-orcid": false,
+        "given": "Geoffroy",
+        "family": "Hautier",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Condensed Matter and Nanosciences, Université Catholique de Louvain, Louvain-la-Neuve 1348, Belgium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1414-8682",
+        "authenticated-orcid": false,
+        "given": "G. Jeffrey",
+        "family": "Snyder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Materials Science and Engineering, Northwestern University, 2220 Campus Drive, Cook Hall 2036, Evanston, IL 60208, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "221",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          31
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "6",
+        "key": "e_1_3_2_1_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/aelm.201800904",
+        "article-title": "The Thermoelectric Properties of Bismuth Telluride",
+        "volume": "5",
+        "author": "Witting I. T.",
+        "year": "2019",
+        "unstructured": "I. T. Witting, T. C. Chasapis, F. Ricci, M. Peters, N. A. Heinz, G. Hautier, and G. J. Snyder, “The Thermoelectric Properties of Bismuth Telluride,” Advanced Electronic Materials, vol. 5, no. 6, article 1800904, 2019",
+        "journal-title": "Advanced Electronic Materials"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_2_2",
+        "first-page": "1",
+        "article-title": "Connecting thermoelectric performance and topological-insulator Behavior:Bi2Te3 and Bi2Te2 Se from first principles",
+        "volume": "3",
+        "author": "Shi H.",
+        "year": "2015",
+        "unstructured": "H. Shi, D. Parker, M. H. Du, and D. J. Singh, “Connecting thermoelectric performance and topological-insulator Behavior:Bi2Te3 and Bi2Te2 Se from first principles,” Physical Review Applied, vol. 3, no. 1, pp. 1–10, 2015",
+        "journal-title": "Physical Review Applied"
+      },
+      {
+        "issue": "12",
+        "key": "e_1_3_2_3_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1586",
+        "DOI": "10.1002/adfm.201201576",
+        "article-title": "The criteria for beneficial disorder in thermoelectric solid solutions",
+        "volume": "23",
+        "author": "Wang H.",
+        "year": "2013",
+        "unstructured": "H. Wang, A. D. Lalonde, Y. Pei, and G. J. Snyder, “The criteria for beneficial disorder in thermoelectric solid solutions,” Advanced Functional Materials, vol. 23, no. 12, pp. 1586–1596, 2013",
+        "journal-title": "Advanced Functional Materials"
+      },
+      {
+        "issue": "10",
+        "key": "e_1_3_2_4_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1585",
+        "DOI": "10.1016/0022-3697(65)90092-2",
+        "article-title": "Band structure of bismuth telluride, bismuth selenide and their respective alloys",
+        "volume": "26",
+        "author": "Greenaway D. L.",
+        "year": "1965",
+        "unstructured": "D. L. Greenaway, and G. Harbeke, “Band structure of bismuth telluride, bismuth selenide and their respective alloys,” Journal of Physics and Chemistry of Solids, vol. 26, no. 10, pp. 1585–1604, 1965",
+        "journal-title": "Journal of Physics and Chemistry of Solids"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_3_2_5_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "236",
+        "DOI": "10.1080/00207215708937085",
+        "article-title": "Some optical properties of Bi2Te3-Bi2Se3 alloys",
+        "volume": "3",
+        "author": "Austin I. G.",
+        "year": "1957",
+        "unstructured": "I. G. Austin, and A. Sheard, “Some optical properties of Bi2Te3-Bi2Se3 alloys,” Journal of Electronics and Control, vol. 3, no. 2, pp. 236–237, 1957",
+        "journal-title": "Journal of Electronics and Control"
+      },
+      {
+        "issue": "9",
+        "key": "e_1_3_2_6_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1219",
+        "DOI": "10.1016/0022-3697(62)90169-5",
+        "article-title": "The optical properties of p-type Bi2Te3-Sb2Te3 alloys between 2-15 microns",
+        "volume": "23",
+        "author": "Sehr R.",
+        "year": "1962",
+        "unstructured": "R. Sehr, and L. R. Testardi, “The optical properties of p-type Bi2Te3-Sb2Te3 alloys between 2-15 microns,” Journal of Physics and Chemistry of Solids, vol. 23, no. 9, pp. 1219–1224, 1962",
+        "journal-title": "Journal of Physics and Chemistry of Solids"
+      },
+      {
+        "issue": "12",
+        "key": "e_1_3_2_7_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1113",
+        "DOI": "10.1088/0370-1298/68/12/303",
+        "article-title": "The scattering of low-frequency lattice waves by static imperfections",
+        "volume": "68",
+        "author": "Klemens P. G.",
+        "year": "1955",
+        "unstructured": "P. G. Klemens, “The scattering of low-frequency lattice waves by static imperfections,” Proceedings of the Physical Society Section A, vol. 68, no. 12, pp. 1113–1128, 1955",
+        "journal-title": "Proceedings of the Physical Society Section A"
+      },
+      {
+        "issue": "9",
+        "key": "e_1_3_2_8_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "780",
+        "DOI": "10.1515/zna-1958-0910",
+        "article-title": "Untersuchung der intermetallischen verbindung Bi2Te3 sowie der festen lösungen Bi2-xSbxTe3 und Bi2Te3-xSex hinsichtlich ihrer eignung als material für halbleiter-Thermoelemente",
+        "volume": "13",
+        "author": "Birkholz U.",
+        "year": "1958",
+        "unstructured": "U. Birkholz, “Untersuchung der intermetallischen verbindung Bi2Te3 sowie der festen lösungen Bi2-xSbxTe3 und Bi2Te3-xSex hinsichtlich ihrer eignung als material für halbleiter-Thermoelemente,” Zeitschrift für Naturforsch, vol. 13, no. 9, pp. 780–792, 1958",
+        "journal-title": "Zeitschrift für Naturforsch"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_3_2_9_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1016/0022-3697(59)90074-5",
+        "article-title": "Materials for thermoelectric refrigeration",
+        "volume": "10",
+        "author": "Rosi F. D.",
+        "year": "1959",
+        "unstructured": "F. D. Rosi, B. Abeles, and R. V. Jensen, “Materials for thermoelectric refrigeration,” Journal of Physics and Chemistry of Solids, vol. 10, no. 2-3, pp. 191–200, 1959",
+        "journal-title": "Journal of Physics and Chemistry of Solids"
+      },
+      {
+        "key": "e_1_3_2_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adma.201202919"
+      },
+      {
+        "issue": "12",
+        "key": "e_1_3_2_11_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "5347",
+        "DOI": "10.1103/PhysRevB.13.5347",
+        "article-title": "Alloy scattering in ternary III-V compounds",
+        "volume": "13",
+        "author": "Harrison J. W.",
+        "year": "1976",
+        "unstructured": "J. W. Harrison, and J. R. Hauser, “Alloy scattering in ternary III-V compounds,” Physical Review B, vol. 13, no. 12, pp. 5347–5350, 1976",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "10",
+        "key": "e_1_3_2_12_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "2198",
+        "DOI": "10.1063/1.1777042",
+        "article-title": "Recent studies of bismuth telluride and its alloys",
+        "volume": "32",
+        "author": "Goldsmid H. J.",
+        "year": "1961",
+        "unstructured": "H. J. Goldsmid, “Recent studies of bismuth telluride and its alloys,” Journal of Applied Physics, vol. 32, no. 10, pp. 2198–2202, 1961",
+        "journal-title": "Journal of Applied Physics"
+      },
+      {
+        "key": "e_1_3_2_13_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mattod.2017.02.007"
+      },
+      {
+        "issue": "10",
+        "key": "e_1_3_2_14_2",
+        "first-page": "1780",
+        "article-title": "Special features of the energy spectrum of solid solutions of the Bi2Te3-Sb2Te3 system",
+        "volume": "17",
+        "author": "Erofeev R. S.",
+        "year": "1965",
+        "unstructured": "R. S. Erofeev, and V. N. Ovechkina, “Special features of the energy spectrum of solid solutions of the Bi2Te3-Sb2Te3 system,” Izvestiya Akademii Nauk SSSR, Neorganicheskiye Materialy, vol. 17, no. 10, pp. 1780–1784, 1965",
+        "journal-title": "Izvestiya Akademii Nauk SSSR, Neorganicheskiye Materialy"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_3_2_15_2",
+        "first-page": "244",
+        "article-title": "Characteristics of the energy spectrum of solid solutions in the SbTe-BiTe system",
+        "volume": "17",
+        "author": "Gaidukova V. S.",
+        "year": "1981",
+        "unstructured": "V. S. Gaidukova, R. S. Erofeev, and V. N. Ovechkina, “Characteristics of the energy spectrum of solid solutions in the SbTe-BiTe system,” Izvestiya Akademii Nauk SSSR, Neorganicheskiye Materialy, vol. 17, no. 2, pp. 244–247, 1981",
+        "journal-title": "Izvestiya Akademii Nauk SSSR, Neorganicheskiye Materialy"
+      },
+      {
+        "issue": "11",
+        "key": "e_1_3_2_16_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "3611",
+        "DOI": "10.1139/p67-304",
+        "article-title": "Thermoelectric properties of n-type Bi2Te3–Bi2Se3ALLOYS",
+        "volume": "45",
+        "author": "Champness C. H.",
+        "year": "1967",
+        "unstructured": "C. H. Champness, W. B. Muir, and P. T. Chiang, “Thermoelectric properties of n-type Bi2Te3–Bi2Se3ALLOYS,” Canadian Journal of Physics, vol. 45, no. 11, pp. 3611–3626, 1967",
+        "journal-title": "Canadian Journal of Physics"
+      },
+      {
+        "key": "e_1_3_2_17_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. P. Heremans and B. Wiendlocha “Tetradymites: Bi 2 Te 3 -related materials ” Materials Aspect of Thermoelectricity C. Uher Ed. CRC Press pp. 39–94 2016",
+        "DOI": "10.1201/9781315197029-3"
+      },
+      {
+        "issue": "10",
+        "key": "e_1_3_2_18_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/natrevmats.2017.49",
+        "article-title": "Tetradymites as thermoelectrics and topological insulators",
+        "volume": "2",
+        "author": "Heremans J. P.",
+        "year": "2017",
+        "unstructured": "J. P. Heremans, R. J. Cava, and N. Samarth, “Tetradymites as thermoelectrics and topological insulators,” Nature Reviews Materials, vol. 2, no. 10, article 17049, 2017",
+        "journal-title": "Nature Reviews Materials"
+      },
+      {
+        "key": "e_1_3_2_19_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nphys1270"
+      },
+      {
+        "key": "e_1_3_2_20_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1173034"
+      },
+      {
+        "key": "e_1_3_2_21_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adma.201200187"
+      },
+      {
+        "key": "e_1_3_2_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1189924"
+      },
+      {
+        "issue": "23",
+        "key": "e_1_3_2_23_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevB.85.235406",
+        "article-title": "Topological surface states and Dirac point tuning in ternary topological insulators",
+        "volume": "85",
+        "author": "Neupane M.",
+        "year": "2012",
+        "unstructured": "M. Neupane, S.-Y. Xu, L. A. Wray, A. Petersen, R. Shankar, N. Alidoust, C. Liu, A. Fedorov, H. Ji, J. M. Allred, Y. S. Hor, T.-R. Chang, H.-T. Jeng, H. Lin, A. Bansil, R. J. Cava, and M. Z. Hasan, “Topological surface states and Dirac point tuning in ternary topological insulators,” Physical Review B, vol. 85, no. 23, article 235406, 2012",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "8",
+        "key": "e_1_3_2_24_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "133",
+        "DOI": "10.1007/BF01490284",
+        "article-title": "Ein vergleich zwischen Bi2Te3 und Bi2Te2S",
+        "volume": "27",
+        "author": "Lange P. W.",
+        "year": "1939",
+        "unstructured": "P. W. Lange, “Ein vergleich zwischen Bi2Te3 und Bi2Te2S,” Naturwissenschaften, vol. 27, no. 8, pp. 133–134, 1939",
+        "journal-title": "Naturwissenschaften"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_3_2_25_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "479",
+        "DOI": "10.1016/0022-3697(63)90207-5",
+        "article-title": "The crystal structure of Bi2Te3−xSex",
+        "volume": "24",
+        "author": "Nakajima S.",
+        "year": "1963",
+        "unstructured": "S. Nakajima, “The crystal structure of Bi2Te3−xSex,” Journal of Physics and Chemistry of Solids, vol. 24, no. 3, pp. 479–485, 1963",
+        "journal-title": "Journal of Physics and Chemistry of Solids"
+      },
+      {
+        "issue": "7",
+        "key": "e_1_3_2_26_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1040",
+        "DOI": "10.1139/p61-113",
+        "article-title": "The crystal structure of Bi2Te2Se",
+        "volume": "39",
+        "author": "Bland J. A.",
+        "year": "1961",
+        "unstructured": "J. A. Bland, and S. J. Basinski, “The crystal structure of Bi2Te2Se,” Canadian Journal of Physics, vol. 39, no. 7, pp. 1040–1043, 1961",
+        "journal-title": "Canadian Journal of Physics"
+      },
+      {
+        "issue": "7",
+        "key": "e_1_3_2_27_2",
+        "article-title": "New insights into intrinsic point defects in V2VI3 thermoelectric materials",
+        "volume": "3",
+        "author": "Zhu T.",
+        "year": "2016",
+        "unstructured": "T. Zhu, L. Hu, X. Zhao, and J. He, “New insights into intrinsic point defects in V2VI3 thermoelectric materials,” Advanced Science, vol. 3, no. 7, article 1600004, 2016",
+        "journal-title": "Advanced Science"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_28_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "142",
+        "DOI": "10.1016/0022-3697(58)90139-2",
+        "article-title": "Chemical bonding in bismuth telluride",
+        "volume": "5",
+        "author": "Drabble J. R.",
+        "year": "1958",
+        "unstructured": "J. R. Drabble, and C. H. L. Goodman, “Chemical bonding in bismuth telluride,” Journal of Physics and Chemistry of Solids, vol. 5, no. 1–2, pp. 142–144, 1958",
+        "journal-title": "Journal of Physics and Chemistry of Solids"
+      },
+      {
+        "issue": "11",
+        "key": "e_1_3_2_29_2",
+        "first-page": "994",
+        "article-title": "The formula, structure, and chemical bonding of tetradymite, Bi14Te13Se8 and the phase Bi14Te15S6",
+        "volume": "60",
+        "author": "Pauling L.",
+        "year": "1975",
+        "unstructured": "L. Pauling, “The formula, structure, and chemical bonding of tetradymite, Bi14Te13Se8 and the phase Bi14Te15S6,” American Mineralogist, vol. 60, no. 11–12, pp. 994–997, 1975",
+        "journal-title": "American Mineralogist"
+      },
+      {
+        "issue": "11",
+        "key": "e_1_3_2_30_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1233",
+        "DOI": "10.1016/0022-3697(64)90021-6",
+        "article-title": "On the solid solutions of bismuth telluride and bismuth selenide",
+        "volume": "25",
+        "author": "Misra S.",
+        "year": "1964",
+        "unstructured": "S. Misra, and M. B. Bever, “On the solid solutions of bismuth telluride and bismuth selenide,” Journal of Physics and Chemistry of Solids, vol. 25, no. 11, pp. 1233–1241, 1964",
+        "journal-title": "Journal of Physics and Chemistry of Solids"
+      },
+      {
+        "issue": "23",
+        "key": "e_1_3_2_31_2",
+        "first-page": "1",
+        "article-title": "Low-carrier-concentration crystals of the topological insulator Bi2Te2Se",
+        "volume": "84",
+        "author": "Jia S.",
+        "year": "2011",
+        "unstructured": "S. Jia, H. Ji, E. Climent-Pascual, M. K. Fuccillo, M. E. Charles, J. Xiong, N. P. Ong, and R. J. Cava, “Low-carrier-concentration crystals of the topological insulator Bi2Te2Se,” Physical Review B, vol. 84, no. 23, pp. 1–7, 2011",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_32_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "135",
+        "DOI": "10.1016/0040-6031(87)80113-2",
+        "article-title": "New contribution in the study of the Bi2Te3-Bi2Se3 system",
+        "volume": "122",
+        "author": "Dumas J. F.",
+        "year": "1987",
+        "unstructured": "J. F. Dumas, G. Brun, B. Liautard, J. C. Tedenac, and M. Maurin, “New contribution in the study of the Bi2Te3-Bi2Se3 system,” Thermochimica Acta, vol. 122, no. 1, pp. 135–141, 1987",
+        "journal-title": "Thermochimica Acta"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_3_2_33_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "177",
+        "DOI": "10.1016/0025-5408(95)00185-9",
+        "article-title": "Solid state demixing in Bi2Se3-Bi2Te3 and Bi2Se3-In2Se3 phase diagrams",
+        "volume": "31",
+        "author": "Ghoumari Bouanani H.",
+        "year": "1996",
+        "unstructured": "H. Ghoumari Bouanani, D. Eddike, B. Liautard, and G. Brun, “Solid state demixing in Bi2Se3-Bi2Te3 and Bi2Se3-In2Se3 phase diagrams,” Materials Research Bulletin, vol. 31, no. 2, pp. 177–187, 1996",
+        "journal-title": "Materials Research Bulletin"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_3_2_34_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "201",
+        "DOI": "10.1016/0022-3697(94)00166-9",
+        "article-title": "Transport properties of n -type Bi2(Te1−x\n                  Sex)3 single crystal solid solutions (x ⩽ 0.05)",
+        "volume": "56",
+        "author": "Carle M.",
+        "year": "1995",
+        "unstructured": "M. Carle, P. Pierrat, C. Lahalle-Gravier, S. Scherrer, and H. Scherrer, “Transport properties of n -type Bi2(Te1−xSex)3 single crystal solid solutions (x ⩽ 0.05),” Journal of Physics and Chemistry of Solids, vol. 56, no. 2, pp. 201–209, 1995",
+        "journal-title": "Journal of Physics and Chemistry of Solids"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_3_2_35_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "505",
+        "DOI": "10.1002/pssb.2221690222",
+        "article-title": "Optical and electrical investigations of n-type Bi2Se3 single crystals",
+        "volume": "169",
+        "author": "Stordeur M.",
+        "year": "1992",
+        "unstructured": "M. Stordeur, K. K. Ketavong, A. Priemuth, H. Sobotta, and V. Riede, “Optical and electrical investigations of n-type Bi2Se3 single crystals,” Physica Status Solidi B: Basic Solid State Physics, vol. 169, no. 2, pp. 505–514, 1992",
+        "journal-title": "Physica Status Solidi B: Basic Solid State Physics"
+      },
+      {
+        "issue": "10",
+        "key": "e_1_3_2_36_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1237",
+        "DOI": "10.1016/0022-3697(88)90182-5",
+        "article-title": "Thermal properties of high quality single crystals of bismuth telluride–Part I: experimental characterization",
+        "volume": "49",
+        "author": "Fleurial J.-P.",
+        "year": "1988",
+        "unstructured": "J.-P. Fleurial, L. Gailliard, R. Triboulet, H. Scherrer, and S. Scherrer, “Thermal properties of high quality single crystals of bismuth telluride–Part I: experimental characterization,” Journal of Physics and Chemistry of Solids, vol. 49, no. 10, pp. 1237–1247, 1988",
+        "journal-title": "Journal of Physics and Chemistry of Solids"
+      },
+      {
+        "key": "e_1_3_2_37_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Scherrer and H. Scherrer “Bismuth telluride antimony telluride and their solid solutions ” CRC Handbook of Thermoelectrics D. M. Rowe Ed. CRC Press 1995",
+        "DOI": "10.1201/9781420049718.ch19"
+      },
+      {
+        "key": "e_1_3_2_38_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aaa4166"
+      },
+      {
+        "key": "e_1_3_2_39_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1156446"
+      },
+      {
+        "key": "e_1_3_2_40_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.actamat.2012.05.008"
+      },
+      {
+        "key": "e_1_3_2_41_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/nl101156v"
+      },
+      {
+        "key": "e_1_3_2_42_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmat3213"
+      },
+      {
+        "key": "e_1_3_2_43_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/aenm.201100149"
+      },
+      {
+        "key": "e_1_3_2_44_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adfm.201400474"
+      },
+      {
+        "issue": "6",
+        "key": "e_1_3_2_45_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.1002/crat.2170260603",
+        "article-title": "Transport coefficient of gallium-doped Bi2Te3 single crystals",
+        "volume": "26",
+        "author": "Navrátil J.",
+        "year": "1991",
+        "unstructured": "J. Navrátil, P. Lošťák, and J. Horák, “Transport coefficient of gallium-doped Bi2Te3 single crystals,” Crystal Research and Technology, vol. 26, no. 6, pp. 675–681, 1991",
+        "journal-title": "Crystal Research and Technology"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_46_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "277",
+        "DOI": "10.1007/BF00544220",
+        "article-title": "Preparation and some physical properties of Bi2−xInxSe3 single crystals",
+        "volume": "25",
+        "author": "Lošťák P.",
+        "year": "1990",
+        "unstructured": "P. Lošťák, L. Beneš, S. Civiš, and H. Süssmann, “Preparation and some physical properties of Bi2−xInxSe3 single crystals,” Journal of Materials Science, vol. 25, no. 1, pp. 277–282, 1990",
+        "journal-title": "Journal of Materials Science"
+      },
+      {
+        "issue": "24",
+        "key": "e_1_3_2_47_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "15733",
+        "DOI": "10.1103/PhysRevB.59.15733",
+        "article-title": "Conduction-band structure of Bi2−xSbxSe3 mixed crystals by Shubnikov–de Haas and cyclotron resonance measurements in high magnetic fields",
+        "volume": "59",
+        "author": "Kulbachinskii V. A.",
+        "year": "1999",
+        "unstructured": "V. A. Kulbachinskii, N. Miura, H. Nakagawa, H. Arimoto, T. Ikaida, P. Lostak, and C. Drasar, “Conduction-band structure of Bi2−xSbxSe3 mixed crystals by Shubnikov–de Haas and cyclotron resonance measurements in high magnetic fields,” Physical Review B, vol. 59, no. 24, pp. 15733–15739, 1999",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_3_2_48_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1704",
+        "DOI": "10.1016/j.jssc.2003.12.031",
+        "article-title": "Conduction band splitting and transport properties of Bi2Se3",
+        "volume": "177",
+        "author": "Navrátil J.",
+        "year": "2004",
+        "unstructured": "J. Navrátil, J. Horák, T. Plecháček, S. Kamba, P. Lošt’ák, J. S. Dyck, W. Chen, and C. Uher, “Conduction band splitting and transport properties of Bi2Se3,” Journal of Solid State Chemistry, vol. 177, no. 4–5, pp. 1704–1712, 2004",
+        "journal-title": "Journal of Solid State Chemistry"
+      },
+      {
+        "issue": "5",
+        "key": "e_1_3_2_49_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "505",
+        "DOI": "10.1002/crat.200800615",
+        "article-title": "Thermoelectric properties of Tl-doped Bi2Se3single crystals",
+        "volume": "44",
+        "author": "Janíček P.",
+        "year": "2009",
+        "unstructured": "P. Janíček, Č. Drašar, L. Beneš, and P. Lošt’ák, “Thermoelectric properties of Tl-doped Bi2Se3single crystals,” Crystal Research and Technology, vol. 44, no. 5, pp. 505–510, 2009",
+        "journal-title": "Crystal Research and Technology"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_50_2",
+        "first-page": "144",
+        "article-title": "Preparation and some physical properties of (Bi1−xSbx)2Se3 single crystals",
+        "volume": "179",
+        "author": "Lošt’ák P.",
+        "year": "1997",
+        "unstructured": "P. Lošt’ák, Č. Drašar, H. Süssmann, P. Reinshaus, R. Novotný, and L. Beneš, “Preparation and some physical properties of (Bi1−xSbx)2Se3 single crystals,” Journal of Crystal Growth, vol. 179, no. 1–2, pp. 144–152, 1997",
+        "journal-title": "Journal of Crystal Growth"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_51_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "8",
+        "DOI": "10.1038/s41524-017-0013-3",
+        "article-title": "Effective mass and Fermi surface complexity factor from ab initio band structure calculations",
+        "volume": "3",
+        "author": "Gibbs Z. M.",
+        "year": "2017",
+        "unstructured": "Z. M. Gibbs, F. Ricci, G. Li, H. Zhu, K. Persson, G. Ceder, G. Hautier, A. Jain, and G. J. Snyder, “Effective mass and Fermi surface complexity factor from ab initio band structure calculations,” NPJ Computational Materials, vol. 3, no. 1, p. 8, 2017",
+        "journal-title": "NPJ Computational Materials"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_52_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1002/pssb.2221500120",
+        "article-title": "Investigation of the valence band structure of thermoelectric (Bi1−xSbx)2Te3 single crystals",
+        "volume": "150",
+        "author": "Stordeur M.",
+        "year": "1988",
+        "unstructured": "M. Stordeur, M. Stölzer, H. Sobotta, and V. Riede, “Investigation of the valence band structure of thermoelectric (Bi1−xSbx)2Te3 single crystals,” Physica Status Solidi B: Basic Solid State Physics, vol. 150, no. 1, pp. 165–176, 1988",
+        "journal-title": "Physica Status Solidi B: Basic Solid State Physics"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_53_2",
+        "first-page": "1",
+        "article-title": "Investigation of thermoelectric properties of solid solutions Bi2Te3-Bi2Se3",
+        "volume": "3",
+        "author": "Gordiakova G. N.",
+        "year": "1958",
+        "unstructured": "G. N. Gordiakova, G. V. Kokosh, and S. S. Sinani, “Investigation of thermoelectric properties of solid solutions Bi2Te3-Bi2Se3,” Soviet Physics-Technical Physics, vol. 3, no. 1, pp. 1–14, 1958",
+        "journal-title": "Soviet Physics-Technical Physics"
+      },
+      {
+        "key": "e_1_3_2_54_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/c2jm34608g"
+      },
+      {
+        "issue": "23",
+        "key": "e_1_3_2_55_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevB.96.235202",
+        "article-title": "Interband absorption edge in the topological insulators Bi2(Te1−x\n                  Se\n                     x\n                  )3",
+        "volume": "96",
+        "author": "Dubroka A.",
+        "year": "2017",
+        "unstructured": "A. Dubroka, O. Caha, M. Hronček, P. Friš, M. Orlita, V. Holý, H. Steiner, G. Bauer, G. Springholz, and J. Humlíček, “Interband absorption edge in the topological insulators Bi2(Te1−xSex)3,” Physical Review B, vol. 96, no. 23, article 235202, 2017",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_3_2_56_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "545",
+        "DOI": "10.1088/0370-1328/72/4/309",
+        "article-title": "The optical properties of bismuth telluride",
+        "volume": "72",
+        "author": "Austin I. G.",
+        "year": "1958",
+        "unstructured": "I. G. Austin, “The optical properties of bismuth telluride,” Proceedings of the Physical Society, vol. 72, no. 4, pp. 545–552, 1958",
+        "journal-title": "Proceedings of the Physical Society"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_3_2_57_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "380",
+        "DOI": "10.1088/0370-1328/72/3/308",
+        "article-title": "Galvanomagnetic effects in p-type bismuth telluride",
+        "volume": "72",
+        "author": "Drabble J. R.",
+        "year": "1958",
+        "unstructured": "J. R. Drabble, “Galvanomagnetic effects in p-type bismuth telluride,” Proceedings of the Physical Society, vol. 72, no. 3, pp. 380–390, 1958",
+        "journal-title": "Proceedings of the Physical Society"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_3_2_58_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "430",
+        "DOI": "10.1088/0370-1328/71/3/317",
+        "article-title": "Galvanomagnetic effects in n-type bismuth telluride",
+        "volume": "71",
+        "author": "Drabble J. R.",
+        "year": "1958",
+        "unstructured": "J. R. Drabble, R. D. Groves, and R. Wolfe, “Galvanomagnetic effects in n-type bismuth telluride,” Proceedings of the Physical Society, vol. 71, no. 3, pp. 430–443, 1958",
+        "journal-title": "Proceedings of the Physical Society"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_3_2_59_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.1016/0038-1098(63)90387-9",
+        "article-title": "De Haas-van Alphen and high field galvanomagnetic studies of the Bi2Te3 valence band structure",
+        "volume": "1",
+        "author": "Testardi L. R.",
+        "year": "1963",
+        "unstructured": "L. R. Testardi, P. J. Stiles, and E. Burstein, “De Haas-van Alphen and high field galvanomagnetic studies of the Bi2Te3 valence band structure,” Solid State Communications, vol. 1, no. 2, pp. 28–34, 1963",
+        "journal-title": "Solid State Communications"
+      },
+      {
+        "issue": "13",
+        "key": "e_1_3_2_60_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "713",
+        "DOI": "10.1016/0375-9601(67)90229-0",
+        "article-title": "Concentration dependence of de Haas-van Alphen effect in n-type Bi2Te3",
+        "volume": "24",
+        "author": "Mallinson R. B.",
+        "year": "1967",
+        "unstructured": "R. B. Mallinson, J. A. Rayne, and R. W. Ure Jr., “Concentration dependence of de Haas-van Alphen effect in n-type Bi2Te3,” Physics Letters A, vol. 24, no. 13, pp. 713–714, 1967",
+        "journal-title": "Physics Letters A"
+      },
+      {
+        "issue": "8",
+        "key": "e_1_3_2_61_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "2646",
+        "DOI": "10.1103/PhysRevB.3.2646",
+        "article-title": "Transport properties of Bi2 Te3",
+        "volume": "3",
+        "author": "Ashworth H. A.",
+        "year": "1971",
+        "unstructured": "H. A. Ashworth, J. A. Rayne, and R. W. Ure, “Transport properties of Bi2 Te3,” Physical Review B, vol. 3, no. 8, pp. 2646–2661, 1971",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_3_2_62_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1049",
+        "DOI": "10.1103/PhysRev.175.1049",
+        "article-title": "de Haas-van Alphen effect in n-type Bi2Te3",
+        "volume": "175",
+        "author": "Mallinson R. B.",
+        "year": "1968",
+        "unstructured": "R. B. Mallinson, J. A. Rayne, and R. W. Ure, “de Haas-van Alphen effect in n-type Bi2Te3,” Physics Review, vol. 175, no. 3, pp. 1049–1056, 1968",
+        "journal-title": "Physics Review"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_3_2_63_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "591",
+        "DOI": "10.1002/pssb.2220740218",
+        "article-title": "Non-parabolicity of the highest valence band of Bi2Te3 from Shubnikov-de Haas effect",
+        "volume": "74",
+        "author": "Köhler H.",
+        "year": "1976",
+        "unstructured": "H. Köhler, “Non-parabolicity of the highest valence band of Bi2Te3 from Shubnikov-de Haas effect,” Physica Status Solidi B: Basic Solid State Physics, vol. 74, no. 2, pp. 591–600, 1976",
+        "journal-title": "Physica Status Solidi B: Basic Solid State Physics"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_64_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1002/pssb.2220730107",
+        "article-title": "Non-Parabolic E(k) relation of the lowest conduction band in Bi2 Te3",
+        "volume": "73",
+        "author": "Köhler H.",
+        "year": "1976",
+        "unstructured": "H. Köhler, “Non-Parabolic E(k) relation of the lowest conduction band in Bi2 Te3,” Physica Status Solidi B: Basic Solid State Physics, vol. 73, no. 1, pp. 95–104, 1976",
+        "journal-title": "Physica Status Solidi B: Basic Solid State Physics"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_3_2_65_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "K109",
+        "DOI": "10.1002/pssb.2220450246",
+        "article-title": "Constant energy surfaces of n-type bismuth selenide from the Shubnikov-de Haas effect",
+        "volume": "45",
+        "author": "Köhler H.",
+        "year": "1971",
+        "unstructured": "H. Köhler, and G. Landwehr, “Constant energy surfaces of n-type bismuth selenide from the Shubnikov-de Haas effect,” Physica Status Solidi B: Basic Solid State Physics, vol. 45, no. 2, pp. K109–K112, 1971",
+        "journal-title": "Physica Status Solidi B: Basic Solid State Physics"
+      },
+      {
+        "issue": "19",
+        "key": "e_1_3_2_66_2",
+        "article-title": "Angular-dependent oscillations of the magnetoresistance in Bi2Se3 due to the three-dimensional bulk Fermi surface",
+        "volume": "81",
+        "author": "Eto K.",
+        "year": "2010",
+        "unstructured": "K. Eto, Z. Ren, A. A. Taskin, K. Segawa, and Y. Ando, “Angular-dependent oscillations of the magnetoresistance in Bi2Se3 due to the three-dimensional bulk Fermi surface,” Physical Review B, vol. 81, no. 19, article 195309, 2010",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_67_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1002/pssb.2220580109",
+        "article-title": "Conduction band parameters of Bi2See from Shubnikov-de Haas investigations",
+        "volume": "58",
+        "author": "Köhler H.",
+        "year": "1973",
+        "unstructured": "H. Köhler, “Conduction band parameters of Bi2See from Shubnikov-de Haas investigations,” Physica Status Solidi B: Basic Solid State Physics, vol. 58, no. 1, pp. 91–100, 1973",
+        "journal-title": "Physica Status Solidi B: Basic Solid State Physics"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_3_2_68_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "637",
+        "DOI": "10.1002/pssb.2220780223",
+        "article-title": "Shubnikov-de Haas investigations on n-type Bi2(SexTe1−x)3",
+        "volume": "78",
+        "author": "Köhler H.",
+        "year": "1976",
+        "unstructured": "H. Köhler, W. Haigis, and A. von Middendorff, “Shubnikov-de Haas investigations on n-type Bi2(SexTe1−x)3,” Physica Status Solidi B: Basic Solid State Physics, vol. 78, no. 2, pp. 637–642, 1976",
+        "journal-title": "Physica Status Solidi B: Basic Solid State Physics"
+      },
+      {
+        "key": "e_1_3_2_69_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adma.201203542"
+      },
+      {
+        "issue": "8",
+        "key": "e_1_3_2_70_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevB.65.085108",
+        "article-title": "Electronic structure of Bi2\n                  X\n                  3 (X = S, Se, T) compounds: comparison of theoretical calculations with photoemission studies",
+        "volume": "65",
+        "author": "Larson P.",
+        "year": "2002",
+        "unstructured": "P. Larson, V. A. Greanya, W. C. Tonjes, R. Liu, S. D. Mahanti, and C. G. Olson, “Electronic structure of Bi2X3 (X = S, Se, T) compounds: comparison of theoretical calculations with photoemission studies,” Physical Review B, vol. 65, no. 8, article 085108, 2002",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_3_2_71_2",
+        "article-title": "Robust surface state of intrinsic topological insulator Bi2Te2Se thin films: a first-principles study",
+        "volume": "24",
+        "author": "Dai X.-Q.",
+        "year": "2012",
+        "unstructured": "X.-Q. Dai, B. Zhao, J.-H. Zhao, Y.-H. Li, Y.-N. Tang, and N. Li, “Robust surface state of intrinsic topological insulator Bi2Te2Se thin films: a first-principles study,” Journal of Physics: Condensed Matter, vol. 24, no. 3, article 035502, 2012",
+        "journal-title": "Journal of Physics: Condensed Matter"
+      },
+      {
+        "issue": "24",
+        "key": "e_1_3_2_72_2",
+        "article-title": "Ternary tetradymite compounds as topological insulators",
+        "volume": "83",
+        "author": "Wang L.-L.",
+        "year": "2011",
+        "unstructured": "L.-L. Wang, and D. D. Johnson, “Ternary tetradymite compounds as topological insulators,” Physical Review B, vol. 83, no. 24, article 241309, 2011",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "key": "e_1_3_2_73_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1134/S0021364013200125"
+      },
+      {
+        "issue": "8",
+        "key": "e_1_3_2_74_2",
+        "article-title": "First-principles electronic structure and its relation to thermoelectric properties of Bi2Te3",
+        "volume": "63",
+        "author": "Youn S. J.",
+        "year": "2001",
+        "unstructured": "S. J. Youn, and A. J. Freeman, “First-principles electronic structure and its relation to thermoelectric properties of Bi2Te3,” Physical Review B, vol. 63, no. 8, article 085112, 2001",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "15",
+        "key": "e_1_3_2_75_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevB.68.155121",
+        "article-title": "Effect of p1/2 corrections in the electronic structure of Bi2Te3 compounds",
+        "volume": "68",
+        "author": "Larson P.",
+        "year": "2003",
+        "unstructured": "P. Larson, “Effect of p1/2 corrections in the electronic structure of Bi2Te3 compounds,” Physical Review B, vol. 68, no. 15, article 155121, 2003",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_3_2_76_2",
+        "first-page": "2",
+        "article-title": "Screened exchange LDA determination of the ground and excited state properties of thermoelectrics: Bi2Te3",
+        "volume": "72",
+        "author": "Kim M.",
+        "year": "2005",
+        "unstructured": "M. Kim, A. J. Freeman, and C. B. Geller, “Screened exchange LDA determination of the ground and excited state properties of thermoelectrics: Bi2Te3,” Physical Review B, vol. 72, no. 3, pp. 2–5, 2005",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "7",
+        "key": "e_1_3_2_77_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevB.76.075201",
+        "article-title": "Electronic structure of the thermoelectric materials Bi2Te3 and Sb2Te3 from first-principles calculations",
+        "volume": "76",
+        "author": "Wang G.",
+        "year": "2007",
+        "unstructured": "G. Wang, and T. Cagin, “Electronic structure of the thermoelectric materials Bi2Te3 and Sb2Te3 from first-principles calculations,” Physical Review B, vol. 76, no. 7, article 075201, 2007",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "key": "e_1_3_2_78_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jpclett.5b01586"
+      },
+      {
+        "issue": "16",
+        "key": "e_1_3_2_79_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevB.84.165208",
+        "article-title": "Electronic structure and transport anisotropy of Bi2Te3 and Sb2",
+        "volume": "84",
+        "author": "Yavorsky B. Y.",
+        "year": "2011",
+        "unstructured": "B. Y. Yavorsky, N. F. Hinsche, I. Mertig, and P. Zahn, “Electronic structure and transport anisotropy of Bi2Te3 and Sb2,” Physical Review B, vol. 84, no. 16, article 165208, 2011",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "12",
+        "key": "e_1_3_2_80_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevB.68.125210",
+        "article-title": "Transport coefficients from first-principles calculations",
+        "volume": "68",
+        "author": "Scheidemantel T. J.",
+        "year": "2003",
+        "unstructured": "T. J. Scheidemantel, C. Ambrosch-Draxl, T. Thonhauser, J. V. Badding, and J. O. Sofo, “Transport coefficients from first-principles calculations,” Physical Review B, vol. 68, no. 12, article 125210, 2003",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "12",
+        "key": "e_1_3_2_81_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "8162",
+        "DOI": "10.1103/PhysRevB.61.8162",
+        "article-title": "Electronic structure and transport ofBi2Te3andBaBiTe3",
+        "volume": "61",
+        "author": "Larson P.",
+        "year": "2000",
+        "unstructured": "P. Larson, S. D. Mahanti, and M. G. Kanatzidis, “Electronic structure and transport ofBi2Te3andBaBiTe3,” Physical Review B, vol. 61, no. 12, pp. 8162–8171, 2000",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_3_2_82_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1553",
+        "DOI": "10.1103/PhysRevB.46.1553",
+        "article-title": "Large electronic-density increase on cooling a layered metal: Doped Bi2Te3",
+        "volume": "46",
+        "author": "Thomas G. A.",
+        "year": "1992",
+        "unstructured": "G. A. Thomas, D. H. Rapkine, R. B. Van Dover, L. F. Mattheiss, W. A. Sunder, L. F. Schneemeyer, and J. V. Waszczak, “Large electronic-density increase on cooling a layered metal: Doped Bi2Te3,” Physical Review B, vol. 46, no. 3, pp. 1553–1556, 1992",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "28",
+        "key": "e_1_3_2_83_2",
+        "article-title": "Interplay between spin–orbit coupling and crystal-field effect in topological insulators",
+        "volume": "27",
+        "author": "Lee H.",
+        "year": "2015",
+        "unstructured": "H. Lee, and O. V. Yazyev, “Interplay between spin–orbit coupling and crystal-field effect in topological insulators,” Journal of Physics: Condensed Matter, vol. 27, no. 28, article 285801, 2015",
+        "journal-title": "Journal of Physics: Condensed Matter"
+      },
+      {
+        "key": "e_1_3_2_84_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/anie.201508381"
+      },
+      {
+        "issue": "12",
+        "key": "e_1_3_2_85_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1719",
+        "DOI": "10.1016/S0022-3697(74)80186-1",
+        "article-title": "Electronic properties of Bi2Se3 crystals",
+        "volume": "35",
+        "author": "Hyde G. R.",
+        "year": "1974",
+        "unstructured": "G. R. Hyde, H. A. Beale, I. L. Spain, and J. A. Woollam, “Electronic properties of Bi2Se3 crystals,” Journal of Physics and Chemistry of Solids, vol. 35, no. 12, pp. 1719–1728, 1974",
+        "journal-title": "Journal of Physics and Chemistry of Solids"
+      },
+      {
+        "key": "e_1_3_2_86_2",
+        "unstructured": "A. F. May and G. J. Snyder “Introduction to modeling thermoelectric transport at high temperatures ” Materials preparation and characterization in thermoelectrics: Its Energy Harvesting CRC press p. 11 2012"
+      },
+      {
+        "issue": "9",
+        "key": "e_1_3_2_87_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1023",
+        "DOI": "10.1134/1.2042591",
+        "article-title": "Transport coefficients of n-Bi2Te2.7Se0.3 in a two-band model of the electron spectrum",
+        "volume": "39",
+        "author": "Konstantinov P. P.",
+        "year": "2005",
+        "unstructured": "P. P. Konstantinov, L. V. Prokofieva, M. I. Fedorov, D. A. Pshenay-Severin, Y. I. Ravich, V. V. Kompaniets, and V. A. Chistyakov, “Transport coefficients of n-Bi2Te2.7Se0.3 in a two-band model of the electron spectrum,” Semiconductors, vol. 39, no. 9, p. 1023, 2005",
+        "journal-title": "Semiconductors"
+      },
+      {
+        "issue": "12",
+        "key": "e_1_3_2_88_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1063/1.2748353",
+        "article-title": "Alloy scattering in AlGaN and InGaN: a numerical study",
+        "volume": "101",
+        "author": "Bellotti E.",
+        "year": "2007",
+        "unstructured": "E. Bellotti, F. Bertazzi, and M. Goano, “Alloy scattering in AlGaN and InGaN: a numerical study,” Journal of Applied Physics, vol. 101, no. 12, article 123706, 2007",
+        "journal-title": "Journal of Applied Physics"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_89_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.1103/PhysRev.80.72",
+        "article-title": "Deformation potentials and mobilities in non-polar crystals",
+        "volume": "80",
+        "author": "Bardeen J.",
+        "year": "1950",
+        "unstructured": "J. Bardeen, and W. Shockley, “Deformation potentials and mobilities in non-polar crystals,” Physics Review, vol. 80, no. 1, pp. 72–80, 1950",
+        "journal-title": "Physics Review"
+      },
+      {
+        "issue": "40",
+        "key": "e_1_3_2_90_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1039/c1jm11754h",
+        "article-title": "Phonon engineering through crystal chemistry",
+        "volume": "21",
+        "author": "Toberer E. S.",
+        "year": "2011",
+        "unstructured": "E. S. Toberer, A. Zevalkink, and G. J. Snyder, “Phonon engineering through crystal chemistry,” Journal of Materials Chemistry, vol. 21, no. 40, article 15843, 2011",
+        "journal-title": "Journal of Materials Chemistry"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_3_2_91_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "234",
+        "DOI": "10.1039/C5MH00299K",
+        "article-title": "Dislocation strain as the mechanism of phonon scattering at grain boundaries",
+        "volume": "3",
+        "author": "Kim H.-S.",
+        "year": "2016",
+        "unstructured": "H.-S. Kim, S. D. Kang, Y. Tang, R. Hanus, and G. J. Snyder, “Dislocation strain as the mechanism of phonon scattering at grain boundaries,” Materials Horizons, vol. 3, no. 3, pp. 234–240, 2016",
+        "journal-title": "Materials Horizons"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_3_2_92_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1149",
+        "DOI": "10.1103/PhysRev.120.1149",
+        "article-title": "Effect of point imperfections on lattice thermal conductivity",
+        "volume": "120",
+        "author": "Callaway J.",
+        "year": "1960",
+        "unstructured": "J. Callaway, and H. C. von Baeyer, “Effect of point imperfections on lattice thermal conductivity,” Physics Review, vol. 120, no. 4, pp. 1149–1154, 1960",
+        "journal-title": "Physics Review"
+      },
+      {
+        "issue": "2",
+        "key": "e_1_3_2_93_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "507",
+        "DOI": "10.1103/PhysRev.119.507",
+        "article-title": "Thermal resistance due to point defects at high temperatures",
+        "volume": "119",
+        "author": "Klemens P. G.",
+        "year": "1960",
+        "unstructured": "P. G. Klemens, “Thermal resistance due to point defects at high temperatures,” Physics Review, vol. 119, no. 2, pp. 507–509, 1960",
+        "journal-title": "Physics Review"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_3_2_94_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "A1149",
+        "DOI": "10.1103/PhysRev.136.A1149",
+        "article-title": "Scattering of phonons by electrons in germanium-silicon alloys",
+        "volume": "136",
+        "author": "Steigmeier E. F.",
+        "year": "1964",
+        "unstructured": "E. F. Steigmeier, and B. Abeles, “Scattering of phonons by electrons in germanium-silicon alloys,” Physics Review, vol. 136, no. 4A, pp. A1149–A1155, 1964",
+        "journal-title": "Physics Review"
+      },
+      {
+        "issue": "7",
+        "key": "e_1_3_2_95_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1140",
+        "DOI": "10.1063/1.1783022",
+        "article-title": "Strain field fluctuation effects on lattice thermal conductivity of ZrNiSn-based thermoelectric compounds",
+        "volume": "85",
+        "author": "Yang J.",
+        "year": "2004",
+        "unstructured": "J. Yang, G. P. Meisner, and L. Chen, “Strain field fluctuation effects on lattice thermal conductivity of ZrNiSn-based thermoelectric compounds,” Applied Physics Letters, vol. 85, no. 7, pp. 1140–1142, 2004",
+        "journal-title": "Applied Physics Letters"
+      },
+      {
+        "key": "e_1_3_2_96_2",
+        "article-title": "Manipulation of band degeneracy and lattice strain for extraordinary PbTe thermoelectrics",
+        "volume": "2020",
+        "author": "Wu Y.",
+        "year": "2020",
+        "unstructured": "Y. Wu, P. Nan, Z. Chen, Z. Zeng, S. Lin, X. Zhang, H. Dong, Z. Chen, H. Gu, W. Li, Y. Chen, B. Ge, and Y. Pei, “Manipulation of band degeneracy and lattice strain for extraordinary PbTe thermoelectrics,” Research, vol. 2020, article 8151059, –12, 2020",
+        "journal-title": "Research"
+      },
+      {
+        "key": "e_1_3_2_97_2",
+        "unstructured": "H. J. Goldsmid Introduction to Thermoelectricity Second. vol. 121 Springer Berlin Heidelberg Berlin Heidelberg 2016"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_98_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1063/1.4812323",
+        "article-title": "Commentary: the Materials Project: a materials genome approach to accelerating materials innovation",
+        "volume": "1",
+        "author": "Jain A.",
+        "year": "2013",
+        "unstructured": "A. Jain, S. P. Ong, G. Hautier, W. Chen, W. D. Richards, S. Dacek, S. Cholia, D. Gunter, D. Skinner, G. Ceder, and K. A. Persson, “Commentary: the Materials Project: a materials genome approach to accelerating materials innovation,” APL Materials, vol. 1, no. 1, article 011002, 2013",
+        "journal-title": "APL Materials"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_99_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "558",
+        "DOI": "10.1103/PhysRevB.47.558",
+        "article-title": "Ab initiomolecular dynamics for liquid metals",
+        "volume": "47",
+        "author": "Kresse G.",
+        "year": "1993",
+        "unstructured": "G. Kresse, and J. Hafner, “Ab initiomolecular dynamics for liquid metals,” Physical Review B, vol. 47, no. 1, pp. 558–561, 1993",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "16",
+        "key": "e_1_3_2_100_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "11169",
+        "DOI": "10.1103/PhysRevB.54.11169",
+        "article-title": "Efficient iterative schemes forab initiototal-energy calculations using a plane-wave basis set",
+        "volume": "54",
+        "author": "Kresse G.",
+        "year": "1996",
+        "unstructured": "G. Kresse, and J. Furthmüller, “Efficient iterative schemes forab initiototal-energy calculations using a plane-wave basis set,” Physical Review B, vol. 54, no. 16, pp. 11169–11186, 1996",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "18",
+        "key": "e_1_3_2_101_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "3865",
+        "DOI": "10.1103/PhysRevLett.77.3865",
+        "article-title": "Generalized gradient approximation made simple",
+        "volume": "77",
+        "author": "Perdew J. P.",
+        "year": "1996",
+        "unstructured": "J. P. Perdew, K. Burke, and M. Ernzerhof, “Generalized gradient approximation made simple,” Physical Review Letters, vol. 77, no. 18, pp. 3865–3868, 1996",
+        "journal-title": "Physical Review Letters"
+      },
+      {
+        "issue": "24",
+        "key": "e_1_3_2_102_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "17953",
+        "DOI": "10.1103/PhysRevB.50.17953",
+        "article-title": "Projector augmented-wave method",
+        "volume": "50",
+        "author": "Blöchl P. E.",
+        "year": "1994",
+        "unstructured": "P. E. Blöchl, “Projector augmented-wave method,” Physical Review B, vol. 50, no. 24, pp. 17953–17979, 1994",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_3_2_103_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1758",
+        "DOI": "10.1103/PhysRevB.59.1758",
+        "article-title": "From ultrasoft pseudopotentials to the projector augmented-wave method",
+        "volume": "59",
+        "author": "Kresse G.",
+        "year": "1999",
+        "unstructured": "G. Kresse, and D. Joubert, “From ultrasoft pseudopotentials to the projector augmented-wave method,” Physical Review B, vol. 59, no. 3, pp. 1758–1775, 1999",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_3_2_104_2",
+        "article-title": "Effects of extrinsic and intrinsic perturbations on the electronic structure of graphene: retaining an effective primitive cell band structure by band unfolding",
+        "volume": "89",
+        "author": "Medeiros P. V. C.",
+        "year": "2014",
+        "unstructured": "P. V. C. Medeiros, S. Stafström, and J. Björk, “Effects of extrinsic and intrinsic perturbations on the electronic structure of graphene: retaining an effective primitive cell band structure by band unfolding,” Physical Review B, vol. 89, no. 4, article 041407, 2014",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_3_2_105_2",
+        "article-title": "Unfolding spinor wave functions and expectation values of general operators: introducing the unfolding-density operator",
+        "volume": "91",
+        "author": "Medeiros P. V. C.",
+        "year": "2015",
+        "unstructured": "P. V. C. Medeiros, S. S. Tsirkin, S. Stafström, and J. Björk, “Unfolding spinor wave functions and expectation values of general operators: introducing the unfolding-density operator,” Physical Review B, vol. 91, no. 4, article 041116, 2015",
+        "journal-title": "Physical Review B"
+      },
+      {
+        "key": "e_1_3_2_106_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.commatsci.2012.10.028"
+      },
+      {
+        "issue": "4",
+        "key": "e_1_3_2_107_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "653",
+        "DOI": "10.1139/p65-060",
+        "article-title": "Thermoelectric properties of Bi2Te3–Sb2Te3 alloys",
+        "volume": "43",
+        "author": "Champness C. H.",
+        "year": "1965",
+        "unstructured": "C. H. Champness, P. T. Chiang, and P. Parekh, “Thermoelectric properties of Bi2Te3–Sb2Te3 alloys,” Canadian Journal of Physics, vol. 43, no. 4, pp. 653–669, 1965",
+        "journal-title": "Canadian Journal of Physics"
+      }
+    ],
+    "container-title": [
+      "Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://downloads.spj.sciencemag.org/research/2020/4361703.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://spj.science.org/doi/pdf/10.34133/2020/4361703",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          9
+        ]
+      ],
+      "date-time": "2024-01-09T11:09:33Z",
+      "timestamp": 1704798573000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://spj.science.org/doi/10.34133/2020/4361703"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1
+        ]
+      ]
+    },
+    "references-count": 107,
+    "alternative-id": [
+      "10.34133/2020/4361703"
+    ],
+    "URL": "https://doi.org/10.34133/2020/4361703",
+    "relation": {},
+    "ISSN": [
+      "2639-5274"
+    ],
+    "issn-type": [
+      {
+        "value": "2639-5274",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          1
+        ]
+      ]
+    },
+    "article-number": "2020/4361703"
+  }
+}

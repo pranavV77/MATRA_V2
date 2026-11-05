@@ -1,0 +1,282 @@
+[
+  {
+    "source_id": "MoW_atomic",
+    "candidate_doi": "10.1038/ncomms2351",
+    "requested_primary_url": "https://www.nature.com/articles/ncomms2351",
+    "retrieved_at_utc": "2026-11-05T08:57:12.856764+00:00",
+    "artifacts": [
+      {
+        "path": "MoW_atomic.html",
+        "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+        "kind": "primary_page_requires_review"
+      }
+    ],
+    "errors": [
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ],
+    "registered_title": [
+      "Visualization and quantification of transition metal atomic mixing in Mo1−xWxS2 single layers"
+    ],
+    "registered_doi": "10.1038/ncomms2351"
+  },
+  {
+    "source_id": "MoW_Chen",
+    "candidate_doi": "10.1021/nn401420h",
+    "requested_primary_url": null,
+    "retrieved_at_utc": "2026-11-05T08:57:27.184119+00:00",
+    "artifacts": [],
+    "errors": [
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ],
+    "registered_title": [
+      "Tunable Band Gap Photoluminescence from Atomically Thin Transition-Metal Dichalcogenide Alloys"
+    ],
+    "registered_doi": "10.1021/nn401420h"
+  },
+  {
+    "source_id": "MoSe_Gong",
+    "candidate_doi": "10.1021/nl4032296",
+    "requested_primary_url": null,
+    "retrieved_at_utc": "2026-11-05T08:57:29.614375+00:00",
+    "artifacts": [],
+    "errors": [
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ],
+    "registered_title": [
+      "Band Gap Engineering and Layer-by-Layer Mapping of Selenium-Doped Molybdenum Disulfide"
+    ],
+    "registered_doi": "10.1021/nl4032296"
+  },
+  {
+    "source_id": "Re_MoS2",
+    "candidate_doi": "10.1002/adma.201304985",
+    "requested_primary_url": "https://krasheninnikov.de/publ/adma201304985-13.pdf",
+    "retrieved_at_utc": "2026-11-05T08:57:42.276322+00:00",
+    "artifacts": [
+      {
+        "path": "Re_MoS2.pdf",
+        "sha256": "f16a505d200894d61a5d737e62658b6887ceaa96197bb33517bdf85cdbc09ffb",
+        "kind": "primary_full_pdf"
+      }
+    ],
+    "errors": [
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ],
+    "registered_title": [
+      "Properties of Individual Dopant Atoms in Single‐Layer MoS<sub>2</sub>: Atomic Structure, Migration, and Enhanced Reactivity"
+    ],
+    "registered_doi": "10.1002/adma.201304985"
+  },
+  {
+    "source_id": "Nb_STO",
+    "candidate_doi": "10.1038/s41598-022-06361-3",
+    "requested_primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8847566/",
+    "retrieved_at_utc": "2026-11-05T08:57:49.380468+00:00",
+    "artifacts": [
+      {
+        "path": "Nb_STO.html",
+        "sha256": "4d11a1d9b3f958d5fdb50eb54913e4fc6996e9d1e179331da096b8336614be68",
+        "kind": "primary_page_requires_review"
+      }
+    ],
+    "errors": [
+      {
+        "step": "crossref",
+        "message": "HTTP Error 404: Not Found"
+      },
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ]
+  },
+  {
+    "source_id": "Nb_STO_polar",
+    "candidate_doi": "10.1038/s41535-022-00524-9",
+    "requested_primary_url": "https://www.nature.com/articles/s41535-022-00524-9",
+    "retrieved_at_utc": "2026-11-05T08:57:55.619444+00:00",
+    "artifacts": [
+      {
+        "path": "Nb_STO_polar.html",
+        "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+        "kind": "primary_page_requires_review"
+      }
+    ],
+    "errors": [
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ],
+    "registered_title": [
+      "Superconductivity enhancement in polar metal regions of Sr0.95Ba0.05TiO3 and Sr0.985Ca0.015TiO3 revealed by systematic Nb doping"
+    ],
+    "registered_doi": "10.1038/s41535-022-00524-9"
+  },
+  {
+    "source_id": "Sn_Ga_XAS",
+    "candidate_doi": null,
+    "requested_primary_url": "https://dash.harvard.edu/entities/publication/73120378-e473-6bd4-e053-0100007fdf3b",
+    "retrieved_at_utc": "2026-11-05T08:57:59.024648+00:00",
+    "artifacts": [],
+    "errors": [
+      {
+        "step": "primary_url",
+        "message": "HTTP Error 429: Too Many Requests"
+      }
+    ]
+  },
+  {
+    "source_id": "Si_Ga_Villora",
+    "candidate_doi": "10.1063/1.2919728",
+    "requested_primary_url": null,
+    "retrieved_at_utc": "2026-11-05T08:57:59.646340+00:00",
+    "artifacts": [],
+    "errors": [
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ],
+    "registered_title": [
+      "Electrical conductivity and carrier concentration control in β-Ga2O3 by Si doping"
+    ],
+    "registered_doi": "10.1063/1.2919728"
+  },
+  {
+    "source_id": "Mg_GaN_Amano",
+    "candidate_doi": "10.1143/JJAP.28.L2112",
+    "requested_primary_url": null,
+    "retrieved_at_utc": "2026-11-05T08:58:02.632669+00:00",
+    "artifacts": [],
+    "errors": [
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ],
+    "registered_title": [
+      "P-Type Conduction in Mg-Doped GaN Treated with Low-Energy Electron Beam Irradiation (LEEBI)"
+    ],
+    "registered_doi": "10.1143/jjap.28.l2112"
+  },
+  {
+    "source_id": "Al_Ga_Peelaers",
+    "candidate_doi": "10.1063/1.5036991",
+    "requested_primary_url": "https://www.osti.gov/pages/servlets/purl/1497947",
+    "retrieved_at_utc": "2026-11-05T08:58:05.070706+00:00",
+    "artifacts": [
+      {
+        "path": "Al_Ga_Peelaers.pdf",
+        "sha256": "6d026307c93ec54450bf631f9c14a9974b62f5136a06de270819884c3f047f86",
+        "kind": "primary_full_pdf"
+      }
+    ],
+    "errors": [
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ],
+    "registered_title": [
+      "Structural and electronic properties of Ga2O3-Al2O3 alloys"
+    ],
+    "registered_doi": "10.1063/1.5036991"
+  },
+  {
+    "source_id": "CsPbSn",
+    "candidate_doi": "10.1039/D4MA00034J",
+    "requested_primary_url": "https://pubs.rsc.org/en/content/articlehtml/2024/ma/d4ma00034j",
+    "retrieved_at_utc": "2026-11-05T08:58:20.085818+00:00",
+    "artifacts": [],
+    "errors": [
+      {
+        "step": "primary_url",
+        "message": "HTTP Error 403: Forbidden"
+      },
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ],
+    "registered_title": [
+      "Stability of CsPbI\n                    <sub>3</sub>\n                    with divalent cations incorporated\n                    <i>via</i>\n                    mechanochemical alloying"
+    ],
+    "registered_doi": "10.1039/d4ma00034j"
+  },
+  {
+    "source_id": "BiTeSe",
+    "candidate_doi": "10.34133/2020/4361703",
+    "requested_primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7150672/",
+    "retrieved_at_utc": "2026-11-05T08:58:22.856287+00:00",
+    "artifacts": [],
+    "errors": [
+      {
+        "step": "primary_url",
+        "message": "Challenge page, not source text"
+      },
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ],
+    "registered_title": [
+      "The Thermoelectric Properties of n-Type Bismuth Telluride: Bismuth Selenide Alloys Bi2Te3−xSex"
+    ],
+    "registered_doi": "10.34133/2020/4361703"
+  },
+  {
+    "source_id": "BaSr_neutron",
+    "candidate_doi": "10.48550/arXiv.2007.00972",
+    "requested_primary_url": "https://arxiv.org/pdf/2007.00972",
+    "retrieved_at_utc": "2026-11-05T08:58:26.540933+00:00",
+    "artifacts": [
+      {
+        "path": "BaSr_neutron.pdf",
+        "sha256": "4d228cb83b01ca3ef87e428d720f402955e04e0600fad6c447c7652be6841a47",
+        "kind": "primary_full_pdf"
+      }
+    ],
+    "errors": [
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ]
+  },
+  {
+    "source_id": "GaAl_HSE",
+    "candidate_doi": "10.1103/PhysRevApplied.10.011003",
+    "requested_primary_url": "https://arxiv.org/pdf/1806.03360",
+    "retrieved_at_utc": "2026-11-05T08:58:29.706732+00:00",
+    "artifacts": [
+      {
+        "path": "GaAl_HSE.pdf",
+        "sha256": "8e0ba93059cd5f982c692796675a66c652a4c9446ab5bc998defe579eef5f17c",
+        "kind": "primary_full_pdf"
+      }
+    ],
+    "errors": [
+      {
+        "step": "europepmc",
+        "message": "HTTP Error 503: "
+      }
+    ],
+    "registered_title": [
+      "Band Gap and Band Offset of \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" overflow=\"scroll\"><mml:msub><mml:mi>Ga</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant=\"normal\">O</mml:mi></mml:mrow><mml:mn>3</mml:mn></mml:msub></mml:math>\n and \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\" overflow=\"scroll\"><mml:mo stretchy=\"false\">(</mml:mo><mml:msub><mml:mi>Al</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:msub><mml:mi>Ga</mml:mi><mml:mrow><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mo stretchy=\"false\">)</mml:mo><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant=\"normal\">O</mml:mi></mml:mrow><mml:mn>3</mml:mn></mml:msub></mml:math>\n Alloys"
+    ],
+    "registered_doi": "10.1103/physrevapplied.10.011003"
+  }
+]

@@ -1,0 +1,260 @@
+00001 Manipulating the carrier concentration and phase transition via Nb content in SrTiO3 - PMC
+00002 Skip to main content
+00003 An official website of the United States government
+00004 Here's how you know
+00005 Here's how you know
+00006 Official websites use .gov
+00007 A
+00008 .gov website belongs to an official
+00009 government organization in the United States.
+00010 Secure .gov websites use HTTPS
+00011 A lock (
+00012 Lock
+00013 Locked padlock icon
+00014 ) or https:// means you've safely
+00015 connected to the .gov website. Share sensitive
+00016 information only on official, secure websites.
+00017 Search
+00018 Log in
+00019 Dashboard
+00020 Publications
+00021 Account settings
+00022 Log out
+00023 Search…
+00024 Search NCBI
+00025 Primary site navigation
+00026 Search
+00027 Logged in as:
+00028 Dashboard
+00029 Publications
+00030 Account settings
+00031 Log in
+00032 Search PMC Full-Text Archive
+00033 Search in PMC
+00034 Journal List
+00035 User Guide
+00036 PERMALINK
+00037 Copy
+00038 As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+00039 the contents by NLM or the National Institutes of Health.
+00040 Learn more:
+00041 PMC Disclaimer
+00042 |
+00043 PMC Copyright Notice
+00044 Sci Rep. 2022 Feb 15;12:2499. doi: 10.1038/s41598-021-03199-7
+00045 Search in PMC
+00046 Search in PubMed
+00047 View in NLM Catalog
+00048 Add to search
+00049 Manipulating the carrier concentration and phase transition via Nb content in SrTiO3
+00050 Zhe Zhang
+00051 Zhe Zhang
+00052 1Institute of Materials Engineering, Nanjing University, Nantong, Jiangsu 226019 China
+00053 2National Laboratory of Solid State Microstructures & Department of Physics, Nanjing University, Nanjing, 210093 China
+00054 Find articles by Zhe Zhang
+00055 1,2, Peihua Qian
+00056 Peihua Qian
+00057 1Institute of Materials Engineering, Nanjing University, Nantong, Jiangsu 226019 China
+00058 2National Laboratory of Solid State Microstructures & Department of Physics, Nanjing University, Nanjing, 210093 China
+00059 Find articles by Peihua Qian
+00060 1,2, Xingming Yang
+00061 Xingming Yang
+00062 1Institute of Materials Engineering, Nanjing University, Nantong, Jiangsu 226019 China
+00063 2National Laboratory of Solid State Microstructures & Department of Physics, Nanjing University, Nanjing, 210093 China
+00064 Find articles by Xingming Yang
+00065 1,2, Baixi Wu
+00066 Baixi Wu
+00067 1Institute of Materials Engineering, Nanjing University, Nantong, Jiangsu 226019 China
+00068 2National Laboratory of Solid State Microstructures & Department of Physics, Nanjing University, Nanjing, 210093 China
+00069 Find articles by Baixi Wu
+00070 1,2, H L Cai
+00071 H L Cai
+00072 1Institute of Materials Engineering, Nanjing University, Nantong, Jiangsu 226019 China
+00073 2National Laboratory of Solid State Microstructures & Department of Physics, Nanjing University, Nanjing, 210093 China
+00074 Find articles by H L Cai
+00075 1,2, F M Zhang
+00076 F M Zhang
+00077 1Institute of Materials Engineering, Nanjing University, Nantong, Jiangsu 226019 China
+00078 2National Laboratory of Solid State Microstructures & Department of Physics, Nanjing University, Nanjing, 210093 China
+00079 Find articles by F M Zhang
+00080 1,2, X S Wu
+00081 X S Wu
+00082 1Institute of Materials Engineering, Nanjing University, Nantong, Jiangsu 226019 China
+00083 2National Laboratory of Solid State Microstructures & Department of Physics, Nanjing University, Nanjing, 210093 China
+00084 Find articles by X S Wu
+00085 1,2,✉
+00086 Author information
+00087 Article notes
+00088 Copyright and License information
+00089 1Institute of Materials Engineering, Nanjing University, Nantong, Jiangsu 226019 China
+00090 2National Laboratory of Solid State Microstructures & Department of Physics, Nanjing University, Nanjing, 210093 China
+00091 ✉
+00092 Corresponding author.
+00093 Received 2021 Aug 29; Accepted 2021 Oct 28; Collection date 2022.
+00094 © The Author(s) 2022
+00095 Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+00096 PMC Copyright notice
+00097 PMCID: PMC8847566 PMID: 35169173
+00098 Abstract
+00099 SrTiO3 is a model of the perovskite-like compounds for structural transition which inducing the intriguing physical properties around the critical phase transition temperature TAFD (antiferrodistortive, abbrev. as AFD). Here we report that the electrical transport behavior is a new way to quantify Nb concentration for Nb-doped SrTiO3. The lattice parameter (c), phase transition temperature (TAFD), and the carrier concentration (n) of SrTiO3 may be manipulated by niobium doping. TAFD increases with increasing the niobium content in a rate of about 30 K per (wt%, i.e. niobium element’s weight verses total weight) niobium and n in a rate of about 2.5 × 1020/cm3 per (wt%) niobium.
+00100 Subject terms: Electronic properties and materials, Phase transitions and critical phenomena
+00101 Introduction
+00102 Strontium titanate (SrTiO3, abbrev. as STO) is a well known as one of the typical perovskite-like oxides with the general formula ABO3. The STO system has attracted considerable attentions not only for being a model transition-metal oxide system where fundamental physics has been extensively studied1–3, but also for its potential application in new device fabrications due to its tunable electronic, optical and transport properties4–12. Many interesting properties have been discovered in the STO system, for example: STO is a quantum paraelectric13 as well as the first reported insulating oxide superconducting material14; LaAlO3/SrTiO3 heterointerface has two-dimensional electron gas with highly mobility of charge carriers15,16; migration of oxygen vacancies occurs at BaTiO3−δ/SrTiO3 interface17; ferromagnetic metallic phase and antiferromagnetic insulating phase occur in strained SrRuO3/SrTiO3 superlattices18. However, technology application requires manipulating the physical properties.
+00103 Doping is one of the easiest and most efficient ways to manipulate physical properties of STO, not only because of the change of the carriers, but also the structural change of the unit cell19–21. Doping of a small electrons may raise abundant interaction among charge, spin, orbital and lattice degree of freedom for SrTiO3, therefore display the intriguing physical properties such as rectifying behavior22, resistive switching phenomenon4,9, ionic polarization23, high permittivity with low dielectric loss24,25, thermoelectric26,27, inverse spin Hall effect28, luminescence29, quantum ferroelectric30 and so on. Furthermore, many of these physical properties are believed to alter around the critical phase transition temperature (TAFD = 105 K, antiferrodistortive, abbrev. as AFD) of STO. The essential character of this phase transition is that when temperature goes down under TAFD, the TiO6 octahedral of STO rotate around the c-axis in an antiferrodistortive pattern driven by softening of a Brillouin zone boundary phonon31. Studies have shown that this soft mode and the AFD transition affect the specific heat32, thermal conductivity33, sound velocity34, thermal expansion35 and conductivity anisotropy20 of STO tremendously. Hence, to clarify the relationship between doping concentration and electrical transport property around TAFD is very important for us to understand the impact of the phase transition on electronic transport.
+00104 In the present, (001)-oriented Nb-doped SrTiO3 single crystals with Nb doping concentration of 0, 0.05%, 0.1%, 0.5%, and 0.7% (wt%) are grown and studied. Results show that Nb doping, as well as the further post-annealing may be a way to revise the structure and properties of STO single crystals. We observe the variation of electrical transport behavior around TAFD. The phase transition temperature and the carrier concentration of Nb-doped SrTiO3 vary linearly with the Nb concentration, which is very meaningful for understanding the physics of the future application in electrical devices.
+00105 Methods
+00106 (001)-oriented Nb-doped SrTiO3 single-crystal slices with varying the mass percent (wt%:0, 0.05%, 0.1%, 0.5%, 0.7%, i.e. niobium element’s weight verses total weight; nominal formulas are SrTiO3, SrTi0.999Nb0.001O3, SrTi0.998Nb0.002O3, SrTi0.990Nb0.010O3 and SrTi0.986Nb0.014O3 respectively) of Nb are prepared and polished. Stoichiometric amounts of SrCO3, TiO2 and Nb2O5 were mixed and then grew by flame fusion method basically following Ref.36, the growth speed was 15 mm/h and under an atmosphere of H2/O2 mixture with the H2/O2 ratio of 5:1. Nb-free, and 0.5% Nb-doped SrTiO3 single crystals are further annealed in a tube furnace in air at the temperature 930 °C for more 2 h, for comparison after the crystals remain in air for more than one year. The X-ray diffraction data and rocking curve data are obtained on the beamline BL14B1 located at the Shanghai Synchrotron Radiation Facility (SSRF), and the RSM (reciprocal space mapping) data near the corresponding symmetric 002 reflection is also obtained using X-ray with a wavelength of 1.2387 Å. The detailed information about the beamline BL14B1 following Yang et al.37. Raman spectra measurement is carried out using micro-Raman spectrometer LabRAM HR800 equipped with a low temperature platform. A 488 nm laser is selected as the excitation source. An objective × 50 is used both to focus the incident laser beam and to collect the scattered light. Transport property is characterized by PPMS (Physical Property Measurement System) from Quantum Design (PPMS-9).
+00107 Results and discussion
+00108 X-ray diffraction reflections around the (001), (002) and (003) diffraction peaks are fitted using a Gaussian Function, and calculate the out of plane lattice parameter c based on Bragg equation. All FWHMs are small enough (around 0.01°–0.02° which is very close to the resolution of the 6-cycle diffractometer which is 0.01°), indicating that the single crystals here have high quality. There are clear yet small (less than 0.05°) peak shift as Nb element is doped into STO. Figure 1 shows the calculated out of plane lattice parameter c of Nb doped SrTiO3 single-crystals. Post annealing for sample with doping free and 0.5%Nb doping SrTiO3 shows that the lattice symmetry remains the same the ones before annealing. Whiles, after annealing the lattice parameter c for Nb-free STO increases, and for Nb-doped STO decreases, as shown in Fig. 1. We argue that Nb5+ ions (0.64 Å) have bigger ionic radius than Ti4+ (0.605 Å), and induces the lattice increase with increasing the Nb concentration. In addition, more Nb doped might leads to more Ti3+ ions (0.67 Å) whose ionic radius is also bigger than Ti4+ ions (0.605 Å), which caused the lattice expansion38,39. In addition, some defects, inclusion oxygen vacancy, anti-site occupying between Sr and Ti, may occur during crystal growth by flame fusion, which may be recovered during the further annealing (at least around the near surface part due to the small velocity of the transfer atoms in the crystal). We believe that the lattice parameter of c increases slightly after annealing for Nb-free STO tells the recover the truth. Nb doping may lead to stacking fault and dislocation fault, which may increase the calculated average parameter c.
+00109 Figure 1.
+00110 Open in a new tab
+00111 The out of plane lattice parameter c dependence of Nb-doping concentration in SrTiO3 crystals.
+00112 We performed rocking curve measurement to try to calculate the density of the misfit dislocation fault densities (MD)40. For a given reflection, the measured rocking curve full width at half maximum (FWHM) βm including the intrinsic half width βi for the perfect sample is given by:
+00113 βm2=βi2+βd2+βε2+βα2+βL2+βr2.
+00114 1
+00115 The intrinsic rocking curve width for the crystal is usually less than several tens of arcseconds and can often be neglected41. βd is the intrinsic rocking curve width from the diffractometer; βε, βα, βL and βr are the rocking curve broadening caused by the strain surrounding dislocations, lattice tilting, particle size and curvature, respectively. A simple model42 gives the dislocation density as:
+00116 Ddis≈Δβ2/9b2,
+00117 2
+00118 where Ddis is the MD, b is the length of the Burger vector of the corresponding dislocation and Δβ2=βm2-βi2-βd2.
+00119 According to our calculation result, the total dislocation densities of our samples are of the order of about 107 cm−2, which is smaller than films fabricate by laser molecular beam epitaxy40. For comparison, the DM among the annealed samples is around 10% smaller than other samples.
+00120 As for the reason why annealing process leads to a decrease of lattice parameter of doped sample, we believe that annealing process may erase these stacking fault and dislocation fault, and also distortion due to the non-chemical stoichiometric, crystal become more quality, which may be proved by the following reciprocal space mapping (RSM) measurements43.
+00121 To verify our hypothesis, we performed reciprocal space mapping(RSM)43, which is a very effective way to detect the detailed structure of defects among single-crystals44,45. Figure 2 shows several RSMs near symmetric (002) reflection of (001)-oriented SrTiO3 single crystals with the X-ray wavelength of 1.2387 Å. As can be seen, the diffuse scattering is extending in all directions indicating that most of the defects are point defect45. The diffuse scattering is stronger in the direction of qL, it is because of the effect of crystal truncation rod (CTR) scattering, which originates from the interface between the crystal surface and vacuum in the out-of-plane direction46. The only difference between the samples is the intensity. It is clearly showing that lots of defects appear in crystals of STO with Nb doping, RSM intensity become more scattered, as in comparing in Fig. 2a,b. The intensity of the diffuse scattering around symmetric (002) Bragg reflection is much stronger due to those defects and lattice structure distortion as calculated from rocking curves. Figure 2c,d show the measured RSM for the annealing Nb-free, and 0.5% Nb-doped STO crystal, which indicates that 2 h annealing in air at 930 °C will eliminate those defects effectively (at least around the near surface part due to the small velocity of the transfer atoms in the crystal), even for the doped crystals. In this way, we suggest the annealing is necessary for the STO or doped STO applications in device fabrication or even only for substrate.
+00122 Figure 2.
+00123 Open in a new tab
+00124 RSMs (reciprocal space mapping) near symmetric 002 reflection of (001)-oriented SrTiO3 single crystals. (a) RSM of undoped SrTiO3 single crystal; (b) RSM of 0.5% Nb doped SrTiO3 single crystal; (c,d) RSMs of undoped and 0.5% Nb doped SrTiO3 single crystal which was annealed in a tube furnace in air at the temperature 930 °C for 2 h.
+00125 To observe the soft mode after phase transition we measured Raman spectra of Nb-doped SrTiO3 single crystals with varying the temperature. Figure 3 shows the Raman spectra at 110 K. The spectrum of SrTiO3 crystal is dominated by the second-order features47. Second-order Raman spectra involve the creation or destruction of two phonons, therefore the spectra tend to be continues rather than individual branches in the vibrational spectrum which is the feature of first-order Raman spectra feature. As can be seen, at 110 K, in comparing to the spectrum of SrTiO3 at room temperature, first-order peaks assigned to TO2 + LO1, TO4 and LO4 have emerge47, indicating the local structural symmetry has been broken. For 0.5% and 0.7% Nb-doped SrTiO3 single crystals, these first-order peaks remain active at room temperature, meaning more Nb element have break local structural symmetry even at room temperature. It verifies our previous analyses form the XRD, rocking curve and RMS data: Nb doping introduce lattice distortion, lattice expansion, point defects and stacking faults which breaks the local symmetry of the single crystals. Moreover, another very weak scatter peak appeares around 871 cm−1, which has been observed in other doped STO and is believed to result from the incorporation of impurity ions in B sites and the distortion of oxygen octahedron24,48. As the doping concentration of Nb element gets higher the intensity of second-order features gets weaker and sharp peaks at 144 and 444 cm−1 generates at 110 K, indicating the weaken of the cubic structure and the formation of the tetragonal structure. These two peaks are of soft modes called as R47, which are zone-edge (R point) phonons becoming Raman active because of the double folding of the Brillouin zone due to structural phase transition at TAFD49. Here for Nb-doped STO with Nb concentration higher than wt 0.5%, TAFD is clearly higher than 110 K. To determine the exact TAFD of each samples and measure the change of electrical transport property, we performed transport property measurement together with Hall resistivity measurement in the (001) plane.
+00126 Figure 3.
+00127 Open in a new tab
+00128 Raman spectra of various Nb-doped SrTiO3 single crystals at 110 K.
+00129 Nb-free STO behaves as an insulator. Figure 4a shows that the resistivity at room temperature is negatively correlated with the doping concentration and all doped SrTiO3 single crystals act as the conducting behavior. It is clear that the resistivity obeys the function ρ=ρ0+AT2 both at high temperature range (above 120 K) and at low temperature range (below 100 K shown in inset of Fig. 4a). However when passing through the phase transition temperature TAFD, the parameter A changes. The T-square temperature dependence of resistivity is an indication of a strong electron–electron scattering process. Which is a typical Fermi liquid behavior50 in the STO system and widely reported separately at low temperature51 and high temperature39, yet few work had mention the change of the parameter A, meanwhile the mechanism of this T-square temperature dependence is not settled19. We attribute this change of resistivity to the structural phase transition, which also has been mentioned in the mobility fitting of La doped STO21. Here we normalized resistivity ρ (T)/ρ (300 K), Fig. 4b shows the differential curve of it. The obvious turning of the curve is marked by black arrow as shown in Fig. 4b, which represent the turning point of the structural phase transition temperature. We linear fit the two part of the curve and the intersection point of the two fitted straight lines marks the structural phase transition. The TAFD of wt 0.05%, 0.1%, 0.5% and 0.7% Nb-doped samples are 107.7 K, 109.6 K, 121.5 K and 127.4 K respectively. It verifies our observation from Raman spectra, that there is an increase of TAFD when an amount of Nb ions are doped into SrTiO3 single crystal. Figure 4c shows magnetic Field dependence of the Hall resistivity (ρhall) of various Nb doped SrTiO3 single-crystals at 2 K, it shows that the current carrier is electron. Figure 4d shows that the Hall coefficient (RH) is negatively correlated with the doping concentration and carrier concentration (n) is linear positive correlated with the doping concentration, the standard error is milli times smaller so that the error bar is negligible compare to the data point. The carrier concentration is in the same magnitude as in Nb-doped STO thin films reported by Ohta et al.52. Nb-doped STO is a degenerate semiconductor in which the charge carrier concentration depends on the content of defects. Other defect concentration is so little compare to the amount of Nb element (several magnitudes smaller) that no obvious difference can be seen between annealed and other samples (also the annealing process may effect only the near surface region). Figure 4d also shows that TAFD is linear positive correlated with the doping concentration. The correlation between TAFD and carrier concentration is shown in Fig. 5. The TAFD increases with increasing the carrier concentration, i.e., the doping concentration. Our results are the same as those reported by Tao et al.20 that in Nb:STO TAFD increases with the increasement of the carrier concentration as well as the doping concentration. It is because the disturbance of Nb element weakens the stability of the cubic structure, which is fragilely relied on the balance of three atomic radii of SrTiO3. On the other hand, the phase transition temperature (TAFD) and the carriers concentration (n) of SrTiO3 may be modulated by niobium doping. TAFD increases with increasing the niobium in a rate of about 30 K per (wt%) niobium and n in a rate of about 2.5 × 1020/cm3 per (wt%) niobium.
+00130 Figure 4.
+00131 Open in a new tab
+00132 Transport property of Nb doped SrTiO3 single crystals. (a) Temperature-square dependence of the electrical resistivity; (b) The differential curve of the normalized resistivity ρ(T)/ρ(300 K); (c) Magnetic Field dependence of the Hall resistivity (ρhall) at 2 K; (d) Hall coefficient (RH), Carrier concentration (n) and Phase transition temperature (TAFD) of various Nb doped SrTiO3 single crystals at 2 K.
+00133 Figure 5.
+00134 Open in a new tab
+00135 Evolution of the AFD transition temperature with carrier concentration for Nb:STO single crystals.
+00136 Conclusions
+00137 Strontium titanate single crystals with varying the doping concentration of niobium have been grown and studied in the present. High-resolution X-ray diffraction studies show that as the doping concentration increase the lattice constants increase as well, yet further post-annealing process tend to decrease the defects. The reciprocal space mapping (RSM) near symmetric 002 reflection verifies our suggestion. Raman Spectra of various Nb-doped SrTiO3 single crystals at 110 K indicates that there is an increase of phase transition temperature together with local structural symmetry broken when certain amount of Nb ions are doped into SrTiO3 single crystal. We observe the change of the electrical transport behavior around the TAFD, it can be a new way to quantify the phase transition temperature of Nb-doped SrTiO3. Transport property measurement shows that that the current carrier is electron. In addition, carrier concentration (n) is linear positive correlated with the doping concentration as well as the phase transition temperature TAFD. We propose that the lattice parameter (c), phase transition temperature (TAFD) and the carriers concentration (n) of SrTiO3 may be modulated by niobium doping. TAFD increases with increasing the niobium in a rate of about 30 K per (wt%, i.e. niobium element’s weight verses total weight) niobium and n in a rate of about 2.5 × 1020/cm3 per (wt%) niobium.
+00138 Acknowledgements
+00139 This study was supported by the National Natural Science Foundation of China [Grant Number 11874200], and by the Major Research Plan [Grant Number 2017YFA0303202].
+00140 Author contributions
+00141 X.W. conceived the idea and designed experiments. Z.Z., P.Q., X.Y. and W.B. carried out the experiments and data analysis. Z.Z. also contributed to the manuscript writing. P.Q. contributed to the manuscript revising. All authors reviewed the manuscript and commented on different parts.
+00142 Data availability
+00143 The datasets generated during and/or analysed during the current study are available from the corresponding author on reasonable request.
+00144 Competing interests
+00145 The authors declare no competing interests.
+00146 Footnotes
+00147 Publisher's note
+00148 Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+00149 References
+00150 1.Trenkle A, et al. Nondestructive evaluation of 3D microstructure evolution in strontium titanate. J. Appl. Crystallogr. 2020;53:349–359. doi: 10.1107/s160057672000093x. [DOI] [Google Scholar]
+00151 2.Martelli V, Jimenez JL, Continentino M, Baggio-Saitovitch E, Behnia K. Thermal transport and phonon hydrodynamics in strontium titanate. Phys. Rev. Lett. 2018;120:125901. doi: 10.1103/PhysRevLett.120.125901. [DOI] [PubMed] [Google Scholar]
+00152 3.Dacal LCO, Cantarero A, Olevano V. Substrate strain and doping effects on the crystal structure of SrNbxTi1−xO3. Eur. Phys. J. B. 2019 doi: 10.1140/epjb/e2019-100120-4. [DOI] [Google Scholar]
+00153 4.Li G, et al. Origin of resistance switching and regulation of the resistance stability by the interface state density on the Pt/Nb:SrTiO3 interface. Phys. Status Solidi (a) 2019;216:1900125. doi: 10.1002/pssa.201900125. [DOI] [Google Scholar]
+00154 5.Zhao M, et al. Resistive switching and related magnetization switching in Pt/BiFeO3/Nb:SrTiO3 heterostructures. RSC Adv. 2017;7:23287–23292. doi: 10.1039/c7ra00242d. [DOI] [Google Scholar]
+00155 6.Zhao L, et al. Synaptic memory devices from CoO/Nb:SrTiO3 junction. R. Soc. Open Sci. 2019;6:181098. doi: 10.1098/rsos.181098. [DOI] [PMC free article] [PubMed] [Google Scholar]
+00156 7.Yang, Y. et al. 2018 14th IEEE International Conference on Solid-State and Integrated Circuit Technology (ICSICT), 1–3 (2018).
+00157 8.Wang Q, et al. Electric field modulation of resistive switching and related magnetism in the Pt/NiFe2O4/Nb:SrTiO3 heterostructures. J. Alloy. Compd. 2017;693:945–949. doi: 10.1016/j.jallcom.2016.09.248. [DOI] [Google Scholar]
+00158 9.Yang M, et al. Evolution of resistive switching and its ionic models in Pt/Nb-doped SrTiO3junctions. Mater. Res. Express. 2016;3:075903. doi: 10.1088/2053-1591/3/7/075903. [DOI] [Google Scholar]
+00159 10.Wu S, et al. Nonvolatile resistive switching in Pt/LaAlO3/SrTiO3 heterostructures. Phys. Rev. X. 2013 doi: 10.1103/PhysRevX.3.041027. [DOI] [Google Scholar]
+00160 11.Li R, Zhang C, Liu J, Zhou J, Xu L. A review on the electrical properties of doped SrTiO3 as anode materials for solid oxide fuel cells. Mater. Res. Express. 2019;6:102006. doi: 10.1088/2053-1591/ab4303. [DOI] [Google Scholar]
+00161 12.Zhang W, et al. Doping and temperature-dependent UV–Vis optical constants of cubic SrTiO3: A combined spectroscopic ellipsometry and first-principles study. Opt. Mater. Express. 2021;11:895. doi: 10.1364/ome.409752. [DOI] [Google Scholar]
+00162 13.Müller KA, Burkard H. SrTiO3: An intrinsic quantum paraelectric below 4 K. Phys. Rev. B. 1979;19:3593–3602. doi: 10.1103/PhysRevB.19.3593. [DOI] [Google Scholar]
+00163 14.Koonce CS, Cohen ML, Schooley JF, Hosler WR, Pfeiffer ER. Superconducting transition temperatures of semiconducting SrTiO3. Phys. Rev. 1967;163:380–390. doi: 10.1103/PhysRev.163.380. [DOI] [Google Scholar]
+00164 15.Wang C, Wang Y, Yang Z, Wang J, Wu XS. Interface properties of nonpolar LiAlO2/SrTiO3 heterostructures. Vacuum. 2019;161:98–102. doi: 10.1016/j.vacuum.2018.12.024. [DOI] [Google Scholar]
+00165 16.Ohtomo A, Hwang HY. A high-mobility electron gas at the LaAlO3/SrTiO3 heterointerface. Nature. 2004;427:423–426. doi: 10.1038/nature02308. [DOI] [PubMed] [Google Scholar]
+00166 17.Yang C, et al. Effect of substrate and intermediate layer on the conductivity and charge transport properties of epitaxial BaTiO3−δ films. J. Phys. D Appl. Phys. 2017;50:505305. doi: 10.1088/1361-6463/aa98ad. [DOI] [Google Scholar]
+00167 18.Gu M, et al. Magnetic ordering and structural phase transitions in a strained ultrathin SrRuO3/SrTiO3 superlattice. Phys. Rev. Lett. 2012;109:157003. doi: 10.1103/PhysRevLett.109.157003. [DOI] [PubMed] [Google Scholar]
+00168 19.Collignon C, Lin X, Rischau CW, Fauqué B, Behnia K. Metallicity and superconductivity in doped strontium titanate. Annu. Rev. Condens. Matter Phys. 2019;10:25–44. doi: 10.1146/annurev-conmatphys-031218-013144. [DOI] [Google Scholar]
+00169 20.Tao Q, et al. Nonmonotonic anisotropy in charge conduction induced by antiferrodistortive transition in metallicSrTiO3. Phys. Rev. B. 2016 doi: 10.1103/PhysRevB.94.035111. [DOI] [Google Scholar]
+00170 21.Verma A, Kajdos AP, Cain TA, Stemmer S, Jena D. Intrinsic mobility limiting mechanisms in lanthanum-doped strontium titanate. Phys. Rev. Lett. 2014 doi: 10.1103/PhysRevLett.112.216601. [DOI] [Google Scholar]
+00171 22.Kim BSY, Birkhölzer YA, Feng X, Hikita Y, Hwang HY. Probing the band alignment in rectifying SrIrO3/Nb:SrTiO3 heterostructures. Appl. Phys. Lett. 2019;114:133504. doi: 10.1063/1.5087956. [DOI] [Google Scholar]
+00172 23.Nishiyama J, Kanehara K, Takeda H, Tsurumi T, Hoshina T. Doping effect of Nb on ionic polarization of SrTiO3. J. Ceram. Soc. Jpn. 2019;127:357–361. doi: 10.2109/jcersj2.19031. [DOI] [Google Scholar]
+00173 24.Pan W, et al. Defect structure and dielectric behavior in SrTi1-x(Zn1/3Nb2/3)xO3 ceramics. J. Alloy. Compd. 2019;784:1303–1310. doi: 10.1016/j.jallcom.2019.01.156. [DOI] [Google Scholar]
+00174 25.Zhong B, Long Z, Yang C, Li Y, Wei X. Colossal dielectric permittivity in co-doping SrTiO3 ceramics by Nb and Mg. Ceram. Int. 2020;46:20565–20569. doi: 10.1016/j.ceramint.2020.05.174. [DOI] [Google Scholar]
+00175 26.Bhansali S, et al. Enhanced thermoelectric properties of lightly Nb doped SrTiO3 thin films. Nanoscale Adv. 2019;1:3647–3653. doi: 10.1039/c9na00361d. [DOI] [PMC free article] [PubMed] [Google Scholar]
+00176 27.Kim J, Duy LT, Lee SY, Ko M, Seo H. Thermoelectric properties of Nb-doped SrTiO3 films prepared by co-sputtering. J. Asian Ceram. Soc. 2020;8:1135–1146. doi: 10.1080/21870764.2020.1824325. [DOI] [Google Scholar]
+00177 28.Zhang W, Zhang X, Peng B, Zhang W. Dependence of the inverse spin Hall effect in Sr(NbxTi1−x)O3 on the Nb concentration. Phys. B Condens. Matter. 2020;593:412301. doi: 10.1016/j.physb.2020.412301. [DOI] [Google Scholar]
+00178 29.Yalishev VS, Ganeev RA, Alnaser AS, Yuldashev SU. Critical points in photoluminescence spectra and their relation with phase transition in Nb-doped SrTiO3. Appl. Phys. A. 2020 doi: 10.1007/s00339-020-03658-4. [DOI] [Google Scholar]
+00179 30.Bednorz JG, Müller KA. Sr1−xCaxTiO3: AnXY quantum ferroelectric with transition to randomness. Phys. Rev. Lett. 1984;52:2289–2292. doi: 10.1103/PhysRevLett.52.2289. [DOI] [Google Scholar]
+00180 31.McCalla E, Walter J, Leighton C. A unified view of the substitution-dependent antiferrodistortive phase transition in SrTiO3. Chem. Mater. 2016;28:7973–7981. doi: 10.1021/acs.chemmater.6b03667. [DOI] [Google Scholar]
+00181 32.Salje EKH, Gallardo MC, Jiménez J, Romero FJ, del Cerro J. The cubic-tetragonal phase transition in strontium titanate: Excess specific heat measurements and evidence for a near-tricritical, mean field type transition mechanism. J. Phys. Condens. Matter. 1998;10:5535–5543. doi: 10.1088/0953-8984/10/25/006. [DOI] [Google Scholar]
+00182 33.Fleury PA, Worlock JM. Electric-field-induced Raman scattering in SrTiO3and KTaO3. Phys. Rev. 1968;174:613–623. doi: 10.1103/PhysRev.174.613. [DOI] [Google Scholar]
+00183 34.Bäuerle D, Rehwald W. Structural phase transitions in semiconducting SrTiO3. Solid State Commun. 1978;27:1343–1346. doi: 10.1016/0038-1098(78)91568-5. [DOI] [Google Scholar]
+00184 35.Tsunekawa S, Watanabe HFJ, Takei H. Linear thermal expansion of SrTiO3. Phys. Status Solidi (a) 1984;83:467–472. doi: 10.1002/pssa.2210830207. [DOI] [Google Scholar]
+00185 36.Bednorz JG, Scheel HJ. Flame-fusion growth of SrTiO3. J. Cryst. Growth. 1977;41:5–12. doi: 10.1016/0022-0248(77)90088-4. [DOI] [Google Scholar]
+00186 37.Yang T-Y, et al. Introduction of the X-ray diffraction beamline of SSRF. Nucl. Sci. Tech. 2015;26:1–5. doi: 10.13538/j.1001-8042/nst.26.020101. [DOI] [Google Scholar]
+00187 38.Karczewski J, Riegel B, Gazda M, Jasinski P, Kusz B. Electrical and structural properties of Nb-doped SrTiO3 ceramics. J. Electroceram. 2009;24:326–330. doi: 10.1007/s10832-009-9578-7. [DOI] [Google Scholar]
+00188 39.Blennow P, Hagen A, Hansen K, Wallenberg L, Mogensen M. Defect and electrical transport properties of Nb-doped SrTiO3. Solid State Ionics. 2008;179:2047–2058. doi: 10.1016/j.ssi.2008.06.023. [DOI] [Google Scholar]
+00189 40.Zhai ZY, et al. Dislocation density and strain distribution in SrTiO3 film grown on (1 1 0) DyScO3 substrate. J. Phys. D Appl. Phys. 2009;42:105307. doi: 10.1088/0022-3727/42/10/105307. [DOI] [Google Scholar]
+00190 41.Yoshimura J-I, Sakamoto T, Yamanaka J. X-ray double-crystal diffractometry of Verneuil-grown SrTiO3 crystals. Jpn. J. Appl. Phys. 2001;40:6536–6542. doi: 10.1143/jjap.40.6536. [DOI] [Google Scholar]
+00191 42.Gay P, Hirsch PB, Kelly A. The estimation of dislocation densities in metals from X-ray data. Acta Metall. 1953;1:315–319. doi: 10.1016/0001-6160(53)90106-0. [DOI] [Google Scholar]
+00192 43.Fewster PF. Reciprocal space mapping. Crit. Rev. Solid State Mater. Sci. 1997;22:69–110. doi: 10.1080/10408439708241259. [DOI] [Google Scholar]
+00193 44.Hofmann F, Song X, Eve S, Collins SP, Korsunsky AM. Synchrotron based reciprocal space mapping and dislocation substructure analysis. Mater. Lett. 2009;63:1077–1081. doi: 10.1016/j.matlet.2009.02.014. [DOI] [Google Scholar]
+00194 45.Cao M, et al. Point defects and magnetic properties of neutron irradiated MgO single crystal. AIP Adv. 2017;7:056413. doi: 10.1063/1.4973942. [DOI] [Google Scholar]
+00195 46.Kobayashi S, Ikuhara Y, Mizoguchi T. Lattice expansion and local lattice distortion in Nb- and La-doped SrTiO3 single crystals investigated by x-ray diffraction and first-principles calculations. Phys. Rev. B. 2018 doi: 10.1103/PhysRevB.98.134114. [DOI] [Google Scholar]
+00196 47.Tenne DA, et al. Lattice dynamics inBaxSr1−xTiO3single crystals: A Raman study. Phys. Rev. B. 2004 doi: 10.1103/PhysRevB.70.174302. [DOI] [Google Scholar]
+00197 48.Pan W, et al. Structures and dielectric properties of (Nb, Zn) co-doped SrTiO3 ceramics at various sintering temperatures. J. Mater. Sci. 2019;54:12401–12410. doi: 10.1007/s10853-019-03793-1. [DOI] [Google Scholar]
+00198 49.Nilsen WG, Skinner JG. Raman spectrum of strontium titanate. J. Chem. Phys. 1968;48:2240–2248. doi: 10.1063/1.1669418. [DOI] [Google Scholar]
+00199 50.Luttinger JM, Nozières P. Derivation of the Landau theory of fermi liquids. II. Equilibrium properties and transport equation. Phys. Rev. 1962;127:1431–1440. doi: 10.1103/PhysRev.127.1431. [DOI] [Google Scholar]
+00200 51.Lin X, Rischau CW, van der Beek CJ, Fauqué B, Behnia K. s-wave superconductivity in optimally dopedSrTi1−xNbxO3unveiled by electron irradiation. Phys. Rev. B. 2015 doi: 10.1103/PhysRevB.92.174504. [DOI] [Google Scholar]
+00201 52.Ohta S, et al. Large thermoelectric performance of heavily Nb-doped SrTiO3 epitaxial film at high temperature. Appl. Phys. Lett. 2005 doi: 10.1063/1.2035889. [DOI] [Google Scholar]
+00202 Associated Data
+00203 This section collects any data citations, data availability statements, or supplementary materials included in this article.
+00204 Data Availability Statement
+00205 The datasets generated during and/or analysed during the current study are available from the corresponding author on reasonable request.
+00206 Articles from Scientific Reports are provided here courtesy of Nature Publishing Group
+00207 ACTIONS
+00208 View on publisher site
+00209 PDF (2.2 MB)
+00210 Cite
+00211 Collections
+00212 Permalink
+00213 PERMALINK
+00214 Copy
+00215 RESOURCES
+00216 Similar articles
+00217 Cited by other articles
+00218 Links to NCBI Databases
+00219 Cite
+00220 Copy
+00221 Download .nbib
+00222 .nbib
+00223 Format:
+00224 AMA
+00225 APA
+00226 MLA
+00227 NLM
+00228 Add to Collections
+00229 Create a new collection
+00230 Add to an existing collection
+00231 Name your collection
+00232 *
+00233 Choose a collection
+00234 Unable to load your collection due to an error
+00235 Please try again
+00236 Add
+00237 Cancel
+00238 Follow NCBI
+00239 NCBI on X (formerly known as Twitter)
+00240 NCBI on Facebook
+00241 NCBI on LinkedIn
+00242 NCBI on GitHub
+00243 NCBI RSS feed
+00244 Connect with NLM
+00245 NLM on X (formerly known as Twitter)
+00246 NLM on Facebook
+00247 NLM on YouTube
+00248 National Library of Medicine
+00249 8600 Rockville Pike Bethesda, MD 20894
+00250 Web Policies
+00251 FOIA
+00252 HHS Vulnerability Disclosure
+00253 Help
+00254 Accessibility
+00255 Careers
+00256 NLM
+00257 NIH
+00258 HHS
+00259 USA.gov
+00260 Back to Top

@@ -1,0 +1,33 @@
+{
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "operating_system": "Windows-10-10.0.26300-SP0",
+  "workspace": "C:\\Final Project",
+  "source_inventory": {
+    "blocked": 2,
+    "metadata_only": 6,
+    "full_text": 3,
+    "unavailable": 1,
+    "acquired_unreviewed": 2
+  },
+  "evidence_counts": {
+    "reviewed_claims": 3,
+    "eligible_experimental": 0,
+    "eligible_computational": 1,
+    "held": 2
+  },
+  "pytest": {
+    "tests": "105",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "2.930"
+  },
+  "previous_tracked_files_checked": 95,
+  "changed_previous_files": [
+    "docs/progress.md"
+  ],
+  "unexpected_previous_changes": [],
+  "release_rebuilt_identically": true,
+  "clean_machine_reproducibility": "not tested",
+  "expert_adjudication": "pending"
+}

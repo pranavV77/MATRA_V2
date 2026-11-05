@@ -1,0 +1,1178 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2026-10-15T00:26:14Z",
+      "timestamp": 1792023974935,
+      "version": "4.4.0"
+    },
+    "reference-count": 77,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              30
+            ]
+          ],
+          "date-time": "2022-11-30T00:00:00Z",
+          "timestamp": 1669766400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              30
+            ]
+          ],
+          "date-time": "2022-11-30T00:00:00Z",
+          "timestamp": 1669766400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100002241",
+        "name": "MEXT | Japan Science and Technology Agency",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "JPMJCR19K2"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JPMJCR19K2"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002241",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001691",
+        "name": "MEXT | Japan Society for the Promotion of Science",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "18H03686"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "18H03686"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001691",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001691",
+        "name": "MEXT | Japan Society for the Promotion of Science",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "19H01844"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "19H01844"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001691",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001691",
+        "name": "MEXT | Japan Society for the Promotion of Science",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "19H01844"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "19H01844"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001691",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "npj Quantum Mater."
+    ],
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Two different ferroelectric materials, Sr<jats:sub>0.95</jats:sub>Ba<jats:sub>0.05</jats:sub>TiO<jats:sub>3</jats:sub> and Sr<jats:sub>0.985</jats:sub>Ca<jats:sub>0.015</jats:sub>TiO<jats:sub>3</jats:sub>, can be turned into polar metals with broken centrosymmetry via electron doping. Systematic substitution of Nb<jats:sup>5+</jats:sup> for Ti<jats:sup>4+</jats:sup> has revealed that these polar metals both commonly show a simple superconducting dome with a single convex shape. Interestingly, the superconducting transition temperature <jats:italic>T</jats:italic><jats:sub>c</jats:sub> is enhanced more strongly in these polar metals when compared with the nonpolar matrix Sr(Ti, Nb)O<jats:sub>3</jats:sub>. The maximum <jats:italic>T</jats:italic><jats:sub>c</jats:sub> reaches 0.75 K, which is the highest reported value among the SrTiO<jats:sub>3</jats:sub>-based families to date. However, the <jats:italic>T</jats:italic><jats:sub>c</jats:sub> enhancement is unexpectedly lower within the vicinity of the putative ferroelectric quantum critical point. The enhancement then becomes much more prominent at locations further inside the dilute carrier-density region, where the screening is less effective. These results suggest that centrosymmetry breaking, i.e., the ferroelectric nature, does not kill the superconductivity. Instead, it enhances the superconductivity directly, despite the absence of strong quantum fluctuations.</jats:p>",
+    "DOI": "10.1038/s41535-022-00524-9",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          30
+        ]
+      ],
+      "date-time": "2022-11-30T12:03:54Z",
+      "timestamp": 1669809834000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 22,
+    "title": [
+      "Superconductivity enhancement in polar metal regions of Sr0.95Ba0.05TiO3 and Sr0.985Ca0.015TiO3 revealed by systematic Nb doping"
+    ],
+    "prefix": "10.1038",
+    "volume": "7",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9028-1691",
+        "authenticated-orcid": false,
+        "given": "Yasuhide",
+        "family": "Tomioka",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7605-836X",
+        "authenticated-orcid": false,
+        "given": "Naoki",
+        "family": "Shirakawa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6785-652X",
+        "authenticated-orcid": false,
+        "given": "Isao H.",
+        "family": "Inoue",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "524_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "665",
+        "DOI": "10.1016/0025-5408(70)90107-8",
+        "volume": "5",
+        "author": "BT Matthias",
+        "year": "1970",
+        "unstructured": "Matthias, B. T. Superconductivity versus ferroelectricity. Mater. Res. Bull. 5, 665–667 (1970).",
+        "journal-title": "Mater. Res. Bull."
+      },
+      {
+        "key": "524_CR2",
+        "first-page": "60",
+        "volume": "5",
+        "author": "G Scheerer",
+        "year": "2020",
+        "unstructured": "Scheerer, G. et al. Ferroelectricity, superconductivity, and SrTiO3 — Passions of K. A. Müller. Z. Phys. B: Condens. Matter 5, 60 (2020).",
+        "journal-title": "Z. Phys. B: Condens. Matter"
+      },
+      {
+        "key": "524_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "SI0802",
+        "DOI": "10.35848/1347-4065/ab8bbf",
+        "volume": "59",
+        "author": "WX Zhou",
+        "year": "2020",
+        "unstructured": "Zhou, W. X. & Ariando, A. Review on ferroelectric/polar metals. Jpn. J. Appl. Phys. 59, SI0802 (2020).",
+        "journal-title": "Jpn. J. Appl. Phys."
+      },
+      {
+        "key": "524_CR4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-08693-1",
+        "volume": "10",
+        "author": "Y Tomioka",
+        "year": "2019",
+        "unstructured": "Tomioka, Y., Shirakawa, N., Shibuya, K. & Inoue, I. H. Enhanced superconductivity close to a non-magnetic quantum critical point in electron-doped strontium titanate. Nat. Commun. 10, 738 (2019).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "524_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "eaaw0120",
+        "DOI": "10.1126/sciadv.aaw0120",
+        "volume": "5",
+        "author": "K Ahadi",
+        "year": "2019",
+        "unstructured": "Ahadi, K. et al. Enhancing superconductivity in SrTiO3 films with strain. Sci. Adv. 5, eaaw0120 (2019).",
+        "journal-title": "Sci. Adv."
+      },
+      {
+        "key": "524_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "100503",
+        "DOI": "10.1103/PhysRevB.101.100503",
+        "volume": "101",
+        "author": "T Schumann",
+        "year": "2020",
+        "unstructured": "Schumann, T. et al. Possible signatures of mixed-parity superconductivity in doped polar SrTiO3 films. Phys. Rev. B 101, 100503 (2020).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "104801",
+        "DOI": "10.1103/PhysRevMaterials.5.104801",
+        "volume": "5",
+        "author": "S Salmani-Rezaie",
+        "year": "2021",
+        "unstructured": "Salmani-Rezaie, S., Jeong, H., Russell, R., Harter, J. W. & Stemmer, S. Role of locally polar regions in the superconductivity of SrTiO3. Phys. Rev. Mater. 5, 104801 (2021).",
+        "journal-title": "Phys. Rev. Mater."
+      },
+      {
+        "key": "524_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "247601",
+        "DOI": "10.1103/PhysRevLett.109.247601",
+        "volume": "109",
+        "author": "Y Wang",
+        "year": "2012",
+        "unstructured": "Wang, Y., Liu, X., Burton, J. D., Jaswal, S. S. & Tsymbal, E. Y. Ferroelectric instability under-screened Coulomb interactions. Phys. Rev. Lett. 109, 247601 (2012).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/srep37582",
+        "volume": "6",
+        "author": "A Stucky",
+        "year": "2016",
+        "unstructured": "Stucky, A. et al. Isotope effect in superconducting n-doped SrTiO3. Sci. Rep. 6, 37582 (2016).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "524_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "013019",
+        "DOI": "10.1103/PhysRevResearch.4.013019",
+        "volume": "4",
+        "author": "CW Rischau",
+        "year": "2022",
+        "unstructured": "Rischau, C. W. et al. Isotope tuning of the superconducting dome of strontium titanate. Phys. Rev. Res. 4, 013019 (2022).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "524_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "045108",
+        "DOI": "10.1103/PhysRevB.91.045108",
+        "volume": "91",
+        "author": "BS de Lima",
+        "year": "2015",
+        "unstructured": "de Lima, B. S. et al. Interplay between antiferrodistortive, ferroelectric, and superconducting instabilities in Sr1−xCaxTiO3−δ. Phys. Rev. B 91, 045108 (2015).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "643",
+        "DOI": "10.1038/nphys4085",
+        "volume": "13",
+        "author": "CW Rischau",
+        "year": "2017",
+        "unstructured": "Rischau, C. W. et al. A ferroelectric quantum phase transition inside the superconducting dome of Sr1−xCaxTiO3−δ. Nat. Phys. 13, 643–648 (2017).",
+        "journal-title": "Nat. Phys."
+      },
+      {
+        "key": "524_CR13",
+        "first-page": "4000",
+        "volume": "4",
+        "author": "NA Benedek",
+        "year": "2016",
+        "unstructured": "Benedek, N. A. & Birol, T. ‘Ferroelectric’ metals reexamined: fundamental mechanisms and design considerations for new materials. J. Mater. Chem. 4, 4000–4015 (2016).",
+        "journal-title": "J. Mater. Chem."
+      },
+      {
+        "key": "524_CR14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41535-019-0200-1",
+        "volume": "4",
+        "author": "J Wang",
+        "year": "2019",
+        "unstructured": "Wang, J. et al. Charge transport in a polar metal. npj Quantum Mater. 4, 61 (2019).",
+        "journal-title": "npj Quantum Mater."
+      },
+      {
+        "key": "524_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "104804",
+        "DOI": "10.1103/PhysRevMaterials.2.104804",
+        "volume": "2",
+        "author": "JR Arce-Gamboa",
+        "year": "2018",
+        "unstructured": "Arce-Gamboa, J. R. & Guzmán-Verri, G. G. Quantum ferroelectric instabilities in superconducting SrTiO3. Phys. Rev. Mater. 2, 104804 (2018).",
+        "journal-title": "Phys. Rev. Mater."
+      },
+      {
+        "key": "524_CR16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-18438-0",
+        "volume": "11",
+        "author": "C Enderlein",
+        "year": "2020",
+        "unstructured": "Enderlein, C. et al. Superconductivity mediated by polar modes in ferroelectric metals. Nat. Commun. 11, 4852 (2020).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "524_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "184506",
+        "DOI": "10.1103/PhysRevB.102.184506",
+        "volume": "102",
+        "author": "S Kanasugi",
+        "year": "2020",
+        "unstructured": "Kanasugi, S., Kuzmanovski, D., Balatsky, A. V. & Yanase, Y. Ferroelectricity-induced multiorbital odd-frequency superconductivity in SrTiO3. Phys. Rev. B 102, 184506 (2020).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "091401",
+        "DOI": "10.1103/PhysRevMaterials.3.091401",
+        "volume": "3",
+        "author": "R Russell",
+        "year": "2019",
+        "unstructured": "Russell, R. et al. Ferroelectric enhancement of superconductivity in compressively strained SrTiO3 films. Phys. Rev. Mater. 3, 091401 (2019).",
+        "journal-title": "Phys. Rev. Mater."
+      },
+      {
+        "key": "524_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "6542",
+        "DOI": "10.1021/acs.nanolett.0c02285",
+        "volume": "20",
+        "author": "S Salmani-Rezaie",
+        "year": "2020",
+        "unstructured": "Salmani-Rezaie, S., Ahadi, K. & Stemmer, S. Polar nanodomains in a ferroelectric superconductor. Nano Lett. 20, 6542–6547 (2020).",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "524_CR20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-22541-1",
+        "volume": "12",
+        "author": "J Ma",
+        "year": "2021",
+        "unstructured": "Ma, J., Yang, R. & Chen, H. A large modulation of electron-phonon coupling and an emergent superconducting dome in doped strong ferroelectrics. Nat. Commun. 12, 2314 (2021).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "524_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "54",
+        "DOI": "10.1038/s41563-021-01102-3",
+        "volume": "21",
+        "author": "S Hameed",
+        "year": "2022",
+        "unstructured": "Hameed, S. et al. Enhanced superconductivity and ferroelectric quantum criticality in plastically deformed strontium titanate. Nat. Mater. 21, 54–61 (2022).",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "524_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "220505",
+        "DOI": "10.1103/PhysRevB.98.220505",
+        "volume": "98",
+        "author": "Y Kedem",
+        "year": "2018",
+        "unstructured": "Kedem, Y. Novel pairing mechanism for superconductivity at a vanishing level of doping driven by critical ferroelectric modes. Phys. Rev. B Condens. Matter 98, 220505 (2018).",
+        "journal-title": "Phys. Rev. B Condens. Matter"
+      },
+      {
+        "key": "524_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1146/annurev-conmatphys-031218-013144",
+        "volume": "10",
+        "author": "C Collignon",
+        "year": "2019",
+        "unstructured": "Collignon, C., Lin, X., Rischau, C. W., Fauqué, B. & Behnia, K. Metallicity and superconductivity in doped strontium titanate. Annu. Rev. Condens. Matter Phys. 10, 25–44 (2019).",
+        "journal-title": "Annu. Rev. Condens. Matter Phys."
+      },
+      {
+        "key": "524_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "168107",
+        "DOI": "10.1016/j.aop.2020.168107",
+        "volume": "417",
+        "author": "MN Gastiasoro",
+        "year": "2020",
+        "unstructured": "Gastiasoro, M. N., Ruhman, J. & Fernandes, R. M. Superconductivity in dilute SrTiO3: a review. Ann. Phys. 417, 168107 (2020).",
+        "journal-title": "Ann. Phys."
+      },
+      {
+        "key": "524_CR25",
+        "unstructured": "Kozii, V., Klein, A., Fernandes, R. M. & Ruhman, J. Synergetic ferroelectricity and superconductivity in zero-density Dirac semimetals near quantum criticality. Preprint at https://arxiv.org/abs/2110.09530."
+      },
+      {
+        "key": "524_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "271",
+        "DOI": "10.1103/PhysRevB.13.271",
+        "volume": "13",
+        "author": "H Uwe",
+        "year": "1976",
+        "unstructured": "Uwe, H. & Sakudo, T. Stress-induced ferroelectricity and soft phonon modes in SrTiO3. Phys. Rev. 13, 271–286 (1976).",
+        "journal-title": "Phys. Rev."
+      },
+      {
+        "key": "524_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "3593",
+        "DOI": "10.1103/PhysRevB.19.3593",
+        "volume": "19",
+        "author": "KA Müller",
+        "year": "1979",
+        "unstructured": "Müller, K. A. & Burkard, H. SrTiO3: An intrinsic quantum paraelectric below 4 K. Phys. Rev. B 19, 3593–3602 (1979).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "064107",
+        "DOI": "10.1103/PhysRevB.99.064107",
+        "volume": "99",
+        "author": "Y Watanabe",
+        "year": "2019",
+        "unstructured": "Watanabe, Y. Ferroelectricity of stress-free and strained pure SrTiO3 revealed by ab initio calculations with hybrid and density functionals. Phys. Rev. B 99, 064107 (2019).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "247002",
+        "DOI": "10.1103/PhysRevLett.115.247002",
+        "volume": "115",
+        "author": "JM Edge",
+        "year": "2015",
+        "unstructured": "Edge, J. M., Kedem, Y., Aschauer, U., Spaldin, N. A. & Balatsky, A. V. Quantum critical origin of the superconducting dome in SrTiO3. Phys. Rev. Lett. 115, 247002 (2015).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "367",
+        "DOI": "10.1038/nphys2924",
+        "volume": "10",
+        "author": "SE Rowley",
+        "year": "2014",
+        "unstructured": "Rowley, S. E. et al. Ferroelectric quantum criticality. Nat. Phys. 10, 367–372 (2014).",
+        "journal-title": "Nat. Phys."
+      },
+      {
+        "key": "524_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "12707",
+        "DOI": "10.1073/pnas.1922151117",
+        "volume": "117",
+        "author": "MJ Coak",
+        "year": "2020",
+        "unstructured": "Coak, M. J. et al. Quantum critical phenomena in a compressible displacive ferroelectric. Proc. Natl Acad. Sci. 117, 12707–12712 (2020).",
+        "journal-title": "Proc. Natl Acad. Sci."
+      },
+      {
+        "key": "524_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "2289",
+        "DOI": "10.1103/PhysRevLett.52.2289",
+        "volume": "52",
+        "author": "JG Bednorz",
+        "year": "1984",
+        "unstructured": "Bednorz, J. G. & Müller, K. A. Sr1−xCaxTiO3: An XY quantum ferroelectric with transition to randomness. Phys. Rev. Lett. 52, 2289–2292 (1984).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "8737",
+        "DOI": "10.1103/PhysRevB.51.8737",
+        "volume": "51",
+        "author": "U Bianchi",
+        "year": "1995",
+        "unstructured": "Bianchi, U., Dec, J., Kleemann, W. & Bednorz, J. G. Cluster and domain-state dynamics of ferroelectric Sr1−xCaxTiO3 (x = 0.007). Phys. Rev. B 51, 8737–8746 (1995).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "3151",
+        "DOI": "10.1103/PhysRevB.54.3151",
+        "volume": "54",
+        "author": "VV Lemanov",
+        "year": "1996",
+        "unstructured": "Lemanov, V. V., Smirnova, E. P., Syrnikov, P. P. & Tarakanov, E. A. Phase transitions and glasslike behavior in Sr1−xBaxTiO3. Phys. Rev. B 54, 3151–3157 (1996).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "104116",
+        "DOI": "10.1103/PhysRevB.73.104116",
+        "volume": "73",
+        "author": "VB Shirokov",
+        "year": "2006",
+        "unstructured": "Shirokov, V. B., Torgashev, V. I., Bakirov, A. A. & Lemanov, V. V. Concentration phase diagram of BaxSr1−xTiO3 solid solutions. Phys. Rev. B 73, 104116 (2006).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "3540",
+        "DOI": "10.1103/PhysRevLett.82.3540",
+        "volume": "82",
+        "author": "M Itoh",
+        "year": "1999",
+        "unstructured": "Itoh, M. et al. Ferroelectricity induced by oxygen isotope exchange in strontium titanate perovskite. Phys. Rev. Lett. 82, 3540–3543 (1999).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "167601",
+        "DOI": "10.1103/PhysRevLett.99.167601",
+        "volume": "99",
+        "author": "P Zubko",
+        "year": "2007",
+        "unstructured": "Zubko, P., Catalan, G., Buckley, A., Welche, P. R. L. & Scott, J. F. Strain-gradient-induced polarization in SrTiO3 single crystals. Phys. Rev. Lett. 99, 167601 (2007).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "247603",
+        "DOI": "10.1103/PhysRevLett.111.247603",
+        "volume": "111",
+        "author": "EKH Salje",
+        "year": "2013",
+        "unstructured": "Salje, E. K. H., Aktas, O., Carpenter, M. A., Laguta, V. V. & Scott, J. F. Domains within domains and walls within walls: evidence for polar domains in cryogenic SrTiO3. Phys. Rev. Lett. 111, 247603 (2013).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "R825",
+        "DOI": "10.1103/PhysRevB.61.R825",
+        "volume": "61",
+        "author": "NA Pertsev",
+        "year": "2000",
+        "unstructured": "Pertsev, N. A., Tagantsev, A. K. & Setter, N. Phase transitions and strain-induced ferroelectricity in SrTiO3 epitaxial thin films. Phys. Rev. B 61, R825–R829 (2000).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "758",
+        "DOI": "10.1038/nature02773",
+        "volume": "430",
+        "author": "JH Haeni",
+        "year": "2004",
+        "unstructured": "Haeni, J. H. et al. Room-temperature ferroelectricity in strained SrTiO3. Nature 430, 758–761 (2004).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "524_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "143930",
+        "DOI": "10.1016/j.apsusc.2019.143930",
+        "volume": "499",
+        "author": "KT Kang",
+        "year": "2020",
+        "unstructured": "Kang, K. T. et al. Ferroelectricity in SrTiO3 epitaxial thin films via Sr-vacancy-induced tetragonality. Appl. Surf. Sci. 499, 143930 (2020).",
+        "journal-title": "Appl. Surf. Sci."
+      },
+      {
+        "key": "524_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "1529",
+        "DOI": "10.1143/JPSJ.65.1529",
+        "volume": "65",
+        "author": "H Suzuki",
+        "year": "1996",
+        "unstructured": "Suzuki, H. et al. Superconductivity in single-crystalline Sr1−xLaxTiO3. J. Phys. Soc. Jpn. 65, 1529–1532 (1996).",
+        "journal-title": "J. Phys. Soc. Jpn."
+      },
+      {
+        "key": "524_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "202602",
+        "DOI": "10.1063/5.0052319",
+        "volume": "118",
+        "author": "S Salmani-Rezaie",
+        "year": "2021",
+        "unstructured": "Salmani-Rezaie, S. et al. Superconductivity in magnetically doped SrTiO3. Appl. Phys. Lett. 118, 202602 (2021).",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "524_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "380",
+        "DOI": "10.1103/PhysRev.163.380",
+        "volume": "163",
+        "author": "CS Koonce",
+        "year": "1967",
+        "unstructured": "Koonce, C. S., Cohen, M. L., Schooley, J. F., Hosler, W. R. & Pfeiffer, E. R. Superconducting transition temperatures of semiconducting SrTiO3. Phys. Rev. 163, 380–390 (1967).",
+        "journal-title": "Phys. Rev."
+      },
+      {
+        "key": "524_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "1352",
+        "DOI": "10.1103/PhysRevLett.45.1352",
+        "volume": "45",
+        "author": "G Binnig",
+        "year": "1980",
+        "unstructured": "Binnig, G., Baratoff, A., Hoenig, H. E. & Bednorz, J. G. Two-band superconductivity in Nb-doped SrTiO3. Phys. Rev. Lett. 45, 1352–1355 (1980).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "140508",
+        "DOI": "10.1103/PhysRevB.90.140508",
+        "volume": "90",
+        "author": "X Lin",
+        "year": "2014",
+        "unstructured": "Lin, X. et al. Multiple nodeless superconducting gaps in optimally doped SrTi1−xNbxO3. Phys. Rev. B Condens. Matter 90, 140508 (2014).",
+        "journal-title": "Phys. Rev. B Condens. Matter"
+      },
+      {
+        "key": "524_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "224506",
+        "DOI": "10.1103/PhysRevB.96.224506",
+        "volume": "96",
+        "author": "C Collignon",
+        "year": "2017",
+        "unstructured": "Collignon, C. et al. Superfluid density and carrier concentration across a superconducting dome: the case of strontium titanate. Phys. Rev. B Condens. Matter 96, 224506 (2017).",
+        "journal-title": "Phys. Rev. B Condens. Matter"
+      },
+      {
+        "key": "524_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "167003",
+        "DOI": "10.1103/PhysRevLett.121.167003",
+        "volume": "121",
+        "author": "AG Swartz",
+        "year": "2018",
+        "unstructured": "Swartz, A. G. et al. Superconducting tunneling spectroscopy of spin-orbit coupling and orbital depairing in Nb:SrTiO3. Phys. Rev. Lett. 121, 167003 (2018).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "305",
+        "DOI": "10.1103/PhysRevLett.14.305",
+        "volume": "14",
+        "author": "JF Schooley",
+        "year": "1965",
+        "unstructured": "Schooley, J. F. et al. Dependence of the superconducting transition temperature on carrier concentration in semiconducting SrTiO3. Phys. Rev. Lett. 14, 305–307 (1965).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "301",
+        "DOI": "10.1103/PhysRev.159.301",
+        "volume": "159",
+        "author": "JF Schooley",
+        "year": "1967",
+        "unstructured": "Schooley, J. F., Frederikse, H. P. R., Hosler, W. R. & Pfeiffer, E. R. Superconductive properties of ceramic mixed titanates. Phys. Rev. 159, 301–305 (1967).",
+        "journal-title": "Phys. Rev."
+      },
+      {
+        "key": "524_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "207002",
+        "DOI": "10.1103/PhysRevLett.112.207002",
+        "volume": "112",
+        "author": "X Lin",
+        "year": "2014",
+        "unstructured": "Lin, X. et al. Critical doping for the onset of a two-band superconducting ground state in SrTiO3−δ. Phys. Rev. Lett. 112, 207002 (2014).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1140/epjb/e2003-00137-0",
+        "volume": "33",
+        "author": "M Jourdan",
+        "year": "2003",
+        "unstructured": "Jourdan, M., Blümer, N. & Adrian, H. Superconductivity of SrTiO3−δ. Eur. Phys. J. B 33, 25–30 (2003).",
+        "journal-title": "Eur. Phys. J. B"
+      },
+      {
+        "key": "524_CR53",
+        "unstructured": "Bretz-Sullivan, T. M. et al. Superconductivity in the dilute single band limit in reduced strontium titanate. Preprint at https://arxiv.org/abs/1904.03121."
+      },
+      {
+        "key": "524_CR54",
+        "unstructured": "Szot, K. et al. Filamentary superconductivity of resistively-switched strontium titanate. Preprint at https://arxiv.org/abs/2110.07230."
+      },
+      {
+        "key": "524_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "1267",
+        "DOI": "10.1143/JPSJ.49.1267",
+        "volume": "49",
+        "author": "Y Takada",
+        "year": "1980",
+        "unstructured": "Takada, Y. Theory of superconductivity in polar semiconductors and its application to n-type semiconducting SrTiO3. J. Phys. Soc. Jpn. 49, 1267–1275 (1980).",
+        "journal-title": "J. Phys. Soc. Jpn."
+      },
+      {
+        "key": "524_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "845",
+        "DOI": "10.1007/s10948-017-4000-1",
+        "volume": "30",
+        "author": "LP Gor’kov",
+        "year": "2017",
+        "unstructured": "Gor’kov, L. P. Back to mechanisms of superconductivity in low-doped strontium titanate. J. Supercond. Nov. Magn. 30, 845–852 (2017).",
+        "journal-title": "J. Supercond. Nov. Magn."
+      },
+      {
+        "key": "524_CR57",
+        "doi-asserted-by": "publisher",
+        "first-page": "224515",
+        "DOI": "10.1103/PhysRevB.94.224515",
+        "volume": "94",
+        "author": "J Ruhman",
+        "year": "2016",
+        "unstructured": "Ruhman, J. & Lee, P. A. Superconductivity at very low density: the case of strontium titanate. Phys. Rev. B 94, 224515 (2016).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "215",
+        "DOI": "10.1103/PhysRevLett.32.215",
+        "volume": "32",
+        "author": "KL Ngai",
+        "year": "1974",
+        "unstructured": "Ngai, K. L. Two-phonon deformation potential and superconductivity in degenerate semiconductors. Phys. Rev. Lett. 32, 215–218 (1974).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "013003",
+        "DOI": "10.1103/PhysRevResearch.1.013003",
+        "volume": "1",
+        "author": "D van der Marel",
+        "year": "2019",
+        "unstructured": "van der Marel, D., Barantani, F. & Rischau, C. W. Possible mechanism for superconductivity in doped SrTiO3. Phys. Rev. Res. 1, 013003 (2019).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "524_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "L220506",
+        "DOI": "10.1103/PhysRevB.104.L220506",
+        "volume": "104",
+        "author": "DE Kiselov",
+        "year": "2021",
+        "unstructured": "Kiselov, D. E. & Feigel’man, M. V. Theory of superconductivity due to Ngai’s mechanism in lightly doped SrTiO3. Phys. Rev. B 104, L220506 (2021).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-32303-2",
+        "volume": "13",
+        "author": "PA Volkov",
+        "year": "2022",
+        "unstructured": "Volkov, P. A., Chandra, P. & Coleman, P. Superconductivity from energy fluctuations in dilute quantum critical polar metals. Nat. Commun. 13, 4599 (2022).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "524_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "205111",
+        "DOI": "10.1103/PhysRevB.84.205111",
+        "volume": "84",
+        "author": "D van der Marel",
+        "year": "2011",
+        "unstructured": "van der Marel, D., van Mechelen, J. L. M. & Mazin, I. I. Common Fermi-liquid origin of T2 resistivity and superconductivity in n-type SrTiO3. Phys. Rev. B 84, 205111 (2011).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "076601",
+        "DOI": "10.1103/PhysRevLett.126.076601",
+        "volume": "126",
+        "author": "A Kumar",
+        "year": "2021",
+        "unstructured": "Kumar, A., Yudson, V. I. & Maslov, D. L. Quasiparticle and nonquasiparticle transport in doped quantum paraelectrics. Phys. Rev. Lett. 126, 076601 (2021).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "796",
+        "DOI": "10.1103/PhysRev.155.796",
+        "volume": "155",
+        "author": "ON Tufte",
+        "year": "1967",
+        "unstructured": "Tufte, O. N. & Chapman, P. W. Electron mobility in semiconducting strontium titanate. Phys. Rev. 155, 796–802 (1967).",
+        "journal-title": "Phys. Rev."
+      },
+      {
+        "key": "524_CR65",
+        "doi-asserted-by": "publisher",
+        "first-page": "822",
+        "DOI": "10.1103/PhysRev.161.822",
+        "volume": "161",
+        "author": "HPR Frederikse",
+        "year": "1967",
+        "unstructured": "Frederikse, H. P. R. & Hosler, W. R. Hall mobility in SrTiO3. Phys. Rev. 161, 822–827 (1967).",
+        "journal-title": "Phys. Rev."
+      },
+      {
+        "key": "524_CR66",
+        "doi-asserted-by": "publisher",
+        "first-page": "155110",
+        "DOI": "10.1103/PhysRevB.81.155110",
+        "volume": "81",
+        "author": "A Spinelli",
+        "year": "2010",
+        "unstructured": "Spinelli, A., Torija, M. A., Liu, C., Jan, C. & Leighton, C. Electronic transport in doped SrTiO3: Conduction mechanisms and potential applications. Phys. Rev. B 81, 155110 (2010).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR67",
+        "doi-asserted-by": "publisher",
+        "first-page": "375501",
+        "DOI": "10.1088/0953-8984/27/37/375501",
+        "volume": "27",
+        "author": "K Behnia",
+        "year": "2015",
+        "unstructured": "Behnia, K. On mobility of electrons in a shallow Fermi sea over a rough seafloor. J. Phys. Condens. Matter 27, 375501 (2015).",
+        "journal-title": "J. Phys. Condens. Matter"
+      },
+      {
+        "key": "524_CR68",
+        "doi-asserted-by": "publisher",
+        "first-page": "023313",
+        "DOI": "10.1103/PhysRevResearch.2.023313",
+        "volume": "2",
+        "author": "C Ricca",
+        "year": "2020",
+        "unstructured": "Ricca, C., Timrov, I., Cococcioni, M., Marzari, N. & Aschauer, U. Self-consistent DFT study of oxygen vacancies in SrTiO3. Phys. Rev. Res. 2, 023313 (2020).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "524_CR69",
+        "doi-asserted-by": "publisher",
+        "first-page": "5658",
+        "DOI": "10.1103/PhysRevB.32.5658",
+        "volume": "32",
+        "author": "M Ma",
+        "year": "1985",
+        "unstructured": "Ma, M. & Lee, P. A. Localized superconductors. Phys. Rev. B 32, 5658–5667 (1985).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "524_CR70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-020-74645-1",
+        "volume": "10",
+        "author": "C Rodenbücher",
+        "year": "2020",
+        "unstructured": "Rodenbücher, C. et al. Mapping the conducting channels formed along extended defects in SrTiO3 by means of scanning near-field optical microscopy. Sci. Rep. 10, 17763 (2020).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "524_CR71",
+        "doi-asserted-by": "publisher",
+        "first-page": "4735",
+        "DOI": "10.1021/ja513176u",
+        "volume": "137",
+        "author": "D Marrocchelli",
+        "year": "2015",
+        "unstructured": "Marrocchelli, D., Sun, L. & Yildiz, B. Dislocations in SrTiO3: easy to reduce but not so fast for oxygen transport. J. Am. Chem. Soc. 137, 4735–4748 (2015).",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "524_CR72",
+        "doi-asserted-by": "publisher",
+        "first-page": "177",
+        "DOI": "10.1007/BF02162161",
+        "volume": "10",
+        "author": "CH Reinsch",
+        "year": "1967",
+        "unstructured": "Reinsch, C. H. Smoothing by spline functions. Numer. Math. 10, 177–183 (1967).",
+        "journal-title": "Numer. Math."
+      },
+      {
+        "key": "524_CR73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-10635-w",
+        "volume": "10",
+        "author": "D Pelc",
+        "year": "2019",
+        "unstructured": "Pelc, D., Anderson, Z., Yu, B., Leighton, C. & Greven, M. Universal superconducting precursor in three classes of unconventional superconductors. Nat. Commun. 10, 2729 (2019).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "524_CR74",
+        "doi-asserted-by": "publisher",
+        "first-page": "126803",
+        "DOI": "10.1103/PhysRevLett.104.126803",
+        "volume": "104",
+        "author": "AD Caviglia",
+        "year": "2010",
+        "unstructured": "Caviglia, A. D. et al. Tunable Rashba spin-orbit interaction at oxide interfaces. Phys. Rev. Lett. 104, 126803 (2010).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "524_CR75",
+        "doi-asserted-by": "publisher",
+        "first-page": "483",
+        "DOI": "10.1038/s41586-020-2197-9",
+        "volume": "580",
+        "author": "P Noël",
+        "year": "2020",
+        "unstructured": "Noël, P. et al. Non-volatile electric control of spin-charge conversion in a SrTiO3 Rashba system. Nature 580, 483–486 (2020).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "524_CR76",
+        "doi-asserted-by": "publisher",
+        "first-page": "716",
+        "DOI": "10.1126/science.aba5511",
+        "volume": "371",
+        "author": "C Liu",
+        "year": "2021",
+        "unstructured": "Liu, C. et al. Two-dimensional superconductivity and anisotropic transport at KTaO3 (111) interfaces. Science 371, 716–721 (2021).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "524_CR77",
+        "doi-asserted-by": "publisher",
+        "first-page": "351",
+        "DOI": "10.1103/PhysRev.67.351",
+        "volume": "67",
+        "author": "JA Osborn",
+        "year": "1945",
+        "unstructured": "Osborn, J. A. Demagnetizing Factors of the General Ellipsoid. Phys. Rev. 67, 351–357 (1945).",
+        "journal-title": "Phys. Rev."
+      }
+    ],
+    "container-title": [
+      "npj Quantum Materials"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41535-022-00524-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41535-022-00524-9",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41535-022-00524-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          30
+        ]
+      ],
+      "date-time": "2022-11-30T22:13:53Z",
+      "timestamp": 1669846433000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41535-022-00524-9"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          30
+        ]
+      ]
+    },
+    "references-count": 77,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2022,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "524"
+    ],
+    "URL": "https://doi.org/10.1038/s41535-022-00524-9",
+    "relation": {},
+    "ISSN": [
+      "2397-4648"
+    ],
+    "issn-type": [
+      {
+        "value": "2397-4648",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          30
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "17 June 2022",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "16 November 2022",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "30 November 2022",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "111"
+  }
+}

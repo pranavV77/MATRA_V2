@@ -1,0 +1,436 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2026-11-02T22:50:08Z",
+      "timestamp": 1793659808881,
+      "version": "4.5.1"
+    },
+    "reference-count": 22,
+    "publisher": "AIP Publishing",
+    "issue": "20",
+    "content-domain": {
+      "domain": [
+        "pubs.aip.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          19
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Electrical conductivity of β-Ga2O3 has been attributed so far to an oxygen deficiency, the donors presumably being oxygen vacancies. This letter shows, however, that the conductivity can be intentionally controlled over three orders of magnitude by Si doping. The related free-carrier concentration, which varies between 1016–1018cm−3, corresponds to a 25%–50% effective Si donors. Since Si is the main impurity present in Ga2O3 powders—in the order of the studied doping levels—we conclude that the electrical conductance of β-Ga2O3 can be attributed to Si impurities, and that the contribution of oxygen vacancies, if any, is not dominant.</jats:p>",
+    "DOI": "10.1063/1.2919728",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          23
+        ]
+      ],
+      "date-time": "2008-05-23T18:42:45Z",
+      "timestamp": 1211568165000
+    },
+    "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+    "source": "Crossref",
+    "is-referenced-by-count": 438,
+    "title": [
+      "Electrical conductivity and carrier concentration control in β-Ga2O3 by Si doping"
+    ],
+    "prefix": "10.1063",
+    "volume": "92",
+    "author": [
+      {
+        "given": "Encarnación G.",
+        "family": "Víllora",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National Institute for Materials Science 1 , 1-1 Namiki, Tsukuba 305-0044, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kiyoshi",
+        "family": "Shimamura",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Institute for Materials Science 1 , 1-1 Namiki, Tsukuba 305-0044, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yukio",
+        "family": "Yoshikawa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Koha Co., Ltd. 2 , 2-6-8 Kouyama, Nerima-ku, Tokyo 176-0022, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Takekazu",
+        "family": "Ujiie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Koha Co., Ltd. 2 , 2-6-8 Kouyama, Nerima-ku, Tokyo 176-0022, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kazuo",
+        "family": "Aoki",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Koha Co., Ltd. 2 , 2-6-8 Kouyama, Nerima-ku, Tokyo 176-0022, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "317",
+    "published-online": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2023062216283583100_c1",
+        "doi-asserted-by": "publisher",
+        "first-page": "A316",
+        "DOI": "10.1103/PhysRev.140.A316",
+        "volume": "140",
+        "year": "1965",
+        "journal-title": "Phys. Rev."
+      },
+      {
+        "key": "2023062216283583100_c2",
+        "doi-asserted-by": "publisher",
+        "first-page": "4166",
+        "DOI": "10.1063/1.1330559",
+        "volume": "77",
+        "year": "2000",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023062216283583100_c3",
+        "doi-asserted-by": "publisher",
+        "first-page": "209",
+        "DOI": "10.1016/j.tsf.2005.10.080",
+        "volume": "500",
+        "year": "2006",
+        "journal-title": "Thin Solid Films"
+      },
+      {
+        "key": "2023062216283583100_c4",
+        "doi-asserted-by": "publisher",
+        "first-page": "234102",
+        "DOI": "10.1063/1.2745645",
+        "volume": "90",
+        "year": "2007",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023062216283583100_c5",
+        "doi-asserted-by": "publisher",
+        "first-page": "420",
+        "DOI": "10.1016/j.jcrysgro.2004.06.027",
+        "volume": "270",
+        "year": "2004",
+        "journal-title": "J. Cryst. Growth"
+      },
+      {
+        "key": "2023062216283583100_c6",
+        "doi-asserted-by": "publisher",
+        "first-page": "403",
+        "DOI": "10.1016/0022-3697(67)90305-8",
+        "volume": "28",
+        "year": "1967",
+        "journal-title": "J. Phys. Chem. Solids"
+      },
+      {
+        "key": "2023062216283583100_c7",
+        "doi-asserted-by": "publisher",
+        "first-page": "205",
+        "DOI": "10.1016/0022-4596(78)90066-X",
+        "volume": "23",
+        "year": "1978",
+        "journal-title": "J. Solid State Chem."
+      },
+      {
+        "key": "2023062216283583100_c8",
+        "doi-asserted-by": "publisher",
+        "first-page": "297",
+        "DOI": "10.1016/S0925-4005(97)80085-8",
+        "volume": "35",
+        "year": "1996",
+        "journal-title": "Sens. Actuators B"
+      },
+      {
+        "key": "2023062216283583100_c9",
+        "doi-asserted-by": "publisher",
+        "first-page": "933",
+        "DOI": "10.1063/1.119693",
+        "volume": "71",
+        "year": "1997",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023062216283583100_c10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1241",
+        "DOI": "10.1016/S0022-3697(98)00047-X",
+        "volume": "59",
+        "year": "1998",
+        "journal-title": "J. Phys. Chem. Solids"
+      },
+      {
+        "key": "2023062216283583100_c11",
+        "doi-asserted-by": "publisher",
+        "first-page": "155207",
+        "DOI": "10.1103/PhysRevB.68.155207",
+        "volume": "68",
+        "year": "2003",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "2023062216283583100_c12",
+        "volume-title": "Semiconducting Transparent Thin Films",
+        "year": "1985"
+      },
+      {
+        "key": "2023062216283583100_c13",
+        "first-page": "1",
+        "volume": "14",
+        "year": "1969",
+        "journal-title": "Russ. J. Inorg. Chem."
+      },
+      {
+        "key": "2023062216283583100_c14",
+        "doi-asserted-by": "crossref",
+        "first-page": "683",
+        "DOI": "10.1111/j.1551-2916.2004.00683.x",
+        "volume": "87",
+        "year": "2004",
+        "journal-title": "J. Am. Ceram. Soc."
+      },
+      {
+        "key": "2023062216283583100_c15",
+        "first-page": "209",
+        "volume": "19",
+        "year": "1974",
+        "journal-title": "Rev. Roum. Phys."
+      },
+      {
+        "key": "2023062216283583100_c16",
+        "doi-asserted-by": "crossref",
+        "first-page": "202118",
+        "DOI": "10.1063/1.2910770",
+        "volume": "92",
+        "year": "2008",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023062216283583100_c17",
+        "doi-asserted-by": "crossref",
+        "first-page": "201914",
+        "DOI": "10.1063/1.2910768",
+        "volume": "92",
+        "year": "2008",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023062216283583100_c18",
+        "doi-asserted-by": "publisher",
+        "first-page": "187",
+        "DOI": "10.1002/1521-396X(200209)193:1&lt;187::AID-PSSA187&gt;3.0.CO;2-1",
+        "volume": "193",
+        "year": "2002",
+        "journal-title": "Phys. Status Solidi A"
+      },
+      {
+        "key": "2023062216283583100_c19",
+        "doi-asserted-by": "publisher",
+        "first-page": "353",
+        "DOI": "10.1002/zaac.19362260407",
+        "volume": "226",
+        "year": "1936",
+        "journal-title": "Z. Anorg. Allg. Chem."
+      },
+      {
+        "key": "2023062216283583100_c20",
+        "doi-asserted-by": "publisher",
+        "first-page": "3307",
+        "DOI": "10.1063/1.1727229",
+        "volume": "44",
+        "year": "1966",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "2023062216283583100_c21",
+        "doi-asserted-by": "crossref",
+        "first-page": "419",
+        "DOI": "10.1063/1.555799",
+        "volume": "16",
+        "year": "1987",
+        "journal-title": "J. Phys. Chem. Ref. Data"
+      },
+      {
+        "key": "2023062216283583100_c22",
+        "volume-title": "Thermodynamical Properties of Inorganic Substances",
+        "year": "1991"
+      }
+    ],
+    "container-title": [
+      "Applied Physics Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.2919728/14395199/202120_1_online.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.2919728/14395199/202120_1_online.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2023-06-22T21:50:47Z",
+      "timestamp": 1687470647000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.aip.org/apl/article/92/20/202120/131101/Electrical-conductivity-and-carrier-concentration"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          19
+        ]
+      ]
+    },
+    "references-count": 22,
+    "journal-issue": {
+      "issue": "20",
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            5,
+            19
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1063/1.2919728",
+    "relation": {},
+    "ISSN": [
+      "0003-6951",
+      "1077-3118"
+    ],
+    "issn-type": [
+      {
+        "value": "0003-6951",
+        "type": "print"
+      },
+      {
+        "value": "1077-3118",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          19
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          19
+        ]
+      ]
+    },
+    "article-number": "202120"
+  }
+}

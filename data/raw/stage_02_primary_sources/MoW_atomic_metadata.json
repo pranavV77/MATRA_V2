@@ -1,0 +1,678 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2026-10-20T15:00:14Z",
+      "timestamp": 1792508414380,
+      "version": "4.5.0"
+    },
+    "reference-count": 37,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2013,
+              1,
+              15
+            ]
+          ],
+          "date-time": "2013-01-15T00:00:00Z",
+          "timestamp": 1358208000000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-sa/3.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat Commun"
+    ],
+    "DOI": "10.1038/ncomms2351",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          1,
+          8
+        ]
+      ],
+      "date-time": "2013-01-08T18:42:52Z",
+      "timestamp": 1357670572000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 222,
+    "title": [
+      "Visualization and quantification of transition metal atomic mixing in Mo1−xWxS2 single layers"
+    ],
+    "prefix": "10.1038",
+    "volume": "4",
+    "author": [
+      {
+        "given": "Dumitru O",
+        "family": "Dumcenco",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Haruka",
+        "family": "Kobayashi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zheng",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ying-Sheng",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kazu",
+        "family": "Suenaga",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          1,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "BFncomms2351_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "193",
+        "DOI": "10.1080/00018736900101307",
+        "volume": "18",
+        "author": "JA Wilson",
+        "year": "1969",
+        "unstructured": "Wilson J. A., Yoffe A. D. The transition metal dichalcogenides discussion and interpretation of the observed optical, electrical and structural properties. Adv. Phys. 18, 193–335 (1969).",
+        "journal-title": "Adv. Phys."
+      },
+      {
+        "key": "BFncomms2351_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "3719",
+        "DOI": "10.1103/PhysRevB.8.3719",
+        "volume": "8",
+        "author": "LF Mattheiss",
+        "year": "1973",
+        "unstructured": "Mattheiss L. F. Band structures of transition-metal-dichalcogenide layer compounds. Phys. Rev. B 8, 3719–3740 (1973).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "BFncomms2351_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "905",
+        "DOI": "10.1103/PhysRevB.11.905",
+        "volume": "11",
+        "author": "E Fortin",
+        "year": "1975",
+        "unstructured": "Fortin E., Raga F. Excitons in molybdenum disulphide. Phys. Rev. B 11, 905–912 (1975).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "BFncomms2351_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "2471",
+        "DOI": "10.1149/1.2129499",
+        "volume": "127",
+        "author": "W Kautek",
+        "year": "1980",
+        "unstructured": "Kautek W., Gerischer H., Tributsch H. The role of carrier diffusion and indirect optical transitions in the photoelectrochemical behavior of layer type d-band semiconductors. J. Electrochem. Soc. 127, 2471–2478 (1980).",
+        "journal-title": "J. Electrochem. Soc."
+      },
+      {
+        "key": "BFncomms2351_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "463",
+        "DOI": "10.1021/j100393a010",
+        "volume": "86",
+        "author": "KK Kam",
+        "year": "1982",
+        "unstructured": "Kam K. K., Parkinson B. A. Detailed photocurrent spectroscopy of the semiconducting group VI transition metal dichalcogenides. J. Phys. Chem. 86, 463–467 (1982).",
+        "journal-title": "J. Phys. Chem."
+      },
+      {
+        "key": "BFncomms2351_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "2291",
+        "DOI": "10.1088/0953-8984/8/14/006",
+        "volume": "8",
+        "author": "SJ Li",
+        "year": "1996",
+        "unstructured": "Li S. J., Bernède J. C., Pouzet J., Jamali M. WS2 thin films prepared by solid state reaction (induced by annealing) between the constituents in thin film form. J. Phys. Condens. Matter 8, 2291–2304 (1996).",
+        "journal-title": "J. Phys. Condens. Matter"
+      },
+      {
+        "key": "BFncomms2351_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "353",
+        "DOI": "10.1016/0022-5088(74)90119-2",
+        "volume": "36",
+        "author": "P Grange",
+        "year": "1974",
+        "unstructured": "Grange P., Delmon B. The role of cobalt and molybdenum sulphides in hydrodesulphurisation catalysts: A review. J. Less-Common Met. 36, 353–360 (1974).",
+        "journal-title": "J. Less-Common Met."
+      },
+      {
+        "key": "BFncomms2351_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "188",
+        "DOI": "10.1016/j.jcat.2007.02.028",
+        "volume": "248",
+        "author": "PG Moses",
+        "year": "2007",
+        "unstructured": "Moses P. G., Hinnemann B., Topsøe H., Nørskov J. K. The hydrogenation and direct desulfurization reaction pathway in thiophene hydrodesulfurization over MoS2 catalysts at realistic conditions: A density functional study. J. Catal. 248, 188–203 (2007).",
+        "journal-title": "J. Catal."
+      },
+      {
+        "key": "BFncomms2351_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "461",
+        "DOI": "10.1016/j.cattod.2006.06.028",
+        "volume": "116",
+        "author": "CT Tye",
+        "year": "2006",
+        "unstructured": "Tye C. T., Smith K. J. Hydrodesulfurization of dibenzothiophene over exfoliated MoS2 catalyst. Catal. Today 116, 461–468 (2006).",
+        "journal-title": "Catal. Today"
+      },
+      {
+        "key": "BFncomms2351_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "10583",
+        "DOI": "10.1103/PhysRevB.48.10583",
+        "volume": "48",
+        "author": "JM Martin",
+        "year": "1993",
+        "unstructured": "Martin J. M., Donnet C., Le Mogne Th., Epicier Th. Superlubricity of molybdenum disulphide. Phys. Rev. B 48, 10583–10586 (1993).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "BFncomms2351_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "130",
+        "DOI": "10.1016/S0040-6090(97)00129-6",
+        "volume": "305",
+        "author": "SD Walck",
+        "year": "1997",
+        "unstructured": "Walck S. D., Zabinski J. S., McDevitt N. T., Bultman J. E. Characterization of air-annealed, pulsed laser deposited ZnO-WS2 solid film lubricants by transmission electron microscopy. Thin Solid Films 305, 130–143 (1997).",
+        "journal-title": "Thin Solid Films"
+      },
+      {
+        "key": "BFncomms2351_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "785",
+        "DOI": "10.1016/S0043-1648(03)00044-9",
+        "volume": "255",
+        "author": "L Rapoport",
+        "year": "2003",
+        "unstructured": "Rapoport L. et al. Tribological properties of WS2 nanoparticles under mixed lubrication. Wear 255, 785–793 (2003).",
+        "journal-title": "Wear"
+      },
+      {
+        "key": "BFncomms2351_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "135",
+        "DOI": "10.1016/S0379-6779(97)81262-3",
+        "volume": "90",
+        "author": "SK Srivastava",
+        "year": "1997",
+        "unstructured": "Srivastava S. K., Mandal T. K., Samantaray B. K. Studies on layer disorder, microstructural parameters and other properties of tungsten-substituted molybdenum disulfide, Mo1−xWxS2 (0⩽x⩽1). Synth. Metal 90, 135–142 (1997).",
+        "journal-title": "Synth. Metal"
+      },
+      {
+        "key": "BFncomms2351_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "9317",
+        "DOI": "10.1088/0953-8984/10/41/014",
+        "volume": "10",
+        "author": "CH Ho",
+        "year": "1998",
+        "unstructured": "Ho C. H., Wu C. S., Huang Y. S., Liao P. C., Tiong K. K. Temperature dependence of energies and broadening parameters of the band-edge excitons of Mo1−xWxS2 single crystals. J. Phys. Condens. Matter 10, 9317–9328 (1998).",
+        "journal-title": "J. Phys. Condens. Matter"
+      },
+      {
+        "key": "BFncomms2351_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "147",
+        "DOI": "10.1006/jssc.2001.9208",
+        "volume": "160",
+        "author": "C Thomazeau",
+        "year": "2001",
+        "unstructured": "Thomazeau C. et al. Two cation disulfide layers in the WxMo(1−x)S2 lamellar solid solution. J. Solid State Chem. 160, 147–155 (2001).",
+        "journal-title": "J. Solid State Chem."
+      },
+      {
+        "key": "BFncomms2351_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "92",
+        "DOI": "10.1016/j.apcata.2007.01.016",
+        "volume": "322",
+        "author": "C Thomazeau",
+        "year": "2007",
+        "unstructured": "Thomazeau C. et al. Predictive approach for the design of improved HDT catalysts: γ-Alumina supported (Ni, Co) promoted Mo1-xWxS2 active phases. Appl. Catal. A Gen. 322, 92–97 (2007).",
+        "journal-title": "Appl. Catal. A Gen."
+      },
+      {
+        "key": "BFncomms2351_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "163",
+        "DOI": "10.1016/S0009-2614(01)01456-7",
+        "volume": "352",
+        "author": "M Nath",
+        "year": "2002",
+        "unstructured": "Nath M., Mukhopadhyay K., Rao C. N. R. Mo1−xWxS2 nanotubes and related structures. Chem. Phys. Lett. 352, 163–168 (2002).",
+        "journal-title": "Chem. Phys. Lett."
+      },
+      {
+        "key": "BFncomms2351_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "55",
+        "DOI": "10.4028/www.scientific.net/SSP.170.55",
+        "volume": "170",
+        "author": "DO Dumcenco",
+        "year": "2011",
+        "unstructured": "Dumcenco D. O. et al. Piezoreflectance and Raman characterization of Mo1−xWxS2 layered mixed crystals. Sol. St. Phen. 170, 55–59 (2011).",
+        "journal-title": "Sol. St. Phen."
+      },
+      {
+        "key": "BFncomms2351_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "1271",
+        "DOI": "10.1021/nl903868w",
+        "volume": "10",
+        "author": "A Splendiani",
+        "year": "2010",
+        "unstructured": "Splendiani A. et al. Emerging photoluminescence in monolayer MoS2 . Nano Lett. 10, 1271–1275 (2010).",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "BFncomms2351_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "136805",
+        "DOI": "10.1103/PhysRevLett.105.136805",
+        "volume": "105",
+        "author": "KF Mak",
+        "year": "2010",
+        "unstructured": "Mak K. F., Lee C., Hone J., Shan J., Heinz T. F. Atomically thin MoS2: A new direct-gap semiconductor. Phys. Rev. Lett. 105, 136805 (2010).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "BFncomms2351_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "2695",
+        "DOI": "10.1021/nn1003937",
+        "volume": "4",
+        "author": "C Lee",
+        "year": "2010",
+        "unstructured": "Lee C. et al. Anomalous lattice vibrations of single- and few-layer MoS2 . ACS Nano 4, 2695–2700 (2010).",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "BFncomms2351_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "9934",
+        "DOI": "10.1021/nn203715c",
+        "volume": "5",
+        "author": "B Radisavljevic",
+        "year": "2011",
+        "unstructured": "Radisavljevic B., Whitwick M. B., Kis A. Integrated circuits and logic operations based on single-layer MoS2 . ACS Nano 5, 9934–9938 (2011).",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "BFncomms2351_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "220",
+        "DOI": "10.1016/j.jcat.2007.04.013",
+        "volume": "249",
+        "author": "JV Lauritsen",
+        "year": "2007",
+        "unstructured": "Lauritsen J. V. et al. Location and coordination of promoter atoms in Co- and Ni-promoted MoS2-based hydrotreating catalysts. J. Catal. 249, 220–233 (2007).",
+        "journal-title": "J. Catal."
+      },
+      {
+        "key": "BFncomms2351_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "147",
+        "DOI": "10.1038/nnano.2010.279",
+        "volume": "6",
+        "author": "B Radisavljevic",
+        "year": "2011",
+        "unstructured": "Radisavljevic B., Radenovic A., Brivio J., Giacometti V., Kis A. Single-layer MoS2 transistors. Nature Nanotechnol. 6, 147–150 (2011).",
+        "journal-title": "Nature Nanotechnol."
+      },
+      {
+        "key": "BFncomms2351_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "1088",
+        "DOI": "10.1038/nature09664",
+        "volume": "468",
+        "author": "K Suenaga",
+        "year": "2010",
+        "unstructured": "Suenaga K., Koshino M. Atom-by-atom spectroscopy at graphene edge. Nature 468, 1088–1090 (2010).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "BFncomms2351_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "571",
+        "DOI": "10.1038/nature08879",
+        "volume": "464",
+        "author": "O Krivanek",
+        "year": "2009",
+        "unstructured": "Krivanek O. et al. Atom-by-atom structural and chemical analysis by annular dark-field electron microscopy. Nature 464, 571–574 (2009).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "BFncomms2351_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "075501",
+        "DOI": "10.1103/PhysRevLett.108.075501",
+        "volume": "108",
+        "author": "K Suenaga",
+        "year": "2012",
+        "unstructured": "Suenaga K., Kobayashi H., Koshino M. Core-level spectroscopy of point defects in single layer h-BN. Phys. Rev. Lett. 108, 075501 (2012).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "BFncomms2351_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "213",
+        "DOI": "10.1038/ncomms1224",
+        "volume": "2",
+        "author": "Z Liu",
+        "year": "2011",
+        "unstructured": "Liu Z. et al. Identification of active atomic defects in a monolayered tungsten disulphide nanoribbon. Nat. Commun. 2, 213 (2011).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "BFncomms2351_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "10153",
+        "DOI": "10.1002/anie.201103745",
+        "volume": "50",
+        "author": "LP Hansen",
+        "year": "2011",
+        "unstructured": "Hansen L. P. et al. Atomic-scale edge structures on indusial-style MoS2 nanocatalysts. Angew. Chem. Int. Ed. 50, 10153–10156 (2011).",
+        "journal-title": "Angew. Chem. Int. Ed."
+      },
+      {
+        "key": "BFncomms2351_CR30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Binder K., Heermann D. Monte Carlo Simulation in Statistical Physics. 5th edn Springer (2010).",
+        "DOI": "10.1007/978-3-642-03163-2_2"
+      },
+      {
+        "key": "BFncomms2351_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "133107",
+        "DOI": "10.1063/1.2903702",
+        "volume": "92",
+        "author": "D Pacilé",
+        "year": "2008",
+        "unstructured": "Pacilé D., Meyer J. C., Girit Ç. Ö., Zettl A. The two-dimensional phase of boron nitride: Few-atomic-layer sheets and suspended membranes. Appl. Phys. Lett. 92, 133107 (2008).",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "BFncomms2351_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "11140",
+        "DOI": "10.1021/ja0526618",
+        "volume": "127",
+        "author": "B-J Hwang",
+        "year": "2005",
+        "unstructured": "Hwang B. -J. et al. Structural models and atomic distribution of bimetallic nanoparticles as investigated by x-ray absorption spectroscopy. J. Am. Chem. Soc. 127, 11140–11145 (2005).",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "BFncomms2351_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "134104",
+        "DOI": "10.1103/PhysRevB.78.134104",
+        "volume": "78",
+        "author": "VV Ivanovskaya",
+        "year": "2008",
+        "unstructured": "Ivanovskaya V. V. et al. Ab initio study of bilateral doping within the MoS2-NbS2 system. Phys. Rev. B 78, 134104 (2008).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "BFncomms2351_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "126101",
+        "DOI": "10.1103/PhysRevLett.95.126101",
+        "volume": "95",
+        "author": "Vestergaard",
+        "year": "2005",
+        "unstructured": "Vestergaard et al. Adsorbate-induced alloy phase separation: a direct view by high-pressure scanning tunneling microscopy. Phys. Rev. Lett. 95, 126101 (2005).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "BFncomms2351_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "155",
+        "DOI": "10.1016/S0039-6028(00)00751-2",
+        "volume": "466",
+        "author": "Y Gauthier",
+        "year": "2000",
+        "unstructured": "Gauthier Y. et al. Segregation and chemical ordering in the surface layers of Pt25Co75(111): a LEED/STM study. Surf. Sci. 466, 155–166 (2000).",
+        "journal-title": "Surf. Sci."
+      },
+      {
+        "key": "BFncomms2351_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "1030",
+        "DOI": "10.1021/ja00159a021",
+        "volume": "112",
+        "author": "BA Parkinson",
+        "year": "1990",
+        "unstructured": "Parkinson B. A. Discrimination of atoms on the surface of a two-dimensional solid solution with scanning tunneling microscopy. J. Amer. Chem. Soc. 112, 1030–1033 (1990).",
+        "journal-title": "J. Amer. Chem. Soc."
+      },
+      {
+        "key": "BFncomms2351_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "843",
+        "DOI": "10.1038/nnano.2010.234",
+        "volume": "5",
+        "author": "V Ortalan",
+        "year": "2010",
+        "unstructured": "Ortalan V., Uzun A., Gates B. C., Browning N. D. Towards full-structure determination of bimetallic nanoparticles with an aberration-corrected electron microscope. Nat. Nanotech. 5, 843–847 (2010).",
+        "journal-title": "Nat. Nanotech."
+      }
+    ],
+    "container-title": [
+      "Nature Communications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/ncomms2351.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/ncomms2351",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/ncomms2351.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2023-01-06T02:18:50Z",
+      "timestamp": 1672971530000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/ncomms2351"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          1,
+          15
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2013,
+            6,
+            26
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "BFncomms2351"
+    ],
+    "URL": "https://doi.org/10.1038/ncomms2351",
+    "relation": {},
+    "ISSN": [
+      "2041-1723"
+    ],
+    "issn-type": [
+      {
+        "value": "2041-1723",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          1,
+          15
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "1 June 2012",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "30 November 2012",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "15 January 2013",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing financial interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "1351"
+  }
+}

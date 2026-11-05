@@ -1,0 +1,337 @@
+{
+  "version": "2.1.0",
+  "purpose": "Small source-audited seed, not a representative evaluation dataset",
+  "legacy_release": "data/benchmark/v2_0_0/benchmark_review.json",
+  "legacy_claim_policy": "All 23 original claims remain withheld in frozen v2.0.0; a new narrowed claim does not validate its original broader claim.",
+  "review_method": "Single technical reviewer; source identity, local full text, conditions and limitations checked. Independent materials-expert adjudication pending.",
+  "sources": [
+    {
+      "source_id": "MoW_atomic",
+      "url": "https://www.nature.com/articles/ncomms2351",
+      "candidate_doi": "10.1038/ncomms2351",
+      "access": "blocked",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Local HTML is a client challenge, not the paper. No full-text credit."
+    },
+    {
+      "source_id": "MoW_Chen",
+      "url": "https://doi.org/10.1021/nn401420h",
+      "candidate_doi": "10.1021/nn401420h",
+      "access": "metadata_only",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Metadata/abstract screening only; no quantitative admission."
+    },
+    {
+      "source_id": "MoSe_Gong",
+      "url": "https://doi.org/10.1021/nl4032296",
+      "candidate_doi": "10.1021/nl4032296",
+      "access": "metadata_only",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Metadata/abstract screening only; no quantitative admission."
+    },
+    {
+      "source_id": "Re_MoS2",
+      "url": "https://krasheninnikov.de/publ/adma201304985-13.pdf",
+      "candidate_doi": "10.1002/adma.201304985",
+      "access": "full_text",
+      "review_depth": "scoped_claim_review",
+      "identity_verified": true,
+      "note": "Source identity and scoped passages reviewed; source values are not MATRA predictions.",
+      "verified_doi": "10.1002/adma.201304985",
+      "document": {
+        "path": "data/raw/stage_02_primary_sources/Re_MoS2.pdf",
+        "sha256": "f16a505d200894d61a5d737e62658b6887ceaa96197bb33517bdf85cdbc09ffb"
+      },
+      "text": {
+        "path": "data/raw/stage_02_primary_sources/Re_MoS2_pages.txt",
+        "sha256": "1b01b5bc7f13dca4bc7f44dde58fa08577e0b7930fd3c7991e18a4e78da09966"
+      }
+    },
+    {
+      "source_id": "Nb_STO",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8847566/",
+      "candidate_doi": "10.1038/s41598-022-06361-3",
+      "access": "full_text",
+      "review_depth": "scoped_claim_review",
+      "identity_verified": true,
+      "note": "Acquisition candidate DOI was wrong and rejected. Correct DOI read from article header, line 44. No retrospective alteration of acquisition log.",
+      "verified_doi": "10.1038/s41598-021-03199-7",
+      "document": {
+        "path": "data/raw/stage_02_primary_sources/Nb_STO.html",
+        "sha256": "4d11a1d9b3f958d5fdb50eb54913e4fc6996e9d1e179331da096b8336614be68"
+      },
+      "text": {
+        "path": "data/raw/stage_02_primary_sources/Nb_STO_text.txt",
+        "sha256": "3f0a1012b022a11fadf8eb99cc6c959e0a5e84188d0bb77c0610f58ef888c597"
+      }
+    },
+    {
+      "source_id": "Nb_STO_polar",
+      "url": "https://www.nature.com/articles/s41535-022-00524-9",
+      "candidate_doi": "10.1038/s41535-022-00524-9",
+      "access": "blocked",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Local HTML is a client challenge, not the paper. No full-text credit."
+    },
+    {
+      "source_id": "Sn_Ga_XAS",
+      "url": "https://dash.harvard.edu/entities/publication/73120378-e473-6bd4-e053-0100007fdf3b",
+      "candidate_doi": null,
+      "access": "unavailable",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Repository retrieval returned HTTP 429; no local paper evidence."
+    },
+    {
+      "source_id": "Si_Ga_Villora",
+      "url": "https://doi.org/10.1063/1.2919728",
+      "candidate_doi": "10.1063/1.2919728",
+      "access": "metadata_only",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Metadata/abstract screening only; no quantitative admission."
+    },
+    {
+      "source_id": "Mg_GaN_Amano",
+      "url": "https://doi.org/10.1143/JJAP.28.L2112",
+      "candidate_doi": "10.1143/JJAP.28.L2112",
+      "access": "metadata_only",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Metadata/abstract screening only; no quantitative admission."
+    },
+    {
+      "source_id": "Al_Ga_Peelaers",
+      "url": "https://www.osti.gov/pages/servlets/purl/1497947",
+      "candidate_doi": "10.1063/1.5036991",
+      "access": "acquired_unreviewed",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "PDF acquired; detailed claim and publication-version review pending. Not admitted."
+    },
+    {
+      "source_id": "CsPbSn",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2024/ma/d4ma00034j",
+      "candidate_doi": "10.1039/D4MA00034J",
+      "access": "metadata_only",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Metadata/abstract screening only; no quantitative admission."
+    },
+    {
+      "source_id": "BiTeSe",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7150672/",
+      "candidate_doi": "10.34133/2020/4361703",
+      "access": "metadata_only",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Metadata/abstract screening only; no quantitative admission."
+    },
+    {
+      "source_id": "BaSr_neutron",
+      "url": "https://arxiv.org/pdf/2007.00972",
+      "candidate_doi": "10.48550/arXiv.2007.00972",
+      "access": "acquired_unreviewed",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "PDF acquired; detailed claim and publication-version review pending. Not admitted."
+    },
+    {
+      "source_id": "GaAl_HSE",
+      "url": "https://arxiv.org/pdf/1806.03360",
+      "candidate_doi": "10.1103/PhysRevApplied.10.011003",
+      "access": "full_text",
+      "review_depth": "scoped_claim_review",
+      "identity_verified": true,
+      "note": "Source identity and scoped passages reviewed; source values are not MATRA predictions.",
+      "verified_doi": "10.1103/PhysRevApplied.10.011003",
+      "document": {
+        "path": "data/raw/stage_02_primary_sources/GaAl_HSE.pdf",
+        "sha256": "8e0ba93059cd5f982c692796675a66c652a4c9446ab5bc998defe579eef5f17c"
+      },
+      "text": {
+        "path": "data/raw/stage_02_primary_sources/GaAl_HSE_pages.txt",
+        "sha256": "9005216c3aa020ad5c6d545f9721480789ac9c8ae35cda26ea85b3aa3c0e01e0"
+      }
+    }
+  ],
+  "reviewed_claims": [
+    {
+      "claim_id": "CUR-SUB-GA-AL-MODEL-050",
+      "related_legacy_case": "BM-P01",
+      "target": "Ga",
+      "candidate": "Al",
+      "track": "substitution",
+      "source_id": "GaAl_HSE",
+      "evidence_class": "computational",
+      "scope": "Ordered monoclinic AlGaO3 model, Al on octahedral cation sites and Ga on tetrahedral sites, x=0.5 of cation sublattice.",
+      "label": "documented_positive",
+      "eligible": true,
+      "property_preservation_validated": false,
+      "reported_concentration": {
+        "value": 0.5,
+        "unit": "fraction",
+        "basis": "Al/(Al+Ga) cation fraction",
+        "kind": "model"
+      },
+      "conditions": {
+        "host": {
+          "status": "verified",
+          "description": "Ga2O3 alloy model.",
+          "line_start": 6,
+          "line_end": 6,
+          "anchors": [
+            "Ga2O3 and (AlxGa1−x)2O3 alloys"
+          ]
+        },
+        "phase": {
+          "status": "verified",
+          "description": "Monoclinic beta model, not a synthesis claim.",
+          "line_start": 13,
+          "line_end": 13,
+          "anchors": [
+            "AlGaO3 in the monoclinic phase"
+          ]
+        },
+        "site": {
+          "status": "verified",
+          "description": "Al octahedral; Ga tetrahedral, Fig. 1 also inspected.",
+          "line_start": 13,
+          "line_end": 14,
+          "anchors": [
+            "Al occupying the octahedral sites",
+            "tetrahedral sites."
+          ]
+        },
+        "concentration": {
+          "status": "verified",
+          "description": "Model cation fraction x=0.5; not dilute doping.",
+          "line_start": 12,
+          "line_end": 12,
+          "anchors": [
+            "withx=0.5"
+          ]
+        }
+      },
+      "limitations": [
+        "Primary author manuscript arXiv:1806.03360v2 associated with journal DOI; no new DFT run.",
+        "Restricted model evidence, not experimental confirmation or equilibrium stability proof.",
+        "No band-gap preservation label; no unrestricted concentration-range endorsement."
+      ]
+    },
+    {
+      "claim_id": "CUR-DOP-MO-RE-SINGLELAYER",
+      "related_legacy_case": "BM-S05",
+      "target": "Mo",
+      "candidate": "Re",
+      "track": "doping",
+      "source_id": "Re_MoS2",
+      "evidence_class": "experimental",
+      "scope": "STEM-observed Re occupying Mo sites in single-layer MoS2; adatoms also observed.",
+      "label": "documented_positive",
+      "eligible": false,
+      "property_preservation_validated": false,
+      "reported_concentration": {
+        "value": 0.6,
+        "unit": "at% as reported",
+        "basis": "Figure 1 counts about 10 Re per about 1500 MoS2 unit cells; retained as reported, no conversion to all-atom fraction",
+        "kind": "observed"
+      },
+      "conditions": {
+        "host": {
+          "status": "verified",
+          "description": "Single-layer MoS2, not bulk.",
+          "line_start": 27,
+          "line_end": 27,
+          "anchors": [
+            "single-layered MoS"
+          ]
+        },
+        "phase": {
+          "status": "unverified",
+          "description": "Bulk 2H space group/Wyckoff identity in legacy record not established for this single-layer observation."
+        },
+        "site": {
+          "status": "verified",
+          "description": "Mo-site occupation directly imaged, not every Re atom substitutional.",
+          "line_start": 47,
+          "line_end": 47,
+          "anchors": [
+            "clearly shows that Re atoms sit at the Mo sites."
+          ]
+        },
+        "concentration": {
+          "status": "verified",
+          "description": "Reported approximately 0.6 at%, source convention retained.",
+          "line_start": 51,
+          "line_end": 51,
+          "anchors": [
+            "0.6 at% Re"
+          ]
+        }
+      },
+      "limitations": [
+        "Full contextual benchmark held; useful site-occupancy reference only.",
+        "Reported 89% substitutional Re and 11% Re adatoms are microscopy population statistics, not MATRA accuracy.",
+        "Donor interpretation uses calculated electronic states; experimental electrical activation not established here."
+      ]
+    },
+    {
+      "claim_id": "CUR-DOP-TI-NB-WEIGHT",
+      "related_legacy_case": "BM-S04",
+      "target": "Ti",
+      "candidate": "Nb",
+      "track": "doping",
+      "source_id": "Nb_STO",
+      "evidence_class": "experimental",
+      "scope": "Nb-doped SrTiO3 single crystals; representative reported 0.1 wt% sample, nominal SrTi0.998Nb0.002O3.",
+      "label": "documented_positive",
+      "eligible": false,
+      "property_preservation_validated": false,
+      "reported_concentration": {
+        "value": 0.1,
+        "unit": "wt%",
+        "basis": "Mass of elemental Nb / total sample mass times 100; nominal formulas separately reported",
+        "kind": "nominal"
+      },
+      "conditions": {
+        "host": {
+          "status": "verified",
+          "description": "SrTiO3 single crystals.",
+          "line_start": 104,
+          "line_end": 104,
+          "anchors": [
+            "Nb-doped SrTiO3 single crystals with Nb doping concentration"
+          ]
+        },
+        "phase": {
+          "status": "unverified",
+          "description": "Temperature-dependent transition investigated; exact phase-specific benchmark conditions require additional curation."
+        },
+        "site": {
+          "status": "unverified",
+          "description": "Nominal Ti substitution and ionic-radius interpretation; direct site-occupancy refinement not established in selected passage."
+        },
+        "concentration": {
+          "status": "verified",
+          "description": "0.1 wt% sample; Methods defines mass basis and lists nominal formulas.",
+          "line_start": 106,
+          "line_end": 106,
+          "anchors": [
+            "00106 (001)-oriented Nb-doped SrTiO3",
+            "SrTi0.998Nb0.002O3"
+          ]
+        }
+      },
+      "limitations": [
+        "Nominal chemistry is not independently measured site occupancy.",
+        "No wt%-to-at% substitution, no generic room/low-temperature phase equivalence.",
+        "Correct DOI differs from initial retrieval candidate and from legacy unrelated citation."
+      ]
+    }
+  ]
+}

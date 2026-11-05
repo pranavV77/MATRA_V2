@@ -1,0 +1,847 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          27
+        ]
+      ],
+      "date-time": "2026-10-27T22:59:27Z",
+      "timestamp": 1793141967304,
+      "version": "4.5.0"
+    },
+    "reference-count": 39,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "2",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nano Lett."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          2,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1021/nl4032296",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          24
+        ]
+      ],
+      "date-time": "2013-12-24T15:16:09Z",
+      "timestamp": 1387898169000
+    },
+    "page": "442-449",
+    "source": "Crossref",
+    "is-referenced-by-count": 520,
+    "title": [
+      "Band Gap Engineering and Layer-by-Layer Mapping of Selenium-Doped Molybdenum Disulfide"
+    ],
+    "prefix": "10.1021",
+    "volume": "14",
+    "author": [
+      {
+        "given": "Yongji",
+        "family": "Gong",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department\rof Chemistry, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zheng",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          },
+          {
+            "name": "School\rof Materials Science and Engineering, School of Electrical and Electronic\rEngineering Nanyang Technological University, 639798, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew R.",
+        "family": "Lupini",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Science & Technology Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gang",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junhao",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Science & Technology Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, United States"
+          },
+          {
+            "name": "Department\rof Physics and Astronomy, Vanderbilt University, Nashville, Tennessee 37235, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sina",
+        "family": "Najmaei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhong",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Physics and Center for 2-Dimensional and Layered Materials, The Pennsylvania State University, University Park, Pennsylvania 16802, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ana Laura",
+        "family": "Elías",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Physics and Center for 2-Dimensional and Layered Materials, The Pennsylvania State University, University Park, Pennsylvania 16802, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ayse",
+        "family": "Berkdemir",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Physics and Center for 2-Dimensional and Layered Materials, The Pennsylvania State University, University Park, Pennsylvania 16802, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ge",
+        "family": "You",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Humberto",
+        "family": "Terrones",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Physics and Center for 2-Dimensional and Layered Materials, The Pennsylvania State University, University Park, Pennsylvania 16802, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mauricio",
+        "family": "Terrones",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Physics and Center for 2-Dimensional and Layered Materials, The Pennsylvania State University, University Park, Pennsylvania 16802, United States"
+          },
+          {
+            "name": "Department of Chemistry, Department of Materials Science and Engineering & Materials Research Institute, The Pennsylvania State University, University Park, Pennsylvania 16802, United States"
+          },
+          {
+            "name": "Research\rCenter for Exotic Nanocarbons (JST), Shinshu University, Wakasato\r4-17-1, Nagano 380-8553, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert",
+        "family": "Vajtai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sokrates T.",
+        "family": "Pantelides",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Science & Technology Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, United States"
+          },
+          {
+            "name": "Department\rof Physics and Astronomy, Vanderbilt University, Nashville, Tennessee 37235, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stephen J.",
+        "family": "Pennycook",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Science & Technology Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jun",
+        "family": "Lou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wu",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials Science & Technology Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pulickel M.",
+        "family": "Ajayan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Chemistry, Rice University, Houston, Texas 77005, United States"
+          },
+          {
+            "name": "Department of Mechanical Engineering & Materials Science, Rice University, Houston, Texas 77005, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "316",
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          31
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1/cit1",
+        "doi-asserted-by": "crossref",
+        "first-page": "263",
+        "DOI": "10.1038/nchem.1589",
+        "volume": "5",
+        "author": "Chhowalla M.",
+        "year": "2013",
+        "journal-title": "Nat. Chem."
+      },
+      {
+        "key": "ref2/cit2",
+        "doi-asserted-by": "crossref",
+        "first-page": "3766",
+        "DOI": "10.1021/cr300263a",
+        "volume": "113",
+        "author": "Xu M.",
+        "year": "2013",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "key": "ref3/cit3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1934",
+        "DOI": "10.1039/c2cs35387c",
+        "volume": "42",
+        "author": "Huang X.",
+        "year": "2013",
+        "journal-title": "Chem. Soc. Rev."
+      },
+      {
+        "key": "ref4/cit4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1312",
+        "DOI": "10.1126/science.1171245",
+        "volume": "324",
+        "author": "Li X.",
+        "year": "2009",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref5/cit5",
+        "doi-asserted-by": "crossref",
+        "first-page": "3209",
+        "DOI": "10.1021/nl1022139",
+        "volume": "10",
+        "author": "Song L.",
+        "year": "2010",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "ref6/cit6",
+        "doi-asserted-by": "crossref",
+        "first-page": "5235",
+        "DOI": "10.1021/nn400971k",
+        "volume": "7",
+        "author": "Elias A. L.",
+        "year": "2013",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "ref7/cit7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1351",
+        "DOI": "10.1038/ncomms2351",
+        "volume": "4",
+        "author": "Dumcenco D. O.",
+        "year": "2013",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "ref8/cit8",
+        "doi-asserted-by": "crossref",
+        "first-page": "430",
+        "DOI": "10.1038/nmat2711",
+        "volume": "9",
+        "author": "Ci L.",
+        "year": "2010",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "ref9/cit9",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1002/smll.201101016",
+        "volume": "8",
+        "author": "Li H.",
+        "year": "2012",
+        "journal-title": "Small"
+      },
+      {
+        "key": "ref10/cit10",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1021/nn2024557",
+        "volume": "6",
+        "author": "Yin Z.",
+        "year": "2012",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "ref11/cit11",
+        "doi-asserted-by": "crossref",
+        "first-page": "494",
+        "DOI": "10.1038/nnano.2012.96",
+        "volume": "7",
+        "author": "Mak K. F.",
+        "year": "2012",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "ref12/cit12",
+        "doi-asserted-by": "crossref",
+        "first-page": "7311",
+        "DOI": "10.1021/nn302422x",
+        "volume": "6",
+        "author": "Eda G.",
+        "year": "2012",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "ref13/cit13",
+        "doi-asserted-by": "crossref",
+        "first-page": "966",
+        "DOI": "10.1002/smll.201102654",
+        "volume": "8",
+        "author": "Zhan Y.",
+        "year": "2012",
+        "journal-title": "Small"
+      },
+      {
+        "key": "ref14/cit14",
+        "doi-asserted-by": "crossref",
+        "first-page": "754",
+        "DOI": "10.1038/nmat3673",
+        "volume": "12",
+        "author": "Najmaei S.",
+        "year": "2013",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "ref15/cit15",
+        "doi-asserted-by": "crossref",
+        "first-page": "554",
+        "DOI": "10.1038/nmat3633",
+        "volume": "12",
+        "author": "van der Zande A. M.",
+        "year": "2013",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "ref16/cit16",
+        "doi-asserted-by": "crossref",
+        "first-page": "3652",
+        "DOI": "10.1021/jz301673x",
+        "volume": "3",
+        "author": "Komsa H. P.",
+        "year": "2012",
+        "journal-title": "J. Phys. Chem. Lett."
+      },
+      {
+        "key": "ref17/cit17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1541",
+        "DOI": "10.1021/nl304706j",
+        "volume": "13",
+        "author": "Fang W.",
+        "year": "2013",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "ref18/cit18",
+        "doi-asserted-by": "crossref",
+        "first-page": "122",
+        "DOI": "10.1016/j.jcrysgro.2012.10.026",
+        "volume": "363",
+        "author": "Bougouma M.",
+        "year": "2013",
+        "journal-title": "J. Cryst. Growth"
+      },
+      {
+        "key": "ref19/cit19",
+        "doi-asserted-by": "crossref",
+        "first-page": "2679",
+        "DOI": "10.1007/s10853-005-2104-7",
+        "volume": "40",
+        "author": "Abdallah W. E.",
+        "year": "2005",
+        "journal-title": "J. Mater. Sci."
+      },
+      {
+        "key": "ref20/cit20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1416",
+        "DOI": "10.1021/nl400516a",
+        "volume": "13",
+        "author": "Sundaram R.",
+        "year": "2013",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "ref21/cit21",
+        "doi-asserted-by": "crossref",
+        "first-page": "3626",
+        "DOI": "10.1021/nl4014748",
+        "volume": "13",
+        "author": "Conley H. J.",
+        "year": "2013",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "ref22/cit22",
+        "doi-asserted-by": "crossref",
+        "first-page": "115409",
+        "DOI": "10.1103/PhysRevB.86.115409",
+        "volume": "86",
+        "author": "Ramasubramaniam A.",
+        "year": "2012",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref23/cit23",
+        "doi-asserted-by": "crossref",
+        "first-page": "4610",
+        "DOI": "10.1021/nn401420h",
+        "volume": "7",
+        "author": "Chen Y.",
+        "year": "2013",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "ref24/cit24",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1038/nnano.2010.279",
+        "volume": "6",
+        "author": "Radisavljevic B.",
+        "year": "2011",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "ref25/cit25",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1016/j.ultramic.2007.07.010",
+        "volume": "108",
+        "author": "Krivanek O. L.",
+        "year": "2008",
+        "journal-title": "Ultramicroscopy"
+      },
+      {
+        "key": "ref26/cit26",
+        "doi-asserted-by": "crossref",
+        "first-page": "571",
+        "DOI": "10.1038/nature08879",
+        "volume": "464",
+        "author": "Krivanek O. L.",
+        "year": "2010",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref27/cit27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1342",
+        "DOI": "10.1017/S1431927612013335",
+        "volume": "18",
+        "author": "Zhou W.",
+        "year": "2012",
+        "journal-title": "Microsc. Microanal."
+      },
+      {
+        "key": "ref28/cit28",
+        "doi-asserted-by": "crossref",
+        "first-page": "2615",
+        "DOI": "10.1021/nl4007479",
+        "volume": "13",
+        "author": "Zhou W.",
+        "year": "2013",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "ref29/cit29",
+        "volume-title": "Low Voltage Electron Microscopy: Principles and Applications",
+        "author": "Krivanek O. L.",
+        "year": "2013"
+      },
+      {
+        "key": "ref30/cit30",
+        "doi-asserted-by": "crossref",
+        "first-page": "034104",
+        "DOI": "10.1063/1.1991989",
+        "volume": "87",
+        "author": "van Benthem K.",
+        "year": "2005",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "ref31/cit31",
+        "doi-asserted-by": "crossref",
+        "first-page": "168",
+        "DOI": "10.1038/nnano.2008.5",
+        "volume": "3",
+        "author": "Allen J. E.",
+        "year": "2008",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "ref32/cit32",
+        "doi-asserted-by": "crossref",
+        "first-page": "271",
+        "DOI": "10.1038/nmat2406",
+        "volume": "8",
+        "author": "Midgley P. A.",
+        "year": "2009",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "ref33/cit33",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-0-387-76501-3",
+        "volume-title": "Transmission Electron Microscopy: A Textbook for Materials Science",
+        "author": "Williams D. B.",
+        "year": "2009",
+        "edition": "2"
+      },
+      {
+        "key": "ref34/cit34",
+        "doi-asserted-by": "crossref",
+        "first-page": "567",
+        "DOI": "10.1524/zkri.220.5.567.65075",
+        "volume": "220",
+        "author": "Clark S. J.",
+        "year": "2005",
+        "journal-title": "Z. Kristallogr."
+      },
+      {
+        "key": "ref35/cit35",
+        "doi-asserted-by": "crossref",
+        "first-page": "566",
+        "DOI": "10.1103/PhysRevLett.45.566",
+        "volume": "45",
+        "author": "Ceperley D. M.",
+        "year": "1980",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "ref36/cit36",
+        "doi-asserted-by": "crossref",
+        "first-page": "5048",
+        "DOI": "10.1103/PhysRevB.23.5048",
+        "volume": "23",
+        "author": "Perdew J. P.",
+        "year": "1981",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref37/cit37",
+        "doi-asserted-by": "crossref",
+        "first-page": "8983",
+        "DOI": "10.1021/jp212558p",
+        "volume": "116",
+        "author": "Ataca C.",
+        "year": "2012",
+        "journal-title": "J. Phys. Chem. C"
+      },
+      {
+        "key": "ref38/cit38",
+        "doi-asserted-by": "crossref",
+        "first-page": "9901",
+        "DOI": "10.1063/1.1329672",
+        "volume": "113",
+        "author": "Henkelman G.",
+        "year": "2000",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "ref39/cit39",
+        "doi-asserted-by": "crossref",
+        "first-page": "558",
+        "DOI": "10.1103/PhysRevB.47.558",
+        "volume": "47",
+        "author": "Kresse G.",
+        "year": "1993",
+        "journal-title": "Phys. Rev. B"
+      }
+    ],
+    "container-title": [
+      "Nano Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.acs.org/doi/pdf/10.1021/nl4032296",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          16
+        ]
+      ],
+      "date-time": "2023-04-16T12:11:06Z",
+      "timestamp": 1681647066000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.acs.org/doi/10.1021/nl4032296"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          31
+        ]
+      ]
+    },
+    "references-count": 39,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2014,
+            2,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1021/nl4032296"
+    ],
+    "URL": "https://doi.org/10.1021/nl4032296",
+    "relation": {},
+    "ISSN": [
+      "1530-6984",
+      "1530-6992"
+    ],
+    "issn-type": [
+      {
+        "value": "1530-6984",
+        "type": "print"
+      },
+      {
+        "value": "1530-6992",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          31
+        ]
+      ]
+    }
+  }
+}

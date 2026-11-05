@@ -1,0 +1,5 @@
+00001 <jats:p>
+00002 Cubic CsPbI
+00003 <jats:sub>3</jats:sub>
+00004 is a promising perovskite material for optoelectronic applications.
+00005 </jats:p>

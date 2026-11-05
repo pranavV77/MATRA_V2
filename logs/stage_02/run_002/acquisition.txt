@@ -1,0 +1,29 @@
+Retrieving MoW_atomic
+  MoW_atomic 1 source artifacts; 1 retrieval issues
+Retrieving MoW_Chen
+  MoW_Chen 0 source artifacts; 1 retrieval issues
+Retrieving MoSe_Gong
+  MoSe_Gong 0 source artifacts; 1 retrieval issues
+Retrieving Re_MoS2
+  Re_MoS2 1 source artifacts; 1 retrieval issues
+Retrieving Nb_STO
+  Nb_STO 1 source artifacts; 2 retrieval issues
+Retrieving Nb_STO_polar
+  Nb_STO_polar 1 source artifacts; 1 retrieval issues
+Retrieving Sn_Ga_XAS
+  Sn_Ga_XAS 0 source artifacts; 1 retrieval issues
+Retrieving Si_Ga_Villora
+  Si_Ga_Villora 0 source artifacts; 1 retrieval issues
+Retrieving Mg_GaN_Amano
+  Mg_GaN_Amano 0 source artifacts; 1 retrieval issues
+Retrieving Al_Ga_Peelaers
+  Al_Ga_Peelaers 1 source artifacts; 1 retrieval issues
+Retrieving CsPbSn
+  CsPbSn 0 source artifacts; 2 retrieval issues
+Retrieving BiTeSe
+  BiTeSe 0 source artifacts; 2 retrieval issues
+Retrieving BaSr_neutron
+  BaSr_neutron 1 source artifacts; 1 retrieval issues
+Retrieving GaAl_HSE
+  GaAl_HSE 1 source artifacts; 1 retrieval issues
+Acquisition complete; every source still requires claim-level review.

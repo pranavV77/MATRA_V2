@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Final Project\experiments\stage_02\build_primary_review.py", line 117, in <module>
+    main()
+  File "C:\Final Project\experiments\stage_02\build_primary_review.py", line 109, in main
+    raise FileExistsError('Review outputs already exist; use a new version/run rather than overwrite')
+FileExistsError: Review outputs already exist; use a new version/run rather than overwrite

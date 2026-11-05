@@ -1,0 +1,776 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2026-11-02T19:22:36Z",
+      "timestamp": 1793647356727,
+      "version": "4.5.1"
+    },
+    "reference-count": 50,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "5",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ACS Nano"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          5,
+          28
+        ]
+      ]
+    },
+    "DOI": "10.1021/nn401420h",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          21
+        ]
+      ],
+      "date-time": "2013-04-21T10:50:57Z",
+      "timestamp": 1366541457000
+    },
+    "page": "4610-4616",
+    "source": "Crossref",
+    "is-referenced-by-count": 617,
+    "title": [
+      "Tunable Band Gap Photoluminescence from Atomically Thin Transition-Metal Dichalcogenide Alloys"
+    ],
+    "prefix": "10.1021",
+    "volume": "7",
+    "author": [
+      {
+        "given": "Yanfeng",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Standardization and Measurement for Nanotechnology of Chinese Academy of Sciences, National Center for Nanoscience and Technology, Beijing 100190, People’s Republic of China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jinyang",
+        "family": "Xi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Organic Optoelectronics and Molecular Engineering, Department of Chemistry, Tsinghua University, Beijing 100084, People’s Republic of China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dumitru O.",
+        "family": "Dumcenco",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electronic Engineering, National Taiwan University of Science and Technology, Taipei 106, Taiwan, Republic of China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zheng",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanotube Research Center, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8565, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kazu",
+        "family": "Suenaga",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanotube Research Center, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba 305-8565, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Organic Optoelectronics and Molecular Engineering, Department of Chemistry, Tsinghua University, Beijing 100084, People’s Republic of China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhigang",
+        "family": "Shuai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Organic Optoelectronics and Molecular Engineering, Department of Chemistry, Tsinghua University, Beijing 100084, People’s Republic of China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ying-Sheng",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electronic Engineering, National Taiwan University of Science and Technology, Taipei 106, Taiwan, Republic of China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Liming",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Standardization and Measurement for Nanotechnology of Chinese Academy of Sciences, National Center for Nanoscience and Technology, Beijing 100190, People’s Republic of China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "316",
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1/cit1",
+        "doi-asserted-by": "crossref",
+        "first-page": "666",
+        "DOI": "10.1126/science.1102896",
+        "volume": "306",
+        "author": "Novoselov K. S.",
+        "year": "2004",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref2/cit2",
+        "doi-asserted-by": "crossref",
+        "first-page": "4674",
+        "DOI": "10.1021/nl302015v",
+        "volume": "12",
+        "author": "Wang H.",
+        "year": "2012",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "ref3/cit3",
+        "doi-asserted-by": "crossref",
+        "first-page": "715",
+        "DOI": "10.1021/nl9039636",
+        "volume": "10",
+        "author": "Xia F. N.",
+        "year": "2010",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "ref4/cit4",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1038/nnano.2010.279",
+        "volume": "6",
+        "author": "Radisavljevic B.",
+        "year": "2011",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "ref5/cit5",
+        "doi-asserted-by": "crossref",
+        "first-page": "699",
+        "DOI": "10.1038/nnano.2012.193",
+        "volume": "7",
+        "author": "Wang Q. H.",
+        "year": "2012",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "ref6/cit6",
+        "doi-asserted-by": "crossref",
+        "first-page": "839",
+        "DOI": "10.1038/nnano.2009.292",
+        "volume": "4",
+        "author": "Xia F. N.",
+        "year": "2009",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "ref7/cit7",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.1021/nl801827v",
+        "volume": "9",
+        "author": "Reina A.",
+        "year": "2009",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "ref8/cit8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1294",
+        "DOI": "10.1126/science.1204428",
+        "volume": "332",
+        "author": "Lin Y. M.",
+        "year": "2011",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref9/cit9",
+        "doi-asserted-by": "crossref",
+        "first-page": "7852",
+        "DOI": "10.1103/PhysRevB.40.7852",
+        "volume": "40",
+        "author": "Tarrio C.",
+        "year": "1989",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref10/cit10",
+        "doi-asserted-by": "crossref",
+        "first-page": "136805",
+        "DOI": "10.1103/PhysRevLett.105.136805",
+        "volume": "105",
+        "author": "Mak K. F.",
+        "year": "2010",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "ref11/cit11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1271",
+        "DOI": "10.1021/nl903868w",
+        "volume": "10",
+        "author": "Splendiani A.",
+        "year": "2010",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "ref12/cit12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/nl3026357"
+      },
+      {
+        "key": "ref13/cit13",
+        "doi-asserted-by": "crossref",
+        "first-page": "820",
+        "DOI": "10.1038/nature08105",
+        "volume": "459",
+        "author": "Zhang Y. B.",
+        "year": "2009",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref14/cit14",
+        "doi-asserted-by": "crossref",
+        "first-page": "315",
+        "DOI": "10.1038/nmat2710",
+        "volume": "9",
+        "author": "Balog R.",
+        "year": "2010",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "ref15/cit15",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1007/s12274-011-0183-0",
+        "volume": "5",
+        "author": "Scalise E.",
+        "year": "2012",
+        "journal-title": "Nano Res."
+      },
+      {
+        "key": "ref16/cit16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/smll.201202982"
+      },
+      {
+        "key": "ref17/cit17",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/9780470744383",
+        "volume-title": "Properties of Semiconductor Alloys: Group-IV, III-V and II-VI Semiconductors",
+        "author": "Adachi S.",
+        "year": "2009"
+      },
+      {
+        "key": "ref18/cit18",
+        "doi-asserted-by": "crossref",
+        "first-page": "5845",
+        "DOI": "10.1021/nl303197a",
+        "volume": "12",
+        "author": "Ebert P.",
+        "year": "2012",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "ref19/cit19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1662",
+        "DOI": "10.1016/j.physe.2012.04.011",
+        "volume": "44",
+        "author": "Peng Q.",
+        "year": "2012",
+        "journal-title": "Physica E"
+      },
+      {
+        "key": "ref20/cit20",
+        "doi-asserted-by": "crossref",
+        "first-page": "022101",
+        "DOI": "10.1063/1.3535604",
+        "volume": "98",
+        "author": "Lam K. T.",
+        "year": "2011",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "ref21/cit21",
+        "doi-asserted-by": "crossref",
+        "first-page": "3652",
+        "DOI": "10.1021/jz301673x",
+        "volume": "3",
+        "author": "Komsa H.-P.",
+        "year": "2012",
+        "journal-title": "J. Phys. Chem. Lett."
+      },
+      {
+        "key": "ref22/cit22",
+        "unstructured": "Tomashik, V.InRefractory Metal Systems;Effenberg, G.; Ilyenko, S., Eds.Springer:Berlin, 2009; Vol.11E1, pp444–473."
+      },
+      {
+        "key": "ref23/cit23",
+        "doi-asserted-by": "crossref",
+        "first-page": "430",
+        "DOI": "10.1038/nmat2711",
+        "volume": "9",
+        "author": "Ci L.",
+        "year": "2010",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "ref24/cit24",
+        "doi-asserted-by": "crossref",
+        "first-page": "940",
+        "DOI": "10.1016/j.jallcom.2010.07.120",
+        "volume": "506",
+        "author": "Dumcenco D. O.",
+        "year": "2010",
+        "journal-title": "J. Alloys Compd."
+      },
+      {
+        "key": "ref25/cit25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1731",
+        "DOI": "10.1007/BF00517593",
+        "volume": "12",
+        "author": "Yousefi G. H.",
+        "year": "1993",
+        "journal-title": "J. Mater. Sci. Lett."
+      },
+      {
+        "key": "ref26/cit26",
+        "doi-asserted-by": "crossref",
+        "first-page": "3351",
+        "DOI": "10.1103/PhysRevB.1.3351",
+        "volume": "1",
+        "author": "Vanvecht J. A.",
+        "year": "1970",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref27/cit27",
+        "doi-asserted-by": "crossref",
+        "first-page": "654",
+        "DOI": "10.1023/A:1013106329156",
+        "volume": "42",
+        "author": "Podberezskaya N. V.",
+        "year": "2001",
+        "journal-title": "J. Struct. Chem."
+      },
+      {
+        "key": "ref28/cit28",
+        "first-page": "9317",
+        "volume": "10",
+        "author": "Ho C. H.",
+        "year": "1998",
+        "journal-title": "J. Phys.: Condens. Matter"
+      },
+      {
+        "key": "ref29/cit29",
+        "doi-asserted-by": "crossref",
+        "first-page": "571",
+        "DOI": "10.1038/nature08879",
+        "volume": "464",
+        "author": "Krivanek O. L.",
+        "year": "2010",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref30/cit30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1351",
+        "DOI": "10.1038/ncomms2351",
+        "volume": "4",
+        "author": "Dumcenco D. O.",
+        "year": "2012",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "ref31/cit31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1648",
+        "DOI": "10.1103/PhysRev.120.1648",
+        "volume": "120",
+        "author": "Cowley J. M.",
+        "year": "1960",
+        "journal-title": "Phys. Rev."
+      },
+      {
+        "key": "ref32/cit32",
+        "doi-asserted-by": "crossref",
+        "first-page": "781",
+        "DOI": "10.2516/ogst:2005055",
+        "volume": "60",
+        "author": "Thomazeau C.",
+        "year": "2005",
+        "journal-title": "Oil Gas Sci. Technol."
+      },
+      {
+        "key": "ref33/cit33",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1006/jssc.2001.9208",
+        "volume": "160",
+        "author": "Thomazeau C.",
+        "year": "2001",
+        "journal-title": "J. Solid State Chem."
+      },
+      {
+        "key": "ref34/cit34",
+        "doi-asserted-by": "crossref",
+        "first-page": "2254",
+        "DOI": "10.1016/j.physb.2011.03.044",
+        "volume": "406",
+        "author": "Ding Y.",
+        "year": "2011",
+        "journal-title": "Physica B"
+      },
+      {
+        "key": "ref35/cit35",
+        "first-page": "270",
+        "volume": "49",
+        "author": "Dumcenco D. O.",
+        "year": "2011",
+        "journal-title": "Chin. J. Phys."
+      },
+      {
+        "key": "ref36/cit36",
+        "doi-asserted-by": "crossref",
+        "first-page": "2695",
+        "DOI": "10.1021/nn1003937",
+        "volume": "4",
+        "author": "Lee C.",
+        "year": "2010",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "ref37/cit37",
+        "doi-asserted-by": "crossref",
+        "first-page": "924",
+        "DOI": "10.1103/PhysRev.172.924",
+        "volume": "172",
+        "author": "Chang I. F.",
+        "year": "1968",
+        "journal-title": "Phys. Rev."
+      },
+      {
+        "key": "ref38/cit38",
+        "doi-asserted-by": "crossref",
+        "first-page": "161203",
+        "DOI": "10.1103/PhysRevB.78.161203",
+        "volume": "78",
+        "author": "Yin W. J.",
+        "year": "2008",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref39/cit39",
+        "doi-asserted-by": "crossref",
+        "first-page": "241201",
+        "DOI": "10.1103/PhysRevB.86.241201",
+        "volume": "86",
+        "author": "Komsa H. P.",
+        "year": "2012",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref40/cit40",
+        "doi-asserted-by": "crossref",
+        "first-page": "115409",
+        "DOI": "10.1103/PhysRevB.86.115409",
+        "volume": "86",
+        "author": "Ramasubramaniam A.",
+        "year": "2012",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref41/cit41",
+        "doi-asserted-by": "crossref",
+        "first-page": "076803",
+        "DOI": "10.1103/PhysRevLett.90.076803",
+        "volume": "90",
+        "author": "Delerue C.",
+        "year": "2003",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "ref42/cit42",
+        "doi-asserted-by": "crossref",
+        "first-page": "126104",
+        "DOI": "10.1103/PhysRevLett.96.126104",
+        "volume": "96",
+        "author": "Wirtz L.",
+        "year": "2006",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "ref43/cit43",
+        "doi-asserted-by": "crossref",
+        "first-page": "236403",
+        "DOI": "10.1103/PhysRevLett.104.236403",
+        "volume": "104",
+        "author": "Popescu V.",
+        "year": "2010",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "ref44/cit44",
+        "doi-asserted-by": "crossref",
+        "first-page": "085201",
+        "DOI": "10.1103/PhysRevB.85.085201",
+        "volume": "85",
+        "author": "Popescu V.",
+        "year": "2012",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref45/cit45",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1080/00018736900101307",
+        "volume": "18",
+        "author": "Wilson J. A.",
+        "year": "1969",
+        "journal-title": "Adv. Phys."
+      },
+      {
+        "key": "ref46/cit46",
+        "doi-asserted-by": "crossref",
+        "first-page": "1758",
+        "DOI": "10.1103/PhysRevB.59.1758",
+        "volume": "59",
+        "author": "Kresse G.",
+        "year": "1999",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref47/cit47",
+        "doi-asserted-by": "crossref",
+        "first-page": "A1133",
+        "DOI": "10.1103/PhysRev.140.A1133",
+        "volume": "140",
+        "author": "Kohn W.",
+        "year": "1965",
+        "journal-title": "Phys. Rev."
+      },
+      {
+        "key": "ref48/cit48",
+        "doi-asserted-by": "crossref",
+        "first-page": "11169",
+        "DOI": "10.1103/PhysRevB.54.11169",
+        "volume": "54",
+        "author": "Kresse G.",
+        "year": "1996",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref49/cit49",
+        "doi-asserted-by": "crossref",
+        "first-page": "195305",
+        "DOI": "10.1103/PhysRevB.64.195305",
+        "volume": "64",
+        "author": "Sgiarovello C.",
+        "year": "2001",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref50/cit50",
+        "first-page": "2689",
+        "volume": "11",
+        "author": "Fall C. J.",
+        "year": "1999",
+        "journal-title": "J. Phys.: Condens. Matter"
+      }
+    ],
+    "container-title": [
+      "ACS Nano"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.acs.org/doi/pdf/10.1021/nn401420h",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          14
+        ]
+      ],
+      "date-time": "2023-04-14T07:04:54Z",
+      "timestamp": 1681455894000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.acs.org/doi/10.1021/nn401420h"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          25
+        ]
+      ]
+    },
+    "references-count": 50,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            5,
+            28
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1021/nn401420h"
+    ],
+    "URL": "https://doi.org/10.1021/nn401420h",
+    "relation": {},
+    "ISSN": [
+      "1936-0851",
+      "1936-086X"
+    ],
+    "issn-type": [
+      {
+        "value": "1936-0851",
+        "type": "print"
+      },
+      {
+        "value": "1936-086X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          25
+        ]
+      ]
+    }
+  }
+}

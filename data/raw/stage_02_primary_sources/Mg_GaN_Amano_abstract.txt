@@ -1,0 +1,9 @@
+00001 <jats:p>
+00002 Distinct p-type conduction is realized with Mg-doped GaN by the low-energy electron-beam irradiation (LEEBI) treatment, and the properties of the GaN p-n junction LED are reported for the first time. It was found that the LEEBI treatment drastically lowers the resistivity and remarkably enhances the PL efficiency of MOVPE-grown Mg-doped GaN. The Hall effect measurement of this Mg-doped GaN treated with LEEBI at room temperature showed that the hole concentration is ∼2·10
+00003 <jats:sup>16</jats:sup>
+00004 cm
+00005 <jats:sup>-3</jats:sup>
+00006 , the hole mobility is ∼8 cm
+00007 <jats:sup>2</jats:sup>
+00008 /V·s and the resistivity is ∼35 Ω·cm. The p-n junction LED using Mg-doped GaN treated with LEEBI as the p-type material showed strong near-band-edge emission due to the hole injection from the p-layer to the n-layer at room temperature.
+00009 </jats:p>

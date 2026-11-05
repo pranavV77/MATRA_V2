@@ -1,0 +1,56 @@
+00001 <jats:p>
+00002 Alloying bismuth telluride with antimony telluride and bismuth selenide for
+00003 <jats:inline-formula>
+00004 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+00005 <mml:mi>p</mml:mi>
+00006 </mml:math>
+00007 </jats:inline-formula>
+00008 - and
+00009 <jats:inline-formula>
+00010 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+00011 <mml:mi>n</mml:mi>
+00012 </mml:math>
+00013 </jats:inline-formula>
+00014 -type materials, respectively, improves the thermoelectric quality factor for use in room temperature modules. As the electronic and thermal transports can vary substantially, the alloy composition is a key engineering parameter. The
+00015 <jats:inline-formula>
+00016 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+00017 <mml:mi>n</mml:mi>
+00018 </mml:math>
+00019 </jats:inline-formula>
+00020 -type Bi
+00021 <jats:sub>2</jats:sub>
+00022 Te
+00023 <jats:sub>3-</jats:sub>
+00024 <jats:inline-formula>
+00025 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+00026 <mml:msub>
+00027 <mml:mrow/>
+00028 <mml:mrow>
+00029 <mml:mi>x</mml:mi>
+00030 </mml:mrow>
+00031 </mml:msub>
+00032 </mml:math>
+00033 </jats:inline-formula>
+00034 Se
+00035 <jats:inline-formula>
+00036 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+00037 <mml:msub>
+00038 <mml:mrow/>
+00039 <mml:mrow>
+00040 <mml:mi>x</mml:mi>
+00041 </mml:mrow>
+00042 </mml:msub>
+00043 </mml:math>
+00044 </jats:inline-formula>
+00045 alloy lags its
+00046 <jats:inline-formula>
+00047 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+00048 <mml:mi>p</mml:mi>
+00049 </mml:math>
+00050 </jats:inline-formula>
+00051 -type counterpart in thermoelectric performance and does not lend itself as readily to simple transport modeling which complicates engineering. Combining literature data with recent results across the entire alloy composition range, the complex electronic structure dynamics and trends in lattice thermal conductivity are explored. Spin-orbit interaction plays a critical role in determining the position and degeneracy of the various conduction band minima. This behavior is incorporated into a two-band effective mass model to estimate the transport parameters in each band. An alloy scattering model is utilized to demonstrate how phonon scattering behaves differently on either side of the intermediate ordered compound Bi
+00052 <jats:sub>2</jats:sub>
+00053 Te
+00054 <jats:sub>2</jats:sub>
+00055 Se due to chalcogen site occupancy preference. The parametrization of the electronic and thermal transports presented can be used in future optimization efforts.
+00056 </jats:p>
