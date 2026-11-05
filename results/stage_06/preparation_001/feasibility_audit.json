@@ -1,0 +1,118 @@
+{
+  "recorded_utc": "2026-11-05T14:09:25.150784+00:00",
+  "scope": "Stage 6 preparation only; no installation/model download/inference",
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "disk_free_bytes": 168051429376,
+  "available_modules": {
+    "torch": false,
+    "ase": false,
+    "mace": false,
+    "matgl": false,
+    "chgnet": false,
+    "pymatgen": true
+  },
+  "nvidia_smi": "NVIDIA GeForce RTX 3050 Laptop GPU, 4096 MiB, 552.27",
+  "release_metadata": {
+    "0.3.13": {
+      "source_url": "https://pypi.org/pypi/mace-torch/0.3.13/json",
+      "requires_python": ">=3.7",
+      "requires_dist": [
+        "torch>=1.12",
+        "e3nn==0.4.4",
+        "numpy",
+        "opt_einsum",
+        "ase",
+        "torch-ema",
+        "prettytable",
+        "matscipy",
+        "h5py",
+        "torchmetrics",
+        "python-hostlist",
+        "configargparse",
+        "GitPython",
+        "pyYAML",
+        "tqdm",
+        "lmdb",
+        "orjson",
+        "matplotlib",
+        "pandas",
+        "wandb; extra == \"wandb\"",
+        "fpsample; extra == \"fpsample\"",
+        "black; extra == \"dev\"",
+        "isort; extra == \"dev\"",
+        "mypy; extra == \"dev\"",
+        "pre-commit; extra == \"dev\"",
+        "pytest; extra == \"dev\"",
+        "pytest-benchmark; extra == \"dev\"",
+        "pylint; extra == \"dev\"",
+        "schedulefree; extra == \"schedulefree\"",
+        "cuequivariance-torch>=0.2.0; extra == \"cueq\"",
+        "cuequivariance-ops-torch-cu11>=0.2.0; extra == \"cueq-cuda-11\"",
+        "cuequivariance-ops-torch-cu12>=0.2.0; extra == \"cueq-cuda-12\""
+      ],
+      "artifacts": [
+        {
+          "filename": "mace_torch-0.3.13-py3-none-any.whl",
+          "bytes": 202043,
+          "sha256": "e0aeef5fdb493f94436e4a806f89e051240d79202bccd6bacf5c6007d9adf75a"
+        },
+        {
+          "filename": "mace_torch-0.3.13.tar.gz",
+          "bytes": 175537,
+          "sha256": "32b44478cb40ffe625216a81bcbac001165baff1fa9378a47ad50c4550806da5"
+        }
+      ]
+    },
+    "0.3.14": {
+      "source_url": "https://pypi.org/pypi/mace-torch/0.3.14/json",
+      "requires_python": ">=3.7",
+      "requires_dist": [
+        "torch>=1.12",
+        "e3nn==0.4.4",
+        "numpy",
+        "opt_einsum",
+        "ase",
+        "torch-ema",
+        "prettytable",
+        "matscipy",
+        "h5py",
+        "torchmetrics",
+        "python-hostlist",
+        "configargparse",
+        "GitPython",
+        "pyYAML",
+        "tqdm",
+        "lmdb",
+        "orjson",
+        "matplotlib",
+        "pandas",
+        "wandb; extra == \"wandb\"",
+        "fpsample; extra == \"fpsample\"",
+        "black; extra == \"dev\"",
+        "isort; extra == \"dev\"",
+        "mypy; extra == \"dev\"",
+        "pre-commit; extra == \"dev\"",
+        "pytest; extra == \"dev\"",
+        "pytest-benchmark; extra == \"dev\"",
+        "pylint; extra == \"dev\"",
+        "schedulefree; extra == \"schedulefree\"",
+        "cuequivariance-torch>=0.2.0; extra == \"cueq\"",
+        "cuequivariance-ops-torch-cu11>=0.2.0; extra == \"cueq-cuda-11\"",
+        "cuequivariance-ops-torch-cu12>=0.2.0; extra == \"cueq-cuda-12\""
+      ],
+      "artifacts": [
+        {
+          "filename": "mace_torch-0.3.14-py3-none-any.whl",
+          "bytes": 237087,
+          "sha256": "9a7a00a79b3fa3448a13961e2a4af616ff10466fa193aeb4579dc83be9da1b00"
+        },
+        {
+          "filename": "mace_torch-0.3.14.tar.gz",
+          "bytes": 206925,
+          "sha256": "7e05372b50b5ee3da2973d7da860bde0facbc0934bb672af264af303d3596d05"
+        }
+      ]
+    }
+  }
+}

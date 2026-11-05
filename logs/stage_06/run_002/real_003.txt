@@ -1,0 +1,16 @@
+........................                                                 [100%]
+============================== warnings summary ===============================
+tests/energy_integration/test_real_potential.py::test_model_identity_and_coverage
+  C:\Final Project\.venv_energy\lib\site-packages\e3nn\o3\_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+    _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+
+tests/energy_integration/test_real_potential.py::test_model_identity_and_coverage
+  C:\Final Project\.venv_energy\lib\site-packages\mace\calculators\mace.py:197: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+    torch.load(f=model_path, map_location=device)
+
+tests/energy_integration/test_real_potential.py::test_unsupported_and_oversized_and_charged
+  C:\Final Project\.venv_energy\lib\site-packages\pymatgen\core\structure.py:2844: UserWarning: Structure charge (1) is set to be not equal to the sum of oxidation states (0.0). Use Structure.unset_charge() to reset the charge to None.
+    "charge": self.charge,
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+24 passed, 3 warnings in 12.73s

@@ -1,0 +1,56 @@
+C:\Final Project\.venv_energy\lib\site-packages\e3nn\o3\_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+C:\Final Project\.venv_energy\lib\site-packages\mace\calculators\mace.py:197: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using head default out of ['default']
+{
+  "model": "MACE-MP-0b2-small",
+  "supported_elements": 89,
+  "convergence": {
+    "attempted": 3,
+    "converged": 3
+  },
+  "checks": [
+    {
+      "check": "translation",
+      "absolute_energy_difference_ev_per_atom": 0.0,
+      "tolerance_ev_per_atom": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "permutation",
+      "absolute_energy_difference_ev_per_atom": 0.0,
+      "tolerance_ev_per_atom": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "rotation",
+      "absolute_energy_difference_ev_per_atom": 0.0,
+      "tolerance_ev_per_atom": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "supercell_extensivity",
+      "absolute_energy_difference_ev_per_atom": 0.0,
+      "tolerance_ev_per_atom": 1e-07,
+      "passed": true
+    }
+  ],
+  "force_check": {
+    "model_force_ev_per_angstrom": -0.12305994355502906,
+    "finite_difference_force_ev_per_angstrom": -0.12306002115991532,
+    "absolute_difference_ev_per_angstrom": 7.760488626717965e-08,
+    "tolerance_ev_per_angstrom": 0.001,
+    "passed": true,
+    "displacement_angstrom": 0.0001,
+    "reference_type": "same-model numerical derivative, NOT DFT reference"
+  },
+  "warm_median_ms": 0.4926000256091356,
+  "memory": {
+    "status": "measured",
+    "process_peak_working_set_bytes": 728051712,
+    "process_working_set_bytes": 728051712,
+    "scope": "entire isolated process including imports/model/graphs"
+  }
+}

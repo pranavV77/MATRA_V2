@@ -1,0 +1,13 @@
+{
+  "protected_tracked_files_checked": 362,
+  "expected_modified_files": [
+    ".gitattributes",
+    ".gitignore",
+    "docs/progress.md",
+    "src/review_demo/server.py",
+    "src/review_demo/static/index.html",
+    "src/review_demo/static/structures.js"
+  ],
+  "unexpected_changes": [],
+  "note": "Existing dirty task2 benchmark file preserved at baseline bytes; previous source datasets/results and Stage 5 snapshots preserved."
+}

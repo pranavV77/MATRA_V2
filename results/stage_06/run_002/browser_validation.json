@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-11-05T16:24:29.551506+00:00",
+  "verified_flow": "SrTiO3 2x2x2 -> Ti site 8 -> generated Zr/V/Hf -> selected Zr -> enabled fixed-cell relaxation -> actual result displayed",
+  "observed_result": {
+    "converged": true,
+    "steps": 17,
+    "final_max_force_displayed_eV_per_A": 0.03268,
+    "same_composition_energy_change_displayed_eV": -0.85658
+  },
+  "archived_UI_assessment": "C:\\Final Project\\results\\energy_assessments\\assessment_20261105T160759Z_91fbb48c42",
+  "screenshot_saved": false,
+  "screenshot_limitation": "Browser file write returned EPERM; actual UI was observed but no saved screenshot claimed",
+  "coverage_limit": "Selected desktop flow only, not exhaustive device/UI testing"
+}

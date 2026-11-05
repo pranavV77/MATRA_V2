@@ -1,0 +1,4 @@
+host,candidate,atoms,target_site_fraction,converged_under_model,steps,initial_max_force_eV_per_A,final_max_force_eV_per_A,same_composition_energy_change_eV_per_cell,independent_DFT_accuracy,thermodynamic_stability
+perovskite,Zr,40,0.125,True,17,3.6537478157652257,0.032679336126321124,-0.8565825148983777,not_verified,not_assessed
+wurtzite,Al,4,0.5,True,7,1.0945087113950542,0.046399284735417184,-0.04263386127575686,not_verified,not_assessed
+aflow_zns,Cd,4,0.5,True,22,1.8202433840889394,0.04387491936055578,-0.24036002389890854,not_verified,not_assessed

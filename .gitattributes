@@ -49,3 +49,16 @@ results/stage_05/** -text
 logs/stage_05/** -text
 
 .gitattributes -text
+
+# Stage 6 exact artifact bytes
+.gitignore -text
+src/energy/** -text
+tests/stage_06/** -text
+tests/energy_integration/** -text
+experiments/stage_06/** -text
+configs/stage_06/** -text
+models/stage_06/*.json -text
+data/benchmark/energy_v0_1_0/** -text
+results/stage_06/** -text
+logs/stage_06/** -text
+docs/stages/stage_06/** -text

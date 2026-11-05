@@ -1,6 +1,6 @@
 # MATRA central progress
 
-Current status: Stage 5 host/site analysis and trial-structure generation implemented; owner review pending. Owner explicitly authorized the next stage with “Start Next stage, Maximum effort push harder.” Final suite: 478 passed (386 previous + 92 new). Corrected evaluation run_002: 9 host/supercell requests, 27/27 geometrically consistent trial configurations; no chemical-success accuracy claim. Structure lab added to the local UI. Inputs: two analytical prototypes and frozen AFLOW ZnS CIF. No energy, gap, chemical site preference or doping activation established. See docs/stages/stage_05/completion_report.md and technical_guide.md. Stage 6 has not started; await owner approval.
+Current status: Stage 6 bounded energy/relaxation engineering milestone implemented and locally verified; owner review pending. Owner approved isolated installation and official checkpoint download (“Yeah, start doing”). Actual Windows CPU stack: MACE 0.3.14/Torch 2.6.0+cpu in .venv_energy; original .venv preserved. Official MACE-MP-0b2-small weights/revision/hash frozen. Final tests: 510 regular + 24 isolated-energy tests passed. Three selected trial relaxations converged under the declared model; separate one-step HTTP request correctly nonconverged. Authoritative results: results/stage_06/run_002. Independent DFT energy/force accuracy: unverified (0 admitted cases). Formation/hull and thermodynamic stability: not assessed. Full scientific Stage 6 remains open; recommend reference curation, not automatic Stage 7. Reports: docs/stages/stage_06/completion_report.md and technical_guide.md.
 
 Authoritative workspace: `C:\Final Project`. Owner approved Stage 1 in chat on 5 November 2026. Required workflow: stage explanation, approval, incremental implementation, executed edge cases, separate validation categories, reports/Telugu narration, owner review; no automatic next stage.
 
@@ -14,8 +14,8 @@ Earlier approved continuation: Stage 2 extended review v2.2.0, run_003. That pas
 2. Dataset correctness, provenance and coverage handling — versioned engineering release implemented; benchmark primary-source curation and owner review pending.
 3. Independent similarity-engine hardening — implemented and locally verified; owner authorized later continuation.
 4. Similarity fusion and evaluation — implemented; owner authorized continuation to Stage 5; two-reference research limitation carried forward.
-5. Host structures, sites and candidate generation — bounded ordered-host engineering module implemented; 478 full-suite tests passed; scientific chemical validation remains pending; owner review pending.
-6. Energy/stability assessment — pending.
+5. Host structures, sites and candidate generation — bounded engineering module implemented; 478 full-suite tests passed; owner authorized Stage 6 preparation; scientific chemical validation remains pending.
+6. Energy/stability assessment — local energy/force/relaxation engineering implemented; 510 regular + 24 energy-suite tests pass. Independent energy and decomposition-stability validation remain pending; owner milestone review required.
 7. Property preservation — pending.
 8. Doping assessment — pending.
 9. Evidence, explanations and final ranking — pending.
@@ -64,3 +64,11 @@ Reports: docs/stages/stage_03/index.html and completion_report.md. Reproducibili
 ## Stage 5 review
 
 Reports: docs/stages/stage_05. Authoritative results: results/stage_05/run_002; final tests: logs/stage_05/run_002/pytest_005.xml. Initial failed tests and duplicate-CIF-label warnings remain preserved under run_001. Source acquisition: data/raw/stage_05_hosts (AFLOW original hash frozen). Added explicit ordered-host site selection, periodic geometry, bounded supercells, concentration accounting and unique unrelaxed CIF/JSON exports. Candidate order remains Stage 4 elemental fusion; no learned site preference. Original source data, engine implementations, presentations and owner dirty results preserved. Actual Telugu audio unavailable; complete narration script supplied. Pending: independent host diversity/site chemistry and planned Stage 6 energy/stability methodology. No automatic next-stage work.
+
+## Stage 6 preparation
+
+Owner authorized preparation and requested a progress estimate. Estimate 40–45% of full research implementation is judgment, not a measured metric. Existing Python 3.10.11, RTX 3050 4 GB/driver 552.27; required energy packages absent. Current MACE documentation requires Python >=3.11, while 0.3.14 release metadata declares >=3.7; actual Windows compatibility remains untested. Proposed isolated CPU-first environment and official small checkpoint require concrete implementation approval. No change to the working demo or existing environment. Audit: results/stage_06/preparation_001/feasibility_audit.json. Plan: docs/stages/stage_06/preimplementation_plan.md.
+
+## Stage 6 approved implementation and review
+
+Owner approved isolated installation and official model download. Existing no-install decision is superseded only for the approved .venv_energy within C:\Final Project. No cloud, new Python installation, GPU runtime or original .venv upgrade. Official 0a GitHub acquisition reset repeatedly; selected available official 0b2 small with frozen HF revision and published LFS hash, explicitly disclosed. Partial formal oxidation annotations separated from neutral model inputs. Initial cached timing superseded by fresh inference run_002; old outputs preserved. Actual model coverage 89 includes all 79 fusion elements, without universal chemistry accuracy claim. Current reports and full Telugu transcript under docs/stages/stage_06; no actual audio tool available. Next required scientific work: compatible independent energy references and phase data within Stage 6. Do not claim stable substitutions, energy MAE or full Stage 6 scientific completion.

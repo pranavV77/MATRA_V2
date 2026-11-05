@@ -37,3 +37,10 @@ Desktop.ini
 scratch/
 tmp/
 temp/
+
+# Approved isolated energy runtime and generated large artifacts
+.venv_energy/
+models/stage_06/*.model
+models/stage_06/*.part
+work/stage_06/
+results/energy_assessments/

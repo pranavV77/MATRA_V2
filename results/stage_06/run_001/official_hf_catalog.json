@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "69033fabdc6c8ed89fad8aa0",
+    "id": "mace-foundations/mace-mh-1",
+    "likes": 21,
+    "trendingScore": 1,
+    "private": false,
+    "downloads": 0,
+    "tags": [
+      "mace",
+      "chemistry",
+      "materials-science",
+      "molecular-dynamics",
+      "interatomic-potential",
+      "machine-learning-force-field",
+      "arxiv:2510.25380",
+      "license:other",
+      "region:us"
+    ],
+    "library_name": "mace",
+    "createdAt": "2025-10-30T10:36:27.000Z",
+    "modelId": "mace-foundations/mace-mh-1"
+  },
+  {
+    "_id": "682eec266e7601768cc5b17b",
+    "id": "mace-foundations/mace-mp-0",
+    "likes": 3,
+    "trendingScore": 0,
+    "private": false,
+    "downloads": 0,
+    "tags": [
+      "license:mit",
+      "region:us"
+    ],
+    "createdAt": "2025-05-22T09:19:34.000Z",
+    "modelId": "mace-foundations/mace-mp-0"
+  },
+  {
+    "_id": "682eecde53b7a5fb3e2cd7a4",
+    "id": "mace-foundations/mace-mpa-0",
+    "likes": 2,
+    "trendingScore": 0,
+    "private": false,
+    "downloads": 0,
+    "tags": [
+      "license:mit",
+      "region:us"
+    ],
+    "createdAt": "2025-05-22T09:22:38.000Z",
+    "modelId": "mace-foundations/mace-mpa-0"
+  },
+  {
+    "_id": "69033f44ebc74c6651ce9e09",
+    "id": "mace-foundations/mace-mh-0",
+    "likes": 0,
+    "trendingScore": 0,
+    "private": false,
+    "downloads": 0,
+    "tags": [
+      "license:other",
+      "region:us"
+    ],
+    "createdAt": "2025-10-30T10:34:44.000Z",
+    "modelId": "mace-foundations/mace-mh-0"
+  }
+]

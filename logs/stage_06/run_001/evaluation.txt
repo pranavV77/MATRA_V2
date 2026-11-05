@@ -1,0 +1,18 @@
+C:\Final Project\.venv_energy\lib\site-packages\e3nn\o3\_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+C:\Final Project\.venv_energy\lib\site-packages\mace\calculators\mace.py:197: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using head default out of ['default']
+Traceback (most recent call last):
+  File "C:\Final Project\experiments\stage_06\evaluate_energy.py", line 118, in <module>
+    if __name__=='__main__':main()
+  File "C:\Final Project\experiments\stage_06\evaluate_energy.py", line 45, in main
+    start=time.perf_counter();assessed=backend.assess(trial,relax=True,max_steps=100,fmax=.05)
+  File "C:\Final Project\src\energy\backend.py", line 71, in assess
+    initial=self.predict(structure)
+  File "C:\Final Project\src\energy\backend.py", line 62, in predict
+    atoms=self._atoms(structure);start=time.perf_counter();prediction=self._prediction(atoms)
+  File "C:\Final Project\src\energy\backend.py", line 42, in _atoms
+    raise ValueError('Explicit charged-cell calculations are unsupported by this neutral potential workflow')
+ValueError: Explicit charged-cell calculations are unsupported by this neutral potential workflow

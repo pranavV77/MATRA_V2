@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "scope": "Stage 6 energy reference admission ledger",
+  "admitted_external_cases": [],
+  "independent_held_out_cases": 0,
+  "status": "No externally qualified numerical energy reference admitted yet",
+  "required_fields": ["source_url", "source_geometry_sha256", "calculation_method", "functional_and_U_settings", "energy_convention", "units", "geometry_task_fixed_or_relaxed", "reference_value", "training_overlap_status"],
+  "holds": [
+    "Stage 5 analytical prototypes have no independently calculated DFT reference energies",
+    "AFLOW ZnS geometry does not supply a compatible numerical DFT energy reference in the acquired CIF",
+    "Literature substitution existence is not a total-energy reference",
+    "Potential self-consistency and finite-difference agreement must not be relabelled prediction accuracy"
+  ],
+  "prohibited_claims": ["measured energy MAE on generated candidates", "thermodynamic stability from raw cross-composition energies", "experimental validation from optimizer convergence"]
+}

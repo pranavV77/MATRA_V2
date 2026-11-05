@@ -1,0 +1,14 @@
+{
+  "model_id": "MACE-MP-0b2-small",
+  "path": "models/stage_06/mace_mp_0_small.model",
+  "source_url": "https://huggingface.co/mace-foundations/mace-mp-0/resolve/e291ace2bfae073c3ebc7ae2f9479a525989baa7/mace-mp-0b2-small.model",
+  "source_code_mapping": "https://github.com/ACEsuit/mace/blob/v0.3.14/mace/calculators/foundations_models.py",
+  "retrieved_utc": "2026-11-05T15:50:31.016058+00:00",
+  "bytes": 67622684,
+  "sha256": "d5773bf9440e96d6eb8c598f84bd0e6369fcfa432f626a87f890e07da3c651c9",
+  "license": "MIT as documented for this MACE-MP checkpoint family",
+  "energy_reference": "MPTrj DFT PBE+U training convention; no database correction mixing approved",
+  "integrity_note": "Size and SHA-256 verified against official Hugging Face LFS metadata at frozen revision e291ace2bfae073c3ebc7ae2f9479a525989baa7.",
+  "selection_note": "Original 0a small GitHub release routes reset connections. Official available 0b2 small selected within approved MACE-MP small-model family; no accuracy advantage claimed.",
+  "scientific_accuracy_validated_locally": false
+}

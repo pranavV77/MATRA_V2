@@ -1,0 +1,79 @@
+{
+  "_id": "682eec266e7601768cc5b17b",
+  "id": "mace-foundations/mace-mp-0",
+  "private": false,
+  "tags": [
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 3,
+  "modelId": "mace-foundations/mace-mp-0",
+  "author": "mace-foundations",
+  "sha": "e291ace2bfae073c3ebc7ae2f9479a525989baa7",
+  "lastModified": "2025-05-22T09:22:24.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "mit"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "7be5fc7f47d5db027d120b8024982df93db95b74",
+      "size": 24
+    },
+    {
+      "rfilename": "mace-mp-0b2-large.model",
+      "blobId": "5bcdc97c755904318fada6c3eb6c5cc9e4843cf2",
+      "size": 98544548,
+      "lfs": {
+        "sha256": "348390e758e1c90011c7675e864850f8e9c5b3e7c217f79a2b4bad1baaa657ad",
+        "size": 98544548,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "mace-mp-0b2-medium.model",
+      "blobId": "983f239fa2f6a623214cca0def0dc9fded37eaf1",
+      "size": 79462798,
+      "lfs": {
+        "sha256": "a90be07c8aa6623c390fcc4653d3e319c4a356f8b4a53d323f96b2012d375caf",
+        "size": 79462798,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "mace-mp-0b2-small.model",
+      "blobId": "9459ab2a242076bc5c8ca50b5e0039498c0e108d",
+      "size": 67622684,
+      "lfs": {
+        "sha256": "d5773bf9440e96d6eb8c598f84bd0e6369fcfa432f626a87f890e07da3c651c9",
+        "size": 67622684,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "mace-mp-0b3-medium.model",
+      "blobId": "821237d9cc6870fffcf511c8676d86146f95f213",
+      "size": 79472952,
+      "lfs": {
+        "sha256": "2f2be696351ac9e94fbe01cdfb6f017679acdbd2db7645209ef55fec9826b012",
+        "size": 79472952,
+        "pointerSize": 133
+      }
+    }
+  ],
+  "spaces": [
+    "Corollary-Labs/mace-mp-0-online"
+  ],
+  "createdAt": "2025-05-22T09:19:34.000Z",
+  "usedStorage": 325102982
+}
