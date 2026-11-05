@@ -1,0 +1,24 @@
+{
+  "files": {
+    "data/raw/stage_02_extended_sources/acquisition_manifest.json": "0bb484fbda3dda24522e22b18bf7fd50f18cc2599c6e4a66cbd81bc6bb14ef93",
+    "data/raw/stage_02_extended_sources/BiTeSe_structure.pdf": "00957a39a80c27e8a998369435df7db6098c1bceb520d8469df96e314bdd0bff",
+    "data/raw/stage_02_extended_sources/BiTeSe_structure_pages.txt": "fcd7d71b1d81a36a9b1ae85257e82adf9b1c9f35d721b4229c42514120d64d7c",
+    "data/raw/stage_02_extended_sources/Sn_Ga_XAS.pdf": "694c4b0cf9f50573349caa0095f7b12ea4d23c19531e74c9015f92dbf72200b7",
+    "data/raw/stage_02_extended_sources/Sn_Ga_XAS_pages.txt": "9c47b474436eb32ed7c0cd326bba9a3b2fd8e11afbbd0d42c9c01a0974bbeb8a",
+    "data/benchmark/v2_2_0/extended_evidence.json": "5d1f26b9fe00348dab765aa36dfb4b98e6028a922a9a411c8b8bb615818c285e",
+    "docs/stages/stage_02_extended_review/completion_report.md": "4beb535d4b33bbebcbfb448925a4ac00485ecb31a5ab2c65cd346594ebaaa031",
+    "docs/stages/stage_02_extended_review/edge_case_and_validation_report.md": "2067b0bef40ddff2debe95208a1c782a78525d97015fb342322b66d360a425c0",
+    "docs/stages/stage_02_extended_review/implementation_and_math.md": "5700ca70173de597f7fdd3653814e3e624190ebc9ccc64245f085a14d7695ce5",
+    "docs/stages/stage_02_extended_review/index.html": "c394d5ad5f121c374f36d2e83ec60009ecea3a826431e50dde4fcb7fd9042b83",
+    "docs/stages/stage_02_extended_review/scientific_review.md": "4a0618f6713e23a00b6e9cce2fe28d9724b0a08b6f589a9e954fa2edd0fac4fa",
+    "docs/stages/stage_02_extended_review/telugu_transcript.md": "5a3551dc8b3a01106f5197d56b624a170779630ed297511c11e2c0fc3d6659b4",
+    "src/data_audit/evidence_extension.py": "c4ac6918b0c70a454e4853cbf62dc79c8079b9415a7f62ec043ea7c40b3757bc",
+    "tests/stage_02/test_evidence_extension.py": "0582290340dfb999fd87dc086f9b3b4db3dc39a5aef0f024239ebb1a0f80760b",
+    "experiments/stage_02/build_extended_review.py": "1b2067b2db82700ca21ddcebf50ea49574079b3531d4c386347f3e8a6f2b21a7",
+    "experiments/stage_02/collect_extended_sources.py": "59a66109cf0de16983cafeec0535d6253cec8e6a929ad9cfa56ce873c51ac46b",
+    "experiments/stage_02/report_extended_review.py": "443e346d3530577b8ad9f12bbcbd0e4078f12e45ed68837445a7d5c7dc39d95e"
+  },
+  "links_verified": 7,
+  "new_tests": 38,
+  "scientific_expert_review": "pending"
+}

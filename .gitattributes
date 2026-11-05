@@ -6,3 +6,9 @@ docs/stages/stage_02_source_verification/** -text
 experiments/stage_02/*primary*.py -text
 src/data_audit/primary_evidence.py -text
 tests/stage_02/test_primary_evidence.py -text
+data/raw/stage_02_extended_sources/** -text
+data/benchmark/v2_2_0/** -text
+docs/stages/stage_02_extended_review/** -text
+experiments/stage_02/*extended*.py -text
+src/data_audit/evidence_extension.py -text
+tests/stage_02/test_evidence_extension.py -text

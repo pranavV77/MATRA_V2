@@ -1,0 +1,10 @@
+{
+  "staged_artifacts_checked": 17,
+  "staged_hash_mismatches": [],
+  "earlier_files_checked": 160,
+  "earlier_files_changed": [
+    ".gitattributes",
+    "docs/progress.md"
+  ],
+  "report_links_verified": 7
+}

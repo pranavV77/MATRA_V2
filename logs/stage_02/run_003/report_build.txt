@@ -1,0 +1,55 @@
+{
+  "workspace": "C:\\Final Project",
+  "operating_system": "Windows-10-10.0.26300-SP0",
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "dependencies": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pymatgen": "2025.10.7",
+    "pytest": "9.1.1",
+    "matplotlib": "3.10.9"
+  },
+  "counts": {
+    "reviewed_claims": 4,
+    "eligible_experimental": 1,
+    "eligible_computational": 1,
+    "held": 2,
+    "legacy_assertions_reviewed": 23,
+    "unscored_observations": 3,
+    "eligible_substitution": 2,
+    "eligible_doping": 0,
+    "eligible_host_family_groups": 2,
+    "held_out_cases": 0
+  },
+  "pytest": {
+    "tests": "143",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "4.417"
+  },
+  "previous_tracked_files_checked": 160,
+  "previous_files_intentionally_changed": [
+    ".gitattributes",
+    "docs/progress.md"
+  ],
+  "unexpected_previous_changes": [],
+  "identical_rebuild": true,
+  "independent_scientific_adjudication": "pending",
+  "configuration": {
+    "release": "2.2.0",
+    "full_context_gates": [
+      "host",
+      "phase",
+      "site",
+      "concentration"
+    ],
+    "occupancy_sum_absolute_tolerance": 1e-06,
+    "uncertainty_propagation": false,
+    "train_model": false,
+    "run_dft": false,
+    "score_predictions": false,
+    "unknown_is_negative": false,
+    "development_only": true
+  }
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Final Project\experiments\stage_02\build_extended_review.py", line 134, in <module>
+    main()
+  File "C:\Final Project\experiments\stage_02\build_extended_review.py", line 126, in main
+    raise FileExistsError('Outputs exist; use a new version/run')
+FileExistsError: Outputs exist; use a new version/run

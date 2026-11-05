@@ -1,0 +1,576 @@
+--- PAGE 1 ---
+arXiv:1112.1648v1  [cond-mat.str-el]  7 Dec 2011
+Low carrier concentration crystals of the topological insu lator
+Bi2Te2Se
+Shuang Jia 1, Huiwen Ji 1, E. Climent-Pascual 1, M. K. Fuccillo 1,
+M. E. Charles 1, Jun Xiong 2, N. P. Ong 2 and R. J. Cava 1
+1Department of Chemistry and 2Department of Physics,
+Princeton University,
+Princeton, NJ 08544, USA
+Abstract
+We report the characterization of Bi 2Te2Se crystals obtained by the modiﬁed Bridgman and
+Bridgman-Stockbarger crystal growth techniques. X-ray di ﬀraction study conﬁrms an ordered Se-
+Te distribution in the inner and outer chalcogen layers, res pectively, with a small amount of mixing.
+The crystals displaying high resistivity ( > 1 Ωcm) and low carrier concentration ( ∼ 5×1016/cm3) at
+4 K were found in the central region of the long Bridgman-Stoc kbarger crystal, which we attribute
+to very small diﬀerences in defect density along the length of the crystal rod. Analysis of the
+temperature dependent resistivities and Hall coeﬃcients r eveals the possible underlying origins of
+the donors and acceptors in this phase.
+PACS numbers: 72.29.-i, 73.25.+i, 72.80.Jc, 73.20.At
+1
+--- PAGE 2 ---
+I. INTRODUCTION
+The narrow-band-gap semiconductors (Bi,Sb) 2(Te,Se)3 have been studied for over ﬁfty
+years due to their use as thermoelectric materials [1]. Recently, th ese compounds have
+again come to the forefront in research in condensed matter phys ics, as the prototypi-
+cal three-dimensional topological insulators (TIs), displaying gap ped electronic bulk states
+and gap-less electronic surface states [2–6]. The exotic, spin-lock ed Dirac metallic surface
+states of Bi 2Se3 and Bi2Te3 have been revealed by angle-resolved photoemission spectroscop y
+(ARPES) studies [7–9], as well as scanning tunneling microscopy (STM ) experiments [10].
+Investigating the charge transport characteristics of the surf ace states has, however, proven
+to be challenging, because the surface current is usually one or two orders of magnitude
+less than the bulk current [11, 12]. In binary or ternary narrow ba nd gap semiconductors
+(EG < 300 meV) [8], the small defect formation energies and the resultant signiﬁcant defect
+densities often result in relatively large carrier densities ∼ 1018− 19/cm3, leading the bulk
+conductance to dominate over the surface conductance in trans port probe measurements.
+While previous materials research has primarily focused on heavily dop ed, low resistivity
+(Bi,Sb)2(Te,Se)3 for optimizing the thermoelectric ﬁgure of merit, the goal of the cu rrent re-
+search is to achieve highly resistive low bulk carrier concentration cr ystals that will facilitate
+the observation of the topological surface state transport.
+The original studies of surface transport in TIs in the Bi 2X3 family were focused on the
+binary Bi 2Se3 and Bi 2Te3 phases [11–13]. Near-stoichiometric Bi 2Se3 crystals are always
+heavily-doped n-type materials due to the presence of charged electron-donatin g selenium
+vacancies [1], though a small amount of Ca substitution for Bi yielded p-type materials
+[13, 14].The defect equilibrium can be written as:
+Bi2Se3 ⇋ 2BiBi + 3V••
+Se + 3
+2 Se2(g) + 6e′ (1)
+Near-stoichiometric Bi 2Te3 crystals, on the other hand, are p-type due to the presence of
+anti-site defects, i.e. Bi on the Te sites [1, 11], with the defect equilib rium:
+Bi2Te3 ⇋ 2Bi′
+Te + 2h• + Te2(g) + TeTe (2)
+Although small contributions of surface state conductance to th e total conductivity have
+been reported in carefully grown, semiconductor-like Bi 2Te3 single crystals, the resistivity of
+2
+--- PAGE 3 ---
+the binary compounds has not been reported to exceed 15 mΩ cm [11 ]; the reported surface
+conductance of Bi 2Te3 contributes for those samples less than 0 .3% to the total conductance.
+A transition from p-type to n-type behavior in the Bi 2(Te1− xSex)3 solid solution was
+reported 40 years ago [15, 16]. Very recent studies have revealed that when x is close to
+0.33, yielding the structurally ordered phase Bi 2Te2Se, crystals show high bulk resistivity
+at low temperatures, exceeding 1 Ω cm. This, along with good topolog ical surface state
+mobilities, results in a surface conductance contribution to the tot al conductivity of up to
+two orders of magnitude larger than is observed in Bi 2Te3 [17, 18]. In some such Bi 2Te2Se
+(BTS) crystals, clear Shubnikov-de Hass oscillations due to the sur face states are observed
+[17, 18]. With its much larger surface current contribution, BTS may serve as an ideal model
+system for the study of spin-selected Dirac electron behavior, as well as a starting point for
+the future development of electronic devices based on topological surface states. This report
+describes how such crystals can be obtained.
+The defects in the BTS ternary TI compound are anticipated to be m ore complex than
+those found in the binary systems, though the tendency toward S e site vacancies and Bi
+antisite defects, as seen in the binary compounds, is expected to b e maintained; the eﬀects of
+these and possible associated defects on the carrier density and m obility in the BTS ternary
+compound are still unclear. In this report, we describe the growth of the crystals of high
+quality BTS on which the successful surface transport measurem ents have been performed,
+focusing on the characterization of single crystal Bi 2Te2Se obtained via two diﬀerent crystal
+growth methods.
+Powder X-ray diﬀraction (XRD) characterization of the crystals c onﬁrms that laboratory-
+grown Bi2Te2Se displays a fully ordered structure in which the Te and Se atoms occ upy their
+own distinct crystallographic sites with the Te in the outer chalcogen layers and the Se in the
+inner chalcogen layer – a factor that may be one of the underlying ca uses of the high surface
+mobility of the BTS phase. Our electrical resistivity and Hall measure ments reveal that
+the crystals’ carrier concentration is highly sensitive to the Se site occupancy. As expected
+for small band gap semiconductors, the crystals’ quality from the perspective of the defects
+and the resultant carrier concentrations is strongly aﬀected by s mall inhomogeneities in
+the chemical composition that occur during the crystal growth. R ealizing this diﬃculty, a
+Bridgman-Stockbarger method was employed to ﬁne-tune the che mical composition of the
+crystals and optimize the carrier concentration. We show this meth od to be a controllable
+3
+--- PAGE 4 ---
+way for synthesizing high resistance low carrier concentration bulk crystals of Bi 2Te2Se. The
+relation between the distribution of the donors and acceptors and the crystal properties is
+brieﬂy discussed.
+II. EXPERIMENT
+Single crystals of Bi 2Te2Se were prepared by two methods. The ﬁrst method, which we
+specify as a ‘modiﬁed Bridgman’ method, is similar to that presented in ref. [14, 17]. Five
+gram mixtures of high purity (5N) elemental Bi, Te and Se were sealed in quartz ampoules,
+and then heated up to 850 ◦C for 1-2 days followed by cooling to 500 ◦C at 6-12 ◦C/h. The
+samples were then annealed at 500 ◦C for 3-4 days. The crystals obtained by this method
+are within a large monolithic piece ( ∼ 1 × 1 × 4 cm 3) that usually consists of approximately
+10 grains presenting random crystal orientations. For the powde r XRD characterization of
+the laboratory-made BTS phase, the samples from the ‘modiﬁed Brid gman’ method were in
+addition annealed at 400 ◦C for over 2 weeks and then quenched in cold water. These samples
+were compared to samples that were directly quenched in water fro m the melt without any
+annealing to test for the robustness of the Te-Se crystallograph ic site ordering. Samples of
+the related compound Bi 2TeSe2 were similarly prepared for comparison of the structures, and
+samples for which the Te/Se ratio was varied in small increments near the formula Bi 2Te2Se
+for testing the eﬀects of nonstoichiometry on the electrical prop erties were also prepared in
+this fashion. The samples for XRD were pulverized in liquid nitrogen and characterized by
+laboratory XRD using graphite monochromated Cu Kα radiation (D8 Focus, Bruker) at
+room temperature. Rietveld reﬁnements were carried out using th e FULLPROF program
+suite [19].
+The classic Bridgman-Stockbarger method was employed as the sec ond crystal growth
+method. This method allows for ﬁne-tuning of the chemical composit ion of the crystal near
+the stoichiometric Bi 2Te2Se composition due to natural variations in stoichiometry along the
+directionally solidiﬁed crystal boule. Thirty grams of mixture was sea led in a long internally
+carbon-coated quartz ampoule (20 cm long and 0.8 cm diameter). Th is ampoule was tapered
+at the bottom in order to favor seed selection, and then placed in a v ertical furnace. The
+temperature proﬁle of the furnace was set to ensure that the zo ne hotter than the melting
+temperature of the BTS was longer than the length of the liquid. The temperature gradient
+4
+--- PAGE 5 ---
+TABLE I: Powder XRD reﬁnement results for a ground Bi 2Te2Se crystal grown via the Bridgman-
+Stockbarger method. S.O.F.=site occupancy factor; U=ther mal parameter ( ˚
+A2), all constrained
+to be equal; RF = 7.28; χ2 = 2.33.a = 4.3067(1)˚
+A c = 30.0509(13)˚
+A
+Atom Wyck. S.O.F. x y z U
+Bi 6c 1.00 0 0 0.39681(8) 0.0048(5)
+SeI 6c 0.043(7) 0 0 0.21155(8) 0.0048(5)
+TeI 6c 0.957(7) 0 0 0.21155(8) 0.0048(5)
+SeII 3a 0.915(14) 0 0 0 0.0048(5)
+TeII 3a 0.085(14) 0 0 0 0.0048(5)
+at the furnace position crossing the melting point of the BTS was ∼ 30 ◦C/cm. The ampoule
+was then lowered through the hot zone at the speed of 2-4 mm /hour. The crystal boules
+obtained, a characteristic one described in detail in this report, we re about 14 cm long with
+fewer than 10 crystals, which were all grown with their ab planes parallel to the long axis
+of the ampoule. Such a uniform crystal morphology indicates that t he boule is relatively
+homogeneous on a large scale, with its chemical composition gradually varying along the
+long axis during the directional solidiﬁcation. The boule analyzed was c ut to seven pieces
+of about 2 cm equal length for investigating the electrical propert ies of diﬀerent parts (see
+inset of Fig. 5). The resistance and Hall measurements from 300 K t o 10 K were performed
+in the ab plane of the crystals in a Quantum Design Physical Property Measur ement System
+(PPMS), and/or in a home-made resistance probe with a Keithley 200 0 multimeter. For
+the Hall eﬀect measurements, the magnetic ﬁeld was applied perpen dicular to that plane.
+The calculation of the carrier concertration and mobility is based on s ingle band model for
+simplicity. Considering the samples’ expected variation in defect con centration, we selected
+multiple pieces from each region for measurements; only represent ative results are presented
+in this report.
+5
+--- PAGE 6 ---
+       Bi2Se3        Bi2TeSe2        Bi2Te2Se        Bi2Te3
+Bi
+Bi
+Se(Te)I
+Se(Te)I
+Se(Te)II
+FIG. 1: Upper panel: Schematic crystal structures of Bi 2Se3, Bi 2TeSe2, Bi 2Te2Se and Bi 2Te3.
+Lower panel: observed (open circles), calculated (solid li ne) and diﬀerence (lower solid line) XRD
+patterns of Bi 2Te2Se grown via the Bridgman-Stockbarger method. Inset: compa rison of the (105)
+peak of Bi 2Te2Se grown via the Bridgman-Stockbarger method (black), and t he modiﬁed Bridgman
+quenched (red) and annealed (green).
+III. RESUL TS
+Bi2Se3 and Bi 2Te3 are isostructural ﬁve-layer tetradymite-type compounds, in wh ich the
+layers stack in the sequence Se(Te) I-Bi-Se(Te)II-Bi-Se(Te)I (Fig.1). One crystallographic cell
+consists of three of these ﬁve-layer units stacked with rhombohe dral symmetry, connected
+via weak van der Waals bonds between the Se(Te) I-Se(Te)I layers in diﬀerent units. The
+cleavage occurs between these van der Waals layers, with the expo sed Se(Te)I surface layer
+hosting the topological surface states. The Se(Te) atoms in site I and site II are bonded to
+either three or six Bi nearest neighbors, respectively. Such a diﬀe rence in coordination of the
+two sites leads to diﬀerent Se(Te)-Bi bondlengths: the Bi-Se(Te) I bondlength is 7% shorter
+6
+--- PAGE 7 ---
+than the Bi-Se(Te) II bondlength in both Bi 2Se3 and Bi 2Te3. The longer bondlength of the
+central layer of Se(Te) indicates that Se(Te) I can be considered as more ionic than Se(Te) II.
+In order to investigate possible fully ordered ternary composition in the Bi 2(Te1− xSex)3 solid
+solution, Bi 2Te2Se and Bi 2TeSe2 were characterized by powder XRD (Fig. 1 and Table I).
+Our reﬁnements revealed that Bi 2Te2Se has nearly fully ordered Te I and Se II layers, whereas
+Bi2TeSe2 has a fully disordered Se(Te) I layer (a 50/50 random mixture of Se and Te) and
+a fully ordered Se II layer (data not shown). When the Te atoms are replaced by the mor e
+electronegative Se atoms in the Bi 2(Te1− xSex)3 solid solution, the Se atoms initially ﬁll the
+central layer for x ≤ 1/3 and then start to replace the Te I atoms in the outside layer. This
+result is consistent with early XRD experiments [15].
+Inspection of the XRD patterns of BTS samples grown by diﬀerent m ethods reveals
+diﬀerent peak shapes (Inset of Fig. 1). The diﬀraction peaks of th e BTS samples grown
+by the modiﬁed Bridgman method are broad and asymmetric with a low a ngle shoulder.
+We attribute the asymmetric broadening to a range of compositions Bi2Te2± δSe1∓ δ in the
+crystals. The XRD pattern of the quenched BTS shows signiﬁcant d ouble-peak character,
+indicating moderate phase separation, as is expected from fast-c ooling a solid solution phase.
+In comparison, the XRD pattern of BTS grown by the Bridgman-Sto ckbarger method has
+a much sharper and more symmetric peak shape, indicating that it ha s a more uniform
+composition. This pattern was reﬁned by using FULLPROF program b ased on a model
+with a 2:1 ratio of Te to Se, as free reﬁnement of the composition did n ot show signiﬁcant
+deviation from that formula. As shown in Table I, the sample has near -perfect order of the
+Se and Te layers, with around 4% disorder on the outer layers that s upport the topological
+surface states. We attribute the imperfect ﬁt to some of the pea ks to structural defects
+introduced during the grinding of the very soft BTS material. In con trast, Bi 2TeSe2 shows
+full disorder on the outer layers, with 50/50 Te/Se occupancy. Be ing a nearly fully ordered
+crystal, Bi 2Te2Se promises relatively low electron scattering that might be present due to
+general structural disorder at the surface, which is a Te layer, u nlike what would be seen for
+Bi2(Te,Se)3 at higher selenium contents than Bi 2Te2Se, where the surface layers would be
+substantially mixed. Hence this work focuses on tuning the carrier c oncentration of Bi 2Te2Se
+and measuring its general electronic transport properties to allow for its optimization for
+study of the transport due to the topological surface states. A s will be shown below, the
+relative homogeneity of BTS crystals grown via diﬀerent methods ha s an impact on their
+7
+--- PAGE 8 ---
+/s48/s46/s52
+/s48/s46/s54
+/s48/s46/s56
+/s49/s46/s48
+/s48 /s49/s48/s48 /s50/s48/s48 /s51/s48/s48
+/s45/s49/s46/s48
+/s45/s48/s46/s56
+/s45/s48/s46/s54
+/s45/s48/s46/s52
+/s45/s48/s46/s50
+/s48/s46/s48
+/s40/s97/s41
+/s120 /s61/s48
+/s48 /s46/s48 /s53 /s32/s83 /s50 
+/s48 /s46/s48 /s53 /s32/s83 /s49 
+/s48 /s46/s49 /s48 /s32/s83 /s50 
+/s48 /s46/s49 /s48 /s32/s83 /s49 
+/s48 /s46/s49 /s53 /s32/s83 /s50 
+/s48 /s46/s49 /s53 /s32/s83 /s49 
+/s120/s61
+/s66/s105
+/s50
+/s84/s101
+/s50/s43/s120 
+/s83/s101
+/s49/s45/s120 
+/s32
+/s32
+/s47
+/s51/s48/s48/s75
+/s40/s98/s41
+/s120 /s61/s48
+/s48 /s46/s48 /s53 /s32/s83 /s50 
+/s48 /s46/s48 /s53 /s32/s83 /s49 
+/s48 /s46/s49 /s48 /s32/s83 /s49 
+/s48 /s46/s49 /s48 /s32/s83 /s50 
+/s48 /s46/s49 /s53 /s32/s83 /s50 
+/s48 /s46/s49 /s53 /s32/s83 /s49 
+/s32
+/s32
+/s82
+/s72
+/s40/s99/s109 
+/s51
+/s47/s99/s111/s117/s108/s41
+/s84/s32/s40/s75/s41
+FIG. 2: (a): The temperature dependent resistivities of Bi 2Te2+xSe1− x, S1 and S2 present diﬀerent
+samples from the same batch. The resistivities for all the sa mples are 1 − 10 mΩcm at room
+temperature. (b): temperature dependent Hall coeﬃcients o f Bi 2Te2+xSe1− x samples.
+observed electron transport properties.
+As a starting point for the research, the temperature dependen t resistance (shown as
+ρ/ρ300K) and Hall coeﬃcient (RH ) were measured for stoichiometric Bi 2Te2Se prepared by the
+modiﬁed Bridgman method. As shown in Fig. 2, our modiﬁed Bridgman gr owth Bi 2Te2Se
+sample shows metallic behavior with a small negative RH, leading to a large temperature-
+independent n-type carrier concentration n = 2 .6 × 1019/cm3 at 10 K. Such a large carrier
+concentration and its trivial temperature-independent behavior indicate that the material is
+heavily doped by donors, resulting in a Fermi level ( EF ) in the conduction band, far above
+the energy gap. This EF position is similar to that seen in metallic Bi 2Se3 in the ARPES
+measurements [8, 14].
+In order to explore the possibility of ﬁnding a low carrier concentrat ion sample in the
+vicinity of the p−n transition point in the Bi 2Te2+xSe1− x, solid solution, the series of samples
+synthesized near the stoichiometric formula Bi 2Te2Se was characterized. Because nominally
+stoichiometric BTS is n-type in the modiﬁed Bridgman crystal growths, samples of interes t
+8
+--- PAGE 9 ---
+/s48/s46/s52
+/s48/s46/s54
+/s48/s46/s56
+/s49/s46/s48
+/s48 /s49 /s48 /s48 /s50 /s48 /s48 /s51 /s48 /s48 
+/s48 
+/s53 
+/s49 /s48 
+/s48 /s49/s48/s48 /s50/s48/s48 /s51/s48/s48
+/s45/s48/s46/s56
+/s45/s48/s46/s54
+/s45/s48/s46/s52
+/s45/s48/s46/s50
+/s48/s46/s48
+/s40/s97/s41
+/s32
+/s49 /s46/s48 /s49 /s32/s83 /s50 /s44/s32/s49 /s46/s48 /s50 /s32/s97 /s110 /s100 /s32/s49 /s46/s48 /s51 
+/s48 /s46/s57 /s56 /s32/s83 /s49 
+/s48 /s46/s57 /s55 /s32/s83 /s49 
+/s48 /s46/s57 /s55 /s32/s83 /s50 
+/s49 /s46/s48 
+/s49 /s46/s48 /s49 
+/s48 /s46/s57 /s57 /s32/s83 /s50 
+/s121/s61
+/s48 /s46/s57 /s57 /s32/s83 /s49 
+/s66/s105
+/s50
+/s84/s101
+/s50
+/s83/s101
+/s121 
+/s32
+/s32
+/s47
+/s51/s48/s48/s75
+/s121/s61/s48 /s46/s57 /s56 /s32/s83 /s50 
+/s32 
+/s32 
+/s47
+/s51 /s48 /s48 /s75 
+/s84 /s32/s40/s75 /s41
+/s40/s98/s41
+/s49 /s46/s48 /s50 
+/s48 /s46/s57 /s56 
+/s48 /s46/s57 /s55 
+/s49 /s46/s48 
+/s32
+/s32
+/s82
+/s72
+/s32/s40/s99/s109 
+/s51
+/s47/s99/s111/s117/s108/s41
+/s84/s32/s40/s75/s41
+FIG. 3: (a) Temperature dependent resistivities of Bi 2Te2Sey samples. S1 and S2 are diﬀerent
+samples from the same batch. The resistivities for all the sa mples are in the range 1 − 10 mΩcm
+at room temperature. (b)Temperature dependent Hall coeﬃci ents of Bi 2Te2Sey samples.
+for reaching the crossover are expected to be rich in Te, where a g reater tendency toward
+p-type behavior is expected (because Bi 2Te3 is naturally p-type). Figures 2 (a) and (b) show
+ρ(T ) and RH for crystals with x = 0.05, 0.1 and 0.15 respectively. None of them shows typical
+semiconducting ρ(T ) behavior, although two crystals from the x = 0 .05 and 0 .10 batches
+show weak negative temperature coeﬃcients for T < 25 K. The RH for all the samples
+vary from −1.0 to −0.2 cm 3/coul at 10 K, leading to n-type carrier concentrations from
+n = 6 × 1018cm3 to 3 × 1019cm3. The p − n transition in Bi 2Te2+xSe1− x was not found when
+x ≤ 0.15. This result is consistent with previously reported Seebeck coeﬃ cient measurements
+which showed a p − n transition at x = 0 .4 [16]. Recently a high resistance sample of
+Bi2Te1.95Se2.05 was reported [20]; for our crystal growth methods all such compo unds are
+metallic; this may be due the fact that majority carrier concentrat ions in this regime are
+strongly aﬀected by very small amounts of non-stoichiometry, as discussed further below.
+Tuning the selenium concentration in the selenium excess or deﬁcient Bi2Te2Sey series
+9
+--- PAGE 10 ---
+near y = 1 can induce signiﬁcant changes in the carrier concentration in BTS . Figure 3
+shows the ρ(T ) and RH data for Bi 2Te2Sey samples, where y changes from 0 .95 to 1 .02.
+For y > 1, the values of ρ10 K /ρ300 K are all smaller than what is seen in stoichiometric
+Bi2Te2Se. The RH value for y = 1 .02 is ∼ − 0.2 cm 3/coul from 10 K to 300 K, leading to
+a strong metallic behavior. This result indicates that simply adding Se t o stoichiometric
+Bi2Te2Se crystal growths cannot compensate for the n-type majority carriers present at the
+stoichiometric ratio. In contrast, most of the samples for y < 1 show resistivities higher
+than the stoichiometric material. The low temperature resistivities f or these samples are
+still lower than their room temperature values, however, except f or one sample from the
+batch y = 0 .98 (inset of Fig. 3 (a)), which shows ρ10K/ρ300K ∼ 10. It is worth noting
+that diﬀerent crystal samples from one batch show dramatic diﬀer ences in resistance when
+y < 1. Such signiﬁcant sample-to-sample variation for crystals obtaine d from the ‘modiﬁed
+Bridgman’ method presents a diﬃculty for their use in future resea rch on surface state
+transport properties.
+It is well known that a temperature gradient in a Bridgman growth fu rnace can induce a
+distribution of the chemical composition for a solid solution phase with a variation in melting
+point [21]. This mechanism was recently employed in the optical ﬂoatin g zone growth of the
+solid solution of La 2− 2xSr1+2xMn2O7 for exploring a ﬁne structure of the charge and orbital
+phases in the diagram near x = 0 .6 [22]. Motivated by the partial success of the slightly
+Se-deﬁcient crystals obtained in the modiﬁed Bridgman growths, a B ridgman-Stockbarger
+method was used for growing a crystal at a slightly Se deﬁcient comp osition, Bi 2Te2Se.995.
+Figure 4 shows the ρ(T ) and RH data for diﬀerent parts of the long Bridgman-Stockbarger
+crystal boule (see top of Fig. 5). At the growth starting point (G a nd F), the samples show
+metallic resistivities and small negative Hall coeﬃcients, which is similar t o the metallic crys-
+tals obtained by the ‘modiﬁed Bridgman’ method. In the middle part of the boule (parts C,
+D, and E), the samples show semiconducting resistivity and much larg er absolute values of
+RH. The three samples show positive RH between 0 .2 and 1 cm 3/coul at 300 K, leading to
+hole concentrations of p = 0.5 − 3 × 1018/cm3. RH signiﬁcantly increases with decreasing T ,
+leading to a positive maximum at about 70 K for samples C and E, and at a bout 200 K for
+sample D. On cooling below the maximum, RH then decreases with decreasing T , crosses
+zero and shows a negative maximum at 10 K for all three samples, lead ing to the electron
+concentration 5 × 1016/cm3–2 × 1017/cm3 at 10 K (Fig. 5 (a)). Given that the typical thick-
+10
+--- PAGE 11 ---
+/s48 /s49/s48/s48 /s50/s48/s48 /s51/s48/s48
+/s45/s49/s53/s48
+/s45/s49/s48/s48
+/s45/s53/s48
+/s48
+/s53/s48
+/s49/s48/s48
+/s49/s53/s48
+/s48 /s49 /s48 /s48 /s50 /s48 /s48 /s51 /s48 /s48 
+/s45 /s49 /s46 /s50 
+/s45 /s49 /s46 /s48 
+/s45 /s48 /s46 /s56 
+/s45 /s48 /s46 /s54 
+/s45 /s48 /s46 /s52 
+/s45 /s48 /s46 /s50 
+/s48 /s46 /s48 
+/s49/s69/s45/s52
+/s49/s69/s45/s51
+/s48/s46/s48/s49
+/s48/s46/s49
+/s49
+/s40/s98/s41
+/s65/s44/s66/s44/s70/s44/s71
+/s68
+/s67
+/s69
+/s32
+/s32
+/s82
+/s72
+/s40/s99/s109 
+/s51
+/s47/s99/s111/s117/s108/s41
+/s84/s32/s40/s75/s41
+/s84 /s32/s40/s75 /s41
+/s65 /s44/s66 /s44/s70 /s44/s71 
+/s32 
+/s32 
+/s82 
+/s72 
+/s40/s99/s109 
+/s51 
+/s47/s99/s111 /s117 /s108 /s41
+/s40/s97/s41
+/s69
+/s67
+/s68
+/s71
+/s66
+/s70
+/s65
+/s32
+/s32
+/s82/s32/s40 /s99/s109 /s41
+FIG. 4: (a) Temperature dependent resistivities of Bi 2Te2Se.997 crystals grown by the Bridgman-
+Stockbarger method. (b) Temperature dependent Hall coeﬃci ents. Diﬀerent parts of the crystal
+boule are designated alphabetically, with G the ﬁrst-to-fr eeze section. Inset: blow-up of Hall
+coeﬃcient for samples A, B, F and G.
+ness of the samples is about 0 .02-0.08 mm, this number is still one order of magnitude larger
+than the estimated surface electron contribution ( ∼ 1012/cm2), but the surface conductivity
+is similar in magnitude to the bulk conductivity due to the high surface m obility [17, 18].
+The observed positive to negative transition of RH with temperature is similar to the pre-
+vious reported experiments [17, 18], which clearly reveals the coex istence of two types of
+carriers in these BTS crystals. The samples turn back to being meta llic at the top part of
+the boule (parts A and B), in which the carrier concentration becom es large and negative
+−1 × 1019cm3. Although the sample shows metallic or semiconducting behavior at diﬀ erent
+positions along the boule, the properties are homogeneous on the s cale of about 2 cm. The
+Bridgman-Stockbarger crystal boules made with the starting com positions Bi 2Te2Se1.00 and
+Bi2Te2Se.99 do not show semiconducting behavior (data not shown). This indicat es that
+the Bridgman-Stockbarger method employed to grow this material induces less than a 1%
+diﬀerence in chemical composition along the boule. We have shown her e that the optimal
+11
+--- PAGE 12 ---
+FIG. 5: The carrier density (a) and mobility (b) at 10 K (circl es) and 300 K (squares) of the
+Bi2Te2Se.995 boule from the Bridgman-Stockbarger method with respect to the position along the
+boule. Samples C, D, and E are p type at 300 K (open squares).
+defect densities can be obtained either accidentally in the crystals o btained by modiﬁed
+Bridgman growth or systematically at the n-to-p crossover region in crystals obtained by
+the Bridgman-Stockbarger crystal growth method. The detailed transport properties of the
+surface states for the semiconducting crystals obtained here ar e reported elsewhere [23, 24].
+The carrier concentrations ( n) and mobilities ( µ) at 10 K and 300 K for the seven samples
+at 10 K are plotted in Fig. 5. The mobility was calculated by assuming sing le majority
+carriers dominating at 10 and 300 K. The metallic samples (A, B, F and G ) show similar
+n and µ values at 10 K and 300 K, which is expected in heavily doped semiconduc tors.
+The semiconducting samples (C, D and E) show µ less than 100 cm 2/Vs at 10 K, which is
+similar to previously reported bulk mobility values for BTS [17, 24]. At 30 0 K, the mobility
+of the hole pocket is much less ( < 10 cm 2/Vs). Such small mobility may be due to the large
+eﬀective hole mass. The correlation between the mobility and carrier concentration for the
+12
+--- PAGE 13 ---
+semiconducting samples requires further investigation.
+IV. DISCUSSION AND CONCLUSION
+Based on our synthesis and characterization of a large number of B TS crystal samples,
+we can come to some conclusions about the relation between the che mical composition
+and the carrier distribution. Stoichiometric BTS is always a heavy-do ped n type material
+showing metallic behavior, while slight tuning of the Te/Se ratio by chan ging the nominal
+composition at the percent level ( ≤ 15%) does not lead to semiconducting samples. In
+addition, starting with an excess amount of Se in the BTS growths, in an attempt to suppress
+the formation of Se vacancies, drives the materials more metallic. A p ossible explanation for
+this is that the starting Bi 2Te2Se1+δ will result in a mixture of Bi 2(Te2− δSeδ)Se with excess
+Te, because the more electronegative Se atoms tend to bond with B i atoms more strongly
+than they do with Te atoms. Reducing the Se starting concentratio n on the other hand
+yields higher resistance samples, which are highly inhomogeneous whe n obtained by the
+modiﬁed Bridgman growth method. This behavior indicates that redu cing the Se starting
+concentration in BTS probably does not introduce the Se vacancies known to contribute n-
+type carriers in Bi 2Se3. We postulate instead that many of the Se vacancies that would hav e
+been the result of Se deﬁciency will be ﬁlled by Te atoms, while the exce ss Bi atoms that
+are present as a consequence will occupy the sites left vacant by t he displaced Te, leading a
+p-type doping. We propose a more complex defect equilibrium for BTS:
+Bi2Te2Se ⇋ Bi′
+Te + h• + (1 − x)Te×
+Se + xV••
+Se + 2xe′ + 1
+2 Se2(g) + BiBi + TeTe + x
+2 Te2(g) (3)
+This n-type carrier compensation mechanism is highly sensitive to the stat ing material ratio
+and the sample processing, leading to the high electronic inhomogene ity in the crystals grown
+by the modiﬁed Bridgman method. Further study will be required to d etermine whether
+our proposed defect model for BTS is correct.
+With its large temperature gradient at the freezing point, the class ical Bridgman-
+Stockbarger method can introduce a continuous chemical compos ition distribution, and
+in the case of BTS can therefore allow for the achievement of highly r esistive samples by
+selecting the appropriate position along the boule. The semiconduct ing samples all manifest
+a majority carrier type changing from p-type to n-type on cooling from 300 K to 10 K. A
+13
+--- PAGE 14 ---
+previous study suggested that the acceptors are from an impurit y band with a gap ∼ 30 meV
+from the chemical potential [17], while our recent studies on BTS cry stals under pressure
+reveal a satellite hole pocket ∼ 50 meV lower than the chemical potential [24]. Sample D
+shows an RH maximum at 200 K, higher in temperature than the current samples C and E
+and the samples reported in ref.[17, 24], which indicates that its che mical potential may be
+closer to the bottom of the conduction band, leading to a larger gap with the hole pocket.
+It is worth noting that the samples with higher temperatures for th e RH maximum (such as
+sample D) show a larger n-type carrier concentration at 10 K. We believe that the n-type
+carriers observed at low temperature in our measurements have a minor contribution from
+the surface metallic state and are mainly from a donor impurity band. This impurity band
+is likely extended from states due to charged Se vacancies that are hybridized with the con-
+duction band. The chemical potential being closer to the conductio n band in the band gap
+yields more donors at base temperature.
+Our studies indicate that the BTS samples with small amounts of p-type doping made
+by the modiﬁed Bridgman or Bridgman-Stockbarger techniques are more likely to be semi-
+conducting than the stoichiometric samples. Given that the electro ns at the bottom of the
+conduction band are lighter than the holes at the top of the valence band, the donors more
+easily form an impurity band near the electron pocket than the acce ptors do near the hole
+pocket. In other words, at equivalent n- and p-type defect conc entrations, the Fermi level
+will be pinned near the isolated p-type energy levels in the band gap, yielding semiconduct-
+ing samples, whereas the extended n-type impurity band leads Bi 2Te2Se to be metallic for
+equivalent n-type carrier concentrations. This assumption is cons istent with our previous
+studies on Ca-doped Bi 2Se3 [13, 14]. Although the bulk mobility of the semiconducting BTS
+samples is usually small ∼ 100 cm 2/Vs, the surface states manifest much higher mobility,
+leading to the observations of quantum oscillations previously repor ted. Further optimiza-
+tion of the crystal growth and doping of BTS is expected to yield exc ellent crystals for
+the study of topological surface state transport and the fabric ation of surface-state-based
+electronic devices.
+14
+--- PAGE 15 ---
+Acknowledgments
+The authors thank for the helpful discussion with N. Ni, M. Bremholm , J. Allred and
+K. Baroudi. The crystallography work is supported by the NSF MRSE C program through
+DMR-0819860. The crystal growth and characterization are sup ported by SPA W AR grant
+N6601-11-1-4110. Substitutional chemistry work is supported b y AFOSR F A9550-10-1-0533.
+[1] D. M. Rowe, Handbook of thermoelectrics (CRC Press, Boca Raton, FL, 1995), 6th ed.
+[2] L. Fu and C. L. Kane, Phys. Rev. B 76, 045302 (2007).
+[3] L. Fu, C. L. Kane, and E. J. Mele, Phys. Rev. Lett. 98, 106803 (2007).
+[4] J. E. Moore and L. Balents, Phys. Rev. B 75, 121306 (2007).
+[5] M. Z. Hasan and C. L. Kane, Rev. Mod. Phys. 82, 3045 (2010).
+[6] X.-L. Qi and S.-C. Zhang, ArXiv e-prints (2010), 1008.20 26.
+[7] D. Hsieh, Y. Xia, D. Qian, L. Wray, F. Meier, J. H. Dil, J. Os terwalder, L. Patthey, A. V.
+Fedorov, H. Lin, et al., Phys. Rev. Lett. 103, 146401 (2009).
+[8] Y. Xia, D. Qian, D. Hsieh, L. Wray, A. Pal, H. Lin, A. Bansil , D. Grauer, Y. S. Hor, R. J.
+Cava, et al., Nat Phys 5, 398 (2009).
+[9] Y. L. Chen, J. G. Analytis, J.-H. Chu, Z. K. Liu, S.-K. Mo, X . L. Qi, H. J. Zhang, D. H. Lu,
+X. Dai, Z. Fang, et al., Science 325, 178 (2009).
+[10] P. Roushan, J. Seo, C. V. Parker, Y. S. Hor, D. Hsieh, D. Qi an, A. Richardella, M. Z. Hasan,
+R. J. Cava, and A. Yazdani, Nature 460, 1106 (2009).
+[11] D.-X. Qu, Y. S. Hor, J. Xiong, R. J. Cava, and N. P. Ong, Sci ence 329, 821 (2010).
+[12] N. P. Butch, K. Kirshenbaum, P. Syers, A. B. Sushkov, G. S . Jenkins, H. D. Drew, and
+J. Paglione, Phys. Rev. B 81, 241301 (2010).
+[13] J. G. Checkelsky, Y. S. Hor, M.-H. Liu, D.-X. Qu, R. J. Cav a, and N. P. Ong, Phys. Rev.
+Lett. 103, 246601 (2009).
+[14] Y. S. Hor, A. Richardella, P. Roushan, Y. Xia, J. G. Check elsky, A. Yazdani, M. Z. Hasan,
+N. P. Ong, and R. J. Cava, Phys. Rev. B 79, 195208 (2009).
+[15] Seizo and Nakajima, Journal of Physics and Chemistry of Solids 24, 479 (1963).
+[16] O. Sokolov, S. Skipidarov, N. Duvankov, and G. Shabunin a, Journal of Crystal Growth 262,
+15
+--- PAGE 16 ---
+442 (2004).
+[17] Z. Ren, A. A. Taskin, S. Sasaki, K. Segawa, and Y. Ando, Ph ys. Rev. B 82, 241306 (2010).
+[18] J. Xiong, A. C. Petersen, D. Qu, R. J. Cava, and N. P. Ong, A rXiv e-prints (2011), 1101.1315.
+[19] J. Rodr ´ ıguez-Carvajal and T. Roisnel, FULLPROF, WINPLOTR , and accompanying pro-
+grams (2008), URL http://www.ill.eu/sites/fullprof/index.html.
+[20] Z. Ren, A. A. Taskin, S. Sasaki, K. Segawa, and Y. Ando, Ph ys. Rev. B 84, 165311 (2011).
+[21] W. G. Pfann, Zone melting , Wiley Series on Sci. and Tech. of Mat. (Wiley, New York, NY,
+1966), 2nd ed.
+[22] H. Zheng, Q. Li, K. E. Gray, and J. F. Mitchell, Phys. Rev. B 78, 155103 (2008).
+[23] J. Xiong, Y. Luo, Y. Khoo, S. Jia, R. J. Cava, and N. P. Ong ( 2011), unpublished.
+[24] Y. Luo, S. Rowley, J. Xiong, S. Jia, R. J. Cava, and N. P. On g (2011), unpublished.
+16

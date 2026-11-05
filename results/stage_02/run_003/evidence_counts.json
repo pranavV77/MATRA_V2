@@ -1,0 +1,12 @@
+{
+  "reviewed_claims": 4,
+  "eligible_experimental": 1,
+  "eligible_computational": 1,
+  "held": 2,
+  "legacy_assertions_reviewed": 23,
+  "unscored_observations": 3,
+  "eligible_substitution": 2,
+  "eligible_doping": 0,
+  "eligible_host_family_groups": 2,
+  "held_out_cases": 0
+}

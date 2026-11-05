@@ -1,0 +1,64 @@
+[
+  {
+    "source_id": "Sn_Ga_XAS",
+    "url": "https://www.osti.gov/servlets/purl/1371047",
+    "retrieved_at_utc": "2026-11-05T10:29:04.395566+00:00",
+    "identity_status": "full_pdf_requires_identity_review",
+    "artifacts": [
+      {
+        "path": "data/raw/stage_02_extended_sources/Sn_Ga_XAS.pdf",
+        "sha256": "694c4b0cf9f50573349caa0095f7b12ea4d23c19531e74c9015f92dbf72200b7"
+      },
+      {
+        "path": "data/raw/stage_02_extended_sources/Sn_Ga_XAS_pages.txt",
+        "sha256": "9c47b474436eb32ed7c0cd326bba9a3b2fd8e11afbbd0d42c9c01a0974bbeb8a"
+      }
+    ],
+    "errors": [],
+    "resolved_url": "https://www.osti.gov/servlets/purl/1371047",
+    "content_type": "application/pdf"
+  },
+  {
+    "source_id": "Nb_STO_polar",
+    "url": "https://www.nature.com/articles/s41535-022-00524-9.pdf",
+    "retrieved_at_utc": "2026-11-05T10:29:24.996045+00:00",
+    "identity_status": "candidate_unverified",
+    "artifacts": [],
+    "errors": [
+      "Response is not a PDF; no full-text credit"
+    ],
+    "resolved_url": "https://www.nature.com/articles/s41535-022-00524-9.pdf",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "source_id": "MoW_atomic",
+    "url": "https://www.nature.com/articles/ncomms2351.pdf",
+    "retrieved_at_utc": "2026-11-05T10:29:25.404921+00:00",
+    "identity_status": "candidate_unverified",
+    "artifacts": [],
+    "errors": [
+      "Response is not a PDF; no full-text credit"
+    ],
+    "resolved_url": "https://www.nature.com/articles/ncomms2351.pdf",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "source_id": "BiTeSe_structure",
+    "url": "https://arxiv.org/pdf/1112.1648",
+    "retrieved_at_utc": "2026-11-05T10:29:25.741881+00:00",
+    "identity_status": "full_pdf_requires_identity_review",
+    "artifacts": [
+      {
+        "path": "data/raw/stage_02_extended_sources/BiTeSe_structure.pdf",
+        "sha256": "00957a39a80c27e8a998369435df7db6098c1bceb520d8469df96e314bdd0bff"
+      },
+      {
+        "path": "data/raw/stage_02_extended_sources/BiTeSe_structure_pages.txt",
+        "sha256": "fcd7d71b1d81a36a9b1ae85257e82adf9b1c9f35d721b4229c42514120d64d7c"
+      }
+    ],
+    "errors": [],
+    "resolved_url": "https://arxiv.org/pdf/1112.1648",
+    "content_type": "application/pdf"
+  }
+]

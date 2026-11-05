@@ -1,0 +1,506 @@
+--- PAGE 1 ---
+Appl. Phys. Lett. 107, 252103 (2015); https://doi.org/10.1063/1.4938123 107, 252103
+© 2015 AIP Publishing LLC.
+Dopant activation in Sn-doped Ga2O3
+investigated by X-ray absorption
+spectroscopy
+Cite as: Appl. Phys. Lett. 107, 252103 (2015); https://doi.org/10.1063/1.4938123
+Submitted: 20 June 2015 . Accepted: 05 December 2015 . Published Online: 23 December 2015
+S. C. Siah, R. E. Brandt, K. Lim, L. T. Schelhas, R. Jaramillo, M. D. Heinemann 
+ , D. Chua, J. Wright, J. D.
+Perkins, C. U. Segre, R. G. Gordon, M. F. Toney, and T. Buonassisi
+ARTICLES YOU MAY BE INTERESTED IN
+A review of Ga2O3 materials, processing, and devices
+Applied Physics Reviews 5, 011301 (2018); https://doi.org/10.1063/1.5006941
+Gallium oxide (Ga2O3) metal-semiconductor field-effect transistors on single-crystal -Ga2O3
+(010) substrates
+Applied Physics Letters 100, 013504 (2012); https://doi.org/10.1063/1.3674287
+Crystal Structure of β-Ga2O3
+The Journal of Chemical Physics 33, 676 (1960); https://doi.org/10.1063/1.1731237
+--- PAGE 2 ---
+Dopant activation in Sn-doped Ga 2O3 investigated by X-ray absorption
+spectroscopy
+S. C. Siah,1,a) R. E. Brandt,1 K. Lim,2,3 L. T .Schelhas,2 R. Jaramillo,1 M. D. Heinemann,4
+D. Chua,5 J. Wright,6 J. D. Perkins,7 C. U. Segre,6 R. G. Gordon,5 M. F .T oney,2
+and T .Buonassisi1,b)
+1Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA
+2SLAC National Accelerator Laboratory, Stanford Synchrotron Radiation Lightsource, Menlo Park,
+California 94025, USA
+3Department of Materials Science and Engineering, Stanford University, Stanford, California 94305, USA
+4PVcomB, Helmholtz-Zentrum Berlin, 12489 Berlin, Germany
+5Department of Chemistry Materials Science and Chemical Biology, Harvard University, Cambridge,
+Massachusetts 02138, USA
+6Physics Department and CSRRI, Illinois Institute of Technology, Chicago, Illinois 60616, USA
+7National Renewable Energy Laboratory, Golden, Colorado 80401, USA
+(Received 20 June 2015; accepted 5 December 2015; published online 23 December 2015)
+Doping activity in both beta-phase ( b-) and amorphous (a-) Sn-doped gallium oxide (Ga 2O3:Sn) is
+investigated by X-ray absorption spectroscopy (XAS). A single crystal of b-Ga2O3:Sn grown using
+edge-deﬁned ﬁlm-fed growth at 1725 /C14 C is compared with amorphous Ga 2O3:Sn ﬁlms deposited at
+low temperature ( <300 /C14 C). Our XAS analyses indicate that activated Sn dopant atoms in conduc-
+tive single crystal b-Ga2O3:Sn are present as Sn 4þ, preferentially substituting for Ga at the octahe-
+dral site, as predicted by theoretical calculations. In contrast, inactive Sn atoms in resistive
+a-Ga
+2O3:Sn are present in either þ2o r þ4 charge states depending on growth conditions. These
+observations suggest the importance of growing Ga 2O3:Sn at high temperature to obtain a crystal-
+line phase and controlling the oxidation state of Sn during growth to achieve dopant activation.
+VC 2015 AIP Publishing LLC.[ http://dx.doi.org/10.1063/1.4938123]
+Many optoelectronic devices incorporate a transparent
+conducting oxide (TCO) to transport charge carriers and
+photons to and from active semiconductor layers. An out-
+standing material challenge is to develop a wide-bandgap
+TCO with both small electron afﬁnity and high donor con-
+centration (Fermi energy), enabling a low-loss electron-
+selective contact for emerging materials with high
+conduction-band energies, including GaN, Cu
+2O, and n-type
+silicon.
+For this purpose, beta-phase gallium oxide ( b-Ga2O3)
+has recently emerged as a promising candidate TCO. With
+an electron afﬁnity of 3.7 eV, 1 bandgap of 4.8 eV (Ref. 2)
+and transmissivity above 80% in the wavelength range of
+300–1000 nm,3 Ga2O3 appears to be an excellent candidate
+wide-bandgap TCO with low electron afﬁnity. Ga 2O3 can be
+doped with tin, achieving donor concentrations above
+1019 cm/C0 3 when grown in bulk-crystal form 3 and above
+1018 cm/C0 3 when deposited by molecular-beam epitaxy
+(MBE) in the 540–600 /C14 C range.4 However, thin ﬁlms depos-
+ited using atomic-layer deposition (ALD) and pulsed-laser
+deposition (PLD) at more moderate temperatures in the
+100–200
+/C14 C range have not exhibited high Sn dopant activa-
+tion; as observed in this work, these ﬁlms are typically
+highly resistive, even with a concentration of 10 20 cm/C0 3 Sn
+dopants. Identifying a means to achieve higher Sn dopant
+activation in low-temperature ALD- or PLD-deposited ﬁlms
+could increase the industrial relevance of Ga 2O3:Sn for cost-
+sensitive applications including ﬁeld-effect transistors, 4 solar
+cells,5–7 gas sensors, 8 and lasers. 9 Determining the chemical
+states of active and inactive Sn dopants in Ga 2O3 is a ﬁrst
+and necessary step toward developing intuition and theory to
+guide thin-ﬁlm synthesis.
+Herein, the chemical state of Sn dopants in b-Ga2O3
+bulk crystals and amorphous (a-)Ga 2O3 thin ﬁlms deposited
+by ALD and PLD is investigated. Synchrotron-based X-ray
+absorption spectroscopy (XAS), a probe of local atomic
+structure and chemical state, is employed to deﬁne require-
+ments for successful dopant activation. It is found that Sn
+dopant activation correlates with Sn chemical state and
+Ga
+2O3 matrix crystallinity. The local structures of the metal
+cations in these different samples provide insights into how
+dopant atoms are incorporated into the host Ga
+2O3 lattices
+and govern electrical conductivity.
+b-Ga2O3:Sn single crystal (SC) is purchased commer-
+cially from Tamura Corporation and is grown from the melt
+using the edge-deﬁned ﬁlm-fed growth (EFG) method. 4 In
+addition, a-Ga 2O3:Sn thin ﬁlms are deposited using ALD
+and PLD methods. The ALD ﬁlm is deposited at 120 /C14 Ci na
+custom-built cylindrical reactor with a 30 cm long and 3 cm
+wide sample stage, and a chamber volume of 0.627 l. The
+Ga and Sn precursors used in the ALD process are
+bis(l-dimethylamino)tetrakis(dimethylamino)digallium
+6,10 and
+tetrakis(dimethylamido)tin(IV), respectively. The oxygen
+source is H 2O. During the ALD process, the temperatures of
+the Ga and Sn precursors are maintained at 120 and 60 /C14 C,
+respectively, while H 2O is kept at 25 /C14 C. High-purity N 2 is
+used as a carrier gas, and the exposures of the gallium
+a)Electronic mail: sincheng@alum.mit.edu
+b)Electronic mail: buonassisi@mit.edu
+0003-6951/2015/107(25)/252103/5/$30.00 VC 2015 AIP Publishing LLC107, 252103-1
+APPLIED PHYSICS LETTERS 107, 252103 (2015)
+
+--- PAGE 3 ---
+and tin precursors and H 2O are estimated to be approxi-
+mately 3, 2 and 5 Torr seconds, respectively. The Ga 2O3:Sn
+ﬁlms are deposited on Si/SiO 2 substrates by repeating
+a supercycle consisting of 19-times subcycle of Ga 2O3
+(bis( l-dimethylamino)tetrakis(dimethylamino)digallium/
+purge/H2O/purge) followed by 1 time subcycle of SnO 2
+(tetrakis(dimethylamido)tin(IV)/purge/H2O/purge). Purge time
+is set to be 30 s. The deposition rate is measured to be
+/C24 0.2 nm per subcycle. The PLD ﬁlm is deposited on quartz
+substrate using Ga 2O3 and SnO2 targets, and the energy den-
+sity of the pulsed KrF excimer laser (248 nm) is set to
+300 mJ with a repetition rate of 10 Hz and a distance of
+10 cm between the target and the sample substrate. The sub-
+strate is rotated during the 50 laser pulses applied to the
+Ga
+2O3 target and kept at a ﬁxed angle during 2 pulses
+applied to the SnO 2 target. This procedure is repeated 400
+times, resulting in a homogeneous Ga 2O3 ﬁlm with a Sn dop-
+ing gradient across the sample from approximately 1 at. % to
+4 at. %. The oxygen partial pressure is set to 100 lTorr for the
+depositions at 400
+/C14 C to ensure that the ﬁlm is close to stoichi-
+ometric. The deposition temperature for PLD ﬁlms is chosen
+to be 400
+/C14 C to ensure mixing of Ga and Sn atoms, and the
+deposition temperature for ALD ﬁlms is chosen to be lower at
+120 /C14 C as the Ga precursor decomposes above 500 /C14 C. The
+thickness of both the ALD and PLD ﬁlms are about 200 nm,
+and no postannealing is performed for both ALD and PLD
+samples. For the PLD samples, the in-depth homogeneity of
+Ga along the substrate corresponds to approximately 0.5 nm
+of Ga
+2O3 deposited between the Sn pulses and the [Sn] homo-
+geneity along the substrate is between 1% and 4% along a
+2 in. substrate. However, spatial homogeneity is insigniﬁcant
+in this work as the characterization techniques involved have
+beam spot sizes that are <2 /C2 2m m
+2.
+The stoichiometry of the ALD and PLD thin ﬁlms are
+measured using Rutherford Backscattering Spectroscopy
+(RBS) and determined to be Ga 2O3.41Sn0.065 and
+Ga2O2.91Sn0.072 respectively. Accordingly, the atomic con-
+centrations of Sn for ALD and PLD thin ﬁlms are estimated
+to be 2.3 /C2 1020 and 2.9 /C2 1020 cm/C0 3, respectively. The
+atomic concentrations of Sn for a set of SC samples is
+obtained from Tamura Corporation for comparison. In addi-
+tion, the net carrier density for SC Ga 2O3:Sn samples deter-
+mined by electrochemical capacitance-voltage (ECV) are
+also obtained from Tamura Corporation. Hall and four-point
+probe measurements are performed for all the samples using
+aG a
+2O3:Sn/Ti (100 nm)/Au (100 nm) stack for ohmic con-
+tact11 but only the SC Ga 2O3:Sn sample exhibits detectable
+signals. The Hall mobility and net carrier density ( ND–NA)
+of the SC are determined to be 110 cm 2/V s and
+4 /C2 1018 cm/C0 3 (ND–NA by ECV ¼ 7 /C2 1018 cm/C0 3), respec-
+tively. The ALD and PLD ﬁlm structures are also analyzed
+with wide angle X-ray diffraction (XRD) on Beamline 11–3
+at the Stanford Synchrotron Radiation Lightsource (SSRL).
+Two-dimensional scattering is collected with a MAR345
+image plate at grazing incidence at an incident energy of
+12.7 keV. Spectra are integrated between 5
+/C14 < / < 175/C14
+using the GSAS II analysis software. The resistivities for our
+ALD and PLD samples are estimated to be >2000 X cm
+based on the detection limit of the four-point probe system.
+By assuming a mobility of >0.1 cm2/V s, the upper limit of
+carrier density is estimated to be 3.0 /C2 1016 cm/C0 3 for our a-
+Ga2O3:Sn ﬁlms. Figure 1 compares the net carrier density of
+the SC samples as a function of Sn concentration. It can be
+observed that the SC samples grown via EFG have an activa-
+tion ratio close to 100%. In comparison, the Sn dopant atoms
+in our ALD and PLD deposited ﬁlms are either largely un-
+activated or highly compensated, as evident through their
+high resistivities and low carrier concentrations.
+We perform Ga K-edge XAS at Beamline 4–3 of the
+Stanford Synchrotron Radiation Lightsource and Sn K-edge
+XAS at MRCAT Beamline 10-ID of the Advanced Photon
+Source. In both measurements, the thin-ﬁlm samples are
+measured in ﬂuorescence mode with an incident beam of
+approximately 500 /C2 500 lm
+2. The K-edge ﬂuorescence for
+Ga and Sn is measured by a Lytle detector and silicon
+Vortex solid-state detector, respectively. Reference metallic
+Ga or Sn thin-foils are measured to account for relative
+energy drifts. The X-ray absorption near-edge structures
+(XANES) and extended X-ray absorption ﬁne structures
+(EXAFS) are isolated by normalizing the absorption spec-
+trum and subtracting the smooth atomic background absorp-
+tion signal from the measured absorption signal using the
+AUTOBK algorithm in Athena with R
+bkg ¼ 1.0 A˚ .12–14 After
+background removal, the processed data are transformed
+from energy space to k-space using the relationship,
+k
+2 ¼ 2mðE /C0 E0Þ=/C22h2, where k is the electron wavenumber,
+m is the electron mass, E0 is the K-edge absorption energy of
+the respective elements, and /C22h is Planck’s constant. The
+spectra are weighted by k2 to compensate for amplitude
+decay. For further analysis, the k2-weighted spectra data are
+Fourier-transformed with a Hanning window as a bandpass
+ﬁlter to enhance the signal to noise ratio within windows
+between k ¼ 1.5 and 10.0 A˚
+/C0 1.
+The chemical states of Sn for each sample can be
+derived by comparing, in Figure 2, the respective XANES
+spectra with Sn metal foil, SnO powder, and SnO 2 powder
+references. The full XANES spectra are given in Figure
+S1.
+15 The relative chemical shifts observed in the XANES
+spectra are due to changes in oxidation state, which alters the
+binding energy for electrons in the ﬁrst shell.
+16 Figure 2
+shows that the average charge states of Sn atoms in our SC
+and ALD samples are similar to that of SnO 2 (Sn4þ).
+FIG. 1. Net carrier density of b-Ga2O3:Sn single crystals as a function of
+varying [Sn].
+252103-2 Siah et al. Appl. Phys. Lett. 107, 252103 (2015)
+--- PAGE 4 ---
+Comparing this with the resistivity data suggests that Sn 4þ
+can function as an electron donor under the correct condi-
+tions. However, its presence does not always result in free
+electrons due to other reasons including the formation of
+compensating defects or formation of secondary phases. The
+average oxidation state in our PLD sample corresponds to
+Sn
+2þ (SnO), which is not likely to act as an electron donor.
+The presence of this reduced state (compared to the SC and
+ALD) suggests that the growth environment could be too
+reducing relative to the ALD and SC growth processes.
+Next, EXAFS is used to investigate the structural origin
+of Sn doping. Figure 3 shows the Fourier-transformed spec-
+tra plotted as the magnitude, jv(R)j, for both the Ga and Sn
+K-edges. The ﬁrst large peak in the jv(R)j spectrum is due to
+only single-scattering paths from the ﬁrst nearest neighbor
+(1NN) shell of atoms, and higher-order peaks are due to sin-
+gle- and multiple-scattering paths involving neighboring
+atoms in 1NN and higher order shells. In both sets of spectra,
+the amplitudes of jv(R)j from higher-order shells ( R > 2A˚ )
+for the ALD and PLD deposited samples are strongly attenu-
+ated, showing limited structural order beyond 1NN. The lack
+of long-range order is consistent with the amorphous
+structure as characterized by our XRD measurements, as
+shown in supplementary Figure S2.
+15
+To gain quantitative local structural information, the
+peaks are isolated and ﬁtted using the EXAFS equation given
+by
+17
+v kðÞ ¼ S2
+0
+X
+j
+Njfj kðÞ
+kR2
+j
+e/C0 2k2 r2
+j e/C0 2Rj =k kðÞ sin 2 kRj þ dj kðÞ/C0/C1
+; (1)
+where j indicates shells of like atoms,S2
+0 is the passive electron
+reduction factor,Nj is the coordination number of atoms in the
+jth shell, k is the photoelectron wavenumber,Rj is the half path
+length, r2
+j is the Debye-Waller factor or the mean-squared dis-
+order of neighbor distance, and kðkÞ is the electron mean free
+path. The scattering amplitude,fjðkÞ, and the phase shift, djðkÞ,
+are dependent on the atomic number of the scattering atoms.S2
+0
+for both Ga (1.00) and Sn (1.14) are determined by ﬁtting the
+crystalline Ga2O3:Sn SC sample and used as constants for other
+samples. The other ﬁtting parameters for each scattering path
+are the changes in the half path length ( DR
+eff), r2
+j and energy
+shift (DE0) .F o rt h eS Cs a m p l e ,t h es p e c t r aa r eﬁ t t e du pt ot h e
+second-order peak, and the scattering paths used in the data ﬁt-
+ting routines are calculated using the crystal structure of b-
+Ga
+2O3:Sn (space group C12/m1) 18,19 as a starting input into
+the ATOMS and FEFF6 codes implemented in Artemis. 20 In
+the unit cell of b-Ga2O3, there are two crystallographically
+nonequivalent Ga atoms (tetrahedral Ga1 and octahedral Ga2)
+and three nonequivalent O atoms (O1, O2, and O3). The GaK-
+edge spectrum for the SC sample is modeled by considering
+equal contributions from the Ga1 and Ga2 sites,
+21 and the Sn
+K-edge spectrum is ﬁtted by considering either substitutional
+Sn-on-Ga1 (SnGa1) or Sn-on-Ga2 (Sn Ga2) defects. Scattering
+path-lengths up to 3.5 A˚ are considered for ﬁtting the SC sam-
+ple. For the amorphous thin-ﬁlm samples, only the ﬁrst-order
+p e a ki sﬁ t t e db yc o n s i d e r i n gG a – Oa n dS n – Ob o n d si nt h e
+1NN shell. The non-linear least squares ﬁtting routine is subse-
+quently performed in Artemis to obtain the best-ﬁt parameters.
+The best-ﬁt parameters for the Sn K-edge spectra are included
+in Table I, while those for the Ga K-edge spectra are included
+as supplementary material in Table SI
+15 as many scattering
+paths are involved. Both jv(R)j and k2-weighted jv(k)j spectra
+are shown in Figures 3 and 4, respectively. However, both the
+real and imaginary parts of v(R) are included as supplementary
+material in Figures S3 and S4.15
+As shown in Figures 3(a) and 4(a), the good agreement
+between the Ga K-edge spectrum for the SC b-Ga2O3:Sn and
+our model up to the second order shell corroborates the beta-
+phase nature of the host lattice as determined using XRD by
+other authors.
+22 By considering two different possibilities in
+which Sn atoms can be incorporated into the SC b-Ga2O3
+host lattice, it is observed that there is a preferential substitu-
+tion at the Ga2 octahedral site (Sn Ga2, R-factor ¼ 0.01) as
+compared to substitution at the Ga1 (Sn Ga1, R-factor ¼ 0.05).
+Our observation is also consistent with ﬁrst-principles calcu-
+lations by Varley et al.
+23 Several other studies have also
+shown that transition metals like In, 24 Cr,25 and Mn26 have a
+preference for the octahedral site and can be explained by
+steric reasons.
+25,26
+For the ALD and PLD amorphous thin-ﬁlms, the aver-
+age coordination number to O atoms in Sn’s 1NN shell is
+FIG. 2. Sn edge XANES spectra for (a) SC b-Ga2O3:Sn, (b) PLD a-
+Ga2O3:Sn, and (c) ALD a-Ga 2O3:Sn samples. The dashed, dashed-dotted,
+and dotted lines represent Sn(0) metal (dashed-line), Sn(II)O (dashed-dotted
+line), and Sn(IV)O2 (dotted line) references, respectively.
+FIG. 3. Fourier-transformed EXAFS spectra plotted as the magnitude,
+jv(R)j, for (a) Ga and (b) Sn K-edges. The dark and light grey regions repre-
+sent the ﬁrst and second shell ﬁtting windows for the SC sample at the Sn K-
+edge. Note the poor ﬁt for Sn on the Ga1 site for the SC sample.
+252103-3 Siah et al. Appl. Phys. Lett. 107, 252103 (2015)
+--- PAGE 5 ---
+found to be close to 5.0, despite the difference in charge state
+of the central absorbing Sn atoms. This suggests that our
+amorphous ﬁlms might not be deposited in thermodynamic
+equilibrium conditions, because Sn atoms in SnO
+2 (Sn4þ)
+and SnO (Sn 2þ) tend to favor octahedral and tetrahedral
+coordination, respectively. Despite similar coordination
+numbers, the larger Sn 2þ ions in the PLD thin-ﬁlm increases
+the average Sn–O bond-length ( Reff ¼ 2.117 A˚ ) as well as the
+structural disorder ( r2 ¼ 0.0128 A˚ /C0 2) relative to the ALD
+ﬁlms (Reff ¼ 2.030 A˚ and r2 ¼ 0.0076 A˚ /C0 2). The lack of long
+range order in both ALD and PLD thin-ﬁlms suggests that a
+non-crystalline structure could represent an impediment for
+dopant activation. One further explanation for the ALD thin-
+ﬁlm to exhibit low conductivity despite the presence of Sn 4þ
+could be the formation of a compensating defect in the that
+reduces the number of “activated” Sn 4þ; such a phenomenon
+has been observed in crystalline ZnO:Ga. 27 Lastly, post-
+annealing has been performed in this work in an attempt to
+activate the dopants in ALD Ga 2O3:Sn thin-ﬁlms (1 h in N 2
+atmosphere at 1000 /C14 C). However, both the ﬁlm resistivity
+and crystalline order did not exhibit any detectable change,
+and the authors are of the opinion that it might be necessary
+to anneal the ﬁlms beyond 1000 /C14 C to achieve crystalline
+Ga2O3 for dopant activation.
+In conclusion, XAS is used to investigate the differences
+in the local structures of conductive single-crystal b-
+Ga2O3:Sn and resistive a-Ga 2O3:Sn thin-ﬁlms. Our results
+can be used to help engineer Ga 2O3:Sn thin-ﬁlms with the
+favorable electrical properties of single crystal b-Ga2O3:Sn.
+Our XAS analyses indicate that activated Sn dopant atoms in
+conductive single-crystal b-Ga2O3:Sn are present as Sn 4þ,
+which preferentially substitutes for Ga at the octahedral Ga2
+site as predicted by previous theoretical calculations. On the
+other hand, inactive Sn dopants in resistive a-Ga 2O3 are pres-
+ent in either þ2o r þ4 charge states, depending on growth
+conditions. Lastly, XAS results indicate a lack of structural
+order beyond the 1NN shell in a-Ga 2O3 samples, which sug-
+gests that a crystalline structure might be necessary for high
+dopant activation. Consequently, both achieving crystalline
+Ga2O3 and controlling the oxidation state of Sn during
+growth appear to be necessary to obtain high Ga 2O3
+conductivity.
+TABLE I. Sn K-edge EXAFS parameters for all samples. The SC is ﬁtted by assuming either Sn substitution on Ga1 and Ga2 sites. The best ﬁt is obtained for
+Sn substitution at Ga2 site. Scattering path-lengths up to 3.5 A˚ are considered for ﬁtting the SC sample.
+Site Shell Path description NR eff (A˚ ) DE0 (eV) r2 (A˚ /C0 2) R-factor
+SC First [Sn1]–O1,1–[Sn1] 1 1.90 (1) 5 (2) 0.000 (2) 0.05
+Ga1 [Sn1]–O2,1–[Sn1] 1 1.88 (1)
+[Sn1]–O3,1–[Sn1] 2 1.84 (1)
+Ga2 First [Sn2]–O1,1–[Sn2] 2 1.959 (3) 3.6 (3) 0.0010 (5) 0.01
+[Sn2]–O2,1–[Sn2] 1 1.996 (3)
+[Sn2]–O2,2–[Sn2] 2 2.062 (3)
+[Sn2]–O3,1–[Sn2] 1 1.940 (3)
+Second [Sn2]–Ga1,1–[Sn2] 1 3.37 (2) 3.6 (3) 0.007 (1)
+[Sn2]–Ga1,2–[Sn2] 2 3.42 (2)
+[Sn2]–Ga1,3–[Sn2] 2 3.47 (2)
+[Sn2]–Ga1,4–[Sn2] 2 3.55 (2)
+[Sn2]–Ga2,1–[Sn2] 2 3.06 (1)
+[Sn2]–Ga2,2–[Sn2] 2 3.09 (1)
+[Sn2]–O1,2–[Sn2] 1 3.34 (6) 0.02 (1)
+[Sn2]–O1,3–[Sn2] 1 3.48 (6)
+[Sn2]–O2,3–[Sn2] 2 3.63 (6)
+[Sn2]–O3,2–[Sn2] 1 3.42 (6)
+[Sn2]–O3,3–[Sn2] 1 3.34 (6)
+[Sn2]–O3,4–[Sn2] 2 3.46 (6)
+ALD First [Sn]–O3,1–[Sn] 5.0 (2) 2.030 (3) 4.4 (3) 0.0076 (6) 0.005
+PLD First [Sn]–O3,1–[Sn] 5.1 (2) 2.117 (4) 8.2 (3) 0.0128 (8) 0.008
+FIG. 4. k2-weighted EXAFS spectra for (a) Ga and (b) Sn K-edges. Fits to
+both the SnGa1 and SnGa2 for the SC sample are shown in (b).
+252103-4 Siah et al. Appl. Phys. Lett. 107, 252103 (2015)
+--- PAGE 6 ---
+This work was supported as part of the Center for Next
+Generation Materials by Design (CMGMD), an Energy
+Frontier Research Center funded by the U.S. Department of
+Energy, Ofﬁce of Science, Basic Energy Sciences under
+Contract No. DE-AC36-08GO28308. Use of the Stanford
+Synchrotron Radiation Lightsource, SLAC National
+Accelerator Laboratory, was supported by the U.S.
+Department of Energy, Ofﬁce of Basic Energy Sciences
+under Contract No. DE-AC02-76SF00515. Use of the
+Advanced Photon Source at Argonne National Laboratory
+was supported by the U.S. Department of Energy, Ofﬁce of
+Science, Ofﬁce of Basic Energy Sciences, under Contract No.
+DE-AC02-06CH11357. MRCAT operations are supported by
+the Department of Energy and the MRCAT member
+institutions. S. Lany, D. S. Ginley, W. Tumas (NREL), and A.
+M. Kolpak (MIT) are thanked for helpful discussions. J.R.
+Poindexter (MIT) is thanked for synchrotron assistance.
+S.C.S., R.E.B., K.L., and R.J. acknowledge a Clean Energy
+Scholarship from NRF Singapore, an NSF Graduate Research
+Fellowship, a Kwanjeong Education Foundation Fellowship,
+and a U.S. Department of Energy EERE Postdoctoral
+Research Award, respectively. Lastly, Tamura Corporation is
+thanked for providing insightful information.
+S.C.S., R.E.B., R.J., and T.B. designed the experiment;
+M.D.H. and D.C. fabricated the PLD and ALD samples,
+respectively; S.C.S. performed Hall; J.D.P performed RBS;
+L.S. performed XRD at SLAC; S.C.S., R.E.B., R.J., T.B.,
+L.S., K.L., J.W., and C.U.S. acquired XAS data; S.C.S. ﬁtted
+the XAS data; S.C.S. wrote the paper; R.G.G., M.T., and
+T.B. supervised the research. All authors reviewed and
+commented on the manuscript.
+1T. S. Lay, M. Hong, J. Kwo, J. P. Mannaerts, W. H. Hung, and D. J.
+Huang, Solid State Electron. 45, 1679 (2001).
+2E. G. V/C19ıllora, K. Shimamura, Y. Yoshikawa, T. Ujiie, and K. Aoki, Appl.
+Phys. Lett. 92, 202120 (2008).
+3N. Suzuki, S. Ohira, M. Tanaka, T. Sugawara, K. Nakajima, and T.
+Shishido, Phys. Status Solidi C 4, 2310 (2007).
+4M. Higashiwaki, K. Sasaki, A. Kuramata, T. Masui, and S. Yamakoshi,
+Phys. Status Solidi A 211, 21 (2014).
+5T. Minami, Y. Nishi, and T. Miyata, Appl. Phys. Express 6, 044101 (2013).
+6Y. S. Lee, D. Chua, R. E. Brandt, S. C. Siah, J. V. Li, J. P. Mailoa, S. W.
+Lee, R. G. Gordon, and T. Buonassisi, Adv. Mater. 26, 4704 (2014).
+7T. G. Allen and A. Cuevas, Appl. Phys. Lett. 105, 031601 (2014).
+8M. Fleischer and H. Meixner, Sens. Actuators, B 4, 437 (1991).
+9E. Nogales, J. A. Garc /C19ıa, B. M/C19endez, J. Piqueras, K. Lorenz, and E. Alves,
+J. Phys. D: Appl. Phys. 41, 065406 (2008).
+10D. J. Comstock and J. W. Elam, Chem. Mater. 24, 4011 (2012).
+11K. Sasaki, A. Kuramata, T. Masui, E. G. V /C19ıllora, K. Shimamura, and S.
+Yamakoshi, Appl. Phys. Express 5, 035502 (2012).
+12B. K. Newman, E. Ertekin, J. T. Sullivan, M. T. Winkler, M. A. Marcus,
+S. C. Fakra, M.-J. Sher, E. Mazur, J. C. Grossman, and T. Buonassisi,
+J. Appl. Phys. 114, 133507 (2013).
+13S. C. Siah, R. Jaramillo, R. Chakraborty, P. T. Erslev, C. Sun, T. Weng,
+M. F. Toney, G. Teeter, and T. Buonassisi, IEEE J. Photovoltaics 5, 372
+(2014).
+14S. C. Siah, S. W. Lee, Y. S. Lee, J. Heo, T. Shibata, C. U. Segre, R. G.
+Gordon, and T. Buonassisi, Appl. Phys. Lett. 104, 242113 (2014).
+15See supplementary material at http://dx.doi.org/10.1063/1.4938123 for full
+Sn K-edge XANES spectra, XRD measurements, Ga K-edge EXAFS pa-
+rameters, magnitude and real part of the ﬁtted Fourier-transformed
+EXAFS spectra for Ga and Sn K-edges and magnitude and imaginary
+part of the ﬁtted Fourier-transformed EXAFS spectra for Ga and Sn
+K-edges.
+16L. Qiao, H. Y. Xiao, S. M. Heald, M. E. Bowden, T. Varga, G. J. Exarhos,
+M. D. Biegalski, I. N. Ivanov, W. J. Weber, T. C. Droubay, and S. A.
+Chambers, J. Mater. Chem. C 1, 4527 (2013).
+17D. C. Koningsberger and R. Prins, X-Ray Absorption: Principles,
+Applications, Techniques of EXAFS, SEXAFS, and XANES (Blackwell
+Scientiﬁc Publications, Eindhoven, The Netherlands, 1988).
+18P. Villars, Material Phases Data System (MPDS) (CH-6354 Vitznau,
+Switzerland, 2014).
+19S. Grindy, B. Meredig, S. Kirklin, J. E. Saal, and C. Wolverton, Phys.
+Rev. B 87, 075150 (2013).
+20B. Ravel and M. Newville, J. Synchrotron Radiat. 12, 537 (2005).
+21T. C. Lovejoy, R. Chen, E. N. Yitamben, V. Shutthanadan, S. M. Heald, E.
+G. Villora, K. Shimamura, S. Zheng, S. T. Dunham, F. S. Ohuchi, and M.
+A. Olmstead, J. Appl. Phys. 111, 123716 (2012).
+22E. G. V /C19ıllora, S. Arjoca, K. Shimamura, D. Inomata, and K. Aoki, Proc.
+SPIE, 8987, 89871U (2014).
+23J. B. Varley, J. R. Weber, A. Janotti, and C. G. Van de Walle, Appl. Phys.
+Lett. 97, 142106 (2010).
+24M. B. Maccioni, F. Ricci, and V. Fiorentini, Appl. Phys. Express 8,
+021102 (2015).
+25T. H. Yeom, I. G. Kim, S. H. Lee, S. H. Choh, and Y. M. Yu, J. Appl.
+Phys. 93, 3315 (2003).
+26I. G. Kim, T. H. Yeom, S. H. Lee, Y. M. Yu, H. W. Shin, and S. H. Choh,
+J. Appl. Phys. 89, 4470 (2001).
+27A. Zakutayev, N. H. Perry, T. O. Mason, D. S. Ginley, and S. Lany, Appl.
+Phys. Lett. 103, 232106 (2013).
+252103-5 Siah et al. Appl. Phys. Lett. 107, 252103 (2015)

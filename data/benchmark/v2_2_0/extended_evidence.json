@@ -1,0 +1,873 @@
+{
+  "version": "2.2.0",
+  "parent_release": {
+    "path": "data/benchmark/v2_1_0/primary_evidence_reviewed.json",
+    "sha256": "45de060df77a195593fcfb2da0f8ecc24c1faeda235e770e1e3033ac8638b175"
+  },
+  "legacy_release": {
+    "path": "data/benchmark/v2_0_0/benchmark_review.json",
+    "sha256": "f3d3aaf114238b2c00c61792c22540ea38c048e631d12d9d60a7b8b86015f6bb"
+  },
+  "purpose": "Development-only evidence seed with explicit holds; not a representative test benchmark",
+  "sources": [
+    {
+      "source_id": "MoW_atomic",
+      "url": "https://www.nature.com/articles/ncomms2351",
+      "candidate_doi": "10.1038/ncomms2351",
+      "access": "blocked",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Local HTML is a client challenge, not the paper. No full-text credit."
+    },
+    {
+      "source_id": "MoW_Chen",
+      "url": "https://doi.org/10.1021/nn401420h",
+      "candidate_doi": "10.1021/nn401420h",
+      "access": "metadata_only",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Metadata/abstract screening only; no quantitative admission."
+    },
+    {
+      "source_id": "MoSe_Gong",
+      "url": "https://doi.org/10.1021/nl4032296",
+      "candidate_doi": "10.1021/nl4032296",
+      "access": "metadata_only",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Metadata/abstract screening only; no quantitative admission."
+    },
+    {
+      "source_id": "Re_MoS2",
+      "url": "https://krasheninnikov.de/publ/adma201304985-13.pdf",
+      "candidate_doi": "10.1002/adma.201304985",
+      "access": "full_text",
+      "review_depth": "scoped_claim_review",
+      "identity_verified": true,
+      "note": "Source identity and scoped passages reviewed; source values are not MATRA predictions.",
+      "verified_doi": "10.1002/adma.201304985",
+      "document": {
+        "path": "data/raw/stage_02_primary_sources/Re_MoS2.pdf",
+        "sha256": "f16a505d200894d61a5d737e62658b6887ceaa96197bb33517bdf85cdbc09ffb"
+      },
+      "text": {
+        "path": "data/raw/stage_02_primary_sources/Re_MoS2_pages.txt",
+        "sha256": "1b01b5bc7f13dca4bc7f44dde58fa08577e0b7930fd3c7991e18a4e78da09966"
+      }
+    },
+    {
+      "source_id": "Nb_STO",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8847566/",
+      "candidate_doi": "10.1038/s41598-022-06361-3",
+      "access": "full_text",
+      "review_depth": "scoped_claim_review",
+      "identity_verified": true,
+      "note": "Acquisition candidate DOI was wrong and rejected. Correct DOI read from article header, line 44. No retrospective alteration of acquisition log.",
+      "verified_doi": "10.1038/s41598-021-03199-7",
+      "document": {
+        "path": "data/raw/stage_02_primary_sources/Nb_STO.html",
+        "sha256": "4d11a1d9b3f958d5fdb50eb54913e4fc6996e9d1e179331da096b8336614be68"
+      },
+      "text": {
+        "path": "data/raw/stage_02_primary_sources/Nb_STO_text.txt",
+        "sha256": "3f0a1012b022a11fadf8eb99cc6c959e0a5e84188d0bb77c0610f58ef888c597"
+      }
+    },
+    {
+      "source_id": "Nb_STO_polar",
+      "url": "https://www.nature.com/articles/s41535-022-00524-9",
+      "candidate_doi": "10.1038/s41535-022-00524-9",
+      "access": "blocked",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Local HTML is a client challenge, not the paper. No full-text credit."
+    },
+    {
+      "source_id": "Sn_Ga_XAS",
+      "url": "https://www.osti.gov/servlets/purl/1371047",
+      "verified_doi": "10.1063/1.4938123",
+      "access": "full_text",
+      "identity_verified": true,
+      "review_depth": "scoped_claim_and_limitations_review",
+      "document": {
+        "path": "data/raw/stage_02_extended_sources/Sn_Ga_XAS.pdf",
+        "sha256": "694c4b0cf9f50573349caa0095f7b12ea4d23c19531e74c9015f92dbf72200b7"
+      },
+      "text": {
+        "path": "data/raw/stage_02_extended_sources/Sn_Ga_XAS_pages.txt",
+        "sha256": "9c47b474436eb32ed7c0cd326bba9a3b2fd8e11afbbd0d42c9c01a0974bbeb8a"
+      },
+      "note": "Primary text reviewed locally; source observations are not MATRA predictions."
+    },
+    {
+      "source_id": "Si_Ga_Villora",
+      "url": "https://doi.org/10.1063/1.2919728",
+      "candidate_doi": "10.1063/1.2919728",
+      "access": "metadata_only",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Metadata/abstract screening only; no quantitative admission."
+    },
+    {
+      "source_id": "Mg_GaN_Amano",
+      "url": "https://doi.org/10.1143/JJAP.28.L2112",
+      "candidate_doi": "10.1143/JJAP.28.L2112",
+      "access": "metadata_only",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Metadata/abstract screening only; no quantitative admission."
+    },
+    {
+      "source_id": "Al_Ga_Peelaers",
+      "url": "https://www.osti.gov/pages/servlets/purl/1497947",
+      "candidate_doi": "10.1063/1.5036991",
+      "access": "acquired_unreviewed",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "PDF acquired; detailed claim and publication-version review pending. Not admitted."
+    },
+    {
+      "source_id": "CsPbSn",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2024/ma/d4ma00034j",
+      "candidate_doi": "10.1039/D4MA00034J",
+      "access": "metadata_only",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Metadata/abstract screening only; no quantitative admission."
+    },
+    {
+      "source_id": "BiTeSe",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7150672/",
+      "candidate_doi": "10.34133/2020/4361703",
+      "access": "metadata_only",
+      "review_depth": "screened_not_claim_curated",
+      "identity_verified": false,
+      "note": "Metadata/abstract screening only; no quantitative admission."
+    },
+    {
+      "source_id": "BaSr_neutron",
+      "url": "https://arxiv.org/abs/2007.00972",
+      "verified_doi": "10.48550/arXiv.2007.00972",
+      "access": "full_text",
+      "identity_verified": true,
+      "review_depth": "scoped_claim_and_limitations_review",
+      "document": {
+        "path": "data/raw/stage_02_primary_sources/BaSr_neutron.pdf",
+        "sha256": "4d228cb83b01ca3ef87e428d720f402955e04e0600fad6c447c7652be6841a47"
+      },
+      "text": {
+        "path": "data/raw/stage_02_primary_sources/BaSr_neutron_pages.txt",
+        "sha256": "16a0981c85fb79248b205084f79943203ee8e5f7003473181ae60492c8807ab9"
+      },
+      "note": "Primary text reviewed locally; source observations are not MATRA predictions.",
+      "document_version": "arXiv:2007.00972; PDF journal header says Nuclear Science and Applications 28(1&2), 2019; publication status not independently adjudicated"
+    },
+    {
+      "source_id": "GaAl_HSE",
+      "url": "https://arxiv.org/pdf/1806.03360",
+      "candidate_doi": "10.1103/PhysRevApplied.10.011003",
+      "access": "full_text",
+      "review_depth": "scoped_claim_review",
+      "identity_verified": true,
+      "note": "Source identity and scoped passages reviewed; source values are not MATRA predictions.",
+      "verified_doi": "10.1103/PhysRevApplied.10.011003",
+      "document": {
+        "path": "data/raw/stage_02_primary_sources/GaAl_HSE.pdf",
+        "sha256": "8e0ba93059cd5f982c692796675a66c652a4c9446ab5bc998defe579eef5f17c"
+      },
+      "text": {
+        "path": "data/raw/stage_02_primary_sources/GaAl_HSE_pages.txt",
+        "sha256": "9005216c3aa020ad5c6d545f9721480789ac9c8ae35cda26ea85b3aa3c0e01e0"
+      }
+    },
+    {
+      "source_id": "BiTeSe_primary",
+      "url": "https://arxiv.org/abs/1112.1648",
+      "verified_doi": "10.1103/PhysRevB.84.235206",
+      "access": "full_text",
+      "identity_verified": true,
+      "review_depth": "scoped_claim_and_limitations_review",
+      "document": {
+        "path": "data/raw/stage_02_extended_sources/BiTeSe_structure.pdf",
+        "sha256": "00957a39a80c27e8a998369435df7db6098c1bceb520d8469df96e314bdd0bff"
+      },
+      "text": {
+        "path": "data/raw/stage_02_extended_sources/BiTeSe_structure_pages.txt",
+        "sha256": "fcd7d71b1d81a36a9b1ae85257e82adf9b1c9f35d721b4229c42514120d64d7c"
+      },
+      "note": "Primary text reviewed locally; source observations are not MATRA predictions.",
+      "document_version": "arXiv:1112.1648v1, author manuscript associated with PRB DOI"
+    }
+  ],
+  "reviewed_claims": [
+    {
+      "claim_id": "CUR-SUB-GA-AL-MODEL-050",
+      "related_legacy_case": "BM-P01",
+      "target": "Ga",
+      "candidate": "Al",
+      "track": "substitution",
+      "source_id": "GaAl_HSE",
+      "evidence_class": "computational",
+      "scope": "Ordered monoclinic AlGaO3 model, Al on octahedral cation sites and Ga on tetrahedral sites, x=0.5 of cation sublattice.",
+      "label": "documented_positive",
+      "eligible": true,
+      "property_preservation_validated": false,
+      "reported_concentration": {
+        "value": 0.5,
+        "unit": "fraction",
+        "basis": "Al/(Al+Ga) cation fraction",
+        "kind": "model"
+      },
+      "conditions": {
+        "host": {
+          "status": "verified",
+          "description": "Ga2O3 alloy model.",
+          "line_start": 6,
+          "line_end": 6,
+          "anchors": [
+            "Ga2O3 and (AlxGa1−x)2O3 alloys"
+          ]
+        },
+        "phase": {
+          "status": "verified",
+          "description": "Monoclinic beta model, not a synthesis claim.",
+          "line_start": 13,
+          "line_end": 13,
+          "anchors": [
+            "AlGaO3 in the monoclinic phase"
+          ]
+        },
+        "site": {
+          "status": "verified",
+          "description": "Al octahedral; Ga tetrahedral, Fig. 1 also inspected.",
+          "line_start": 13,
+          "line_end": 14,
+          "anchors": [
+            "Al occupying the octahedral sites",
+            "tetrahedral sites."
+          ]
+        },
+        "concentration": {
+          "status": "verified",
+          "description": "Model cation fraction x=0.5; not dilute doping.",
+          "line_start": 12,
+          "line_end": 12,
+          "anchors": [
+            "withx=0.5"
+          ]
+        }
+      },
+      "limitations": [
+        "Primary author manuscript arXiv:1806.03360v2 associated with journal DOI; no new DFT run.",
+        "Restricted model evidence, not experimental confirmation or equilibrium stability proof.",
+        "No band-gap preservation label; no unrestricted concentration-range endorsement."
+      ],
+      "independence_group": "Ga2O3_family",
+      "split_role": "development_reference_only",
+      "held_out": false
+    },
+    {
+      "claim_id": "CUR-DOP-MO-RE-SINGLELAYER",
+      "related_legacy_case": "BM-S05",
+      "target": "Mo",
+      "candidate": "Re",
+      "track": "doping",
+      "source_id": "Re_MoS2",
+      "evidence_class": "experimental",
+      "scope": "STEM-observed Re occupying Mo sites in single-layer MoS2; adatoms also observed.",
+      "label": "documented_positive",
+      "eligible": false,
+      "property_preservation_validated": false,
+      "reported_concentration": {
+        "value": 0.6,
+        "unit": "at% as reported",
+        "basis": "Figure 1 counts about 10 Re per about 1500 MoS2 unit cells; retained as reported, no conversion to all-atom fraction",
+        "kind": "observed"
+      },
+      "conditions": {
+        "host": {
+          "status": "verified",
+          "description": "Single-layer MoS2, not bulk.",
+          "line_start": 27,
+          "line_end": 27,
+          "anchors": [
+            "single-layered MoS"
+          ]
+        },
+        "phase": {
+          "status": "unverified",
+          "description": "Bulk 2H space group/Wyckoff identity in legacy record not established for this single-layer observation."
+        },
+        "site": {
+          "status": "verified",
+          "description": "Mo-site occupation directly imaged, not every Re atom substitutional.",
+          "line_start": 47,
+          "line_end": 47,
+          "anchors": [
+            "clearly shows that Re atoms sit at the Mo sites."
+          ]
+        },
+        "concentration": {
+          "status": "verified",
+          "description": "Reported approximately 0.6 at%, source convention retained.",
+          "line_start": 51,
+          "line_end": 51,
+          "anchors": [
+            "0.6 at% Re"
+          ]
+        }
+      },
+      "limitations": [
+        "Full contextual benchmark held; useful site-occupancy reference only.",
+        "Reported 89% substitutional Re and 11% Re adatoms are microscopy population statistics, not MATRA accuracy.",
+        "Donor interpretation uses calculated electronic states; experimental electrical activation not established here."
+      ],
+      "independence_group": "MoS2_family",
+      "split_role": "development_reference_only",
+      "held_out": false
+    },
+    {
+      "claim_id": "CUR-DOP-TI-NB-WEIGHT",
+      "related_legacy_case": "BM-S04",
+      "target": "Ti",
+      "candidate": "Nb",
+      "track": "doping",
+      "source_id": "Nb_STO",
+      "evidence_class": "experimental",
+      "scope": "Nb-doped SrTiO3 single crystals; representative reported 0.1 wt% sample, nominal SrTi0.998Nb0.002O3.",
+      "label": "documented_positive",
+      "eligible": false,
+      "property_preservation_validated": false,
+      "reported_concentration": {
+        "value": 0.1,
+        "unit": "wt%",
+        "basis": "Mass of elemental Nb / total sample mass times 100; nominal formulas separately reported",
+        "kind": "nominal"
+      },
+      "conditions": {
+        "host": {
+          "status": "verified",
+          "description": "SrTiO3 single crystals.",
+          "line_start": 104,
+          "line_end": 104,
+          "anchors": [
+            "Nb-doped SrTiO3 single crystals with Nb doping concentration"
+          ]
+        },
+        "phase": {
+          "status": "unverified",
+          "description": "Temperature-dependent transition investigated; exact phase-specific benchmark conditions require additional curation."
+        },
+        "site": {
+          "status": "unverified",
+          "description": "Nominal Ti substitution and ionic-radius interpretation; direct site-occupancy refinement not established in selected passage."
+        },
+        "concentration": {
+          "status": "verified",
+          "description": "0.1 wt% sample; Methods defines mass basis and lists nominal formulas.",
+          "line_start": 106,
+          "line_end": 106,
+          "anchors": [
+            "00106 (001)-oriented Nb-doped SrTiO3",
+            "SrTi0.998Nb0.002O3"
+          ]
+        }
+      },
+      "limitations": [
+        "Nominal chemistry is not independently measured site occupancy.",
+        "No wt%-to-at% substitution, no generic room/low-temperature phase equivalence.",
+        "Correct DOI differs from initial retrieval candidate and from legacy unrelated citation."
+      ],
+      "independence_group": "SrTiO3_family",
+      "split_role": "development_reference_only",
+      "held_out": false
+    },
+    {
+      "claim_id": "CUR-SUB-TE-SE-BI2TE2SE",
+      "related_legacy_case": "BM-P11",
+      "target": "Te",
+      "candidate": "Se",
+      "track": "substitution",
+      "source_id": "BiTeSe_primary",
+      "evidence_class": "experimental",
+      "label": "documented_positive",
+      "eligible": true,
+      "property_preservation_validated": false,
+      "scope": "Bridgman-Stockbarger Bi2Te2Se crystal, room-temperature powder XRD model with Se primarily on inner chalcogen 3a sites and minor outer 6c mixing.",
+      "reported_concentration": {
+        "value": 0.3333333333333333,
+        "unit": "fraction",
+        "basis": "Nominal Se/(Te+Se) chalcogen-sublattice fraction for Bi2Te2Se; not fraction of all atoms",
+        "kind": "nominal"
+      },
+      "conditions": {
+        "host": {
+          "status": "verified",
+          "description": "Bi2Te3-related tetradymite solid-solution family; investigated sample is Bi2Te2Se.",
+          "line_start": 164,
+          "line_end": 164,
+          "anchors": [
+            "Bi2Se3 and Bi 2Te3 are isostructural"
+          ]
+        },
+        "phase": {
+          "status": "verified",
+          "description": "Rhombohedral tetradymite-type layering; powder XRD collected at room temperature, not the 4 K transport state.",
+          "line_start": 110,
+          "line_end": 166,
+          "anchors": [
+            "layers stack in the sequence",
+            "rhombohe",
+            "room temperature."
+          ]
+        },
+        "site": {
+          "status": "verified",
+          "description": "Table I: inner 3a Se occupancy 0.915(14), outer 6c Se occupancy 0.043(7); no perfect-order assumption.",
+          "line_start": 130,
+          "line_end": 132,
+          "anchors": [
+            "SeII 3a 0.915(14)",
+            "SeI 6c 0.043(7)"
+          ]
+        },
+        "concentration": {
+          "status": "verified",
+          "description": "Nominal 2:1 Te:Se model, checked against reported occupancy table.",
+          "line_start": 193,
+          "line_end": 193,
+          "anchors": [
+            "with a 2:1 ratio of Te to Se"
+          ]
+        }
+      },
+      "limitations": [
+        "One specific composition/preparation and structural observation; no full-composition-range claim.",
+        "Source also reports phase separation for differently processed samples; these are not interchangeable.",
+        "No independently validated preservation of band gap, stability or thermoelectric performance; no held-out evaluation.",
+        "Occupancy factors are refinement-model estimates, not independent bulk elemental analysis."
+      ],
+      "independence_group": "Bi2Te3_family",
+      "split_role": "development_reference_only",
+      "held_out": false
+    }
+  ],
+  "unscored_observations": [
+    {
+      "observation_id": "OBS-SN-GA-OCTAHEDRAL",
+      "source_id": "Sn_Ga_XAS",
+      "kind": "site_preference",
+      "scope": "XAS model supports preferential octahedral Ga2-site Sn in beta-Ga2O3 single crystal.",
+      "reported_concentration": null,
+      "eligible_for_quantitative_evaluation": false,
+      "property_preservation_validated": false,
+      "passages": [
+        {
+          "description": "EXAFS site alternatives and fitting residuals.",
+          "line_start": 325,
+          "line_end": 326,
+          "anchors": [
+            "tion at the Ga2 octahedral site",
+            "R-factor ¼ 0.01",
+            "R-factor ¼ 0.05"
+          ]
+        }
+      ],
+      "limitations": [
+        "Specific Sn concentration of the XAS crystal is not tied to an exact tabulated value in reviewed text; figure points were not digitized.",
+        "EXAFS R-factor is a spectral fit residual, not model accuracy.",
+        "Not a fully contextual dilute-doping benchmark label."
+      ]
+    },
+    {
+      "observation_id": "OBS-SN-ALD-DETECTION-LIMIT",
+      "source_id": "Sn_Ga_XAS",
+      "kind": "electrical_activation_caution",
+      "scope": "Amorphous ALD film with substantial Sn content remains highly resistive; this is not a negative label for all Sn in Ga2O3.",
+      "eligible_for_quantitative_evaluation": false,
+      "property_preservation_validated": false,
+      "reported_sn_number_density": {
+        "value": 2.3e+20,
+        "unit": "atoms cm^-3",
+        "origin": "authors_estimate_from_RBS_stoichiometry"
+      },
+      "resistivity_bound": {
+        "relation": ">",
+        "value": 2000,
+        "unit": "ohm cm",
+        "origin": "four_point_probe_detection_limit"
+      },
+      "carrier_density_bound": {
+        "relation": "<=",
+        "value": 3e+16,
+        "unit": "cm^-3",
+        "origin": "authors_conditional_upper_limit",
+        "assumption": "mobility greater than 0.1 cm^2/(V s)"
+      },
+      "passages": [
+        {
+          "description": "Sn concentration estimate and limited electrical detection.",
+          "line_start": 158,
+          "line_end": 182,
+          "anchors": [
+            "to be 2.3 /C2 1020 and 2.9 /C2 1020",
+            ">2000 X cm",
+            "By assuming a mobility of >0.1",
+            "carrier density is estimated to be 3.0 /C2 1016"
+          ]
+        }
+      ],
+      "limitations": [
+        "Transport result is detection-limited; carrier upper bound depends on an assumed mobility.",
+        "Carrier density is not the same quantity as dopant number density.",
+        "No activation-efficiency point estimate and no negative substitution ground truth inferred."
+      ]
+    },
+    {
+      "observation_id": "OBS-BA-SR-CONSISTENCY",
+      "source_id": "BaSr_neutron",
+      "kind": "source_internal_inconsistency",
+      "scope": "Ba0.5Sr0.5TiO3 neutron-refinement source retained for review, with coordination and symmetry wording conflicts.",
+      "eligible_for_quantitative_evaluation": false,
+      "property_preservation_validated": false,
+      "passages": [
+        {
+          "description": "Abstract and introduction give incompatible A-site coordination descriptions.",
+          "line_start": 16,
+          "line_end": 47,
+          "anchors": [
+            "tetrahedral A site",
+            "cuboctahedral coordination"
+          ]
+        },
+        {
+          "description": "Table 4 lists unequal a/c and calls the intermediate sample pseudo-cubic.",
+          "line_start": 175,
+          "line_end": 324,
+          "anchors": [
+            "3.9495 3.9517 3.9495 3.9517 3.9580 3.9518",
+            "Pseudo-"
+          ]
+        }
+      ],
+      "limitations": [
+        "Conflict is in source description, not evidence that Sr substitution is chemically impossible.",
+        "Exact space group/coordination claim remains withheld pending an independent consistent structural reference.",
+        "A 50% alloy must not be presented as dilute doping despite wording in the paper title."
+      ]
+    }
+  ],
+  "legacy_decisions": [
+    {
+      "case_id": "BM-P01",
+      "candidate": "Al",
+      "target": "Ga",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Al-alloy paper is computational; does not by itself verify every Al/In experimental, concentration and site claim.",
+      "next_evidence_needed": "Separate Al and In primary experimental cases; concentration, phase and Ga-site evidence. Peelaers PDF is a proof copy and its published erratum needs review before importing numerical stability/band-gap claims.",
+      "related_scoped_claims": [
+        "CUR-SUB-GA-AL-MODEL-050"
+      ]
+    },
+    {
+      "case_id": "BM-P01",
+      "candidate": "In",
+      "target": "Ga",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Al-alloy paper is computational; does not by itself verify every Al/In experimental, concentration and site claim.",
+      "next_evidence_needed": "Separate Al and In primary experimental cases; concentration, phase and Ga-site evidence. Peelaers PDF is a proof copy and its published erratum needs review before importing numerical stability/band-gap claims.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P02",
+      "candidate": "Al",
+      "target": "Ga",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Registered source is a III-nitride review, not extracted direct experimental evidence for each claimed condition.",
+      "next_evidence_needed": "Primary AlGaN and InGaN samples with specified wurtzite phase, Ga site and composition; the Ambacher review alone is insufficient.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P02",
+      "candidate": "In",
+      "target": "Ga",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Registered source is a III-nitride review, not extracted direct experimental evidence for each claimed condition.",
+      "next_evidence_needed": "Primary AlGaN and InGaN samples with specified wurtzite phase, Ga site and composition; the Ambacher review alone is insufficient.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P03",
+      "candidate": "W",
+      "target": "Mo",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "DOI registry query returned HTTP 404. This does not prove the chemistry is false or that no correct paper exists.",
+      "next_evidence_needed": "Primary Mo-W sulfide passage matching layer count, local coordination and concentration; do not assign bulk Wyckoff sites to a monolayer.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P04",
+      "candidate": "Se",
+      "target": "S",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Registered title concerns Se-containing MoS2, but the complete phase, site, authorship and concentration assertions need primary passage review.",
+      "next_evidence_needed": "Full Gong primary paper and sample-specific S/Se site, layer form and concentration; abstract does not certify the whole asserted range.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P05",
+      "candidate": "Zr",
+      "target": "Ti",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Registered paper is about PVDF pyroelectric detector arrays, not the stated BaTiO3 substitution study.",
+      "next_evidence_needed": "Separate BaTiO3 Zr, Sn and Hf structural cases, each with sample composition, phase and Ti-site evidence; cited DOI is unrelated.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P05",
+      "candidate": "Sn",
+      "target": "Ti",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Registered paper is about PVDF pyroelectric detector arrays, not the stated BaTiO3 substitution study.",
+      "next_evidence_needed": "Separate BaTiO3 Zr, Sn and Hf structural cases, each with sample composition, phase and Ti-site evidence; cited DOI is unrelated.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P05",
+      "candidate": "Hf",
+      "target": "Ti",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Registered paper is about PVDF pyroelectric detector arrays, not the stated BaTiO3 substitution study.",
+      "next_evidence_needed": "Separate BaTiO3 Zr, Sn and Hf structural cases, each with sample composition, phase and Ti-site evidence; cited DOI is unrelated.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P06",
+      "candidate": "Sr",
+      "target": "Ba",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Book DOI did not resolve through the queried registry; exact supporting chapter and passage not established.",
+      "next_evidence_needed": "Independent consistent Ba/Sr or Ba/Ca structural reference with exact phase and composition; neutron lead has unresolved wording/symmetry conflicts.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P06",
+      "candidate": "Ca",
+      "target": "Ba",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Book DOI did not resolve through the queried registry; exact supporting chapter and passage not established.",
+      "next_evidence_needed": "Independent consistent Ba/Sr or Ba/Ca structural reference with exact phase and composition; neutron lead has unresolved wording/symmetry conflicts.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P07",
+      "candidate": "Zr",
+      "target": "Ti",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "DataCite DOI identifies Materials Data on KSnAs, not SrTiO3.",
+      "next_evidence_needed": "Separate SrTiO3 Zr and Hf primary structural cases; repair unrelated database identifier and verify B-site occupancy/composition.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P07",
+      "candidate": "Hf",
+      "target": "Ti",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "DataCite DOI identifies Materials Data on KSnAs, not SrTiO3.",
+      "next_evidence_needed": "Separate SrTiO3 Zr and Hf primary structural cases; repair unrelated database identifier and verify B-site occupancy/composition.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P08",
+      "candidate": "Ba",
+      "target": "Sr",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "DataCite DOI identifies Materials Data on KSnAs, not SrTiO3.",
+      "next_evidence_needed": "Separate Sr/Ba and Sr/Ca cases with phase-temperature and concentration evidence; mixed host/dopant studies cannot prove the unrestricted binary substitution claim.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P08",
+      "candidate": "Ca",
+      "target": "Sr",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "DataCite DOI identifies Materials Data on KSnAs, not SrTiO3.",
+      "next_evidence_needed": "Separate Sr/Ba and Sr/Ca cases with phase-temperature and concentration evidence; mixed host/dopant studies cannot prove the unrestricted binary substitution claim.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P09",
+      "candidate": "Sn",
+      "target": "Pb",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "DOI did not resolve in the query. The recorded journal/case pairing needs re-identification and primary evidence.",
+      "next_evidence_needed": "Cs-only Pb/Sn iodide primary alloy case with composition and actual alpha/beta/gamma phase at a specified temperature; exclude organic-cation examples and phase-mixed samples.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P10",
+      "candidate": "Sb",
+      "target": "Bi",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Registered paper concerns Bi/Sb telluride alloys; this alone does not establish every full-range site-specific legacy assertion.",
+      "next_evidence_needed": "Read Poudel full primary passages for actual Bi/Sb composition and cation-site structural evidence; transport improvement alone does not establish every asserted site/range.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-P11",
+      "candidate": "Se",
+      "target": "Te",
+      "track": "substitution",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "DataCite DOI query returned HTTP 404; actual supporting structure and experimental claim not verified.",
+      "next_evidence_needed": "New Bi2Te2Se scope is documented; broad full-join phase/stability assertion still requires independent composition- and preparation-specific evidence.",
+      "related_scoped_claims": [
+        "CUR-SUB-TE-SE-BI2TE2SE"
+      ]
+    },
+    {
+      "case_id": "BM-S01",
+      "candidate": "Si",
+      "target": "Ga",
+      "track": "doping",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Registered DOI is a Cu2ZnSnS4 solar-cell etching paper, not Si doping in Ga2O3.",
+      "next_evidence_needed": "Full Si-doped beta-Ga2O3 sample concentration, Ga-site assignment and electrical activation evidence; corrected Villora abstract is not full context.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-S02",
+      "candidate": "Sn",
+      "target": "Ga",
+      "track": "doping",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Registered DOI is an electron-holography/MOSFET paper, not Sn doping in Ga2O3.",
+      "next_evidence_needed": "Sn XAS supports octahedral preference, but obtain exact concentration tied to the XAS single crystal; do not substitute carrier density for dopant density.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-S03",
+      "candidate": "Mg",
+      "target": "Ga",
+      "track": "doping",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Registered source concerns InGaN quantum-well LEDs; Mg-on-Ga site, dilute level and activation assertions require an exact supporting passage or replacement primary study.",
+      "next_evidence_needed": "Full Mg-GaN sample concentration, Mg-site and treatment-dependent activation evidence; classic p-type abstract does not certify full site context.",
+      "related_scoped_claims": []
+    },
+    {
+      "case_id": "BM-S04",
+      "candidate": "Nb",
+      "target": "Ti",
+      "track": "doping",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "Publisher and Crossref identify Order within disorder, about glass structure, not Nb doping in SrTiO3.",
+      "next_evidence_needed": "Nb-STO concentration and role are supported in selected sources; independent site occupancy and exact phase/temperature context still pending.",
+      "related_scoped_claims": [
+        "CUR-DOP-TI-NB-WEIGHT"
+      ]
+    },
+    {
+      "case_id": "BM-S05",
+      "candidate": "Re",
+      "target": "Mo",
+      "track": "doping",
+      "status": "withheld",
+      "label": "unknown",
+      "reason": "DOI registry query returned HTTP 404; Re-on-Mo evidence and concentration remain unverified.",
+      "next_evidence_needed": "Re-MoS2 monolayer occupancy supported; resolve phase/form scope and retain source concentration convention and adatom population separately.",
+      "related_scoped_claims": [
+        "CUR-DOP-MO-RE-SINGLELAYER"
+      ]
+    }
+  ],
+  "site_occupancy_check": {
+    "source_id": "BiTeSe_primary",
+    "source_locator": "Table I, PDF page 5, hexagonal-cell Wyckoff multiplicities 6c and 3a",
+    "sites": [
+      {
+        "site": "6c",
+        "multiplicity": 6,
+        "occupancies": {
+          "Se": 0.043,
+          "Te": 0.957
+        },
+        "source_rows": {
+          "Se": "SeI 6c 0.043(7) 0 0 0.21155(8) 0.0048(5)",
+          "Te": "TeI 6c 0.957(7) 0 0 0.21155(8) 0.0048(5)"
+        }
+      },
+      {
+        "site": "3a",
+        "multiplicity": 3,
+        "occupancies": {
+          "Se": 0.915,
+          "Te": 0.085
+        },
+        "source_rows": {
+          "Se": "SeII 3a 0.915(14) 0 0 0 0.0048(5)",
+          "Te": "TeII 3a 0.085(14) 0 0 0 0.0048(5)"
+        }
+      }
+    ],
+    "derived": {
+      "listed_site_count": 9,
+      "counts": {
+        "Se": 3.003,
+        "Te": 5.997
+      },
+      "fractions_on_listed_sites": {
+        "Se": 0.33366666666666667,
+        "Te": 0.6663333333333333
+      },
+      "origin": "derived_from_reported_refinement_model",
+      "uncertainty_propagated": false
+    },
+    "limitations": "Refinement-model bookkeeping only; covariance unavailable and no uncertainty propagation."
+  },
+  "scientific_review": {
+    "reviewers": 1,
+    "independent_adjudication": "pending",
+    "held_out_dataset": "not yet established",
+    "property_preservation": "not evaluated"
+  }
+}
