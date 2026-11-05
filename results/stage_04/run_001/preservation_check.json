@@ -1,0 +1,8 @@
+{
+  "protected_files_checked": 269,
+  "expected_modified_files": [
+    ".gitattributes",
+    "docs/progress.md"
+  ],
+  "unexpected_changes": []
+}

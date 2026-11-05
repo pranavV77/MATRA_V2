@@ -28,3 +28,13 @@ docs/stages/stage_03/** -text
 results/stage_03/run_001/original_engines/** -text
 results/stage_03/** -text
 docs/progress.md -text
+
+# Preserve review-stage artifact bytes
+src/fusion/** -text
+src/review_demo/** -text
+tests/stage_04/** -text
+experiments/stage_04/** -text
+docs/stages/stage_04/** -text
+results/stage_04/** -text
+logs/stage_04/** -text
+run_review_demo.cmd -text

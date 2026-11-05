@@ -1,17 +1,19 @@
 # MATRA central progress
 
+Current status: Stage 4 fusion and a partial review UI are implemented and tested. 386 tests passed. Two development references only; no held-out accuracy claim. Owner requested a partial working demo and measurable improvement for November 7 noon / November 9. Full Stage 5–9 scientific modules remain pending. See docs/stages/stage_04/completion_report.md. Await owner review before next stage.
+
 Authoritative workspace: `C:\Final Project`. Owner approved Stage 1 in chat on 5 November 2026. Required workflow: stage explanation, approval, incremental implementation, executed edge cases, separate validation categories, reports/Telugu narration, owner review; no automatic next stage.
 
-Current stage: Stage 3 independent-engine hardening — implemented and locally verified; awaiting owner completion review. Owner explicitly instructed “Start stage 3” after Stage 2 reports disclosed the scientific benchmark hold. Final suite: 320 passed (172 previous + 148 Stage 3 cases). The 15 previously failing Stage 1 behaviors now have passing targeted regressions. All 261 supported engine-target Top-10 results are unchanged; 22,821 ordered pair comparisons differ by at most 6.67e-16. Fresh full-corpus Atom2Vec retraining reproduces rankings with metadata-bearing cache. Stage 2 research hold is carried forward: only two substitution development references, zero fully contextual doping references, zero held-out cases; 23 original broad assertions withheld. No substitution accuracy/property-preservation claim. Stage 4 has not started.
+Previous milestone: Stage 3 independent-engine hardening — implemented and locally verified; awaiting owner completion review. Owner explicitly instructed “Start stage 3” after Stage 2 reports disclosed the scientific benchmark hold. Final suite: 320 passed (172 previous + 148 Stage 3 cases). The 15 previously failing Stage 1 behaviors now have passing targeted regressions. All 261 supported engine-target Top-10 results are unchanged; 22,821 ordered pair comparisons differ by at most 6.67e-16. Fresh full-corpus Atom2Vec retraining reproduces rankings with metadata-bearing cache. Stage 2 research hold is carried forward: only two substitution development references, zero fully contextual doping references, zero held-out cases; 23 original broad assertions withheld. No substitution accuracy/property-preservation claim. Stage 4 subsequently authorized for the review prototype; see current status above.
 
 Earlier approved continuation: Stage 2 extended review v2.2.0, run_003. That pass had 143 tests passing. One experimental Bi2Te2Se substitution scope added to the earlier computational Ga–Al scope: two eligible substitution development references across two host families, zero fully contextual doping references. Two inherited doping scopes remain held; three additional source observations are deliberately unscored. No held-out test set or prediction accuracy claim. All 23 broad legacy assertions have explicit follow-up requirements and remain withheld. Earlier v2.0.0/v2.1.0 releases preserved.
 
-## Roadmap (unchanged)
+## Roadmap
 
 1. Baseline audit and reproducibility — reviewed; owner authorized Stage 2.
 2. Dataset correctness, provenance and coverage handling — versioned engineering release implemented; benchmark primary-source curation and owner review pending.
 3. Independent similarity-engine hardening — implemented and locally verified; owner review pending.
-4. Similarity fusion and evaluation — pending.
+4. Similarity fusion and evaluation — implemented; 386 full-suite tests passed; owner review pending.
 5. Host structures, sites and candidate generation — pending.
 6. Energy/stability assessment — pending.
 7. Property preservation — pending.

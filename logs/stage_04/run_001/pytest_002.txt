@@ -1,0 +1,58 @@
+..............................................................F...       [100%]
+================================== FAILURES ===================================
+____________________ test_request_limits_and_cross_origin _____________________
+
+server = 'http://127.0.0.1:61443'
+
+    def test_request_limits_and_cross_origin(server):
+        with pytest.raises(HTTPError) as error:
+>           post(server,{'target_element':'Ga'},headers={'Content-Type':'text/plain'})
+
+tests\stage_04\test_review_demo.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\stage_04\test_review_demo.py:28: in post
+    return urlopen(Request(base+route,data=data,headers=headers or {'Content-Type':'application/json'}),timeout=10)
+C:\Users\Suraj Vasireddy\AppData\Local\Python\pythoncore-3.10-64\lib\urllib\request.py:216: in urlopen
+    return opener.open(url, data, timeout)
+C:\Users\Suraj Vasireddy\AppData\Local\Python\pythoncore-3.10-64\lib\urllib\request.py:519: in open
+    response = self._open(req, data)
+C:\Users\Suraj Vasireddy\AppData\Local\Python\pythoncore-3.10-64\lib\urllib\request.py:536: in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+C:\Users\Suraj Vasireddy\AppData\Local\Python\pythoncore-3.10-64\lib\urllib\request.py:496: in _call_chain
+    result = func(*args)
+C:\Users\Suraj Vasireddy\AppData\Local\Python\pythoncore-3.10-64\lib\urllib\request.py:1377: in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+C:\Users\Suraj Vasireddy\AppData\Local\Python\pythoncore-3.10-64\lib\urllib\request.py:1352: in do_open
+    r = h.getresponse()
+C:\Users\Suraj Vasireddy\AppData\Local\Python\pythoncore-3.10-64\lib\http\client.py:1375: in getresponse
+    response.begin()
+C:\Users\Suraj Vasireddy\AppData\Local\Python\pythoncore-3.10-64\lib\http\client.py:318: in begin
+    version, status, reason = self._read_status()
+C:\Users\Suraj Vasireddy\AppData\Local\Python\pythoncore-3.10-64\lib\http\client.py:279: in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <socket.SocketIO object at 0x000002B1AB0D9E70>
+b = <memory at 0x000002B1AB281F00>
+
+    def readinto(self, b):
+        """Read up to len(b) bytes into the writable buffer *b* and return
+        the number of bytes read.  If the socket is non-blocking and no bytes
+        are available, None is returned.
+    
+        If *b* is non-empty, a 0 return value indicates that the connection
+        was shutdown at the other end.
+        """
+        self._checkClosed()
+        self._checkReadable()
+        if self._timeout_occurred:
+            raise OSError("cannot read from timed out object")
+        while True:
+            try:
+>               return self._sock.recv_into(b)
+E               ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+C:\Users\Suraj Vasireddy\AppData\Local\Python\pythoncore-3.10-64\lib\socket.py:705: ConnectionAbortedError
+=========================== short test summary info ===========================
+FAILED tests/stage_04/test_review_demo.py::test_request_limits_and_cross_origin
+1 failed, 65 passed in 4.60s
