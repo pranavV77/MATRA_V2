@@ -1,0 +1,400 @@
+untitled (https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.118.095501/fulltext)
+citeturn33view0 [wordlim: 200] Crawled: last month; Content type: application/pdf; Number of pages: 6; Source: open({"ref_id":"https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.118.095501/fulltext","lineno":90}); Total lines: 518
+L0@P0: Lattice Location of Mg in GaN: A Fresh Look at Doping Limitations
+L1@P0: U. Wahl,1,* L. M. Amorim,2 V. Augustyns,2 A. Costa,1 E. David-Bosne,1 T. A. L. Lima,2 G. Lippertz,2
+L2@P0: J. G. Correia,1 M. R. da Silva,3 M. J. Kappers,4 K. Temst,2 A. Vantomme,2 and L. M. C. Pereira2
+L3@P0: 1
+L4@P0: Centro de Ciências e Tecnologias Nucleares, Instituto Superior Técnico, Universidade de Lisboa,
+L5@P0: 2695-066 Bobadela, Portugal 2
+L6@P0: KU Leuven, Instituut voor Kern- en Stralingsfysica, 3001 Leuven, Belgium 3
+L7@P0: Centro de Física Nuclear da Universidade de Lisboa, 1649-003 Lisboa, Portugal 4
+L8@P0: Cambridge Centre for Gallium Nitride, University of Cambridge, Cambridge CB3 0FS, United Kingdom
+L9@P0: (Received 14 November 2016; published 1 March 2017)
+L10@P0: Radioactive 27Mg (t1=2 ¼ 9.5 min) was implanted into GaN of different doping types at CERN’s
+L11@P0: ISOLDE facility and its lattice site determined via β− emission channeling. Following implantations
+L12@P0: between room temperature and 800 °C, the majority of 27Mg occupies the substitutional Ga sites; however,
+L13@P0: below 350 °C significant fractions were also found on interstitial positions ∼0.6 Å from ideal octahedral
+L14@P0: sites. The interstitial fraction of Mg was correlated with the GaN doping character, being highest (up to
+L15@P0: 31%) in samples doped p type with 2 × 1019 cm−3 stable Mg during epilayer growth, and lowest in
+L16@P0: Si-doped n-GaN, thus giving direct evidence for the amphoteric character of Mg. Implanting above 350 °C
+L17@P0: converts interstitial 27Mg to substitutional Ga sites, which allows estimating the activation energy for
+L18@P0: migration of interstitial Mg as between 1.3 and 2.0 eV.
+L19@P0: DOI: 10.1103/PhysRevLett.118.095501
+L20@P0: Mg-doped p-type GaN is nowadays a core component of
+L21@P0: many optoelectronic devices which we find in our homes,
+L22@P0: e.g., light emitting diodes for solid state white lighting [1] or
+L23@P0: blue lasers [2]. Applications of GaN for power electronics,
+L24@P0: e.g., as high voltage transistors or power converters[3,4], also
+L25@P0: exist already but are less widespread; others, as in photovoltaics [5], may still emerge. Despite the technological
+L26@P0: maturity of GaN, there are some basic properties related to
+L27@P0: itsp-type dopingthat are still poorly understood and also limit
+L28@P0: the performance of devices. One such major problem is an
+L29@P0: inherent doping limit: once the Mg concentration in GaN
+L30@P0: surpasses ∼1019–1020 cm−3, further introduction of Mg does
+L31@P0: not lead to an increase in the hole concentration; see, e.g.,
+L32@P0: Ref.[6] and references therein. The electrical activation ofMg
+L33@P0: as a p-type dopant requires its incorporation on the substitutional Ga site SGa (MgGa), while Mg on other sites, e.g.,
+L34@P0: interstitial Mg (Mgi), or Mg replacing N (MgN), should be
+L35@P0: electrically inactive or even exhibit donor character. In the
+L36@P0: earlier stages of GaN research it was suggested from ab initio
+L37@P0: density functional theory calculations by Neugebauer and
+L38@P0: Van de Walle [7,8] that “incorporation of the Mg atoms on the
+L39@P0: N site or in an interstitial configuration were found to be
+L40@P0: negligible.” This view, however, was not shared by all
+L41@P0: theorists; e.g., Reboredo and Pantelides stated that “interstitial
+L42@P0: Mg plays a major role in limiting p-type doping” [9,10]. The
+L43@P0: failure of experimental methods in establishing the existence
+L44@P0: of interstitial Mg and investigating its properties probably
+L45@P0: contributed to the fact that in the following years many
+L46@P0: researchers adopted the opinion that the doping limitations at
+L47@P0: high Mg concentrations are, in addition to passivation by H
+L48@P0: [8,11], mostly a consequence of native defects with donor
+L49@P0: character, in particular N vacancies VN, either in their isolated
+L50@P0: form [12,13] or in MgGa − VN complexes with Mg [14,15].
+L51@P0: Recently, this controversial discussion was revived by
+L52@P0: the results of hybrid density functional calculations of
+L53@P0: Miceli and Pasquarello [16], who concluded that “…the
+L54@P0: amphoteric nature of the Mg impurity is critical to explain
+L55@P0: the dropoff in the hole density observed experimentally”:
+L56@P0: once the doping limit has been reached, additional Mg
+L57@P0: atoms are not incorporated on substitutional Ga sites any
+L58@P0: more but on interstitial sites where they form compensating
+L59@P0: double donors, thus pinning the Fermi level. The reader is
+L60@P0: referred to Ref. [16] for a more detailed discussion of
+L61@P0: several arguments that support this theory from the viewpoint of electrical and optical characterization methods.
+L62@P0: Low formation energies for interstitial Mgi, if the Fermi
+L63@P0: level is located below midgap, were also theoretically
+L64@P0: predicted by Reshchikov et al. [17].
+L65@P0: In contrast to the various refined but often contradictory
+L66@P0: theoretical models on the structural properties of
+L67@P0: Mg-related defects in GaN, no experimental data on the
+L68@P0: Mg lattice sites exist so far. The often used ion beam lattice
+L69@P0: location technique of Rutherford backscattering spectrometry and channeling (RBS/C) is not applicable in this
+L70@P0: case since Mg is much lighter than the Ga host atoms.
+L71@P0: Alternative ion beam detection methods such as particleinduced x-ray emission or nuclear reaction analysis fail at
+L72@P0: the low concentrations of Mg dopants. Attempts to use
+L73@P0: extended x-ray absorption fine structure for characterizing
+L74@P0: the distances from Mg atoms to their nearest neighbors were
+L75@P0: not successful since the Mg K x-ray absorption edge
+L76@P0: overlaps with the Ga L edge [18].
+L77@P0: PRL 118, 095501 (2017) PHYSICAL REVIEW LETTERS week ending
+L78@P0: 3 MARCH 2017
+L79@P0-1: 0031-9007=17=118(9)=095501(6) 095501-1 © 2017 American Physical SocietyIn this Letter, we provide direct lattice location measurements for Mg in GaN using the β− emission channeling
+L80@P1: (EC) technique. We find that the majority of ion-implanted
+L81@P1: Mg occupies substitutional Ga sites. However, we present
+L82@P1: also direct experimental proof for the existence of interstitial Mgi on positions near the so-called octahedral sites
+L83@P1: and we show that its fraction depends on the GaN doping
+L84@P1: character, being enhanced in samples that were predoped p
+L85@P1: type with stable Mg, and suppressed in Si-doped n-GaN.
+L86@P1: We also give experimental estimates for the migration
+L87@P1: energy of interstitial Mg, which are derived from its
+L88@P1: microscopic interaction with Ga vacancies.
+L89@P1: The EC method allows probing the sites of radioactive
+L90@P1: isotopes in single-crystalline samples [19–21]. The radioactive probe atoms are implanted at low fluences and the
+L91@P1: emitted β− particles are guided by the crystal potential. A
+L92@P1: two-dimensional position-sensitive detector (PSD) [20,21]is
+L93@P1: used to measure the angle-dependent emission yield of
+L94@P1: electrons in the vicinity of major crystallographic directions,
+L95@P1: providing patterns which are characteristic for the probe atom
+L96@P1: lattice location in the sample. In the case of Mg, the only
+L97@P1: radioactive isotope suitable for EC studies is the short-lived
+L98@P1: 27Mg (t1=2 ¼ 9.45 min) which can be produced at CERN’s
+L99@P1: ISOLDE on-line isotope separator facility by means of
+L100@P1: bombarding Ti targets with 1.4 GeV protons, followed by
+L101@P1: resonant laser ionization and mass separation [22]. This
+L102@P1: isotope was recently applied with success in the emission
+L103@P1: channeling study of the Mg lattice location in AlN [23].
+L104@P1: The GaN layers used were grown by metal-organic
+L105@P1: chemical vapor deposition at the University of Cambridge
+L106@P1: and based on 4.8 μm thick wurtzite single-crystal GaN
+L107@P1: epilayers on (0001) sapphire. The first type of sample simply
+L108@P1: consisted of the not intentionally doped (NID) epilayer
+L109@P1: (NID-GaN), while for “n-GaN:Si” samples a 150 nm thick
+L110@P1: layer doped with 1 × 1019 cm−3 Si was deposited in addition. Mg predoped samples contained a 150 nm thick top
+L111@P1: layer doped during growth with 2 × 1019 cm−3 Mg.
+L112@P1: However, while “GaN:Mg” samples were used as grown,
+L113@P1: “p-GaN:Mg” samples were annealed for 20 min at 800 °C
+L114@P1: under nitrogen atmosphere in order to drive out H and
+L115@P1: electrically activate the Mg [24]. While no electrical characterization was performed for the p-GaN:Mg used in
+L116@P1: this experiment, typical hole concentrations and Hall mobilities for samples produced using the same equipment under
+L117@P1: almost identical conditions are 1–2 × 1017 cm−3 and
+L118@P1: 10–15 cm2=Vs [25].
+L119@P1: The EC measurements were performed simultaneously
+L120@P1: with 50 keV implantations into a 1 mm diameter beam
+L121@P1: spot using the on-line setup described in Ref. [26].
+L122@P1: The resulting 27Mg profiles are approximately Gaussian
+L123@P1: with a typical depth of 488  244 Å. Because of its short
+L124@P1: half-life of 9.45 min, there is hardly any 27Mg accumulation
+L125@P1: in the samples throughout the experiments, with peak
+L126@P1: concentrations remaining below 3 × 1014 cm−3
+L127@P1: , while its
+L128@P1: decay product 27Al is a stable isotope isoelectronic to Ga.
+L129@P1: However, each implanted Mg atom initially creates several
+L130@P1: hundred Ga and N vacancies, which accumulate to some
+L131@P1: extent during the experiment according to the annealing
+L132@P1: history of the sample. In order to derive the fractions of
+L133@P1: 27Mg on different lattice sites, the experimental β− emission
+L134@P1: yields are fitted by theoretical patterns corresponding to
+L135@P1: 27Mg emitter atoms residing on a combination of different
+L136@P1: lattice sites. Calculating the theoretical β− patterns for GaN
+L137@P1: using the so-called “many-beam” formalism has been
+L138@P1: outlined in Refs. [27–29], while the fit procedure is
+L139@P1: described in Refs. [20,21,29]. The major lattice sites in
+L140@P1: GaN are shown in Fig. 1 while typical theoretical emission
+L141@P1: patterns for the major substitutional and interstitial sites are,
+L142@P1: e.g., given in Refs. [23,28,29].
+L143@P1: Figure 2(a) shows the β− emission distribution around the
+L144@P1: [0001] surface direction from 27Mg implanted at 200 °C into
+L145@P1: p-GaN:Mg at the very low beam current of 0.20 pA into the
+L146@P1: 1 mm diameter beamspot, total fluence 1.1 × 1011 cm−2, and
+L147@P1: measured with the 3 × 3 cm2 PSD at 30 cm from the sample,
+L148@P1: resulting in an angular resolution of σ ≈ 0.1°. The fact that the
+L149@P1: [0001] direction and all major planes exhibit channeling
+L150@P1: effects proves that the majority of 27Mg probes are aligned
+L151@P1: with the c axis. However, comparing the experimental results
+L152@P1: to the theoretical pattern expected for 100% of 27Mg aligned
+L153@P1: with the c axis [Fig. 2(c)], one recognizes that the set of
+L154@P1: [01–10] planes has a lower intensity in comparison to [11–20]
+L155@P1: planes. This is a consequence of a minority of probes
+L156@P1: occupying positions in the wide open interstitial region of
+L157@P1: the wurtzite lattice, such as O, HA, HB, or HAB sites
+L158@P1: (cf. Fig. 1) since for those sites the (01–10) planes show
+L159@P1: blocking effects while the (11–20) planes keep the same
+L160@P1: anisotropy as for sites aligned with the c axis [Fig. 2(d)].
+L161@P1: Indeed, the best fit to this experimental pattern was obtained
+L162@P1: for 31% of Mg on interstitial sites and 72% aligned with the c
+L163@P1: axis [Fig. 2(b)]. Since [0001] channeling patterns do not
+L164@P1: allow us to determine the probe atom sites along the c axis, in
+L165@P1: order to pinpoint the location of 27Mg high angular resolution
+L166@P1: FIG. 1. (11–20) plane in the GaN wurtzite lattice, showing the
+L167@P1: Ga and N atom positions and the major interstitial sites that were
+L168@P1: investigated as possible lattice sites of Mg. The result for the
+L169@P1: position of interstitial Mgi, which is shifted by ð0.60  0.14Þ Å
+L170@P1: from the ideal octahedral O via the HA towards the HAB sites, is
+L171@P1: indicated by the red circles.
+L172@P1: PRL 118, 095501 (2017) PHYSICAL REVIEW LETTERS week ending
+L173@P1: 3 MARCH 2017
+L174@P1-2: 095501-2patterns with good statistics were measured around the
+L175@P2: [−1102], [−1101], and [−2113] directions [Figs. 3(d),
+L176@P2: 3(f), and 3(h)]. For that purpose, the PSD was placed at
+L177@P2: 60 cm from the sample, which increased the angular
+L178@P2: resolution to σ ≈ 0.05°, at the cost of a 4 times smaller solid
+L179@P2: angle. Hence, these measurements had to be performed at
+L180@P2: relatively high beam currents around 1.5–3 pA, with fluences
+L181@P2: of 1.5 × 1012 cm−2 per pattern. As was immediately obvious,
+L182@P2: the experimental patterns could only be fitted well if the major
+L183@P2: fraction was located on SGa. Introducing a second site which
+L184@P2: was moved in steps of 0.05 Å parallel to the c axis showed
+L185@P2: that compared to the SGa single-site fits, the χ2 always
+L186@P2: improves due to the additional degree of freedom provided
+L187@P2: by the fraction on the second site [Figs. 3(a)–3(c)]. However,
+L188@P2: the χ2 reaches minima at positions that are in between HA and
+L189@P2: HAB sites, displaced by about þ0.6 Å from the ideal O sites,
+L190@P2: indicated as Mgi in Fig. 1. The best fit of simulated patterns,
+L191@P2: corresponding to 74% on SGa and 13% on these Mgi sites, is
+L192@P2: displayed in Figs. 3(e), 3(g), and 3(i).
+L193@P2: In Fig. 4 the fraction of 27Mg on interstitial Mgi sites is
+L194@P2: plotted as a function of the implantation temperature for the
+L195@P2: four different doping types of GaN, investigated at low and
+L196@P2: high implantation beam currents. For collecting these data,
+L197@P2: each sample was once oriented with the [0001] facing the
+L198@P2: detector and then not moved again, only varying the
+L199@P2: implantation temperature and current, thus assuring maximum reproducibility of emission patterns and good control
+L200@P2: of the implantation fluence. Samples were first measured
+L201@P2: using beam currents of 0.20–0.27 pA at 20 or 200 °C,
+L202@P2: followed by implantations and measurements at higher
+L203@P2: temperatures, then the beam current was increased to
+L204@P2: 1.4–3.0 pA and the procedure repeated, taking precautions
+L205@P2: that previously implanted activity does not alter the outcome of the experiment [29]. Several characteristics are
+L206@P2: obvious. For measurements within the same beam current
+L207@P2: series the interstitial 27Mg fraction is clearly correlated with
+L208@P2: the doping type: 27Mgi is more prominent in p-GaN:Mg
+L209@P2: than in NID-GaN and lowest in n-GaN:Si. The second very
+L210@P2: clear characteristic is that for high implantation temperatures the interstitial fraction of 27Mg is reduced, reaching
+L211@P2: in all cases values around 0% at 800 °C.
+L212@P2: Third, for implantations at 200 °C into p-GaN:Mg, there
+L213@P2: is a clear and pronounced influence of the fluence visible:
+L214@P2: during the very first measurement (0.20 pA, Fig. 2) Mgi
+L215@P2: reached 31%, dropping to 23% in a subsequent measurement
+L216@P2: at 0.27 pA; having finished the annealing sequence to 800 °C
+L217@P2: FIG. 2. (a) Experimental 27Mg β− emission pattern around the
+L218@P2: [0001] axis of p-GaN:Mg during 200 °C implantation at a beam
+L219@P2: current of 0.20 pA, in comparison to (b) the best fit of simulated
+L220@P2: patterns for 72% aligned with the c axis, e.g., on SGa, and 31% on
+L221@P2: the Mgi interstitial sites. The theoretical patterns for SGa and Mgi
+L222@P2: sites are shown in panels (c) and (d).
+L223@P2: -1.0 -0.5 0.0 0.5 1.0
+L224@P2: 0.97
+L225@P2: 0.98
+L226@P2: 0.99
+L227@P2: 1.00
+L228@P2: HAB HB O HAB HA
+L229@P2: (c) [-2113]
+L230@P2: distance from O site along c-axis [Å]
+L231@P2:  20°C
+L232@P2:  300°C
+L233@P2:  450°C
+L234@P2: 0.80
+L235@P2: 0.85
+L236@P2: 0.90
+L237@P2: 0.95
+L238@P2: 1.00
+L239@P2: (b) [-1101]
+L240@P2: χ
+L241@P2: 2 relative to substitutional sites only0.70
+L242@P2: 0.80
+L243@P2: 0.90
+L244@P2: 1.00
+L245@P2: exp
+L246@P2: (d)
+L247@P2: (a) [-1102]
+L248@P2: fit
+L249@P2: (e)
+L250@P2: exp
+L251@P2: (f)
+L252@P2: fit
+L253@P2: (g)
+L254@P2: exp
+L255@P2: (h)
+L256@P2: fit
+L257@P2: (i)
+L258@P2: FIG. 3. (a)–(c) Reduced χ2 of the fits to the experimental
+L259@P2: [−1102], [−1101], and [−2113] patterns of p-GaN:Mg at 20, 300
+L260@P2: and 450 °C as a function of displacement of the 27Mg atoms
+L261@P2: from the ideal interstitial O sites parallel to the c axis. Each data
+L262@P2: point corresponds to a two-site fit where the first site was kept
+L263@P2: fixed at SGa. The reduced χ2 was normalized to the one
+L264@P2: considering only Mg on SGa sites. The adopted average value
+L265@P2: of the Mgi displacement of ðþ 0.60  0.14Þ Å is shown by the
+L266@P2: blue line. (d),(f),(h) are experimental patterns for the different
+L267@P2: axes obtained at 20 °C. (e),(g),(i) are best fits of simulated
+L268@P2: patterns, corresponding to 74% on SGa and 13% on Mgi.
+L269@P2: PRL 118, 095501 (2017) PHYSICAL REVIEW LETTERS week ending
+L270@P2: 3 MARCH 2017
+L271@P2-3: 095501-3(a temperature at which no more interstitial Mg was found),
+L272@P3: re-implanting at 200 °C with 1.4 pA resulted in 17% Mgi
+L273@P3: only. Remarkably, in the case of n-GaN:Si, this trend is
+L274@P3: reversed: for the second sequence of measurements at higher
+L275@P3: implantation current the initially small fraction of Mgi
+L276@P3: increased somewhat. In contrast, for NID-GaN the various
+L277@P3: data points for this sample at 20 °C showed only
+L278@P3: a small decrease of the interstitial fraction from 12% to
+L279@P3: 9%, while the accumulated beam charge increased from 70
+L280@P3: to 4100 pC, corresponding to fluences of 5.5 × 1010 to
+L281@P3: 3.2 × 1012 cm−2. Overall, we attribute these fluence-related
+L282@P3: effects as caused by the introduction of implantation
+L283@P3: damage, which, as it accumulates, shifts the Fermi level
+L284@P3: of a sample towards midgap and also introduces more and
+L285@P3: more Ga vacancies. While the latter favors the formation of
+L286@P3: MgGa in all samples, the Fermi level shift is of minor
+L287@P3: consequences in NID-GaN but has opposite effects in
+L288@P3: p- and n-type samples (decrease of Mgi in p-GaN but an
+L289@P3: increase in n-GaN), which are overlaid on the influence of
+L290@P3: temperature and doping.
+L291@P3: The GaN:Mg as-grown sample shows a particularly
+L292@P3: intriguing behavior at low-current implantation. While at
+L293@P3: 200 °C the 27Mg interstitial fraction was identical to nidGaN, it significantly increased at 400 °C, then dropping
+L294@P3: again at higher temperatures. The initial increase might
+L295@P3: indicate a shift in the Fermi level of this sample towards the
+L296@P3: valence band as a consequence of the 400 °C annealing
+L297@P3: causing acceptor activation of predoped stable Mg, but such
+L298@P3: effects would need confirmation in further measurements.
+L299@P3: The temperature dependence for high-current implantation into the GaN:Mg sample was used to estimate the
+L300@P3: migration energy (EM) of interstitial Mgi applying two
+L301@P3: simple Arrhenius models. The models assume that Mgi that
+L302@P3: remained interstitial following implantation starts to migrate
+L303@P3: due to its thermal energy and that it requires a certain number
+L304@P3: of jumps N until it encounters a Ga vacancy during the
+L305@P3: lifetime of 27Mg, which will lead to the formation of MgGa
+L306@P3: (see Ref. [23] for details). Besides an attempt frequency ν0,
+L307@P3: for which we have taken 2 × 1013 Hz, corresponding to the
+L308@P3: 657 cm−1 local mode assigned to Mg in GaN [38], N was
+L309@P3: assumed ranging from 1 to 105, where N ¼ 1 represents the
+L310@P3: limiting case in which theMgi has a neighboring Ga vacancy,
+L311@P3: and N ¼ 105 is the upper limit when the diffusion-induced
+L312@P3: widening of the Mgi profile becomes comparable to the
+L313@P3: implantation depth, which can be excluded since it would
+L314@P3: considerably deteriorate the channeling effects. According to
+L315@P3: the least square fits shown by the solid lines in Fig. 4, the
+L316@P3: migration energies are thus estimated between 2.0 and 1.3 eV,
+L317@P3: respectively. Theoretical predictions for EM [39,40] have
+L318@P3: suggested that the migration of Mgi in planes perpendicular
+L319@P3: to the c axis is much faster than along the c axis, with EM⊥ ¼
+L320@P3: 0.15 eV and EM∥ ¼ 0.68 eV, respectively. Our experimental estimates indicate a considerably higher EM value than
+L321@P3: these predictions. Several conflicting results on measuring
+L322@P3: the macroscopic diffusion coefficients of Mg in GaN have
+L323@P3: been reported in the literature, therefore suggesting that
+L324@P3: macroscopic diffusion of Mg is in fact trap limited. While
+L325@P3: Chang et al.state that during 1.25 h at 1060 °C“no significant
+L326@P3: diffusion/segregation effects were observed” [41], Köhler
+L327@P3: et al. have determined an activation energy ED of 5 eV in the
+L328@P3: temperature range 925–1050 °C [42], while Benzarti et al.
+L329@P3: concluded 1.9 eV [43] and Pan and Chi 1.3 eVonly [44]. The
+L330@P3: value of 1.9 eV would fit well with the microscopic migration
+L331@P3: energy estimated by us. However, Benzarti et al. based
+L332@P3: their analysis on only two measurements at T ¼ 1090 and
+L333@P3: 1130 °C, which at such high temperatures may be a too
+L334@P3: limited temperature region in order to derive trustworthy
+L335@P3: parameters for D0 and ED in the exponential function.
+L336@P3: Some immediate consequences of our findings on the
+L337@P3: interpretation of GaN doping with Mg are obvious. If Mg is
+L338@P3: introduced by means of ion implantation the damage
+L339@P3: caused by the implantation process has two characteristic
+L340@P3: effects. First, it provides the Ga vacancies which are
+L341@P3: necessary for Mg to be incorporated on substitutional Ga
+L342@P3: sites. Second, accumulation of damage causes a shift of the
+L343@P3: Fermi level towards midgap, which in the case of initially
+L344@P3: p-type GaN also results in an increase of substitutional Mg.
+L345@P3: Our results, hence, indicate the potential use of ion-beam
+L346@P3: assisted growth methods for improving Mg incorporation at
+L347@P3: substitutional sites. With respect to direct ion implantation
+L348@P3: of Mg, considerable success in achieving p-type doping
+L349@P3: was reported recently [45,46], once suitable annealing
+L350@P3: procedures were established to overcome the negative
+L351@P3: effects of implantation damage. In contrast, the fact that
+L352@P3: the Ga vacancy creation process is absent when GaN is
+L353@P3: doped with Mg during epitaxial growth, suggests that in
+L354@P3: this case the excess Mg will rather enter the layer
+L355@P3: 0 100 200 300 400 500 600 700 800
+L356@P3: 0
+L357@P3: 5
+L358@P3: 10
+L359@P3: 15
+L360@P3: 20
+L361@P3: 25
+L362@P3: 30
+L363@P3: 35
+L364@P3: Arrhenius step models:
+L365@P3: N=1 EM=2.0 eV
+L366@P3: N=105 EM=1.3 eV
+L367@P3: implantation current [pA]: 0.20 0.27 1.4-3.0
+L368@P3: NID-GaN
+L369@P3: p-GaN:Mg
+L370@P3: GaN:Mg
+L371@P3: n-GaN:Si
+L372@P3: interstitial 27Mg [%]
+L373@P3: implantation temperature T [°C]
+L374@P3: FIG. 4. Interstitial fractions of 27Mg in the four different types
+L375@P3: of GaN samples as a function of the implantation temperature.
+L376@P3: Open symbols were implantations at low beam currents of
+L377@P3: 0.20–0.27 pA, while filled symbols were measured at 1.4–
+L378@P3: 3.0 pA. The solid lines show the fractions using two Arrhenius
+L379@P3: models: N is the assumed number of jumps required before
+L380@P3: encountering a Ga vacancy and EM is the activation energy for
+L381@P3: migration of interstitial Mg.
+L382@P3: PRL 118, 095501 (2017) PHYSICAL REVIEW LETTERS week ending
+L383@P3: 3 MARCH 2017
+L384@P3-4: 095501-4interstitially. At the typical temperatures for growth of
+L385@P4: GaN layers (750–1100 °C, depending on method), interstitial Mg will be quite mobile inside the deposited layers.
+L386@P4: If no Ga vacancies are available, diffusing Mgi will also
+L387@P4: pair with other suitable defects, forming, e.g., MgGa − Mgi
+L388@P4: and similar complexes, as well as precipitates. Such a
+L389@P4: mechanism would cause Mgi-related complexes to contribute to the lack of electrical activation, particularly at
+L390@P4: high Mg concentrations, not only H or VN related ones,
+L391@P4: which seems to be the widely accepted belief.
+L392@P4: In summary, while Mg is found on substitutional Ga sites
+L393@P4: following ion implantation, we have also provided direct
+L394@P4: experimental evidence for interstitial Mgi near octahedral
+L395@P4: sites. The amphoteric nature of Mg coupled to the Fermi
+L396@P4: level was proven by the fact that the abundancy of interstitial
+

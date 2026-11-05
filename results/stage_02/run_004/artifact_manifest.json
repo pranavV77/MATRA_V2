@@ -1,0 +1,24 @@
+{
+  "files": {
+    "data/raw/stage_02_doping_sources/acquisition_manifest.json": "ae13ef7aaa2cd475c570b8398d468470c37958468121bed00f85e46e28f1b269",
+    "data/raw/stage_02_doping_sources/Mg_GaN_channeling_metadata.json": "4d41ca3304b2026511561104fb4240452e3af09d938c886ae36f44900a6feb3c",
+    "data/raw/stage_02_doping_sources/Mg_GaN_channeling_response.html": "a8d54f6a883d4581d07b929067cbcd0c6388c058cd9a05e477b041ee71abbde3",
+    "data/raw/stage_02_doping_sources/Mg_GaN_web_extraction.txt": "171d9f78a64b9477da992485cfea25009dc6bc85d30e915079f7783b84f45767",
+    "data/raw/stage_02_doping_sources/Nb_STO_interstitial_metadata.json": "fd21582b6bac9f13c6185c4b67d436b25af8882c187508cf833212a4a2b7b2e5",
+    "data/raw/stage_02_doping_sources/publisher_alternative_failure.json": "2435ec453224958c1ee1fa5c3ec27363a94029d8a03046f18a93425ffe8e4284",
+    "data/raw/stage_02_doping_sources/Si_Ga_STM_metadata.json": "db4c53740e67429610b3e25d2c9795cb097be914b59a3be312e49baa3bd95081",
+    "data/benchmark/doping_review_v1_0_0/doping_evidence.json": "dd51e1924d52be1d352005b1e6f7d8dcc4269682c90c4c9334dbc57ed166230c",
+    "docs/stages/stage_02_doping_review/completion_report.md": "2c837e28d71a260e5668f33c84ff68c8d158ce848386d34a07b60c22840f61dc",
+    "docs/stages/stage_02_doping_review/implementation_and_validation.md": "2a4ad4cd3dee558afd6c8f5a58657e9202f065328254fdd3dc3621bef7ae8855",
+    "docs/stages/stage_02_doping_review/index.html": "0b80fff8772ba3b828e6ae1e68125718f97e6dab676c55c925d78e34a8dddc1f",
+    "docs/stages/stage_02_doping_review/scientific_review.md": "0d2855b4a70609e4a8e9cc1ab26d4795707b635e7ac7085ef158523783e6cb33",
+    "docs/stages/stage_02_doping_review/telugu_transcript.md": "dbe04e261bc710e6b946216ee6ae797036bbab1a70a112f97cea56cb77e46864",
+    "src/data_audit/doping_review.py": "61e702471a6a3fe5ceb334264a577932e4008f2760668d5ef59cd163e27510de",
+    "tests/stage_02/test_doping_review.py": "dab6f51e5d48c72eb8177fd71358e2cbd5268e5fa3ed434e9238dfab8a9fef7c",
+    "experiments/stage_02/build_doping_review.py": "382e7a42f4e9c8f05907c8c522c6e4e57408430a43ba8635597a5dea66b0aff9",
+    "experiments/stage_02/collect_doping_alternative.py": "87a739134c644e7be8c42d3216e09259293cadd42854beb8aec632f618ae65f4",
+    "experiments/stage_02/collect_doping_sources.py": "3286a9d2ab822120ee6427d8ca753a3ee86baa618df76d75c06cdd5feab3fc36",
+    "experiments/stage_02/report_doping_review.py": "f1c09b8bc1c6b49573cd1939b9074176a62a9767288a9fb97c99a07ab55f3c47"
+  },
+  "links_verified": 4
+}

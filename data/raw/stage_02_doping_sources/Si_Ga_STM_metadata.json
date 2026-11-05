@@ -1,0 +1,421 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T03:02:35Z",
+      "timestamp": 1791255755941,
+      "version": "4.1.0"
+    },
+    "reference-count": 19,
+    "publisher": "AIP Publishing",
+    "issue": "14",
+    "content-domain": {
+      "domain": [
+        "pubs.aip.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2011,
+          4,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:p>The electronic states of silicon donors in a wide gap semiconductor, \u03b2-Ga2O3(100), have been studied using low-temperature scanning tunneling microscopy. We observe one-dimensional rows along [010], as expected from the crystal structure. In addition, substitutional Si donors are identified up to the fourth subsurface layer with clear spectroscopic features at the bottom of the conduction band. The decay length of each subsurface Si donor is systematically measured, and reasonably agrees with a picture of the Si donor in bulk \u03b2-Ga2O3. These results strongly suggest that Si impurities are shallow donors and responsible for the high electrical conductivity of \u03b2-Ga2O3.</jats:p>",
+    "DOI": "10.1063/1.3578195",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2011,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2011-04-08T09:51:34Z",
+      "timestamp": 1302256294000
+    },
+    "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+    "source": "Crossref",
+    "is-referenced-by-count": 32,
+    "title": [
+      "Atomically resolved silicon donor states of \u03b2-Ga2O3"
+    ],
+    "prefix": "10.1063",
+    "volume": "98",
+    "author": [
+      {
+        "given": "K.",
+        "family": "Iwaya",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tohoku University 1 WPI-Advanced Institute for Materials Research, , Sendai 980-8577, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Shimizu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tohoku University 1 WPI-Advanced Institute for Materials Research, , Sendai 980-8577, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Aida",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Namiki Precision Jewel Co., Ltd. 2 , Tokyo 123-8511, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "Hashizume",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tohoku University 1 WPI-Advanced Institute for Materials Research, , Sendai 980-8577, Japan"
+          },
+          {
+            "name": "Hitachi Ltd. 3 Advanced Research Laboratory, , Saitama 350-0395, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "Hitosugi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tohoku University 1 WPI-Advanced Institute for Materials Research, , Sendai 980-8577, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "317",
+    "published-online": {
+      "date-parts": [
+        [
+          2011,
+          4,
+          7
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2023070215135973800_c1",
+        "doi-asserted-by": "publisher",
+        "first-page": "3561",
+        "DOI": "10.1063/1.119233",
+        "volume": "70",
+        "year": "1997",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023070215135973800_c2",
+        "doi-asserted-by": "publisher",
+        "first-page": "933",
+        "DOI": "10.1063/1.119693",
+        "volume": "71",
+        "year": "1997",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023070215135973800_c3",
+        "doi-asserted-by": "publisher",
+        "first-page": "1706",
+        "DOI": "10.1063/1.118676",
+        "volume": "70",
+        "year": "1997",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023070215135973800_c4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1099",
+        "DOI": "10.1063/1.115725",
+        "volume": "68",
+        "year": "1996",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023070215135973800_c5",
+        "doi-asserted-by": "publisher",
+        "first-page": "234102",
+        "DOI": "10.1063/1.2745645",
+        "volume": "90",
+        "year": "2007",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023070215135973800_c6",
+        "doi-asserted-by": "publisher",
+        "first-page": "403",
+        "DOI": "10.1016/0022-3697(67)90305-8",
+        "volume": "28",
+        "year": "1967",
+        "journal-title": "J. Phys. Chem. Solids"
+      },
+      {
+        "key": "2023070215135973800_c7",
+        "doi-asserted-by": "publisher",
+        "first-page": "155207",
+        "DOI": "10.1103/PhysRevB.68.155207",
+        "volume": "68",
+        "year": "2003",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "2023070215135973800_c8",
+        "doi-asserted-by": "publisher",
+        "first-page": "202120",
+        "DOI": "10.1063/1.2919728",
+        "volume": "92",
+        "year": "2008",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023070215135973800_c9",
+        "doi-asserted-by": "publisher",
+        "first-page": "201914",
+        "DOI": "10.1063/1.2910768",
+        "volume": "92",
+        "year": "2008",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023070215135973800_c10",
+        "doi-asserted-by": "publisher",
+        "first-page": "211903",
+        "DOI": "10.1063/1.3521255",
+        "volume": "97",
+        "year": "2010",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023070215135973800_c11",
+        "doi-asserted-by": "publisher",
+        "first-page": "081906",
+        "DOI": "10.1063/1.3086392",
+        "volume": "94",
+        "year": "2009",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023070215135973800_c12",
+        "doi-asserted-by": "publisher",
+        "first-page": "8506",
+        "DOI": "10.1143/JJAP.47.8506",
+        "volume": "47",
+        "year": "2008",
+        "journal-title": "Jpn. J. Appl. Phys."
+      },
+      {
+        "key": "2023070215135973800_c13",
+        "doi-asserted-by": "publisher",
+        "first-page": "193",
+        "DOI": "10.1016/j.chemphys.2005.08.051",
+        "volume": "323",
+        "year": "2006",
+        "journal-title": "Chem. Phys."
+      },
+      {
+        "key": "2023070215135973800_c14",
+        "doi-asserted-by": "publisher",
+        "first-page": "165204",
+        "DOI": "10.1103/PhysRevB.66.165204",
+        "volume": "66",
+        "year": "2002",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "2023070215135973800_c15",
+        "doi-asserted-by": "publisher",
+        "first-page": "261904",
+        "DOI": "10.1063/1.2218046",
+        "volume": "88",
+        "year": "2006",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "2023070215135973800_c16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1490",
+        "DOI": "10.1103/PhysRevLett.72.1490",
+        "volume": "72",
+        "year": "1994",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "2023070215135973800_c17",
+        "doi-asserted-by": "publisher",
+        "first-page": "1075",
+        "DOI": "10.1103/PhysRevLett.76.1075",
+        "volume": "76",
+        "year": "1996",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "2023070215135973800_c18",
+        "volume-title": "Metal-Insulator Transitions",
+        "year": "1990",
+        "edition": "2nd ed."
+      },
+      {
+        "key": "2023070215135973800_c19",
+        "doi-asserted-by": "publisher",
+        "first-page": "142106",
+        "DOI": "10.1063/1.3499306",
+        "volume": "97",
+        "year": "2010",
+        "journal-title": "Appl. Phys. Lett."
+      }
+    ],
+    "container-title": [
+      "Applied Physics Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.3578195/14447819/142116_1_online.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://pubs.aip.org/aip/apl/article-pdf/doi/10.1063/1.3578195/14447819/142116_1_online.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2023-07-02T15:14:07Z",
+      "timestamp": 1688310847000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.aip.org/apl/article/98/14/142116/340248/Atomically-resolved-silicon-donor-states-of-Ga2O3"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          4,
+          4
+        ]
+      ]
+    },
+    "references-count": 19,
+    "journal-issue": {
+      "issue": "14",
+      "published-print": {
+        "date-parts": [
+          [
+            2011,
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1063/1.3578195",
+    "relation": {},
+    "ISSN": [
+      "0003-6951",
+      "1077-3118"
+    ],
+    "issn-type": [
+      {
+        "value": "0003-6951",
+        "type": "print"
+      },
+      {
+        "value": "1077-3118",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2011,
+          4,
+          4
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          4,
+          4
+        ]
+      ]
+    },
+    "article-number": "142116"
+  }
+}

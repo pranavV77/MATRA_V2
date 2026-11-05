@@ -1,0 +1,8 @@
+{
+  "source_id": "Mg_GaN_channeling",
+  "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.118.095501/fulltext",
+  "local_download_http_status": 401,
+  "error": "HTTP Error 401: Unauthorized",
+  "pdf_downloaded": false,
+  "note": "Observed during collect_doping_alternative.py execution. A separate web-tool text extraction was readable and is archived explicitly as text, not a locally downloaded PDF. No authentication bypass performed."
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Final Project\experiments\stage_02\build_doping_review.py", line 80, in <module>
+    if __name__ == '__main__': main()
+  File "C:\Final Project\experiments\stage_02\build_doping_review.py", line 74, in main
+    if any(path.exists() for path, _ in outputs): raise FileExistsError('Outputs exist; use new version/run')
+FileExistsError: Outputs exist; use new version/run

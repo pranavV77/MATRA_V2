@@ -1,0 +1,215 @@
+{
+  "version": "1.0.0-doping-review",
+  "purpose": "Doping evidence supplement; no new quantitative recommendation or activation benchmark admission",
+  "parent_benchmark": "data/benchmark/v2_2_0/extended_evidence.json",
+  "artifacts": [
+    {
+      "path": "data/benchmark/v2_2_0/extended_evidence.json",
+      "sha256": "5d1f26b9fe00348dab765aa36dfb4b98e6028a922a9a411c8b8bb615818c285e"
+    },
+    {
+      "path": "data/raw/stage_02_doping_sources/acquisition_manifest.json",
+      "sha256": "ae13ef7aaa2cd475c570b8398d468470c37958468121bed00f85e46e28f1b269"
+    },
+    {
+      "path": "data/raw/stage_02_doping_sources/Mg_GaN_channeling_metadata.json",
+      "sha256": "4d41ca3304b2026511561104fb4240452e3af09d938c886ae36f44900a6feb3c"
+    },
+    {
+      "path": "data/raw/stage_02_doping_sources/Mg_GaN_channeling_response.html",
+      "sha256": "a8d54f6a883d4581d07b929067cbcd0c6388c058cd9a05e477b041ee71abbde3"
+    },
+    {
+      "path": "data/raw/stage_02_doping_sources/Mg_GaN_web_extraction.txt",
+      "sha256": "171d9f78a64b9477da992485cfea25009dc6bc85d30e915079f7783b84f45767"
+    },
+    {
+      "path": "data/raw/stage_02_doping_sources/Nb_STO_interstitial_metadata.json",
+      "sha256": "fd21582b6bac9f13c6185c4b67d436b25af8882c187508cf833212a4a2b7b2e5"
+    },
+    {
+      "path": "data/raw/stage_02_doping_sources/publisher_alternative_failure.json",
+      "sha256": "2435ec453224958c1ee1fa5c3ec27363a94029d8a03046f18a93425ffe8e4284"
+    },
+    {
+      "path": "data/raw/stage_02_doping_sources/Si_Ga_STM_metadata.json",
+      "sha256": "db4c53740e67429610b3e25d2c9795cb097be914b59a3be312e49baa3bd95081"
+    }
+  ],
+  "leads": [
+    {
+      "element": "Mg",
+      "host": "GaN",
+      "related_legacy_case": "BM-S03",
+      "doi": "10.1103/PhysRevLett.118.095501",
+      "access": "primary_text_partially_archived_via_web_tool",
+      "label": "unknown",
+      "full_doping_benchmark_eligible": false,
+      "limitations": "Probe site observations are direct evidence; same study specimens were not electrically characterized. Probe density, stable Mg density and Hall results on similar specimens cannot be merged."
+    },
+    {
+      "element": "Si",
+      "host": "beta-Ga2O3",
+      "related_legacy_case": "BM-S01",
+      "doi": "10.1063/1.3578195",
+      "access": "metadata_and_primary_abstract",
+      "label": "unknown",
+      "full_doping_benchmark_eligible": false,
+      "limitations": "STM abstract supports a substitutional-donor lead; full methods, exact concentration and Ga-site assignment were not archived. Do not assign the octahedral site from similarity or a different dopant."
+    },
+    {
+      "element": "Nb",
+      "host": "SrTiO3",
+      "related_legacy_case": "BM-S04",
+      "doi": "10.1021/nn401101y",
+      "access": "metadata_and_primary_abstract",
+      "label": "unknown",
+      "full_doping_benchmark_eligible": false,
+      "limitations": "Primary abstract contrasts active bulk substitution with inactive interstitial-containing films; full sample concentrations and synthesis/context details still required. Not a universal negative Nb label."
+    }
+  ],
+  "mg_site_study": {
+    "source_doi": "10.1103/PhysRevLett.118.095501",
+    "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.118.095501/fulltext",
+    "archive_format": "web_tool_text_extraction_not_pdf",
+    "archive_coverage": "Publisher extraction lines 0–396, pages 1–5 partially; references/end matter not completely archived. Direct download returned 401.",
+    "extraction_path": "data/raw/stage_02_doping_sources/Mg_GaN_web_extraction.txt",
+    "host_phase": "Wurtzite single-crystal GaN epilayers, growth description in PDF page 2",
+    "experiment_scope": "27Mg probe implanted into stable-Mg-predoped GaN; Figure 2 uses 200 degrees C and 0.20 pA",
+    "same_specimen_electrical_measurement": false,
+    "activation_efficiency": null,
+    "fit_fractions_normalized": false,
+    "independence_group": "GaN_family",
+    "held_out": false,
+    "quantities": [
+      {
+        "kind": "stable_dopant_number_density",
+        "values": [
+          2e+19
+        ],
+        "unit": "cm^-3",
+        "relation": "=",
+        "specimen_relation": "same_experiment",
+        "source_locator": {
+          "line_start": 113,
+          "line_end": 114,
+          "anchors": [
+            "2 × 1019"
+          ],
+          "paper_location": "Publisher PDF extraction L110–L111"
+        }
+      },
+      {
+        "kind": "radioactive_probe_peak_density",
+        "values": [
+          300000000000000.0
+        ],
+        "unit": "cm^-3",
+        "relation": "<",
+        "specimen_relation": "same_experiment",
+        "source_locator": {
+          "line_start": 127,
+          "line_end": 131,
+          "anchors": [
+            "below 3 × 1014"
+          ],
+          "paper_location": "Publisher PDF extraction L124–L128"
+        }
+      },
+      {
+        "kind": "implantation_fluence",
+        "values": [
+          110000000000.0
+        ],
+        "unit": "cm^-2",
+        "relation": "=",
+        "specimen_relation": "same_experiment",
+        "source_locator": {
+          "line_start": 146,
+          "line_end": 150,
+          "anchors": [
+            "total fluence 1.1 × 1011"
+          ],
+          "paper_location": "Publisher PDF extraction L143–L147"
+        }
+      },
+      {
+        "kind": "hole_number_density",
+        "values": [
+          1e+17,
+          2e+17
+        ],
+        "unit": "cm^-3",
+        "relation": "range",
+        "specimen_relation": "similar_specimens",
+        "source_locator": {
+          "line_start": 118,
+          "line_end": 121,
+          "anchors": [
+            "no electrical char",
+            "1–2 × 1017"
+          ],
+          "paper_location": "Publisher PDF extraction L115–L118"
+        }
+      },
+      {
+        "kind": "hall_mobility",
+        "values": [
+          10,
+          15
+        ],
+        "unit": "cm^2 V^-1 s^-1",
+        "relation": "range",
+        "specimen_relation": "similar_specimens",
+        "source_locator": {
+          "line_start": 118,
+          "line_end": 121,
+          "anchors": [
+            "10–15 cm2=Vs"
+          ],
+          "paper_location": "Publisher PDF extraction L115–L118"
+        }
+      },
+      {
+        "kind": "interstitial_fit_fraction",
+        "values": [
+          31
+        ],
+        "unit": "%",
+        "relation": "=",
+        "specimen_relation": "same_experiment",
+        "source_locator": {
+          "line_start": 164,
+          "line_end": 166,
+          "anchors": [
+            "31% of Mg on interstitial sites"
+          ],
+          "paper_location": "Publisher PDF extraction L161–L163"
+        }
+      },
+      {
+        "kind": "c_axis_aligned_fit_fraction",
+        "values": [
+          72
+        ],
+        "unit": "%",
+        "relation": "=",
+        "specimen_relation": "same_experiment",
+        "source_locator": {
+          "line_start": 164,
+          "line_end": 166,
+          "anchors": [
+            "72% aligned with the c"
+          ],
+          "paper_location": "Publisher PDF extraction L161–L163"
+        }
+      }
+    ],
+    "limitations": [
+      "72% aligned with c axis is not by itself a unique Ga-site assignment; off-axis patterns are required.",
+      "Reported 31% and 72% fit values are retained; no normalization to 100% or fabricated uncertainties.",
+      "No tracer-to-stable-Mg population transfer and no Hall activation efficiency inferred.",
+      "Single technical reviewer; independent scientific adjudication pending."
+    ]
+  }
+}

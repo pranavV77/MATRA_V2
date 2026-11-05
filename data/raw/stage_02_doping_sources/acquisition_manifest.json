@@ -1,0 +1,57 @@
+[
+  {
+    "source_id": "Mg_GaN_channeling",
+    "candidate_doi": "10.1103/PhysRevLett.118.095501",
+    "requested_url": "https://cds.cern.ch/record/2242570/files/CERN-OPEN-2017-005.pdf",
+    "utc": "2026-11-05T10:48:53.652969+00:00",
+    "artifacts": [
+      {
+        "path": "data/raw/stage_02_doping_sources/Mg_GaN_channeling_metadata.json",
+        "sha256": "4d41ca3304b2026511561104fb4240452e3af09d938c886ae36f44900a6feb3c"
+      },
+      {
+        "path": "data/raw/stage_02_doping_sources/Mg_GaN_channeling_response.html",
+        "sha256": "a8d54f6a883d4581d07b929067cbcd0c6388c058cd9a05e477b041ee71abbde3"
+      }
+    ],
+    "errors": [],
+    "access": "non_pdf_response_requires_review",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "source_id": "Nb_STO_interstitial",
+    "candidate_doi": "10.1021/nn401101y",
+    "requested_url": "https://pubs.acs.org/doi/pdf/10.1021/nn401101y",
+    "utc": "2026-11-05T10:48:57.041358+00:00",
+    "artifacts": [
+      {
+        "path": "data/raw/stage_02_doping_sources/Nb_STO_interstitial_metadata.json",
+        "sha256": "fd21582b6bac9f13c6185c4b67d436b25af8882c187508cf833212a4a2b7b2e5"
+      }
+    ],
+    "errors": [
+      {
+        "step": "paper",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
+  },
+  {
+    "source_id": "Si_Ga_STM",
+    "candidate_doi": "10.1063/1.3578195",
+    "requested_url": "https://pubs.aip.org/aip/apl/article/98/14/142116/340248/Atomically-resolved-silicon-donor-states-of-Ga2O3",
+    "utc": "2026-11-05T10:48:58.558774+00:00",
+    "artifacts": [
+      {
+        "path": "data/raw/stage_02_doping_sources/Si_Ga_STM_metadata.json",
+        "sha256": "db4c53740e67429610b3e25d2c9795cb097be914b59a3be312e49baa3bd95081"
+      }
+    ],
+    "errors": [
+      {
+        "step": "paper",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "workspace": "C:\\Final Project",
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "operating_system": "Windows-10-10.0.26300-SP0",
+  "counts": {
+    "leads_reviewed": 3,
+    "quantities_distinguished": 7,
+    "new_full_doping_cases": 0,
+    "new_held_out_cases": 0,
+    "same_specimen_activation_measured": false
+  },
+  "tests": {
+    "tests": "172",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "4.687"
+  },
+  "previous_files_checked": 191,
+  "changed_previous_files": [
+    ".gitattributes",
+    "docs/progress.md"
+  ],
+  "identical_local_rebuild": true,
+  "new_prediction_or_dft_run": false,
+  "independent_scientific_adjudication": "pending",
+  "clean_machine_reproduction": "not tested"
+}

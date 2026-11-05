@@ -12,3 +12,9 @@ docs/stages/stage_02_extended_review/** -text
 experiments/stage_02/*extended*.py -text
 src/data_audit/evidence_extension.py -text
 tests/stage_02/test_evidence_extension.py -text
+data/raw/stage_02_doping_sources/** -text
+data/benchmark/doping_review_v1_0_0/** -text
+docs/stages/stage_02_doping_review/** -text
+experiments/stage_02/*doping*.py -text
+src/data_audit/doping_review.py -text
+tests/stage_02/test_doping_review.py -text

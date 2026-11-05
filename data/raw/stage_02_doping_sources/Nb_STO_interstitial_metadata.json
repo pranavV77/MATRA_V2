@@ -1,0 +1,600 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2026-10-21T17:07:12Z",
+      "timestamp": 1792602432841,
+      "version": "4.5.0"
+    },
+    "reference-count": 38,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "5",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ACS Nano"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          5,
+          28
+        ]
+      ]
+    },
+    "DOI": "10.1021/nn401101y",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2013-04-28T14:41:31Z",
+      "timestamp": 1367160091000
+    },
+    "page": "4487-4494",
+    "source": "Crossref",
+    "is-referenced-by-count": 15,
+    "title": [
+      "Observation of Electrically-Inactive Interstitials in Nb-Doped SrTiO<sub>3</sub>"
+    ],
+    "prefix": "10.1021",
+    "volume": "7",
+    "author": [
+      {
+        "given": "Jong Seok",
+        "family": "Jeong",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering and Materials Science, University of Minnesota, Minneapolis, Minnesota 55455, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Palak",
+        "family": "Ambwani",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering and Materials Science, University of Minnesota, Minneapolis, Minnesota 55455, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bharat",
+        "family": "Jalan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering and Materials Science, University of Minnesota, Minneapolis, Minnesota 55455, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chris",
+        "family": "Leighton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering and Materials Science, University of Minnesota, Minneapolis, Minnesota 55455, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K. Andre",
+        "family": "Mkhoyan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering and Materials Science, University of Minnesota, Minneapolis, Minnesota 55455, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "316",
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          5,
+          1
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1/cit1",
+        "doi-asserted-by": "crossref",
+        "first-page": "155110",
+        "DOI": "10.1103/PhysRevB.81.155110",
+        "volume": "81",
+        "author": "Spinelli A.",
+        "year": "2010",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref2/cit2",
+        "doi-asserted-by": "crossref",
+        "first-page": "096601",
+        "DOI": "10.1103/PhysRevLett.101.096601",
+        "volume": "101",
+        "author": "Kozuka Y.",
+        "year": "2008",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "ref3/cit3",
+        "first-page": "021002",
+        "volume": "3",
+        "author": "Lin X.",
+        "year": "2013",
+        "journal-title": "Phys. Rev. X"
+      },
+      {
+        "key": "ref4/cit4",
+        "doi-asserted-by": "crossref",
+        "first-page": "423",
+        "DOI": "10.1038/nature02308",
+        "volume": "427",
+        "author": "Ohtomo A.",
+        "year": "2004",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref5/cit5",
+        "doi-asserted-by": "crossref",
+        "first-page": "487",
+        "DOI": "10.1038/nature08566",
+        "volume": "462",
+        "author": "Kozuka Y.",
+        "year": "2009",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref6/cit6",
+        "doi-asserted-by": "crossref",
+        "first-page": "081103",
+        "DOI": "10.1103/PhysRevB.82.081103",
+        "volume": "82",
+        "author": "Jalan B.",
+        "year": "2010",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "ref7/cit7",
+        "doi-asserted-by": "crossref",
+        "first-page": "493",
+        "DOI": "10.1038/nmat1931",
+        "volume": "6",
+        "author": "Brinkman A.",
+        "year": "2007",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "ref8/cit8",
+        "doi-asserted-by": "crossref",
+        "first-page": "136809",
+        "DOI": "10.1103/PhysRevLett.106.136809",
+        "volume": "106",
+        "author": "Lee Y.",
+        "year": "2011",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "ref9/cit9",
+        "first-page": "021014",
+        "volume": "2",
+        "author": "Moetakef P.",
+        "year": "2012",
+        "journal-title": "Phys. Rev. X"
+      },
+      {
+        "key": "ref10/cit10",
+        "doi-asserted-by": "crossref",
+        "first-page": "132102",
+        "DOI": "10.1063/1.3571447",
+        "volume": "98",
+        "author": "Jalan B.",
+        "year": "2011",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "ref11/cit11",
+        "doi-asserted-by": "crossref",
+        "first-page": "482",
+        "DOI": "10.1038/nmat2750",
+        "volume": "9",
+        "author": "Son J.",
+        "year": "2010",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "ref12/cit12",
+        "doi-asserted-by": "crossref",
+        "first-page": "012107",
+        "DOI": "10.1063/1.3457994",
+        "volume": "97",
+        "author": "Kozuka Y.",
+        "year": "2010",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "ref13/cit13",
+        "doi-asserted-by": "crossref",
+        "first-page": "221904",
+        "DOI": "10.1063/1.3579993",
+        "volume": "98",
+        "author": "Oh D.-W.",
+        "year": "2011",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "ref14/cit14",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.2307/2685263",
+        "volume": "42",
+        "author": "Rodgers J. L.",
+        "year": "1988",
+        "journal-title": "Am. Stat."
+      },
+      {
+        "key": "ref15/cit15",
+        "doi-asserted-by": "crossref",
+        "first-page": "565",
+        "DOI": "10.1038/336565a0",
+        "volume": "336",
+        "author": "Pennycook S. J.",
+        "year": "1988",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref16/cit16",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1016/0304-3991(89)90173-3",
+        "volume": "30",
+        "author": "Pennycook S. J.",
+        "year": "1989",
+        "journal-title": "Ultramicroscopy"
+      },
+      {
+        "key": "ref17/cit17",
+        "doi-asserted-by": "crossref",
+        "first-page": "657",
+        "DOI": "10.1038/nature02756",
+        "volume": "430",
+        "author": "Muller D. A.",
+        "year": "2004",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref18/cit18",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1016/S0304-3991(99)00018-2",
+        "volume": "78",
+        "author": "James E. M.",
+        "year": "1999",
+        "journal-title": "Ultramicroscopy"
+      },
+      {
+        "key": "ref19/cit19",
+        "doi-asserted-by": "crossref",
+        "first-page": "445",
+        "DOI": "10.1017/S1431927610093360",
+        "volume": "16",
+        "author": "Xin H. L.",
+        "year": "2010",
+        "journal-title": "Microsc. Microanal."
+      },
+      {
+        "key": "ref20/cit20",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-0-387-76501-3",
+        "volume-title": "Transmission Electron Microscopy: A Textbook for Materials Science",
+        "author": "Williams D. B.",
+        "year": "2009",
+        "edition": "2"
+      },
+      {
+        "key": "ref21/cit21",
+        "doi-asserted-by": "crossref",
+        "first-page": "3362",
+        "DOI": "10.1063/1.1649463",
+        "volume": "95",
+        "author": "Yu Z.",
+        "year": "2004",
+        "journal-title": "J. Appl. Phys."
+      },
+      {
+        "key": "ref22/cit22",
+        "volume-title": "Electron Microscopy of Thin Crystals",
+        "author": "Hirsch P. B.",
+        "year": "1977",
+        "edition": "2"
+      },
+      {
+        "key": "ref23/cit23",
+        "doi-asserted-by": "crossref",
+        "first-page": "5886",
+        "DOI": "10.1063/1.358404",
+        "volume": "76",
+        "author": "Tomio T.",
+        "year": "1994",
+        "journal-title": "J. Appl. Phys."
+      },
+      {
+        "key": "ref24/cit24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1551",
+        "DOI": "10.1016/S0025-5408(96)00141-9",
+        "volume": "31",
+        "author": "Garc\u00eda-Jaca J.",
+        "year": "1996",
+        "journal-title": "Mater. Res. Bull."
+      },
+      {
+        "key": "ref25/cit25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1053",
+        "DOI": "10.1016/j.ultramic.2006.04.019",
+        "volume": "106",
+        "author": "Fitting L.",
+        "year": "2006",
+        "journal-title": "Ultramicroscopy"
+      },
+      {
+        "key": "ref26/cit26",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1887/0750309024",
+        "volume-title": "Fundamentals of Ceramics",
+        "author": "Barsoum M. W.",
+        "year": "2003"
+      },
+      {
+        "key": "ref27/cit27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1200",
+        "DOI": "10.1103/PhysRevLett.27.1200",
+        "volume": "27",
+        "author": "Morgan T. N.",
+        "year": "1971",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "ref28/cit28",
+        "doi-asserted-by": "crossref",
+        "first-page": "609",
+        "DOI": "10.1107/S0365110X57002194",
+        "volume": "10",
+        "author": "Cowley J. M.",
+        "year": "1957",
+        "journal-title": "Acta Crystallogr."
+      },
+      {
+        "key": "ref29/cit29",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1016/0304-3991(87)90229-4",
+        "volume": "23",
+        "author": "Kirkland E. J.",
+        "year": "1987",
+        "journal-title": "Ultramicroscopy"
+      },
+      {
+        "key": "ref30/cit30",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1107/S0108767391000375",
+        "volume": "47",
+        "author": "Loane R. F.",
+        "year": "1991",
+        "journal-title": "Acta Crystallogr., Sect. A: Found. Crystallogr."
+      },
+      {
+        "key": "ref31/cit31",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-1-4419-6533-2",
+        "volume-title": "Advanced Computing in Electron Microscopy",
+        "author": "Kirkland E. J.",
+        "year": "2010",
+        "edition": "2"
+      },
+      {
+        "key": "ref32/cit32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-1-4419-9583-4",
+        "volume-title": "Electron Energy-Loss Spectroscopy in the Electron Microscope",
+        "author": "Egerton R. F.",
+        "year": "2011",
+        "edition": "3"
+      },
+      {
+        "key": "ref33/cit33",
+        "doi-asserted-by": "crossref",
+        "first-page": "206101",
+        "DOI": "10.1103/PhysRevLett.100.206101",
+        "volume": "100",
+        "author": "LeBeau J. M.",
+        "year": "2008",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "ref34/cit34",
+        "doi-asserted-by": "crossref",
+        "first-page": "5087",
+        "DOI": "10.1021/nn100944n",
+        "volume": "4",
+        "author": "Behr M. J.",
+        "year": "2010",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "ref35/cit35",
+        "doi-asserted-by": "crossref",
+        "first-page": "251",
+        "DOI": "10.1016/S0304-3991(03)00092-5",
+        "volume": "96",
+        "author": "Voyles P. M.",
+        "year": "2003",
+        "journal-title": "Ultramicroscopy"
+      },
+      {
+        "key": "ref36/cit36",
+        "doi-asserted-by": "crossref",
+        "first-page": "505",
+        "DOI": "10.1017/S143192760999105X",
+        "volume": "15",
+        "author": "Bach D.",
+        "year": "2009",
+        "journal-title": "Microsc. Microanal."
+      },
+      {
+        "key": "ref37/cit37",
+        "volume-title": "EELS Atlas",
+        "author": "Ahn C. C.",
+        "year": "1983"
+      },
+      {
+        "key": "ref38/cit38",
+        "doi-asserted-by": "crossref",
+        "first-page": "124313",
+        "DOI": "10.1063/1.3665193",
+        "volume": "110",
+        "author": "Tao R.",
+        "year": "2011",
+        "journal-title": "J. Appl. Phys."
+      }
+    ],
+    "container-title": [
+      "ACS Nano"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.acs.org/doi/pdf/10.1021/nn401101y",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          14
+        ]
+      ],
+      "date-time": "2023-04-14T10:59:59Z",
+      "timestamp": 1681469999000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.acs.org/doi/10.1021/nn401101y"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          5,
+          1
+        ]
+      ]
+    },
+    "references-count": 38,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            5,
+            28
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1021/nn401101y"
+    ],
+    "URL": "https://doi.org/10.1021/nn401101y",
+    "relation": {},
+    "ISSN": [
+      "1936-0851",
+      "1936-086X"
+    ],
+    "issn-type": [
+      {
+        "value": "1936-0851",
+        "type": "print"
+      },
+      {
+        "value": "1936-086X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          5,
+          1
+        ]
+      ]
+    }
+  }
+}
