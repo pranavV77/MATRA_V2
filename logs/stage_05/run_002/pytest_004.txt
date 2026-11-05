@@ -1,0 +1,20 @@
+........................................................................ [ 15%]
+........................................................................ [ 30%]
+........................................................................ [ 45%]
+........................................................................ [ 60%]
+........................................................................ [ 75%]
+........................................................................ [ 91%]
+..........................................                               [100%]
+============================== warnings summary ===============================
+tests/stage_05/test_structure_http.py: 3 warnings
+tests/stage_05/test_structures.py: 7 warnings
+  C:\Final Project\.venv\lib\site-packages\spglib\spg.py:438: DeprecationWarning: Set OLD_ERROR_HANDLING to false and catch the errors directly.
+    _set_no_error(_throw)
+
+tests/stage_05/test_structure_http.py: 5 warnings
+tests/stage_05/test_structures.py: 35 warnings
+  C:\Final Project\.venv\lib\site-packages\spglib\spg.py:354: DeprecationWarning: Set OLD_ERROR_HANDLING to false and catch the errors directly.
+    _set_no_error()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+474 passed, 50 warnings in 12.08s

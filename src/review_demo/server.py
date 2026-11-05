@@ -8,13 +8,15 @@ from urllib.parse import urlsplit
 
 from src.review_demo.service import DemoService
 from src.similarity_validation import PROJECT_ROOT
+from src.structures.service import StructureService
 
 STATIC = Path(__file__).parent / 'static'
 LOGGER = logging.getLogger(__name__)
 
 
-def make_server(port=8765, service=None):
+def make_server(port=8765, service=None, structure_service=None):
     service = service or DemoService()
+    structure_service = structure_service or StructureService(service.engine)
 
     class Handler(BaseHTTPRequestHandler):
         def log_message(self, fmt, *args): LOGGER.info(fmt, *args)
@@ -40,7 +42,9 @@ def make_server(port=8765, service=None):
             if route == '/api/health': return self.send_json({'ok':True,'version':'review-0.1'})
             if route == '/api/status': return self.send_json(service.status())
             if route == '/api/evaluation': return self.send_json(service.evaluation())
+            if route == '/api/structure/catalog': return self.send_json(structure_service.catalog())
             files = {'/':('index.html','text/html'), '/app.js':('app.js','text/javascript'), '/style.css':('style.css','text/css')}
+            files['/structures.js'] = ('structures.js','text/javascript')
             if route not in files: return self.send_json({'error':'Not found'},404)
             filename, mime = files[route]
             data = (STATIC / filename).read_bytes()
@@ -53,17 +57,22 @@ def make_server(port=8765, service=None):
             # otherwise reset the connection on Windows and hide JSON errors.
             try: incoming_size = int(self.headers.get('Content-Length','0'))
             except ValueError: incoming_size = 0
-            body = self.rfile.read(incoming_size) if 0 < incoming_size <= 65536 else b''
+            body = self.rfile.read(incoming_size) if 0 < incoming_size <= 650000 else b''
             if not self.origin_allowed(): return self.send_json({'error':'Local origin required'},403)
             route = urlsplit(self.path).path
-            if route not in ('/api/recommend','/api/export'): return self.send_json({'error':'Not found'},404)
+            structural_routes = {'/api/structure/analyze': structure_service.analyze,
+                                 '/api/structure/generate': structure_service.generate,
+                                 '/api/structure/export': structure_service.export}
+            if route not in ('/api/recommend','/api/export') and route not in structural_routes: return self.send_json({'error':'Not found'},404)
             if self.headers.get_content_type() != 'application/json': return self.send_json({'error':'JSON body required'},415)
             try: size = int(self.headers.get('Content-Length','0'))
             except ValueError: return self.send_json({'error':'Invalid content length'},400)
-            if size <= 0 or size > 16384: return self.send_json({'error':'Request body must be 1..16384 bytes'},413)
+            limit = 600000 if route in structural_routes else 16384
+            if size <= 0 or size > limit: return self.send_json({'error':f'Request body must be 1..{limit} bytes'},413)
             try:
                 payload = json.loads(body.decode('utf-8'))
-                result = service.recommend(payload) if route == '/api/recommend' else service.export(payload)
+                result = (structural_routes[route](payload) if route in structural_routes else
+                          service.recommend(payload) if route == '/api/recommend' else service.export(payload))
                 return self.send_json(result)
             except (ValueError, TypeError, UnicodeError) as exc:
                 return self.send_json({'error':str(exc)},400)

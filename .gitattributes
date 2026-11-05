@@ -38,3 +38,14 @@ docs/stages/stage_04/** -text
 results/stage_04/** -text
 logs/stage_04/** -text
 run_review_demo.cmd -text
+
+# Stage 5 exact source, result and documentation bytes
+src/structures/** -text
+tests/stage_05/** -text
+experiments/stage_05/** -text
+docs/stages/stage_05/** -text
+data/raw/stage_05_hosts/** -text
+results/stage_05/** -text
+logs/stage_05/** -text
+
+.gitattributes -text

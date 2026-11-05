@@ -1,0 +1,8 @@
+{
+  "initial_manifest": "artifact_manifest.json",
+  "superseded_by": "artifact_manifest_v2.json",
+  "issue": "Git line-ending conversion changed .gitattributes bytes in staging. Added explicit -text for this file; other artifact byte hashes matched.",
+  "mismatched_paths": [
+    ".gitattributes"
+  ]
+}

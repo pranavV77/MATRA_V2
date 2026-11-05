@@ -1,6 +1,6 @@
 # MATRA central progress
 
-Current status: Stage 4 fusion and a partial review UI are implemented and tested. 386 tests passed. Two development references only; no held-out accuracy claim. Owner requested a partial working demo and measurable improvement for November 7 noon / November 9. Full Stage 5–9 scientific modules remain pending. See docs/stages/stage_04/completion_report.md. Await owner review before next stage.
+Current status: Stage 5 host/site analysis and trial-structure generation implemented; owner review pending. Owner explicitly authorized the next stage with “Start Next stage, Maximum effort push harder.” Final suite: 478 passed (386 previous + 92 new). Corrected evaluation run_002: 9 host/supercell requests, 27/27 geometrically consistent trial configurations; no chemical-success accuracy claim. Structure lab added to the local UI. Inputs: two analytical prototypes and frozen AFLOW ZnS CIF. No energy, gap, chemical site preference or doping activation established. See docs/stages/stage_05/completion_report.md and technical_guide.md. Stage 6 has not started; await owner approval.
 
 Authoritative workspace: `C:\Final Project`. Owner approved Stage 1 in chat on 5 November 2026. Required workflow: stage explanation, approval, incremental implementation, executed edge cases, separate validation categories, reports/Telugu narration, owner review; no automatic next stage.
 
@@ -12,9 +12,9 @@ Earlier approved continuation: Stage 2 extended review v2.2.0, run_003. That pas
 
 1. Baseline audit and reproducibility — reviewed; owner authorized Stage 2.
 2. Dataset correctness, provenance and coverage handling — versioned engineering release implemented; benchmark primary-source curation and owner review pending.
-3. Independent similarity-engine hardening — implemented and locally verified; owner review pending.
-4. Similarity fusion and evaluation — implemented; 386 full-suite tests passed; owner review pending.
-5. Host structures, sites and candidate generation — pending.
+3. Independent similarity-engine hardening — implemented and locally verified; owner authorized later continuation.
+4. Similarity fusion and evaluation — implemented; owner authorized continuation to Stage 5; two-reference research limitation carried forward.
+5. Host structures, sites and candidate generation — bounded ordered-host engineering module implemented; 478 full-suite tests passed; scientific chemical validation remains pending; owner review pending.
 6. Energy/stability assessment — pending.
 7. Property preservation — pending.
 8. Doping assessment — pending.
@@ -60,3 +60,7 @@ Owner authorized continued Stage 2 curation. Reviewed Si-Ga2O3 STM and Nb-SrTiO3
 ## Stage 3 review
 
 Reports: docs/stages/stage_03/index.html and completion_report.md. Reproducibility data, original engine copies, score comparisons and fresh cache: results/stage_03/run_001. Logs/tests: logs/stage_03/run_001. Core equations, feature definitions, ranking schema, six-decimal display and default legacy data/cache are preserved. Input/data errors are now rejected earlier. A Windows hard-link failure in initial cache-publication tests was resolved with no-overwrite Windows rename; the POSIX path is not executed/validated here. Initial failures and their correction remain in logs. No native-feature migration, fusion, structural calculation, benchmark-label change, package installation or cloud execution. Telugu narration script supplied; no actual audio generation available. Await owner approval before Stage 4.
+
+## Stage 5 review
+
+Reports: docs/stages/stage_05. Authoritative results: results/stage_05/run_002; final tests: logs/stage_05/run_002/pytest_005.xml. Initial failed tests and duplicate-CIF-label warnings remain preserved under run_001. Source acquisition: data/raw/stage_05_hosts (AFLOW original hash frozen). Added explicit ordered-host site selection, periodic geometry, bounded supercells, concentration accounting and unique unrelaxed CIF/JSON exports. Candidate order remains Stage 4 elemental fusion; no learned site preference. Original source data, engine implementations, presentations and owner dirty results preserved. Actual Telugu audio unavailable; complete narration script supplied. Pending: independent host diversity/site chemistry and planned Stage 6 energy/stability methodology. No automatic next-stage work.

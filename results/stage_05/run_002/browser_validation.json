@@ -1,0 +1,10 @@
+{
+  "verified_flows": [
+    "40-atom SrTiO3 Ti site 8 analysis/generation/export: 12.5% Ti and 2.5% total",
+    "GaN whole-Ga-orbit replacement: indices 0 and 1; 100% Ga sites, 50% all atoms",
+    "AFLOW ZnS original source selected: group 186, four neighbors; single Zn site generates Cd/Hg/Mg with 50% Zn-site and 25% all-atom fractions",
+    "Updated source-class scope text and scroll-bounded site table loaded"
+  ],
+  "scope": "Selected desktop browser flows only; no claim of all-device or exhaustive UI testing",
+  "screenshot_saved": false
+}

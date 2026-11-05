@@ -1,0 +1,777 @@
+{
+  "exported_at_utc": "2026-11-05T13:31:51.967616+00:00",
+  "result": {
+    "scope": "unrelaxed_site_specific_substitution_configurations",
+    "target_element": "Ga",
+    "host": {
+      "formula": "GaN",
+      "site_count": 4,
+      "structure_sha256": "b8d5ed1869a41c88ac0156b7fd388894a0104f4379aff29eb4ffab583bb7f054",
+      "lattice_angstrom": [
+        [
+          3.2,
+          0.0,
+          1.9594348786357652e-16
+        ],
+        [
+          -1.5999999999999996,
+          2.771281292110204,
+          1.9594348786357652e-16
+        ],
+        [
+          0.0,
+          0.0,
+          5.225578117937447
+        ]
+      ],
+      "spacegroup": {
+        "symbol": "P6_3mc",
+        "number": 186
+      },
+      "parameters": {
+        "symprec_angstrom": 0.01,
+        "angle_tolerance_degrees": 5,
+        "shell_factor": 1.15,
+        "neighbor_radius_angstrom": 8.0
+      },
+      "orbits": [
+        {
+          "orbit_id": 0,
+          "representative_index": 0,
+          "indices": [
+            0,
+            1
+          ],
+          "multiplicity_in_input_cell": 2,
+          "element": "Ga"
+        },
+        {
+          "orbit_id": 1,
+          "representative_index": 2,
+          "indices": [
+            2,
+            3
+          ],
+          "multiplicity_in_input_cell": 2,
+          "element": "N"
+        }
+      ],
+      "sites": [
+        {
+          "index": 0,
+          "element": "Ga",
+          "species": "Ga3+",
+          "fractional_coordinates": [
+            0.3333333333333333,
+            0.6666666666666666,
+            1.232595164407831e-32
+          ],
+          "orbit_id": 0,
+          "formal_oxidation_state": 3.0,
+          "nearest_distance_angstrom": 1.9595917942265424,
+          "nearest_shell_count": 4,
+          "nearest_shell_species_counts": {
+            "N": 4
+          },
+          "neighbor_search_complete_for_shell": true,
+          "nearest_shell_definition": "all periodic images within shell_factor times nearest distance; geometric, not bond assignment"
+        },
+        {
+          "index": 1,
+          "element": "Ga",
+          "species": "Ga3+",
+          "fractional_coordinates": [
+            0.6666666666666666,
+            0.3333333333333333,
+            0.49999999999999994
+          ],
+          "orbit_id": 0,
+          "formal_oxidation_state": 3.0,
+          "nearest_distance_angstrom": 1.9595917942265422,
+          "nearest_shell_count": 4,
+          "nearest_shell_species_counts": {
+            "N": 4
+          },
+          "neighbor_search_complete_for_shell": true,
+          "nearest_shell_definition": "all periodic images within shell_factor times nearest distance; geometric, not bond assignment"
+        },
+        {
+          "index": 2,
+          "element": "N",
+          "species": "N3-",
+          "fractional_coordinates": [
+            0.3333333333333333,
+            0.6666666666666666,
+            0.375
+          ],
+          "orbit_id": 1,
+          "formal_oxidation_state": -3.0,
+          "nearest_distance_angstrom": 1.9595917942265422,
+          "nearest_shell_count": 4,
+          "nearest_shell_species_counts": {
+            "Ga": 4
+          },
+          "neighbor_search_complete_for_shell": true,
+          "nearest_shell_definition": "all periodic images within shell_factor times nearest distance; geometric, not bond assignment"
+        },
+        {
+          "index": 3,
+          "element": "N",
+          "species": "N3-",
+          "fractional_coordinates": [
+            0.6666666666666666,
+            0.3333333333333333,
+            0.8750000000000001
+          ],
+          "orbit_id": 1,
+          "formal_oxidation_state": -3.0,
+          "nearest_distance_angstrom": 1.9595917942265424,
+          "nearest_shell_count": 4,
+          "nearest_shell_species_counts": {
+            "Ga": 4
+          },
+          "neighbor_search_complete_for_shell": true,
+          "nearest_shell_definition": "all periodic images within shell_factor times nearest distance; geometric, not bond assignment"
+        }
+      ],
+      "geometry": {
+        "gross_geometry_passed": true,
+        "minimum_distinct_site_distance_angstrom": 1.9595917942265422,
+        "volume_angstrom3": 46.34095001184159,
+        "site_count": 4,
+        "limits": {
+          "minimum_pair_distance_angstrom": 0.5,
+          "maximum_sites": 256,
+          "lattice_singular_lengths_angstrom": [
+            1,
+            200
+          ]
+        },
+        "chemical_validity_established": false,
+        "relaxed": false
+      },
+      "site_chemical_suitability": "not_established"
+    },
+    "supercell": [
+      1,
+      1,
+      1
+    ],
+    "selected_site_index_in_expanded_cell": 0,
+    "selected_orbit": {
+      "orbit_id": 0,
+      "representative_index": 0,
+      "indices": [
+        0,
+        1
+      ],
+      "multiplicity_in_input_cell": 2,
+      "element": "Ga"
+    },
+    "mode": "single_site",
+    "requested_k": 3,
+    "returned_count": 3,
+    "parameters": {
+      "symprec_angstrom": 0.01,
+      "candidate_pool": "Stage 4 common 79-element pool",
+      "rank_policy": "unchanged elemental fusion order; no unvalidated site score added"
+    },
+    "configurations": [
+      {
+        "candidate_element": "In",
+        "elemental_rank": 1,
+        "fusion_score": 0.7728537374671893,
+        "score_contributions": {
+          "PN": 0.16666666666666666,
+          "Atom2Vec": 0.29334316588526255,
+          "Property": 0.31284390491526015
+        },
+        "replaced_indices": [
+          0
+        ],
+        "replacement_count": 1,
+        "target_sublattice_fraction": 0.5,
+        "all_atoms_replaced_fraction": 0.25,
+        "selected_orbit_fraction": 0.5,
+        "target_sublattice_denominator": 2,
+        "trial_formula": "In1 Ga1 N2",
+        "candidate_already_present_in_host": false,
+        "formal_charge_screen": {
+          "status": "unknown",
+          "target_states": [
+            3.0
+          ],
+          "candidate_state": null,
+          "formal_charge_delta_e": null,
+          "host_formal_charge_e": 0.0,
+          "trial_formal_charge_e": null,
+          "compensation_needed_under_assumptions": null,
+          "candidate_common_oxidation_states": [
+            3
+          ],
+          "note": "Formal bookkeeping only. States are supplied assumptions; no charge-state, defect, carrier or compatibility prediction."
+        },
+        "geometry": {
+          "gross_geometry_passed": true,
+          "minimum_distinct_site_distance_angstrom": 1.9595917942265422,
+          "volume_angstrom3": 46.34095001184159,
+          "site_count": 4,
+          "limits": {
+            "minimum_pair_distance_angstrom": 0.5,
+            "maximum_sites": 256,
+            "lattice_singular_lengths_angstrom": [
+              1,
+              200
+            ]
+          },
+          "chemical_validity_established": false,
+          "relaxed": false
+        },
+        "coordinates_and_lattice_preserved": true,
+        "structure_sha256": "006e3576fe5088b487e3c9a92650a5580b6fefba7c0cbfbdd0026e7518646115",
+        "structure": {
+          "@module": "pymatgen.core.structure",
+          "@class": "Structure",
+          "charge": -3.0,
+          "lattice": {
+            "matrix": [
+              [
+                3.2,
+                0.0,
+                1.9594348786357652e-16
+              ],
+              [
+                -1.5999999999999996,
+                2.771281292110204,
+                1.9594348786357652e-16
+              ],
+              [
+                0.0,
+                0.0,
+                5.225578117937447
+              ]
+            ],
+            "pbc": [
+              true,
+              true,
+              true
+            ],
+            "a": 3.2,
+            "b": 3.2,
+            "c": 5.225578117937447,
+            "alpha": 90.0,
+            "beta": 90.0,
+            "gamma": 119.99999999999999,
+            "volume": 46.34095001184159
+          },
+          "properties": {},
+          "sites": [
+            {
+              "species": [
+                {
+                  "element": "In",
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.3333333333333333,
+                0.6666666666666666,
+                1.232595164407831e-32
+              ],
+              "properties": {},
+              "label": "In",
+              "xyz": [
+                2.220446049250313e-16,
+                1.8475208614068026,
+                1.959434878635766e-16
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "Ga",
+                  "oxidation_state": 3.0,
+                  "spin": null,
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.6666666666666666,
+                0.3333333333333333,
+                0.49999999999999994
+              ],
+              "properties": {},
+              "label": "Ga3+",
+              "xyz": [
+                1.6,
+                0.9237604307034013,
+                2.612789058968723
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "N",
+                  "oxidation_state": -3.0,
+                  "spin": null,
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.3333333333333333,
+                0.6666666666666666,
+                0.375
+              ],
+              "properties": {},
+              "label": "N3-",
+              "xyz": [
+                2.220446049250313e-16,
+                1.8475208614068026,
+                1.9595917942265428
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "N",
+                  "oxidation_state": -3.0,
+                  "spin": null,
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.6666666666666666,
+                0.3333333333333333,
+                0.8750000000000001
+              ],
+              "properties": {},
+              "label": "N3-",
+              "xyz": [
+                1.6,
+                0.9237604307034013,
+                4.572380853195266
+              ]
+            }
+          ]
+        },
+        "validation": {
+          "site_identity": "checked_against_input_geometry",
+          "structural_relaxation": "not_run",
+          "energy_stability": "not_run",
+          "band_gap_preservation": "not_run",
+          "doping_activation": "not_run"
+        }
+      },
+      {
+        "candidate_element": "Al",
+        "elemental_rank": 2,
+        "fusion_score": 0.7234170390727337,
+        "score_contributions": {
+          "PN": 0.16666666666666666,
+          "Atom2Vec": 0.30770449348620466,
+          "Property": 0.24904587891986232
+        },
+        "replaced_indices": [
+          0
+        ],
+        "replacement_count": 1,
+        "target_sublattice_fraction": 0.5,
+        "all_atoms_replaced_fraction": 0.25,
+        "selected_orbit_fraction": 0.5,
+        "target_sublattice_denominator": 2,
+        "trial_formula": "Al1 Ga1 N2",
+        "candidate_already_present_in_host": false,
+        "formal_charge_screen": {
+          "status": "unknown",
+          "target_states": [
+            3.0
+          ],
+          "candidate_state": null,
+          "formal_charge_delta_e": null,
+          "host_formal_charge_e": 0.0,
+          "trial_formal_charge_e": null,
+          "compensation_needed_under_assumptions": null,
+          "candidate_common_oxidation_states": [
+            3
+          ],
+          "note": "Formal bookkeeping only. States are supplied assumptions; no charge-state, defect, carrier or compatibility prediction."
+        },
+        "geometry": {
+          "gross_geometry_passed": true,
+          "minimum_distinct_site_distance_angstrom": 1.9595917942265422,
+          "volume_angstrom3": 46.34095001184159,
+          "site_count": 4,
+          "limits": {
+            "minimum_pair_distance_angstrom": 0.5,
+            "maximum_sites": 256,
+            "lattice_singular_lengths_angstrom": [
+              1,
+              200
+            ]
+          },
+          "chemical_validity_established": false,
+          "relaxed": false
+        },
+        "coordinates_and_lattice_preserved": true,
+        "structure_sha256": "6352112da67f6f327af10aee2205f26f03bb35ed8c77540940160ed3650ed4a0",
+        "structure": {
+          "@module": "pymatgen.core.structure",
+          "@class": "Structure",
+          "charge": -3.0,
+          "lattice": {
+            "matrix": [
+              [
+                3.2,
+                0.0,
+                1.9594348786357652e-16
+              ],
+              [
+                -1.5999999999999996,
+                2.771281292110204,
+                1.9594348786357652e-16
+              ],
+              [
+                0.0,
+                0.0,
+                5.225578117937447
+              ]
+            ],
+            "pbc": [
+              true,
+              true,
+              true
+            ],
+            "a": 3.2,
+            "b": 3.2,
+            "c": 5.225578117937447,
+            "alpha": 90.0,
+            "beta": 90.0,
+            "gamma": 119.99999999999999,
+            "volume": 46.34095001184159
+          },
+          "properties": {},
+          "sites": [
+            {
+              "species": [
+                {
+                  "element": "Al",
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.3333333333333333,
+                0.6666666666666666,
+                1.232595164407831e-32
+              ],
+              "properties": {},
+              "label": "Al",
+              "xyz": [
+                2.220446049250313e-16,
+                1.8475208614068026,
+                1.959434878635766e-16
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "Ga",
+                  "oxidation_state": 3.0,
+                  "spin": null,
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.6666666666666666,
+                0.3333333333333333,
+                0.49999999999999994
+              ],
+              "properties": {},
+              "label": "Ga3+",
+              "xyz": [
+                1.6,
+                0.9237604307034013,
+                2.612789058968723
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "N",
+                  "oxidation_state": -3.0,
+                  "spin": null,
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.3333333333333333,
+                0.6666666666666666,
+                0.375
+              ],
+              "properties": {},
+              "label": "N3-",
+              "xyz": [
+                2.220446049250313e-16,
+                1.8475208614068026,
+                1.9595917942265428
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "N",
+                  "oxidation_state": -3.0,
+                  "spin": null,
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.6666666666666666,
+                0.3333333333333333,
+                0.8750000000000001
+              ],
+              "properties": {},
+              "label": "N3-",
+              "xyz": [
+                1.6,
+                0.9237604307034013,
+                4.572380853195266
+              ]
+            }
+          ]
+        },
+        "validation": {
+          "site_identity": "checked_against_input_geometry",
+          "structural_relaxation": "not_run",
+          "energy_stability": "not_run",
+          "band_gap_preservation": "not_run",
+          "doping_activation": "not_run"
+        }
+      },
+      {
+        "candidate_element": "Sn",
+        "elemental_rank": 3,
+        "fusion_score": 0.6155841110103721,
+        "score_contributions": {
+          "PN": 0.041666666666666664,
+          "Atom2Vec": 0.26743942144680166,
+          "Property": 0.3064780228969038
+        },
+        "replaced_indices": [
+          0
+        ],
+        "replacement_count": 1,
+        "target_sublattice_fraction": 0.5,
+        "all_atoms_replaced_fraction": 0.25,
+        "selected_orbit_fraction": 0.5,
+        "target_sublattice_denominator": 2,
+        "trial_formula": "Ga1 Sn1 N2",
+        "candidate_already_present_in_host": false,
+        "formal_charge_screen": {
+          "status": "unknown",
+          "target_states": [
+            3.0
+          ],
+          "candidate_state": null,
+          "formal_charge_delta_e": null,
+          "host_formal_charge_e": 0.0,
+          "trial_formal_charge_e": null,
+          "compensation_needed_under_assumptions": null,
+          "candidate_common_oxidation_states": [
+            -4,
+            2,
+            4
+          ],
+          "note": "Formal bookkeeping only. States are supplied assumptions; no charge-state, defect, carrier or compatibility prediction."
+        },
+        "geometry": {
+          "gross_geometry_passed": true,
+          "minimum_distinct_site_distance_angstrom": 1.9595917942265422,
+          "volume_angstrom3": 46.34095001184159,
+          "site_count": 4,
+          "limits": {
+            "minimum_pair_distance_angstrom": 0.5,
+            "maximum_sites": 256,
+            "lattice_singular_lengths_angstrom": [
+              1,
+              200
+            ]
+          },
+          "chemical_validity_established": false,
+          "relaxed": false
+        },
+        "coordinates_and_lattice_preserved": true,
+        "structure_sha256": "2617ea693eab1a6d70457e5a3f3c11597077634bfe75df160e37eebfd0214ea1",
+        "structure": {
+          "@module": "pymatgen.core.structure",
+          "@class": "Structure",
+          "charge": -3.0,
+          "lattice": {
+            "matrix": [
+              [
+                3.2,
+                0.0,
+                1.9594348786357652e-16
+              ],
+              [
+                -1.5999999999999996,
+                2.771281292110204,
+                1.9594348786357652e-16
+              ],
+              [
+                0.0,
+                0.0,
+                5.225578117937447
+              ]
+            ],
+            "pbc": [
+              true,
+              true,
+              true
+            ],
+            "a": 3.2,
+            "b": 3.2,
+            "c": 5.225578117937447,
+            "alpha": 90.0,
+            "beta": 90.0,
+            "gamma": 119.99999999999999,
+            "volume": 46.34095001184159
+          },
+          "properties": {},
+          "sites": [
+            {
+              "species": [
+                {
+                  "element": "Sn",
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.3333333333333333,
+                0.6666666666666666,
+                1.232595164407831e-32
+              ],
+              "properties": {},
+              "label": "Sn",
+              "xyz": [
+                2.220446049250313e-16,
+                1.8475208614068026,
+                1.959434878635766e-16
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "Ga",
+                  "oxidation_state": 3.0,
+                  "spin": null,
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.6666666666666666,
+                0.3333333333333333,
+                0.49999999999999994
+              ],
+              "properties": {},
+              "label": "Ga3+",
+              "xyz": [
+                1.6,
+                0.9237604307034013,
+                2.612789058968723
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "N",
+                  "oxidation_state": -3.0,
+                  "spin": null,
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.3333333333333333,
+                0.6666666666666666,
+                0.375
+              ],
+              "properties": {},
+              "label": "N3-",
+              "xyz": [
+                2.220446049250313e-16,
+                1.8475208614068026,
+                1.9595917942265428
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "N",
+                  "oxidation_state": -3.0,
+                  "spin": null,
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.6666666666666666,
+                0.3333333333333333,
+                0.8750000000000001
+              ],
+              "properties": {},
+              "label": "N3-",
+              "xyz": [
+                1.6,
+                0.9237604307034013,
+                4.572380853195266
+              ]
+            }
+          ]
+        },
+        "validation": {
+          "site_identity": "checked_against_input_geometry",
+          "structural_relaxation": "not_run",
+          "energy_stability": "not_run",
+          "band_gap_preservation": "not_run",
+          "doping_activation": "not_run"
+        }
+      }
+    ],
+    "limitations": [
+      "Site-specific configuration is not a validated chemical substitution.",
+      "One arrangement per candidate; other multi-site orderings are not enumerated.",
+      "Selected-site index applies after supercell expansion; inspect expanded site table first.",
+      "Fractions describe this periodic cell; they do not establish dilute-defect behavior.",
+      "Geometry unchanged by construction; passing collision checks is not stability evidence."
+    ],
+    "provenance": {
+      "host_id": "wurtzite",
+      "name": "Ideal wurtzite GaN prototype",
+      "formula": "GaN",
+      "evidence_class": "analytically_constructed_demonstration",
+      "source_url": "https://aflow.org/p/AB_hP4_186_b_b-001/",
+      "prototype_label": "AB_hP4_186_b_b-001",
+      "parameters": {
+        "a_angstrom": 3.2,
+        "c_over_a": 1.632993161855452,
+        "u": 0.375
+      },
+      "expected_spacegroup": 186,
+      "note": "Ideal wurtzite in a translated origin convention. a=3.2, ideal c/a and u are chosen parameters, not measured GaN coordinates.",
+      "input_geometry_sha256": "558385da2a46b54b92417a3b4237f66f82b1709f805171e164493aa2e932b5a8"
+    }
+  },
+  "cif_files": [
+    {
+      "path": "01_In.cif",
+      "sha256": "5504e135477da3e543684a4006233f9a8a03e3671c25523785ef2b4af7818f9a"
+    },
+    {
+      "path": "02_Al.cif",
+      "sha256": "4b10d7af6da7d55725b0496b73d3ebf012bbf629ecd25b39cba7296353697486"
+    },
+    {
+      "path": "03_Sn.cif",
+      "sha256": "711f95c6485c0196aa6a4e038c1c82b5e59f4faa1c36476087617e3d54a5512d"
+    }
+  ],
+  "cif_note": "Unrelaxed geometry. Use accompanying JSON for assumptions, provenance and per-site oxidation metadata."
+}

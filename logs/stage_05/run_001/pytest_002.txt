@@ -1,0 +1,22 @@
+........................................................................ [ 83%]
+..............                                                           [100%]
+============================== warnings summary ===============================
+tests/stage_05/test_structure_http.py::test_real_structure_workflow
+tests/stage_05/test_structure_http.py::test_real_custom_cif
+tests/stage_05/test_structure_http.py::test_bad_structure_requests[generate-payload4]
+tests/stage_05/test_structures.py::test_analytical_site_counts_and_symmetry[wurtzite-186-counts1]
+tests/stage_05/test_structures.py::test_periodic_images_count_even_single_atom
+tests/stage_05/test_structures.py::test_no_neighbors_does_not_invent_coordination
+tests/stage_05/test_structures.py::test_ideal_symmetry_tolerance_sensitivity[0.001]
+tests/stage_05/test_structures.py::test_ideal_symmetry_tolerance_sensitivity[0.05]
+tests/stage_05/test_structures.py::test_generate_known_site_and_fraction
+  C:\Final Project\.venv\lib\site-packages\spglib\spg.py:438: DeprecationWarning: Set OLD_ERROR_HANDLING to false and catch the errors directly.
+    _set_no_error(_throw)
+
+tests/stage_05/test_structure_http.py: 5 warnings
+tests/stage_05/test_structures.py: 31 warnings
+  C:\Final Project\.venv\lib\site-packages\spglib\spg.py:354: DeprecationWarning: Set OLD_ERROR_HANDLING to false and catch the errors directly.
+    _set_no_error()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+86 passed, 45 warnings in 4.04s

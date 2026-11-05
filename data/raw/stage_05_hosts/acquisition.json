@@ -1,0 +1,10 @@
+{
+  "source_url": "https://aflow.org/p/AB_hP4_186_b_b-001/aflow.cif",
+  "retrieved_utc": "2026-11-05T13:29:06.505673+00:00",
+  "http_status": 200,
+  "content_type": "chemical/x-cif",
+  "sha256": "9750d42d4842270bf7a18d08c66304b5d84676fd4e6d6fa9797fb93c9f5fba3b",
+  "evidence_class": "database_prototype_geometry",
+  "prototype_entry": "https://aflow.org/p/AB_hP4_186_b_b-001/",
+  "note": "Exact AFLOW CIF, not newly measured or independently refined. Source lists ZnS wurtzite prototype and literature. No inferred material properties."
+}

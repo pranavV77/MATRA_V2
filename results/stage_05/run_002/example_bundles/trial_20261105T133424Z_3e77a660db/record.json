@@ -1,0 +1,777 @@
+{
+  "exported_at_utc": "2026-11-05T13:34:25.031859+00:00",
+  "result": {
+    "scope": "unrelaxed_site_specific_substitution_configurations",
+    "target_element": "Zn",
+    "host": {
+      "formula": "ZnS",
+      "site_count": 4,
+      "structure_sha256": "96ac2cfb47e9ee382a460ac006d59a97e8c28bb1713002962ac7d848a3967ae3",
+      "lattice_angstrom": [
+        [
+          3.8227,
+          0.0,
+          2.340728659550294e-16
+        ],
+        [
+          -1.9113499999999997,
+          3.310555311046774,
+          2.340728659550294e-16
+        ],
+        [
+          0.0,
+          0.0,
+          6.2607
+        ]
+      ],
+      "spacegroup": {
+        "symbol": "P6_3mc",
+        "number": 186
+      },
+      "parameters": {
+        "symprec_angstrom": 0.01,
+        "angle_tolerance_degrees": 5,
+        "shell_factor": 1.15,
+        "neighbor_radius_angstrom": 8.0
+      },
+      "orbits": [
+        {
+          "orbit_id": 0,
+          "representative_index": 0,
+          "indices": [
+            0,
+            1
+          ],
+          "multiplicity_in_input_cell": 2,
+          "element": "Zn"
+        },
+        {
+          "orbit_id": 1,
+          "representative_index": 2,
+          "indices": [
+            2,
+            3
+          ],
+          "multiplicity_in_input_cell": 2,
+          "element": "S"
+        }
+      ],
+      "sites": [
+        {
+          "index": 0,
+          "element": "Zn",
+          "species": "Zn",
+          "input_label": "Zn2",
+          "fractional_coordinates": [
+            0.3333333332999999,
+            0.6666666667,
+            6.162975822039155e-33
+          ],
+          "orbit_id": 0,
+          "formal_oxidation_state": null,
+          "nearest_distance_angstrom": 2.3420965700829797,
+          "nearest_shell_count": 4,
+          "nearest_shell_species_counts": {
+            "S": 4
+          },
+          "neighbor_search_complete_for_shell": true,
+          "nearest_shell_definition": "all periodic images within shell_factor times nearest distance; geometric, not bond assignment"
+        },
+        {
+          "index": 1,
+          "element": "Zn",
+          "species": "Zn",
+          "input_label": "Zn2",
+          "fractional_coordinates": [
+            0.6666666667000001,
+            0.33333333330000003,
+            0.5000000000000001
+          ],
+          "orbit_id": 0,
+          "formal_oxidation_state": null,
+          "nearest_distance_angstrom": 2.34209657008298,
+          "nearest_shell_count": 4,
+          "nearest_shell_species_counts": {
+            "S": 4
+          },
+          "neighbor_search_complete_for_shell": true,
+          "nearest_shell_definition": "all periodic images within shell_factor times nearest distance; geometric, not bond assignment"
+        },
+        {
+          "index": 2,
+          "element": "S",
+          "species": "S",
+          "input_label": "S1",
+          "fractional_coordinates": [
+            0.3333333332999999,
+            0.6666666667,
+            0.3748
+          ],
+          "orbit_id": 1,
+          "formal_oxidation_state": null,
+          "nearest_distance_angstrom": 2.34209657008298,
+          "nearest_shell_count": 4,
+          "nearest_shell_species_counts": {
+            "Zn": 4
+          },
+          "neighbor_search_complete_for_shell": true,
+          "nearest_shell_definition": "all periodic images within shell_factor times nearest distance; geometric, not bond assignment"
+        },
+        {
+          "index": 3,
+          "element": "S",
+          "species": "S",
+          "input_label": "S1",
+          "fractional_coordinates": [
+            0.6666666667000001,
+            0.33333333330000003,
+            0.8748
+          ],
+          "orbit_id": 1,
+          "formal_oxidation_state": null,
+          "nearest_distance_angstrom": 2.3420965700829797,
+          "nearest_shell_count": 4,
+          "nearest_shell_species_counts": {
+            "Zn": 4
+          },
+          "neighbor_search_complete_for_shell": true,
+          "nearest_shell_definition": "all periodic images within shell_factor times nearest distance; geometric, not bond assignment"
+        }
+      ],
+      "geometry": {
+        "gross_geometry_passed": true,
+        "minimum_distinct_site_distance_angstrom": 2.3420965700829797,
+        "volume_angstrom3": 79.23078495184231,
+        "site_count": 4,
+        "limits": {
+          "minimum_pair_distance_angstrom": 0.5,
+          "maximum_sites": 256,
+          "lattice_singular_lengths_angstrom": [
+            1,
+            200
+          ]
+        },
+        "chemical_validity_established": false,
+        "relaxed": false
+      },
+      "site_chemical_suitability": "not_established"
+    },
+    "supercell": [
+      1,
+      1,
+      1
+    ],
+    "selected_site_index_in_expanded_cell": 0,
+    "selected_orbit": {
+      "orbit_id": 0,
+      "representative_index": 0,
+      "indices": [
+        0,
+        1
+      ],
+      "multiplicity_in_input_cell": 2,
+      "element": "Zn"
+    },
+    "mode": "single_site",
+    "requested_k": 3,
+    "returned_count": 3,
+    "parameters": {
+      "symprec_angstrom": 0.01,
+      "candidate_pool": "Stage 4 common 79-element pool",
+      "rank_policy": "unchanged elemental fusion order; no unvalidated site score added"
+    },
+    "configurations": [
+      {
+        "candidate_element": "Cd",
+        "elemental_rank": 1,
+        "fusion_score": 0.7652147273269211,
+        "score_contributions": {
+          "PN": 0.16666666666666666,
+          "Atom2Vec": 0.2700885161449629,
+          "Property": 0.3284595445152916
+        },
+        "replaced_indices": [
+          0
+        ],
+        "replacement_count": 1,
+        "target_sublattice_fraction": 0.5,
+        "all_atoms_replaced_fraction": 0.25,
+        "selected_orbit_fraction": 0.5,
+        "target_sublattice_denominator": 2,
+        "trial_formula": "Zn1 Cd1 S2",
+        "candidate_already_present_in_host": false,
+        "formal_charge_screen": {
+          "status": "unknown",
+          "target_states": [
+            null
+          ],
+          "candidate_state": null,
+          "formal_charge_delta_e": null,
+          "host_formal_charge_e": null,
+          "trial_formal_charge_e": null,
+          "compensation_needed_under_assumptions": null,
+          "candidate_common_oxidation_states": [
+            2
+          ],
+          "note": "Formal bookkeeping only. States are supplied assumptions; no charge-state, defect, carrier or compatibility prediction."
+        },
+        "geometry": {
+          "gross_geometry_passed": true,
+          "minimum_distinct_site_distance_angstrom": 2.3420965700829797,
+          "volume_angstrom3": 79.23078495184231,
+          "site_count": 4,
+          "limits": {
+            "minimum_pair_distance_angstrom": 0.5,
+            "maximum_sites": 256,
+            "lattice_singular_lengths_angstrom": [
+              1,
+              200
+            ]
+          },
+          "chemical_validity_established": false,
+          "relaxed": false
+        },
+        "coordinates_and_lattice_preserved": true,
+        "trial_labels": "unique element+ordered-index labels",
+        "structure_sha256": "2a4a82e1c4a7e9a84b04a4504c7dbb72897a84706d099ce3dce920fdbeca69b4",
+        "structure": {
+          "@module": "pymatgen.core.structure",
+          "@class": "Structure",
+          "charge": 0.0,
+          "lattice": {
+            "matrix": [
+              [
+                3.8227,
+                0.0,
+                2.340728659550294e-16
+              ],
+              [
+                -1.9113499999999997,
+                3.310555311046774,
+                2.340728659550294e-16
+              ],
+              [
+                0.0,
+                0.0,
+                6.2607
+              ]
+            ],
+            "pbc": [
+              true,
+              true,
+              true
+            ],
+            "a": 3.8227,
+            "b": 3.8227,
+            "c": 6.2607,
+            "alpha": 90.0,
+            "beta": 90.0,
+            "gamma": 119.99999999999999,
+            "volume": 79.23078495184231
+          },
+          "properties": {},
+          "sites": [
+            {
+              "species": [
+                {
+                  "element": "Cd",
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.3333333332999999,
+                0.6666666667,
+                6.162975822039155e-33
+              ],
+              "properties": {},
+              "label": "Cd0",
+              "xyz": [
+                -1.9113510774104725e-10,
+                2.2070368741415343,
+                2.340728659550294e-16
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "Zn",
+                  "occu": 1.0
+                }
+              ],
+              "abc": [
+                0.6666666667000001,
+                0.33333333330000003,
+                0.5000000000000001
+              ],
+              "properties": {},
+              "label": "Zn1",
+              "xyz": [
+                1.9113500001911357,
+                1.1035184369052395,
+                3.1303500000000013
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "S",
+                  "occu": 1.0
+                }
+              ],
+              "abc": [
+                0.3333333332999999,
+                0.6666666667,
+                0.3748
+              ],
+              "properties": {},
+              "label": "S2",
+              "xyz": [
+                -1.9113510774104725e-10,
+                2.2070368741415343,
+                2.3465103600000004
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "S",
+                  "occu": 1.0
+                }
+              ],
+              "abc": [
+                0.6666666667000001,
+                0.33333333330000003,
+                0.8748
+              ],
+              "properties": {},
+              "label": "S3",
+              "xyz": [
+                1.9113500001911357,
+                1.1035184369052395,
+                5.47686036
+              ]
+            }
+          ]
+        },
+        "validation": {
+          "site_identity": "checked_against_input_geometry",
+          "structural_relaxation": "not_run",
+          "energy_stability": "not_run",
+          "band_gap_preservation": "not_run",
+          "doping_activation": "not_run"
+        }
+      },
+      {
+        "candidate_element": "Hg",
+        "elemental_rank": 2,
+        "fusion_score": 0.6872725348975754,
+        "score_contributions": {
+          "PN": 0.1111111111111111,
+          "Atom2Vec": 0.2662270239349227,
+          "Property": 0.30993439985154164
+        },
+        "replaced_indices": [
+          0
+        ],
+        "replacement_count": 1,
+        "target_sublattice_fraction": 0.5,
+        "all_atoms_replaced_fraction": 0.25,
+        "selected_orbit_fraction": 0.5,
+        "target_sublattice_denominator": 2,
+        "trial_formula": "Zn1 Hg1 S2",
+        "candidate_already_present_in_host": false,
+        "formal_charge_screen": {
+          "status": "unknown",
+          "target_states": [
+            null
+          ],
+          "candidate_state": null,
+          "formal_charge_delta_e": null,
+          "host_formal_charge_e": null,
+          "trial_formal_charge_e": null,
+          "compensation_needed_under_assumptions": null,
+          "candidate_common_oxidation_states": [
+            1,
+            2
+          ],
+          "note": "Formal bookkeeping only. States are supplied assumptions; no charge-state, defect, carrier or compatibility prediction."
+        },
+        "geometry": {
+          "gross_geometry_passed": true,
+          "minimum_distinct_site_distance_angstrom": 2.3420965700829797,
+          "volume_angstrom3": 79.23078495184231,
+          "site_count": 4,
+          "limits": {
+            "minimum_pair_distance_angstrom": 0.5,
+            "maximum_sites": 256,
+            "lattice_singular_lengths_angstrom": [
+              1,
+              200
+            ]
+          },
+          "chemical_validity_established": false,
+          "relaxed": false
+        },
+        "coordinates_and_lattice_preserved": true,
+        "trial_labels": "unique element+ordered-index labels",
+        "structure_sha256": "decdea6f9e1fa9ea36b212dec647175448808168390dff6c4c0baf9b65e3f7bc",
+        "structure": {
+          "@module": "pymatgen.core.structure",
+          "@class": "Structure",
+          "charge": 0.0,
+          "lattice": {
+            "matrix": [
+              [
+                3.8227,
+                0.0,
+                2.340728659550294e-16
+              ],
+              [
+                -1.9113499999999997,
+                3.310555311046774,
+                2.340728659550294e-16
+              ],
+              [
+                0.0,
+                0.0,
+                6.2607
+              ]
+            ],
+            "pbc": [
+              true,
+              true,
+              true
+            ],
+            "a": 3.8227,
+            "b": 3.8227,
+            "c": 6.2607,
+            "alpha": 90.0,
+            "beta": 90.0,
+            "gamma": 119.99999999999999,
+            "volume": 79.23078495184231
+          },
+          "properties": {},
+          "sites": [
+            {
+              "species": [
+                {
+                  "element": "Hg",
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.3333333332999999,
+                0.6666666667,
+                6.162975822039155e-33
+              ],
+              "properties": {},
+              "label": "Hg0",
+              "xyz": [
+                -1.9113510774104725e-10,
+                2.2070368741415343,
+                2.340728659550294e-16
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "Zn",
+                  "occu": 1.0
+                }
+              ],
+              "abc": [
+                0.6666666667000001,
+                0.33333333330000003,
+                0.5000000000000001
+              ],
+              "properties": {},
+              "label": "Zn1",
+              "xyz": [
+                1.9113500001911357,
+                1.1035184369052395,
+                3.1303500000000013
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "S",
+                  "occu": 1.0
+                }
+              ],
+              "abc": [
+                0.3333333332999999,
+                0.6666666667,
+                0.3748
+              ],
+              "properties": {},
+              "label": "S2",
+              "xyz": [
+                -1.9113510774104725e-10,
+                2.2070368741415343,
+                2.3465103600000004
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "S",
+                  "occu": 1.0
+                }
+              ],
+              "abc": [
+                0.6666666667000001,
+                0.33333333330000003,
+                0.8748
+              ],
+              "properties": {},
+              "label": "S3",
+              "xyz": [
+                1.9113500001911357,
+                1.1035184369052395,
+                5.47686036
+              ]
+            }
+          ]
+        },
+        "validation": {
+          "site_identity": "checked_against_input_geometry",
+          "structural_relaxation": "not_run",
+          "energy_stability": "not_run",
+          "band_gap_preservation": "not_run",
+          "doping_activation": "not_run"
+        }
+      },
+      {
+        "candidate_element": "Mg",
+        "elemental_rank": 3,
+        "fusion_score": 0.5934876659973081,
+        "score_contributions": {
+          "PN": 0.16666666666666666,
+          "Atom2Vec": 0.2725112616823595,
+          "Property": 0.15430973764828193
+        },
+        "replaced_indices": [
+          0
+        ],
+        "replacement_count": 1,
+        "target_sublattice_fraction": 0.5,
+        "all_atoms_replaced_fraction": 0.25,
+        "selected_orbit_fraction": 0.5,
+        "target_sublattice_denominator": 2,
+        "trial_formula": "Mg1 Zn1 S2",
+        "candidate_already_present_in_host": false,
+        "formal_charge_screen": {
+          "status": "unknown",
+          "target_states": [
+            null
+          ],
+          "candidate_state": null,
+          "formal_charge_delta_e": null,
+          "host_formal_charge_e": null,
+          "trial_formal_charge_e": null,
+          "compensation_needed_under_assumptions": null,
+          "candidate_common_oxidation_states": [
+            2
+          ],
+          "note": "Formal bookkeeping only. States are supplied assumptions; no charge-state, defect, carrier or compatibility prediction."
+        },
+        "geometry": {
+          "gross_geometry_passed": true,
+          "minimum_distinct_site_distance_angstrom": 2.3420965700829797,
+          "volume_angstrom3": 79.23078495184231,
+          "site_count": 4,
+          "limits": {
+            "minimum_pair_distance_angstrom": 0.5,
+            "maximum_sites": 256,
+            "lattice_singular_lengths_angstrom": [
+              1,
+              200
+            ]
+          },
+          "chemical_validity_established": false,
+          "relaxed": false
+        },
+        "coordinates_and_lattice_preserved": true,
+        "trial_labels": "unique element+ordered-index labels",
+        "structure_sha256": "4341caa00ad675a2bc3f825e8cc1c8b12392d1c36f3e528b66929e28f04ba74f",
+        "structure": {
+          "@module": "pymatgen.core.structure",
+          "@class": "Structure",
+          "charge": 0.0,
+          "lattice": {
+            "matrix": [
+              [
+                3.8227,
+                0.0,
+                2.340728659550294e-16
+              ],
+              [
+                -1.9113499999999997,
+                3.310555311046774,
+                2.340728659550294e-16
+              ],
+              [
+                0.0,
+                0.0,
+                6.2607
+              ]
+            ],
+            "pbc": [
+              true,
+              true,
+              true
+            ],
+            "a": 3.8227,
+            "b": 3.8227,
+            "c": 6.2607,
+            "alpha": 90.0,
+            "beta": 90.0,
+            "gamma": 119.99999999999999,
+            "volume": 79.23078495184231
+          },
+          "properties": {},
+          "sites": [
+            {
+              "species": [
+                {
+                  "element": "Mg",
+                  "occu": 1
+                }
+              ],
+              "abc": [
+                0.3333333332999999,
+                0.6666666667,
+                6.162975822039155e-33
+              ],
+              "properties": {},
+              "label": "Mg0",
+              "xyz": [
+                -1.9113510774104725e-10,
+                2.2070368741415343,
+                2.340728659550294e-16
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "Zn",
+                  "occu": 1.0
+                }
+              ],
+              "abc": [
+                0.6666666667000001,
+                0.33333333330000003,
+                0.5000000000000001
+              ],
+              "properties": {},
+              "label": "Zn1",
+              "xyz": [
+                1.9113500001911357,
+                1.1035184369052395,
+                3.1303500000000013
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "S",
+                  "occu": 1.0
+                }
+              ],
+              "abc": [
+                0.3333333332999999,
+                0.6666666667,
+                0.3748
+              ],
+              "properties": {},
+              "label": "S2",
+              "xyz": [
+                -1.9113510774104725e-10,
+                2.2070368741415343,
+                2.3465103600000004
+              ]
+            },
+            {
+              "species": [
+                {
+                  "element": "S",
+                  "occu": 1.0
+                }
+              ],
+              "abc": [
+                0.6666666667000001,
+                0.33333333330000003,
+                0.8748
+              ],
+              "properties": {},
+              "label": "S3",
+              "xyz": [
+                1.9113500001911357,
+                1.1035184369052395,
+                5.47686036
+              ]
+            }
+          ]
+        },
+        "validation": {
+          "site_identity": "checked_against_input_geometry",
+          "structural_relaxation": "not_run",
+          "energy_stability": "not_run",
+          "band_gap_preservation": "not_run",
+          "doping_activation": "not_run"
+        }
+      }
+    ],
+    "limitations": [
+      "Site-specific configuration is not a validated chemical substitution.",
+      "One arrangement per candidate; other multi-site orderings are not enumerated.",
+      "Selected-site index applies after supercell expansion; inspect expanded site table first.",
+      "Fractions describe this periodic cell; they do not establish dilute-defect behavior.",
+      "Geometry unchanged by construction; passing collision checks is not stability evidence."
+    ],
+    "provenance": {
+      "input_sha256": "9750d42d4842270bf7a18d08c66304b5d84676fd4e6d6fa9797fb93c9f5fba3b",
+      "input_format": "CIF",
+      "parser_warnings": [],
+      "ordering_policy": "ordered only; no occupancy renormalization requested",
+      "primitive_reduction": false,
+      "coordinate_rationalization": false,
+      "path": "data/raw/stage_05_hosts/aflow_wurtzite_ZnS.cif",
+      "file_sha256": "9750d42d4842270bf7a18d08c66304b5d84676fd4e6d6fa9797fb93c9f5fba3b",
+      "id": "aflow_zns",
+      "name": "AFLOW wurtzite ZnS CIF",
+      "formula": "ZnS",
+      "evidence_class": "database_prototype_geometry",
+      "expected_spacegroup": 186,
+      "source_url": "https://aflow.org/p/AB_hP4_186_b_b-001/",
+      "note": "Original AFLOW CIF; database prototype geometry, not independently refined or a substitution benchmark.",
+      "acquisition": {
+        "source_url": "https://aflow.org/p/AB_hP4_186_b_b-001/aflow.cif",
+        "retrieved_utc": "2026-11-05T13:29:06.505673+00:00",
+        "http_status": 200,
+        "content_type": "chemical/x-cif",
+        "sha256": "9750d42d4842270bf7a18d08c66304b5d84676fd4e6d6fa9797fb93c9f5fba3b",
+        "evidence_class": "database_prototype_geometry",
+        "prototype_entry": "https://aflow.org/p/AB_hP4_186_b_b-001/",
+        "note": "Exact AFLOW CIF, not newly measured or independently refined. Source lists ZnS wurtzite prototype and literature. No inferred material properties."
+      },
+      "input_geometry_sha256": "9e98a3736cde85a14bee7e904263ed1b19df889b1e9bd3e394c878f9ea1e0012"
+    }
+  },
+  "cif_files": [
+    {
+      "path": "01_Cd.cif",
+      "sha256": "05a20eea020bca71be5186fe3dee556ccaa540b3daa33ac9814ab1cad64d0d94"
+    },
+    {
+      "path": "02_Hg.cif",
+      "sha256": "7513bc7f5274df3b42dec67e045b551f5f62f6e90a0d2253dba2da8cb3081773"
+    },
+    {
+      "path": "03_Mg.cif",
+      "sha256": "14b213d2bb1a2154eaa2d815e7907ddd20604e780ba4c096fae1efcd037d4714"
+    }
+  ],
+  "cif_note": "Unrelaxed geometry. Use accompanying JSON for assumptions, provenance and per-site oxidation metadata."
+}

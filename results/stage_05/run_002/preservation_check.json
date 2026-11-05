@@ -1,0 +1,11 @@
+{
+  "protected_files_checked": 296,
+  "expected_modified_files": [
+    ".gitattributes",
+    "docs/progress.md",
+    "src/review_demo/server.py",
+    "src/review_demo/static/index.html"
+  ],
+  "unexpected_changes": [],
+  "note": "Owner dirty benchmark result and presentation files preserved at their baseline hashes."
+}

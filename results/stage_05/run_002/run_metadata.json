@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-11-05T13:37:58.709651+00:00",
+  "authoritative_run": "run_002",
+  "supersedes": "run_001 geometry evaluation: duplicate CIF-label warnings corrected; original outputs preserved",
+  "full_suite_passed": 478,
+  "stage_05_tests": 92,
+  "execution_log": "logs/stage_05/run_002/pytest_005.txt",
+  "browser_flows_verified": [
+    "SrTiO3 2x2x2 analysis: 40 atoms, 3 orbits",
+    "Ti site 8: Zr,V,Hf generated with 12.5% target and 2.5% all-atom fractions",
+    "CIF/JSON export via UI"
+  ],
+  "browser_screenshot_saved": false,
+  "screenshot_limitation": "Browser filesystem write returned EPERM; no saved browser screenshot claimed"
+}

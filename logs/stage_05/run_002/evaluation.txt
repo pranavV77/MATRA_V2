@@ -1,0 +1,22 @@
+{
+  "requests": 9,
+  "trials": 27,
+  "passed": 27,
+  "warm_performance": {
+    "request": {
+      "host_id": "perovskite",
+      "supercell": [
+        2,
+        2,
+        2
+      ],
+      "target": "Ti",
+      "site_index": 8,
+      "k": 3
+    },
+    "warmups": 2,
+    "calls": 10,
+    "median_ms": 55.85175001760945,
+    "p95_ms": 86.48733997833914
+  }
+}
