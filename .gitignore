@@ -53,3 +53,6 @@ work/
 **/full_suite_temp/
 results/review_demo/exports/
 results/structure_lab/exports/
+
+# Local complete-history backup, not repository content
+*.bundle
