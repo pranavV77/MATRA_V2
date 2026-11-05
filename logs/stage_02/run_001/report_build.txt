@@ -1,0 +1,42 @@
+{
+  "checks": {
+    "native": {
+      "rows": 94,
+      "features": 14,
+      "provenance_cells": 1316,
+      "missing_cells": 9
+    },
+    "registry": {
+      "recognized": 118,
+      "feature_table_elements": 94
+    },
+    "benchmark": {
+      "cases": 16,
+      "claims": 23,
+      "eligible_claims": 0
+    }
+  },
+  "tests": {
+    "total": 73,
+    "stage_02": 47,
+    "legacy": 26,
+    "failed": 0
+  },
+  "native_shape": [
+    94,
+    24
+  ],
+  "native_complete_elements": 86,
+  "missing_cells": 9,
+  "case_review_status_counts": {
+    "partial_support": 4,
+    "review_source": 1,
+    "unresolved_identifier": 5,
+    "citation_mismatch": 6
+  },
+  "radius_training_r2": 0.7728483651524058,
+  "radius_loo_mae_pm": 13.286621321787397,
+  "production_engines_modified": false,
+  "scientific_benchmark_ready": false,
+  "audio_generated": false
+}

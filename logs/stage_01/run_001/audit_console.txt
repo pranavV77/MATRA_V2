@@ -1,0 +1,126 @@
+Running the existing test suite...
+Checking dataset integrity and source conventions...
+Reproducing benchmark in a protected local workspace...
+Executing coverage and edge-case probes...
+C:\Final Project\.venv\lib\site-packages\numpy\_core\fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Final Project\.venv\lib\site-packages\numpy\_core\_methods.py:137: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+C:\Final Project\.venv\lib\site-packages\numpy\_core\_methods.py:223: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+C:\Final Project\.venv\lib\site-packages\numpy\_core\_methods.py:181: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+C:\Final Project\.venv\lib\site-packages\numpy\_core\_methods.py:212: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+C:\Final Project\.venv\lib\site-packages\numpy\_core\_methods.py:191: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+C:\Final Project\src\property_similarity\property_engine.py:79: RuntimeWarning: invalid value encountered in subtract
+  standardized = (raw_features - self.means) / self.stds
+Attempting fresh master-table rebuild in isolation...
+Retraining Atom2Vec without the original cache...
+{
+  "legacy_tests": {
+    "command": [
+      "C:\\Final Project\\.venv\\Scripts\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "pytest",
+      "tests",
+      "-v",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "C:\\Final Project\\results\\stage_01\\run_001\\temp\\pytest",
+      "--junitxml",
+      "C:\\Final Project\\results\\stage_01\\run_001\\existing_tests.xml"
+    ],
+    "cwd": "C:\\Final Project",
+    "exit_code": 0,
+    "seconds": 2.7525880000321195,
+    "log": "results\\stage_01\\run_001\\existing_tests.txt"
+  },
+  "benchmark": {
+    "command": [
+      "C:\\Final Project\\.venv\\Scripts\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "src.benchmark.evaluate_benchmark"
+    ],
+    "cwd": "C:\\Final Project\\results\\stage_01\\run_001\\legacy_workspace",
+    "exit_code": 0,
+    "seconds": 2.0155449000303634,
+    "log": "results\\stage_01\\run_001\\benchmark_execution.txt"
+  },
+  "benchmark_equal": {
+    "summary_metrics": true,
+    "pairwise_jaccard_overlap": true,
+    "ga2o3_headline_demonstration": true,
+    "detailed_case_evaluations": true
+  },
+  "edge_probe_counts": {
+    "passed": 61,
+    "failed": 12
+  },
+  "edge_failures": [
+    "PN:invalid_k:-1",
+    "PN:invalid_k:True",
+    "Atom2Vec:invalid_k:-1",
+    "Atom2Vec:invalid_k:True",
+    "Property:invalid_k:-1",
+    "Property:invalid_k:True",
+    "Property:duplicate",
+    "PN:duplicate",
+    "Property:infinite_feature",
+    "Property:negative_density",
+    "Atom2Vec:nan_cache",
+    "Atom2Vec:cache_dimension"
+  ],
+  "coverage_counts": {
+    "PN": 94,
+    "Atom2Vec": 79,
+    "Property": 88
+  },
+  "master_rebuild": {
+    "command": [
+      "C:\\Final Project\\.venv\\Scripts\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-c",
+      "from src.features.build_elements_master import build_elements_master; build_elements_master('rebuild/elements_master.parquet','rebuild/feature_metadata.json')"
+    ],
+    "cwd": "C:\\Final Project\\results\\stage_01\\run_001\\legacy_workspace",
+    "exit_code": 0,
+    "seconds": 39.96670280001126,
+    "log": "results\\stage_01\\run_001\\master_rebuild.txt",
+    "values_equal_to_original": true
+  },
+  "atom2vec_retraining": {
+    "command": [
+      "C:\\Final Project\\.venv\\Scripts\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-c",
+      "from src.atom2vec.atom2vec_engine import Atom2VecEngine; import json; e=Atom2VecEngine(cache_embedding_path='fresh/embeddings.npz'); print(json.dumps({'shape':list(e.F_norm.shape),'ga':e.get_top_k('Ga')}))"
+    ],
+    "cwd": "C:\\Final Project\\results\\stage_01\\run_001\\legacy_workspace",
+    "exit_code": 0,
+    "seconds": 8.137204400030896,
+    "log": "results\\stage_01\\run_001\\atom2vec_retraining.txt",
+    "same_symbols": true,
+    "shape": [
+      79,
+      20
+    ],
+    "maximum_pairwise_similarity_difference": 0.0,
+    "top10_equal_for_all_supported_targets": true
+  },
+  "original_files_unchanged": true,
+  "original_files_checked": 47,
+  "status": "audit_executed_with_findings; not a clean scientific-validation pass"
+}

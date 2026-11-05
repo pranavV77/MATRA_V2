@@ -1,0 +1,18 @@
+
+STDERR:
+C:\Final Project\results\stage_01\run_001\legacy_workspace\src\features\build_elements_master.py:125: UserWarning: No Pauling electronegativity for He. Setting to NaN. This has no physical meaning, and is mainly done to avoid errors caused by the code expecting a float.
+  pmg_x = getattr(mg_el, "X", None)
+C:\Final Project\results\stage_01\run_001\legacy_workspace\src\features\build_elements_master.py:125: UserWarning: No Pauling electronegativity for Ne. Setting to NaN. This has no physical meaning, and is mainly done to avoid errors caused by the code expecting a float.
+  pmg_x = getattr(mg_el, "X", None)
+C:\Final Project\.venv\lib\site-packages\mendeleev\models.py:477: UserWarning: P has multiple allotropes, check <{self.symbol}.phase_transitions> for details.
+  warnings.warn(
+C:\Final Project\.venv\lib\site-packages\mendeleev\models.py:477: UserWarning: S has multiple allotropes, check <{self.symbol}.phase_transitions> for details.
+  warnings.warn(
+C:\Final Project\results\stage_01\run_001\legacy_workspace\src\features\build_elements_master.py:125: UserWarning: No Pauling electronegativity for Ar. Setting to NaN. This has no physical meaning, and is mainly done to avoid errors caused by the code expecting a float.
+  pmg_x = getattr(mg_el, "X", None)
+C:\Final Project\.venv\lib\site-packages\mendeleev\models.py:477: UserWarning: Se has multiple allotropes, check <{self.symbol}.phase_transitions> for details.
+  warnings.warn(
+C:\Final Project\.venv\lib\site-packages\mendeleev\models.py:477: UserWarning: Sn has multiple allotropes, check <{self.symbol}.phase_transitions> for details.
+  warnings.warn(
+C:\Final Project\results\stage_01\run_001\legacy_workspace\src\features\build_elements_master.py:150: UserWarning: No data available for thermal_conductivity for Fr
+  if therm_c is None and mg_el.thermal_conductivity is not None:

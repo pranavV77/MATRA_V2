@@ -1,0 +1,21 @@
+{
+  "command": [
+    "C:\\Final Project\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-c",
+    "from src.atom2vec.atom2vec_engine import Atom2VecEngine; import json; e=Atom2VecEngine(cache_embedding_path='fresh/embeddings.npz'); print(json.dumps({'shape':list(e.F_norm.shape),'ga':e.get_top_k('Ga')}))"
+  ],
+  "cwd": "C:\\Final Project\\results\\stage_01\\run_001\\legacy_workspace",
+  "exit_code": 0,
+  "seconds": 8.137204400030896,
+  "log": "results\\stage_01\\run_001\\atom2vec_retraining.txt",
+  "same_symbols": true,
+  "shape": [
+    79,
+    20
+  ],
+  "maximum_pairwise_similarity_difference": 0.0,
+  "top10_equal_for_all_supported_targets": true
+}

@@ -1,0 +1,21 @@
+{
+  "native": {
+    "rows": 94,
+    "features": 14,
+    "provenance_cells": 1316,
+    "missing_cells": 9
+  },
+  "benchmark": {
+    "cases": 16,
+    "claims": 23,
+    "eligible_claims": 0
+  },
+  "radius_fit": {
+    "training_count": 89,
+    "slope": 0.8001516119049156,
+    "intercept_pm": 28.58606640682528,
+    "training_r2": 0.7728483651524058,
+    "leave_one_element_out_mae_pm": 13.286621321787397
+  },
+  "production_engines_changed": false
+}

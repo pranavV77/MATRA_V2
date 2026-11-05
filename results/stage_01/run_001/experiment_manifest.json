@@ -1,0 +1,70 @@
+{
+  "experiment_ids": [
+    "E00",
+    "E01",
+    "Stage1_robustness_diagnostics"
+  ],
+  "status": "executed_with_findings",
+  "date_client": "2026-11-05",
+  "code_commit": "d84caf89f4d55e8611424675ac648fb296954494",
+  "original_data_hashes": [
+    {
+      "path": "data/processed/elements_master.parquet",
+      "expected": "0d9c1790b211e5e47651ec6930bcb259db36b82acc8efabb720fa26fd6fc651a",
+      "actual": "0d9c1790b211e5e47651ec6930bcb259db36b82acc8efabb720fa26fd6fc651a",
+      "matches": true
+    },
+    {
+      "path": "data/processed/feature_metadata.json",
+      "expected": "479e0d5927d1435babd1a7620d13d06296d521926add2239bb3f592144537f07",
+      "actual": "479e0d5927d1435babd1a7620d13d06296d521926add2239bb3f592144537f07",
+      "matches": true
+    },
+    {
+      "path": "data/benchmark/benchmark_cases.json",
+      "expected": "446072ab803fb9a68203bbffbce0aef7349d30b76dac5e9c9ff59f1471063081",
+      "actual": "446072ab803fb9a68203bbffbce0aef7349d30b76dac5e9c9ff59f1471063081",
+      "matches": true
+    },
+    {
+      "path": "data/processed/atom2vec_embeddings_d20.npz",
+      "expected": "f198c4e0f6d74824637016f1804b601d444dfaa471d31977ab190897aa702935",
+      "actual": "f198c4e0f6d74824637016f1804b601d444dfaa471d31977ab190897aa702935",
+      "matches": true
+    },
+    {
+      "path": "results/runs/task2_benchmark_evaluation.json",
+      "expected": "801a74d0db441c1f632332a55a979eb53e8b2e8c76af867686a0ff7f936b6a47",
+      "actual": "be0441b3c4c58d23449dd398b107c86e7302631529c2cde378ad538ab54e1bcf",
+      "matches": false
+    },
+    {
+      "path": "results/tables/benchmark_metrics_summary.md",
+      "expected": "ac6dd48efd6089bd01c1a0af26833ad2ad434047b0ddf0710bdb95dbbb79dcba",
+      "actual": "ac6dd48efd6089bd01c1a0af26833ad2ad434047b0ddf0710bdb95dbbb79dcba",
+      "matches": true
+    }
+  ],
+  "methods": [
+    "PN",
+    "Atom2Vec",
+    "Property"
+  ],
+  "inputs": "frozen existing local artifacts",
+  "benchmark": "legacy development; not held-out scientific certification",
+  "parameters": {
+    "embedding_dim": 20,
+    "seed": 42,
+    "k": 10,
+    "coverage_elements": 118,
+    "timing_warmups": 5,
+    "timing_repeats": 30
+  },
+  "primary_results": "benchmark_comparison.json",
+  "failures": "edge_case_results.json and supplemental_checks.json",
+  "limitations": [
+    "partial reference audit",
+    "no generalization evaluation",
+    "no site, energy, gap or dopant prediction"
+  ]
+}

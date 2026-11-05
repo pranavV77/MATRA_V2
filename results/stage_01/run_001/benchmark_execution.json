@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Final Project\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-m",
+    "src.benchmark.evaluate_benchmark"
+  ],
+  "cwd": "C:\\Final Project\\results\\stage_01\\run_001\\legacy_workspace",
+  "exit_code": 0,
+  "seconds": 2.0155449000303634,
+  "log": "results\\stage_01\\run_001\\benchmark_execution.txt"
+}

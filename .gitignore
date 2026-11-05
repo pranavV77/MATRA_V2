@@ -44,3 +44,12 @@ models/stage_06/*.model
 models/stage_06/*.part
 work/stage_06/
 results/energy_assessments/
+
+# Local scratch, generated exports and disposable verification caches
+work/
+**/matplotlib_cache/
+**/pytest_temp/
+**/final_suite_temp/
+**/full_suite_temp/
+results/review_demo/exports/
+results/structure_lab/exports/

@@ -1,0 +1,21 @@
+## main...origin/main
+ M results/runs/task2_benchmark_evaluation.json
+?? MATRA_S7_Mid_Review_Presentation.pptx
+?? "Mid review PPT Template.pptx"
+?? build_presentation.py
+?? check_slide1.py
+?? data/benchmark/v2_0_0/
+?? data/processed/v2_0_0/
+?? data/raw/stage_02_sources/
+?? docs/evaluation/
+?? docs/progress.md
+?? docs/stages/
+?? experiments/
+?? inspect_master.py
+?? inspect_template.py
+?? logs/
+?? results/stage_01/
+?? results/stage_02/
+?? src/data_audit/
+?? tests/stage_02/
+?? verify_generated_presentation.py

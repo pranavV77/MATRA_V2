@@ -1,0 +1,828 @@
+[
+  {
+    "atomic_number": 1,
+    "symbol": "H",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 2,
+    "symbol": "He",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 3,
+    "symbol": "Li",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 4,
+    "symbol": "Be",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 5,
+    "symbol": "B",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 6,
+    "symbol": "C",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 7,
+    "symbol": "N",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 8,
+    "symbol": "O",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 9,
+    "symbol": "F",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 10,
+    "symbol": "Ne",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 11,
+    "symbol": "Na",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 12,
+    "symbol": "Mg",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 13,
+    "symbol": "Al",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 14,
+    "symbol": "Si",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 15,
+    "symbol": "P",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 16,
+    "symbol": "S",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 17,
+    "symbol": "Cl",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 18,
+    "symbol": "Ar",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 19,
+    "symbol": "K",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 20,
+    "symbol": "Ca",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 21,
+    "symbol": "Sc",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 22,
+    "symbol": "Ti",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 23,
+    "symbol": "V",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 24,
+    "symbol": "Cr",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 25,
+    "symbol": "Mn",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 26,
+    "symbol": "Fe",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 27,
+    "symbol": "Co",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 28,
+    "symbol": "Ni",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 29,
+    "symbol": "Cu",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 30,
+    "symbol": "Zn",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 31,
+    "symbol": "Ga",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 32,
+    "symbol": "Ge",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 33,
+    "symbol": "As",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 34,
+    "symbol": "Se",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 35,
+    "symbol": "Br",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 36,
+    "symbol": "Kr",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 37,
+    "symbol": "Rb",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 38,
+    "symbol": "Sr",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 39,
+    "symbol": "Y",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 40,
+    "symbol": "Zr",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 41,
+    "symbol": "Nb",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 42,
+    "symbol": "Mo",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 43,
+    "symbol": "Tc",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 44,
+    "symbol": "Ru",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 45,
+    "symbol": "Rh",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 46,
+    "symbol": "Pd",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 47,
+    "symbol": "Ag",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 48,
+    "symbol": "Cd",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 49,
+    "symbol": "In",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 50,
+    "symbol": "Sn",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 51,
+    "symbol": "Sb",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 52,
+    "symbol": "Te",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 53,
+    "symbol": "I",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 54,
+    "symbol": "Xe",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 55,
+    "symbol": "Cs",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 56,
+    "symbol": "Ba",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 57,
+    "symbol": "La",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 58,
+    "symbol": "Ce",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 59,
+    "symbol": "Pr",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 60,
+    "symbol": "Nd",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 61,
+    "symbol": "Pm",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 62,
+    "symbol": "Sm",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 63,
+    "symbol": "Eu",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 64,
+    "symbol": "Gd",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 65,
+    "symbol": "Tb",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 66,
+    "symbol": "Dy",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 67,
+    "symbol": "Ho",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 68,
+    "symbol": "Er",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 69,
+    "symbol": "Tm",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 70,
+    "symbol": "Yb",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 71,
+    "symbol": "Lu",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 72,
+    "symbol": "Hf",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 73,
+    "symbol": "Ta",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 74,
+    "symbol": "W",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 75,
+    "symbol": "Re",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 76,
+    "symbol": "Os",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 77,
+    "symbol": "Ir",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 78,
+    "symbol": "Pt",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 79,
+    "symbol": "Au",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 80,
+    "symbol": "Hg",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 81,
+    "symbol": "Tl",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 82,
+    "symbol": "Pb",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 83,
+    "symbol": "Bi",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 84,
+    "symbol": "Po",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 85,
+    "symbol": "At",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 86,
+    "symbol": "Rn",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 87,
+    "symbol": "Fr",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 88,
+    "symbol": "Ra",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 89,
+    "symbol": "Ac",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 90,
+    "symbol": "Th",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 91,
+    "symbol": "Pa",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 92,
+    "symbol": "U",
+    "PN": "supported",
+    "Atom2Vec": "supported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 93,
+    "symbol": "Np",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 94,
+    "symbol": "Pu",
+    "PN": "supported",
+    "Atom2Vec": "unsupported",
+    "Property": "supported"
+  },
+  {
+    "atomic_number": 95,
+    "symbol": "Am",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 96,
+    "symbol": "Cm",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 97,
+    "symbol": "Bk",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 98,
+    "symbol": "Cf",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 99,
+    "symbol": "Es",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 100,
+    "symbol": "Fm",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 101,
+    "symbol": "Md",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 102,
+    "symbol": "No",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 103,
+    "symbol": "Lr",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 104,
+    "symbol": "Rf",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 105,
+    "symbol": "Db",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 106,
+    "symbol": "Sg",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 107,
+    "symbol": "Bh",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 108,
+    "symbol": "Hs",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 109,
+    "symbol": "Mt",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 110,
+    "symbol": "Ds",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 111,
+    "symbol": "Rg",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 112,
+    "symbol": "Cn",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 113,
+    "symbol": "Nh",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 114,
+    "symbol": "Fl",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 115,
+    "symbol": "Mc",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 116,
+    "symbol": "Lv",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 117,
+    "symbol": "Ts",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  },
+  {
+    "atomic_number": 118,
+    "symbol": "Og",
+    "PN": "unsupported",
+    "Atom2Vec": "unsupported",
+    "Property": "unsupported"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\Final Project\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-c",
+    "from src.features.build_elements_master import build_elements_master; build_elements_master('rebuild/elements_master.parquet','rebuild/feature_metadata.json')"
+  ],
+  "cwd": "C:\\Final Project\\results\\stage_01\\run_001\\legacy_workspace",
+  "exit_code": 0,
+  "seconds": 39.96670280001126,
+  "log": "results\\stage_01\\run_001\\master_rebuild.txt",
+  "values_equal_to_original": true
+}

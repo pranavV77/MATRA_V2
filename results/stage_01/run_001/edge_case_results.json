@@ -1,0 +1,4555 @@
+[
+  {
+    "name": "PN:invalid_target:0",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element '' not found in master database."
+    },
+    "seconds": 1.3499986380338669e-05
+  },
+  {
+    "name": "PN:invalid_target:1",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'Xx' not found in master database."
+    },
+    "seconds": 3.1999661587178707e-06
+  },
+  {
+    "name": "PN:invalid_target:2",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'ga' not found in master database."
+    },
+    "seconds": 2.00001522898674e-06
+  },
+  {
+    "name": "PN:invalid_target:3",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element ' Ga ' not found in master database."
+    },
+    "seconds": 1.7999554984271526e-06
+  },
+  {
+    "name": "PN:invalid_target:4",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'Ga2O3' not found in master database."
+    },
+    "seconds": 1.600012183189392e-06
+  },
+  {
+    "name": "PN:invalid_target:5",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'None' not found in master database."
+    },
+    "seconds": 5.099980626255274e-06
+  },
+  {
+    "name": "PN:invalid_target:6",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element '31' not found in master database."
+    },
+    "seconds": 2.00001522898674e-06
+  },
+  {
+    "name": "PN:invalid_target:7",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "TypeError",
+      "message": "unhashable type: 'list'"
+    },
+    "seconds": 5.799985956400633e-06
+  },
+  {
+    "name": "PN:invalid_target:8",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "TypeError",
+      "message": "unhashable type: 'dict'"
+    },
+    "seconds": 2.200016751885414e-06
+  },
+  {
+    "name": "PN:k=0",
+    "requirement": "Return min(k, available candidates), no target",
+    "status": "passed",
+    "observation": {
+      "returned": []
+    },
+    "seconds": 8.420000085607171e-05
+  },
+  {
+    "name": "PN:k=1",
+    "requirement": "Return min(k, available candidates), no target",
+    "status": "passed",
+    "observation": {
+      "returned": [
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "Al",
+          "similarity_score": 0.5
+        }
+      ]
+    },
+    "seconds": 7.100001676008105e-05
+  },
+  {
+    "name": "PN:k=1000",
+    "requirement": "Return min(k, available candidates), no target",
+    "status": "passed",
+    "observation": {
+      "returned": [
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "Al",
+          "similarity_score": 0.5
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 2,
+          "candidate_element": "In",
+          "similarity_score": 0.5
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 3,
+          "candidate_element": "B",
+          "similarity_score": 0.333333
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 4,
+          "candidate_element": "Tl",
+          "similarity_score": 0.333333
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 5,
+          "candidate_element": "C",
+          "similarity_score": 0.2
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 6,
+          "candidate_element": "Hg",
+          "similarity_score": 0.2
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 7,
+          "candidate_element": "Cd",
+          "similarity_score": 0.166667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 8,
+          "candidate_element": "Si",
+          "similarity_score": 0.166667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 9,
+          "candidate_element": "Ge",
+          "similarity_score": 0.142857
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 10,
+          "candidate_element": "Zn",
+          "similarity_score": 0.142857
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 11,
+          "candidate_element": "Mg",
+          "similarity_score": 0.125
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 12,
+          "candidate_element": "Sn",
+          "similarity_score": 0.125
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 13,
+          "candidate_element": "Be",
+          "similarity_score": 0.111111
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 14,
+          "candidate_element": "Pb",
+          "similarity_score": 0.111111
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 15,
+          "candidate_element": "N",
+          "similarity_score": 0.090909
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 16,
+          "candidate_element": "P",
+          "similarity_score": 0.083333
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 17,
+          "candidate_element": "As",
+          "similarity_score": 0.076923
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 18,
+          "candidate_element": "Au",
+          "similarity_score": 0.071429
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 19,
+          "candidate_element": "Sb",
+          "similarity_score": 0.071429
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 20,
+          "candidate_element": "Ag",
+          "similarity_score": 0.066667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 21,
+          "candidate_element": "Bi",
+          "similarity_score": 0.066667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 22,
+          "candidate_element": "Cu",
+          "similarity_score": 0.0625
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 23,
+          "candidate_element": "O",
+          "similarity_score": 0.058824
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 24,
+          "candidate_element": "Pt",
+          "similarity_score": 0.058824
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 25,
+          "candidate_element": "Pd",
+          "similarity_score": 0.055556
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 26,
+          "candidate_element": "S",
+          "similarity_score": 0.055556
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 27,
+          "candidate_element": "Ni",
+          "similarity_score": 0.052632
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 28,
+          "candidate_element": "Se",
+          "similarity_score": 0.052632
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 29,
+          "candidate_element": "Ir",
+          "similarity_score": 0.05
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 30,
+          "candidate_element": "Te",
+          "similarity_score": 0.05
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 31,
+          "candidate_element": "Po",
+          "similarity_score": 0.047619
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 32,
+          "candidate_element": "Rh",
+          "similarity_score": 0.047619
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 33,
+          "candidate_element": "Co",
+          "similarity_score": 0.045455
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 34,
+          "candidate_element": "H",
+          "similarity_score": 0.043478
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 35,
+          "candidate_element": "Os",
+          "similarity_score": 0.043478
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 36,
+          "candidate_element": "F",
+          "similarity_score": 0.041667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 37,
+          "candidate_element": "Ru",
+          "similarity_score": 0.041667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 38,
+          "candidate_element": "Cl",
+          "similarity_score": 0.04
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 39,
+          "candidate_element": "Fe",
+          "similarity_score": 0.04
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 40,
+          "candidate_element": "Br",
+          "similarity_score": 0.038462
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 41,
+          "candidate_element": "I",
+          "similarity_score": 0.037037
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 42,
+          "candidate_element": "Re",
+          "similarity_score": 0.037037
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 43,
+          "candidate_element": "At",
+          "similarity_score": 0.035714
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 44,
+          "candidate_element": "Tc",
+          "similarity_score": 0.035714
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 45,
+          "candidate_element": "Mn",
+          "similarity_score": 0.034483
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 46,
+          "candidate_element": "W",
+          "similarity_score": 0.032258
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 47,
+          "candidate_element": "Mo",
+          "similarity_score": 0.03125
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 48,
+          "candidate_element": "Cr",
+          "similarity_score": 0.030303
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 49,
+          "candidate_element": "Ta",
+          "similarity_score": 0.028571
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 50,
+          "candidate_element": "Nb",
+          "similarity_score": 0.027778
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 51,
+          "candidate_element": "V",
+          "similarity_score": 0.027027
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 52,
+          "candidate_element": "Hf",
+          "similarity_score": 0.025641
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 53,
+          "candidate_element": "Zr",
+          "similarity_score": 0.025
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 54,
+          "candidate_element": "Ti",
+          "similarity_score": 0.02439
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 55,
+          "candidate_element": "Pu",
+          "similarity_score": 0.019608
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 56,
+          "candidate_element": "Np",
+          "similarity_score": 0.019231
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 57,
+          "candidate_element": "U",
+          "similarity_score": 0.018868
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 58,
+          "candidate_element": "Pa",
+          "similarity_score": 0.018519
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 59,
+          "candidate_element": "Th",
+          "similarity_score": 0.018182
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 60,
+          "candidate_element": "Ac",
+          "similarity_score": 0.017857
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 61,
+          "candidate_element": "Lu",
+          "similarity_score": 0.017544
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 62,
+          "candidate_element": "Yb",
+          "similarity_score": 0.017241
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 63,
+          "candidate_element": "Tm",
+          "similarity_score": 0.016949
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 64,
+          "candidate_element": "Er",
+          "similarity_score": 0.016667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 65,
+          "candidate_element": "Ho",
+          "similarity_score": 0.016393
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 66,
+          "candidate_element": "Dy",
+          "similarity_score": 0.016129
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 67,
+          "candidate_element": "Tb",
+          "similarity_score": 0.015873
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 68,
+          "candidate_element": "Gd",
+          "similarity_score": 0.015625
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 69,
+          "candidate_element": "Eu",
+          "similarity_score": 0.015385
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 70,
+          "candidate_element": "Sm",
+          "similarity_score": 0.015152
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 71,
+          "candidate_element": "Pm",
+          "similarity_score": 0.014925
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 72,
+          "candidate_element": "Nd",
+          "similarity_score": 0.014706
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 73,
+          "candidate_element": "Pr",
+          "similarity_score": 0.014493
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 74,
+          "candidate_element": "Ce",
+          "similarity_score": 0.014286
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 75,
+          "candidate_element": "La",
+          "similarity_score": 0.014085
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 76,
+          "candidate_element": "Y",
+          "similarity_score": 0.013889
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 77,
+          "candidate_element": "Sc",
+          "similarity_score": 0.013699
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 78,
+          "candidate_element": "Ra",
+          "similarity_score": 0.013514
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 79,
+          "candidate_element": "Ba",
+          "similarity_score": 0.013333
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 80,
+          "candidate_element": "Sr",
+          "similarity_score": 0.013158
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 81,
+          "candidate_element": "Ca",
+          "similarity_score": 0.012987
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 82,
+          "candidate_element": "Fr",
+          "similarity_score": 0.012821
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 83,
+          "candidate_element": "Cs",
+          "similarity_score": 0.012658
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 84,
+          "candidate_element": "Rb",
+          "similarity_score": 0.0125
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 85,
+          "candidate_element": "K",
+          "similarity_score": 0.012346
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 86,
+          "candidate_element": "Na",
+          "similarity_score": 0.012195
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 87,
+          "candidate_element": "Li",
+          "similarity_score": 0.012048
+        }
+      ]
+    },
+    "seconds": 0.00013839994790032506
+  },
+  {
+    "name": "PN:invalid_k:-1",
+    "requirement": "Reject negative, noninteger or boolean k",
+    "status": "failed",
+    "observation": {
+      "returned": [
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "Al",
+          "similarity_score": 0.5
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 2,
+          "candidate_element": "In",
+          "similarity_score": 0.5
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 3,
+          "candidate_element": "B",
+          "similarity_score": 0.333333
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 4,
+          "candidate_element": "Tl",
+          "similarity_score": 0.333333
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 5,
+          "candidate_element": "C",
+          "similarity_score": 0.2
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 6,
+          "candidate_element": "Hg",
+          "similarity_score": 0.2
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 7,
+          "candidate_element": "Cd",
+          "similarity_score": 0.166667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 8,
+          "candidate_element": "Si",
+          "similarity_score": 0.166667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 9,
+          "candidate_element": "Ge",
+          "similarity_score": 0.142857
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 10,
+          "candidate_element": "Zn",
+          "similarity_score": 0.142857
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 11,
+          "candidate_element": "Mg",
+          "similarity_score": 0.125
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 12,
+          "candidate_element": "Sn",
+          "similarity_score": 0.125
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 13,
+          "candidate_element": "Be",
+          "similarity_score": 0.111111
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 14,
+          "candidate_element": "Pb",
+          "similarity_score": 0.111111
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 15,
+          "candidate_element": "N",
+          "similarity_score": 0.090909
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 16,
+          "candidate_element": "P",
+          "similarity_score": 0.083333
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 17,
+          "candidate_element": "As",
+          "similarity_score": 0.076923
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 18,
+          "candidate_element": "Au",
+          "similarity_score": 0.071429
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 19,
+          "candidate_element": "Sb",
+          "similarity_score": 0.071429
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 20,
+          "candidate_element": "Ag",
+          "similarity_score": 0.066667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 21,
+          "candidate_element": "Bi",
+          "similarity_score": 0.066667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 22,
+          "candidate_element": "Cu",
+          "similarity_score": 0.0625
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 23,
+          "candidate_element": "O",
+          "similarity_score": 0.058824
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 24,
+          "candidate_element": "Pt",
+          "similarity_score": 0.058824
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 25,
+          "candidate_element": "Pd",
+          "similarity_score": 0.055556
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 26,
+          "candidate_element": "S",
+          "similarity_score": 0.055556
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 27,
+          "candidate_element": "Ni",
+          "similarity_score": 0.052632
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 28,
+          "candidate_element": "Se",
+          "similarity_score": 0.052632
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 29,
+          "candidate_element": "Ir",
+          "similarity_score": 0.05
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 30,
+          "candidate_element": "Te",
+          "similarity_score": 0.05
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 31,
+          "candidate_element": "Po",
+          "similarity_score": 0.047619
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 32,
+          "candidate_element": "Rh",
+          "similarity_score": 0.047619
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 33,
+          "candidate_element": "Co",
+          "similarity_score": 0.045455
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 34,
+          "candidate_element": "H",
+          "similarity_score": 0.043478
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 35,
+          "candidate_element": "Os",
+          "similarity_score": 0.043478
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 36,
+          "candidate_element": "F",
+          "similarity_score": 0.041667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 37,
+          "candidate_element": "Ru",
+          "similarity_score": 0.041667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 38,
+          "candidate_element": "Cl",
+          "similarity_score": 0.04
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 39,
+          "candidate_element": "Fe",
+          "similarity_score": 0.04
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 40,
+          "candidate_element": "Br",
+          "similarity_score": 0.038462
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 41,
+          "candidate_element": "I",
+          "similarity_score": 0.037037
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 42,
+          "candidate_element": "Re",
+          "similarity_score": 0.037037
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 43,
+          "candidate_element": "At",
+          "similarity_score": 0.035714
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 44,
+          "candidate_element": "Tc",
+          "similarity_score": 0.035714
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 45,
+          "candidate_element": "Mn",
+          "similarity_score": 0.034483
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 46,
+          "candidate_element": "W",
+          "similarity_score": 0.032258
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 47,
+          "candidate_element": "Mo",
+          "similarity_score": 0.03125
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 48,
+          "candidate_element": "Cr",
+          "similarity_score": 0.030303
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 49,
+          "candidate_element": "Ta",
+          "similarity_score": 0.028571
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 50,
+          "candidate_element": "Nb",
+          "similarity_score": 0.027778
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 51,
+          "candidate_element": "V",
+          "similarity_score": 0.027027
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 52,
+          "candidate_element": "Hf",
+          "similarity_score": 0.025641
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 53,
+          "candidate_element": "Zr",
+          "similarity_score": 0.025
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 54,
+          "candidate_element": "Ti",
+          "similarity_score": 0.02439
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 55,
+          "candidate_element": "Pu",
+          "similarity_score": 0.019608
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 56,
+          "candidate_element": "Np",
+          "similarity_score": 0.019231
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 57,
+          "candidate_element": "U",
+          "similarity_score": 0.018868
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 58,
+          "candidate_element": "Pa",
+          "similarity_score": 0.018519
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 59,
+          "candidate_element": "Th",
+          "similarity_score": 0.018182
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 60,
+          "candidate_element": "Ac",
+          "similarity_score": 0.017857
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 61,
+          "candidate_element": "Lu",
+          "similarity_score": 0.017544
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 62,
+          "candidate_element": "Yb",
+          "similarity_score": 0.017241
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 63,
+          "candidate_element": "Tm",
+          "similarity_score": 0.016949
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 64,
+          "candidate_element": "Er",
+          "similarity_score": 0.016667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 65,
+          "candidate_element": "Ho",
+          "similarity_score": 0.016393
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 66,
+          "candidate_element": "Dy",
+          "similarity_score": 0.016129
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 67,
+          "candidate_element": "Tb",
+          "similarity_score": 0.015873
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 68,
+          "candidate_element": "Gd",
+          "similarity_score": 0.015625
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 69,
+          "candidate_element": "Eu",
+          "similarity_score": 0.015385
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 70,
+          "candidate_element": "Sm",
+          "similarity_score": 0.015152
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 71,
+          "candidate_element": "Pm",
+          "similarity_score": 0.014925
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 72,
+          "candidate_element": "Nd",
+          "similarity_score": 0.014706
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 73,
+          "candidate_element": "Pr",
+          "similarity_score": 0.014493
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 74,
+          "candidate_element": "Ce",
+          "similarity_score": 0.014286
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 75,
+          "candidate_element": "La",
+          "similarity_score": 0.014085
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 76,
+          "candidate_element": "Y",
+          "similarity_score": 0.013889
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 77,
+          "candidate_element": "Sc",
+          "similarity_score": 0.013699
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 78,
+          "candidate_element": "Ra",
+          "similarity_score": 0.013514
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 79,
+          "candidate_element": "Ba",
+          "similarity_score": 0.013333
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 80,
+          "candidate_element": "Sr",
+          "similarity_score": 0.013158
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 81,
+          "candidate_element": "Ca",
+          "similarity_score": 0.012987
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 82,
+          "candidate_element": "Fr",
+          "similarity_score": 0.012821
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 83,
+          "candidate_element": "Cs",
+          "similarity_score": 0.012658
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 84,
+          "candidate_element": "Rb",
+          "similarity_score": 0.0125
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 85,
+          "candidate_element": "K",
+          "similarity_score": 0.012346
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 86,
+          "candidate_element": "Na",
+          "similarity_score": 0.012195
+        }
+      ]
+    },
+    "seconds": 0.00013810000382363796
+  },
+  {
+    "name": "PN:invalid_k:1.5",
+    "requirement": "Reject negative, noninteger or boolean k",
+    "status": "passed",
+    "observation": {
+      "exception": "TypeError",
+      "message": "slice indices must be integers or None or have an __index__ method"
+    },
+    "seconds": 5.809997674077749e-05
+  },
+  {
+    "name": "PN:invalid_k:'10'",
+    "requirement": "Reject negative, noninteger or boolean k",
+    "status": "passed",
+    "observation": {
+      "exception": "TypeError",
+      "message": "slice indices must be integers or None or have an __index__ method"
+    },
+    "seconds": 5.0099974032491446e-05
+  },
+  {
+    "name": "PN:invalid_k:True",
+    "requirement": "Reject negative, noninteger or boolean k",
+    "status": "failed",
+    "observation": {
+      "returned": [
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "Al",
+          "similarity_score": 0.5
+        }
+      ]
+    },
+    "seconds": 5.1099981646984816e-05
+  },
+  {
+    "name": "PN:repeat",
+    "requirement": "Same input produces identical rankings",
+    "status": "passed",
+    "observation": {
+      "returned": true
+    },
+    "seconds": 0.00012079998850822449
+  },
+  {
+    "name": "PN:all_pair_symmetry",
+    "requirement": "Symmetry within 1e-12",
+    "status": "passed",
+    "observation": {
+      "returned": 0.0
+    },
+    "seconds": 6.300047971308231e-06
+  },
+  {
+    "name": "PN:all_self_similarity",
+    "requirement": "Self similarity within 1e-12",
+    "status": "passed",
+    "observation": {
+      "returned": 0.0
+    },
+    "seconds": 7.00005330145359e-07
+  },
+  {
+    "name": "Atom2Vec:invalid_target:0",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element '' not in Atom2Vec vocabulary."
+    },
+    "seconds": 7.90000194683671e-06
+  },
+  {
+    "name": "Atom2Vec:invalid_target:1",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'Xx' not in Atom2Vec vocabulary."
+    },
+    "seconds": 2.100015990436077e-06
+  },
+  {
+    "name": "Atom2Vec:invalid_target:2",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'ga' not in Atom2Vec vocabulary."
+    },
+    "seconds": 1.500011421740055e-06
+  },
+  {
+    "name": "Atom2Vec:invalid_target:3",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element ' Ga ' not in Atom2Vec vocabulary."
+    },
+    "seconds": 1.200009137392044e-06
+  },
+  {
+    "name": "Atom2Vec:invalid_target:4",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'Ga2O3' not in Atom2Vec vocabulary."
+    },
+    "seconds": 1.3999524526298046e-06
+  },
+  {
+    "name": "Atom2Vec:invalid_target:5",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'None' not in Atom2Vec vocabulary."
+    },
+    "seconds": 2.700020559132099e-06
+  },
+  {
+    "name": "Atom2Vec:invalid_target:6",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element '31' not in Atom2Vec vocabulary."
+    },
+    "seconds": 1.500011421740055e-06
+  },
+  {
+    "name": "Atom2Vec:invalid_target:7",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "TypeError",
+      "message": "unhashable type: 'list'"
+    },
+    "seconds": 2.900022082030773e-06
+  },
+  {
+    "name": "Atom2Vec:invalid_target:8",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "TypeError",
+      "message": "unhashable type: 'dict'"
+    },
+    "seconds": 1.400010660290718e-06
+  },
+  {
+    "name": "Atom2Vec:k=0",
+    "requirement": "Return min(k, available candidates), no target",
+    "status": "passed",
+    "observation": {
+      "returned": []
+    },
+    "seconds": 7.860001642256975e-05
+  },
+  {
+    "name": "Atom2Vec:k=1",
+    "requirement": "Return min(k, available candidates), no target",
+    "status": "passed",
+    "observation": {
+      "returned": [
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "Al",
+          "similarity_score": 0.846227
+        }
+      ]
+    },
+    "seconds": 5.0499977078288794e-05
+  },
+  {
+    "name": "Atom2Vec:k=1000",
+    "requirement": "Return min(k, available candidates), no target",
+    "status": "passed",
+    "observation": {
+      "returned": [
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "Al",
+          "similarity_score": 0.846227
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 2,
+          "candidate_element": "In",
+          "similarity_score": 0.760059
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 3,
+          "candidate_element": "Y",
+          "similarity_score": 0.75735
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 4,
+          "candidate_element": "Bi",
+          "similarity_score": 0.650506
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 5,
+          "candidate_element": "La",
+          "similarity_score": 0.617535
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 6,
+          "candidate_element": "Sn",
+          "similarity_score": 0.604637
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 7,
+          "candidate_element": "Sb",
+          "similarity_score": 0.569758
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 8,
+          "candidate_element": "Ti",
+          "similarity_score": 0.537336
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 9,
+          "candidate_element": "Sc",
+          "similarity_score": 0.496274
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 10,
+          "candidate_element": "Zn",
+          "similarity_score": 0.466064
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 11,
+          "candidate_element": "Sr",
+          "similarity_score": 0.430113
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 12,
+          "candidate_element": "Tl",
+          "similarity_score": 0.396447
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 13,
+          "candidate_element": "Cd",
+          "similarity_score": 0.383722
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 14,
+          "candidate_element": "Ca",
+          "similarity_score": 0.382229
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 15,
+          "candidate_element": "Ce",
+          "similarity_score": 0.351051
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 16,
+          "candidate_element": "Ge",
+          "similarity_score": 0.322773
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 17,
+          "candidate_element": "Au",
+          "similarity_score": 0.321112
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 18,
+          "candidate_element": "Tm",
+          "similarity_score": 0.320705
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 19,
+          "candidate_element": "B",
+          "similarity_score": 0.316419
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 20,
+          "candidate_element": "Lu",
+          "similarity_score": 0.312838
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 21,
+          "candidate_element": "Hg",
+          "similarity_score": 0.297958
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 22,
+          "candidate_element": "Rh",
+          "similarity_score": 0.28943
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 23,
+          "candidate_element": "Si",
+          "similarity_score": 0.286422
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 24,
+          "candidate_element": "Sm",
+          "similarity_score": 0.272798
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 25,
+          "candidate_element": "Cr",
+          "similarity_score": 0.270802
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 26,
+          "candidate_element": "Ho",
+          "similarity_score": 0.267273
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 27,
+          "candidate_element": "Yb",
+          "similarity_score": 0.266158
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 28,
+          "candidate_element": "Er",
+          "similarity_score": 0.261294
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 29,
+          "candidate_element": "Pd",
+          "similarity_score": 0.247133
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 30,
+          "candidate_element": "Ag",
+          "similarity_score": 0.246843
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 31,
+          "candidate_element": "Nd",
+          "similarity_score": 0.240529
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 32,
+          "candidate_element": "Hf",
+          "similarity_score": 0.233523
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 33,
+          "candidate_element": "Dy",
+          "similarity_score": 0.23215
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 34,
+          "candidate_element": "C",
+          "similarity_score": 0.231349
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 35,
+          "candidate_element": "Nb",
+          "similarity_score": 0.228464
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 36,
+          "candidate_element": "Gd",
+          "similarity_score": 0.223234
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 37,
+          "candidate_element": "Pb",
+          "similarity_score": 0.22156
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 38,
+          "candidate_element": "Pr",
+          "similarity_score": 0.216771
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 39,
+          "candidate_element": "Zr",
+          "similarity_score": 0.212942
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 40,
+          "candidate_element": "Li",
+          "similarity_score": 0.209532
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 41,
+          "candidate_element": "Ni",
+          "similarity_score": 0.201777
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 42,
+          "candidate_element": "Tb",
+          "similarity_score": 0.201496
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 43,
+          "candidate_element": "Pt",
+          "similarity_score": 0.200738
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 44,
+          "candidate_element": "Ir",
+          "similarity_score": 0.198292
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 45,
+          "candidate_element": "Fe",
+          "similarity_score": 0.193395
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 46,
+          "candidate_element": "As",
+          "similarity_score": 0.188924
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 47,
+          "candidate_element": "Mo",
+          "similarity_score": 0.186766
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 48,
+          "candidate_element": "Cu",
+          "similarity_score": 0.184634
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 49,
+          "candidate_element": "Co",
+          "similarity_score": 0.18263
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 50,
+          "candidate_element": "Rb",
+          "similarity_score": 0.174802
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 51,
+          "candidate_element": "W",
+          "similarity_score": 0.169412
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 52,
+          "candidate_element": "Na",
+          "similarity_score": 0.158931
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 53,
+          "candidate_element": "Ru",
+          "similarity_score": 0.153238
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 54,
+          "candidate_element": "Mn",
+          "similarity_score": 0.146814
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 55,
+          "candidate_element": "Th",
+          "similarity_score": 0.143288
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 56,
+          "candidate_element": "V",
+          "similarity_score": 0.140563
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 57,
+          "candidate_element": "Mg",
+          "similarity_score": 0.135854
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 58,
+          "candidate_element": "Se",
+          "similarity_score": 0.12723
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 59,
+          "candidate_element": "Cl",
+          "similarity_score": 0.126974
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 60,
+          "candidate_element": "K",
+          "similarity_score": 0.123489
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 61,
+          "candidate_element": "F",
+          "similarity_score": 0.119953
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 62,
+          "candidate_element": "Cs",
+          "similarity_score": 0.115868
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 63,
+          "candidate_element": "Ba",
+          "similarity_score": 0.111823
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 64,
+          "candidate_element": "Br",
+          "similarity_score": 0.111684
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 65,
+          "candidate_element": "Te",
+          "similarity_score": 0.108402
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 66,
+          "candidate_element": "Os",
+          "similarity_score": 0.103695
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 67,
+          "candidate_element": "Tc",
+          "similarity_score": 0.093326
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 68,
+          "candidate_element": "Ta",
+          "similarity_score": 0.083983
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 69,
+          "candidate_element": "Be",
+          "similarity_score": 0.081793
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 70,
+          "candidate_element": "Eu",
+          "similarity_score": 0.077779
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 71,
+          "candidate_element": "U",
+          "similarity_score": 0.056561
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 72,
+          "candidate_element": "S",
+          "similarity_score": 0.050803
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 73,
+          "candidate_element": "Re",
+          "similarity_score": 0.049094
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 74,
+          "candidate_element": "H",
+          "similarity_score": 0.03326
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 75,
+          "candidate_element": "I",
+          "similarity_score": 0.027632
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 76,
+          "candidate_element": "N",
+          "similarity_score": 0.014101
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 77,
+          "candidate_element": "O",
+          "similarity_score": -0.014479
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 78,
+          "candidate_element": "P",
+          "similarity_score": -0.06476
+        }
+      ]
+    },
+    "seconds": 0.00011199997970834374
+  },
+  {
+    "name": "Atom2Vec:invalid_k:-1",
+    "requirement": "Reject negative, noninteger or boolean k",
+    "status": "failed",
+    "observation": {
+      "returned": [
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "Al",
+          "similarity_score": 0.846227
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 2,
+          "candidate_element": "In",
+          "similarity_score": 0.760059
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 3,
+          "candidate_element": "Y",
+          "similarity_score": 0.75735
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 4,
+          "candidate_element": "Bi",
+          "similarity_score": 0.650506
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 5,
+          "candidate_element": "La",
+          "similarity_score": 0.617535
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 6,
+          "candidate_element": "Sn",
+          "similarity_score": 0.604637
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 7,
+          "candidate_element": "Sb",
+          "similarity_score": 0.569758
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 8,
+          "candidate_element": "Ti",
+          "similarity_score": 0.537336
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 9,
+          "candidate_element": "Sc",
+          "similarity_score": 0.496274
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 10,
+          "candidate_element": "Zn",
+          "similarity_score": 0.466064
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 11,
+          "candidate_element": "Sr",
+          "similarity_score": 0.430113
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 12,
+          "candidate_element": "Tl",
+          "similarity_score": 0.396447
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 13,
+          "candidate_element": "Cd",
+          "similarity_score": 0.383722
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 14,
+          "candidate_element": "Ca",
+          "similarity_score": 0.382229
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 15,
+          "candidate_element": "Ce",
+          "similarity_score": 0.351051
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 16,
+          "candidate_element": "Ge",
+          "similarity_score": 0.322773
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 17,
+          "candidate_element": "Au",
+          "similarity_score": 0.321112
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 18,
+          "candidate_element": "Tm",
+          "similarity_score": 0.320705
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 19,
+          "candidate_element": "B",
+          "similarity_score": 0.316419
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 20,
+          "candidate_element": "Lu",
+          "similarity_score": 0.312838
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 21,
+          "candidate_element": "Hg",
+          "similarity_score": 0.297958
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 22,
+          "candidate_element": "Rh",
+          "similarity_score": 0.28943
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 23,
+          "candidate_element": "Si",
+          "similarity_score": 0.286422
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 24,
+          "candidate_element": "Sm",
+          "similarity_score": 0.272798
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 25,
+          "candidate_element": "Cr",
+          "similarity_score": 0.270802
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 26,
+          "candidate_element": "Ho",
+          "similarity_score": 0.267273
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 27,
+          "candidate_element": "Yb",
+          "similarity_score": 0.266158
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 28,
+          "candidate_element": "Er",
+          "similarity_score": 0.261294
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 29,
+          "candidate_element": "Pd",
+          "similarity_score": 0.247133
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 30,
+          "candidate_element": "Ag",
+          "similarity_score": 0.246843
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 31,
+          "candidate_element": "Nd",
+          "similarity_score": 0.240529
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 32,
+          "candidate_element": "Hf",
+          "similarity_score": 0.233523
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 33,
+          "candidate_element": "Dy",
+          "similarity_score": 0.23215
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 34,
+          "candidate_element": "C",
+          "similarity_score": 0.231349
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 35,
+          "candidate_element": "Nb",
+          "similarity_score": 0.228464
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 36,
+          "candidate_element": "Gd",
+          "similarity_score": 0.223234
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 37,
+          "candidate_element": "Pb",
+          "similarity_score": 0.22156
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 38,
+          "candidate_element": "Pr",
+          "similarity_score": 0.216771
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 39,
+          "candidate_element": "Zr",
+          "similarity_score": 0.212942
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 40,
+          "candidate_element": "Li",
+          "similarity_score": 0.209532
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 41,
+          "candidate_element": "Ni",
+          "similarity_score": 0.201777
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 42,
+          "candidate_element": "Tb",
+          "similarity_score": 0.201496
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 43,
+          "candidate_element": "Pt",
+          "similarity_score": 0.200738
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 44,
+          "candidate_element": "Ir",
+          "similarity_score": 0.198292
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 45,
+          "candidate_element": "Fe",
+          "similarity_score": 0.193395
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 46,
+          "candidate_element": "As",
+          "similarity_score": 0.188924
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 47,
+          "candidate_element": "Mo",
+          "similarity_score": 0.186766
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 48,
+          "candidate_element": "Cu",
+          "similarity_score": 0.184634
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 49,
+          "candidate_element": "Co",
+          "similarity_score": 0.18263
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 50,
+          "candidate_element": "Rb",
+          "similarity_score": 0.174802
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 51,
+          "candidate_element": "W",
+          "similarity_score": 0.169412
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 52,
+          "candidate_element": "Na",
+          "similarity_score": 0.158931
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 53,
+          "candidate_element": "Ru",
+          "similarity_score": 0.153238
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 54,
+          "candidate_element": "Mn",
+          "similarity_score": 0.146814
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 55,
+          "candidate_element": "Th",
+          "similarity_score": 0.143288
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 56,
+          "candidate_element": "V",
+          "similarity_score": 0.140563
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 57,
+          "candidate_element": "Mg",
+          "similarity_score": 0.135854
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 58,
+          "candidate_element": "Se",
+          "similarity_score": 0.12723
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 59,
+          "candidate_element": "Cl",
+          "similarity_score": 0.126974
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 60,
+          "candidate_element": "K",
+          "similarity_score": 0.123489
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 61,
+          "candidate_element": "F",
+          "similarity_score": 0.119953
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 62,
+          "candidate_element": "Cs",
+          "similarity_score": 0.115868
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 63,
+          "candidate_element": "Ba",
+          "similarity_score": 0.111823
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 64,
+          "candidate_element": "Br",
+          "similarity_score": 0.111684
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 65,
+          "candidate_element": "Te",
+          "similarity_score": 0.108402
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 66,
+          "candidate_element": "Os",
+          "similarity_score": 0.103695
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 67,
+          "candidate_element": "Tc",
+          "similarity_score": 0.093326
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 68,
+          "candidate_element": "Ta",
+          "similarity_score": 0.083983
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 69,
+          "candidate_element": "Be",
+          "similarity_score": 0.081793
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 70,
+          "candidate_element": "Eu",
+          "similarity_score": 0.077779
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 71,
+          "candidate_element": "U",
+          "similarity_score": 0.056561
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 72,
+          "candidate_element": "S",
+          "similarity_score": 0.050803
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 73,
+          "candidate_element": "Re",
+          "similarity_score": 0.049094
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 74,
+          "candidate_element": "H",
+          "similarity_score": 0.03326
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 75,
+          "candidate_element": "I",
+          "similarity_score": 0.027632
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 76,
+          "candidate_element": "N",
+          "similarity_score": 0.014101
+        },
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 77,
+          "candidate_element": "O",
+          "similarity_score": -0.014479
+        }
+      ]
+    },
+    "seconds": 9.310001041740179e-05
+  },
+  {
+    "name": "Atom2Vec:invalid_k:1.5",
+    "requirement": "Reject negative, noninteger or boolean k",
+    "status": "passed",
+    "observation": {
+      "exception": "TypeError",
+      "message": "slice indices must be integers or None or have an __index__ method"
+    },
+    "seconds": 3.4299970138818026e-05
+  },
+  {
+    "name": "Atom2Vec:invalid_k:'10'",
+    "requirement": "Reject negative, noninteger or boolean k",
+    "status": "passed",
+    "observation": {
+      "exception": "TypeError",
+      "message": "slice indices must be integers or None or have an __index__ method"
+    },
+    "seconds": 3.270001616328955e-05
+  },
+  {
+    "name": "Atom2Vec:invalid_k:True",
+    "requirement": "Reject negative, noninteger or boolean k",
+    "status": "failed",
+    "observation": {
+      "returned": [
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "Al",
+          "similarity_score": 0.846227
+        }
+      ]
+    },
+    "seconds": 3.44999716617167e-05
+  },
+  {
+    "name": "Atom2Vec:repeat",
+    "requirement": "Same input produces identical rankings",
+    "status": "passed",
+    "observation": {
+      "returned": true
+    },
+    "seconds": 8.159998105838895e-05
+  },
+  {
+    "name": "Atom2Vec:all_pair_symmetry",
+    "requirement": "Symmetry within 1e-12",
+    "status": "passed",
+    "observation": {
+      "returned": 0.0
+    },
+    "seconds": 2.500019036233425e-06
+  },
+  {
+    "name": "Atom2Vec:all_self_similarity",
+    "requirement": "Self similarity within 1e-12",
+    "status": "passed",
+    "observation": {
+      "returned": 6.661338147750939e-16
+    },
+    "seconds": 5.00003807246685e-07
+  },
+  {
+    "name": "Property:invalid_target:0",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element '' not in property candidate universe."
+    },
+    "seconds": 7.90000194683671e-06
+  },
+  {
+    "name": "Property:invalid_target:1",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'Xx' not in property candidate universe."
+    },
+    "seconds": 2.200016751885414e-06
+  },
+  {
+    "name": "Property:invalid_target:2",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'ga' not in property candidate universe."
+    },
+    "seconds": 1.400010660290718e-06
+  },
+  {
+    "name": "Property:invalid_target:3",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element ' Ga ' not in property candidate universe."
+    },
+    "seconds": 1.100008375942707e-06
+  },
+  {
+    "name": "Property:invalid_target:4",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'Ga2O3' not in property candidate universe."
+    },
+    "seconds": 1.00000761449337e-06
+  },
+  {
+    "name": "Property:invalid_target:5",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'None' not in property candidate universe."
+    },
+    "seconds": 2.600019797682762e-06
+  },
+  {
+    "name": "Property:invalid_target:6",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element '31' not in property candidate universe."
+    },
+    "seconds": 1.4999532140791416e-06
+  },
+  {
+    "name": "Property:invalid_target:7",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "TypeError",
+      "message": "unhashable type: 'list'"
+    },
+    "seconds": 2.900022082030773e-06
+  },
+  {
+    "name": "Property:invalid_target:8",
+    "requirement": "Reject invalid target explicitly",
+    "status": "passed",
+    "observation": {
+      "exception": "TypeError",
+      "message": "unhashable type: 'dict'"
+    },
+    "seconds": 1.200009137392044e-06
+  },
+  {
+    "name": "Property:k=0",
+    "requirement": "Return min(k, available candidates), no target",
+    "status": "passed",
+    "observation": {
+      "returned": []
+    },
+    "seconds": 5.89000410400331e-05
+  },
+  {
+    "name": "Property:k=1",
+    "requirement": "Return min(k, available candidates), no target",
+    "status": "passed",
+    "observation": {
+      "returned": [
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "In",
+          "similarity_score": 0.877063
+        }
+      ]
+    },
+    "seconds": 4.579999949783087e-05
+  },
+  {
+    "name": "Property:k=1000",
+    "requirement": "Return min(k, available candidates), no target",
+    "status": "passed",
+    "observation": {
+      "returned": [
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "In",
+          "similarity_score": 0.877063
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 2,
+          "candidate_element": "Sn",
+          "similarity_score": 0.838868
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 3,
+          "candidate_element": "Ge",
+          "similarity_score": 0.735219
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 4,
+          "candidate_element": "P",
+          "similarity_score": 0.622625
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 5,
+          "candidate_element": "Tl",
+          "similarity_score": 0.617729
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 6,
+          "candidate_element": "Bi",
+          "similarity_score": 0.617158
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 7,
+          "candidate_element": "Pb",
+          "similarity_score": 0.593032
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 8,
+          "candidate_element": "Sb",
+          "similarity_score": 0.578792
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 9,
+          "candidate_element": "S",
+          "similarity_score": 0.542735
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 10,
+          "candidate_element": "Se",
+          "similarity_score": 0.525944
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 11,
+          "candidate_element": "As",
+          "similarity_score": 0.5177
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 12,
+          "candidate_element": "Al",
+          "similarity_score": 0.494275
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 13,
+          "candidate_element": "Mg",
+          "similarity_score": 0.491503
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 14,
+          "candidate_element": "B",
+          "similarity_score": 0.484938
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 15,
+          "candidate_element": "Te",
+          "similarity_score": 0.477856
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 16,
+          "candidate_element": "Si",
+          "similarity_score": 0.456861
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 17,
+          "candidate_element": "Be",
+          "similarity_score": 0.392924
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 18,
+          "candidate_element": "Br",
+          "similarity_score": 0.380546
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 19,
+          "candidate_element": "Li",
+          "similarity_score": 0.378485
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 20,
+          "candidate_element": "Po",
+          "similarity_score": 0.373072
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 21,
+          "candidate_element": "I",
+          "similarity_score": 0.360761
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 22,
+          "candidate_element": "H",
+          "similarity_score": 0.340095
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 23,
+          "candidate_element": "At",
+          "similarity_score": 0.339758
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 24,
+          "candidate_element": "O",
+          "similarity_score": 0.306991
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 25,
+          "candidate_element": "N",
+          "similarity_score": 0.297146
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 26,
+          "candidate_element": "Sc",
+          "similarity_score": 0.271143
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 27,
+          "candidate_element": "Ti",
+          "similarity_score": 0.267286
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 28,
+          "candidate_element": "Cl",
+          "similarity_score": 0.231156
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 29,
+          "candidate_element": "F",
+          "similarity_score": 0.217821
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 30,
+          "candidate_element": "Na",
+          "similarity_score": 0.200419
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 31,
+          "candidate_element": "C",
+          "similarity_score": 0.136623
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 32,
+          "candidate_element": "Sr",
+          "similarity_score": 0.125098
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 33,
+          "candidate_element": "Ca",
+          "similarity_score": 0.118764
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 34,
+          "candidate_element": "V",
+          "similarity_score": 0.088729
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 35,
+          "candidate_element": "Mn",
+          "similarity_score": 0.073765
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 36,
+          "candidate_element": "Y",
+          "similarity_score": 0.000372
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 37,
+          "candidate_element": "K",
+          "similarity_score": -0.000207
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 38,
+          "candidate_element": "Ce",
+          "similarity_score": -0.007576
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 39,
+          "candidate_element": "Ra",
+          "similarity_score": -0.008525
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 40,
+          "candidate_element": "Ba",
+          "similarity_score": -0.011237
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 41,
+          "candidate_element": "La",
+          "similarity_score": -0.014546
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 42,
+          "candidate_element": "Zr",
+          "similarity_score": -0.023966
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 43,
+          "candidate_element": "Rb",
+          "similarity_score": -0.053381
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 44,
+          "candidate_element": "Ac",
+          "similarity_score": -0.074024
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 45,
+          "candidate_element": "Pr",
+          "similarity_score": -0.092434
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 46,
+          "candidate_element": "Fr",
+          "similarity_score": -0.092702
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 47,
+          "candidate_element": "Hg",
+          "similarity_score": -0.105571
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 48,
+          "candidate_element": "Cs",
+          "similarity_score": -0.134318
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 49,
+          "candidate_element": "Zn",
+          "similarity_score": -0.137143
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 50,
+          "candidate_element": "Pu",
+          "similarity_score": -0.146146
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 51,
+          "candidate_element": "Np",
+          "similarity_score": -0.157236
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 52,
+          "candidate_element": "Nd",
+          "similarity_score": -0.166034
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 53,
+          "candidate_element": "Ni",
+          "similarity_score": -0.186694
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 54,
+          "candidate_element": "Fe",
+          "similarity_score": -0.198682
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 55,
+          "candidate_element": "Hf",
+          "similarity_score": -0.199831
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 56,
+          "candidate_element": "U",
+          "similarity_score": -0.202311
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 57,
+          "candidate_element": "Cd",
+          "similarity_score": -0.210306
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 58,
+          "candidate_element": "Pm",
+          "similarity_score": -0.220103
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 59,
+          "candidate_element": "Eu",
+          "similarity_score": -0.223438
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 60,
+          "candidate_element": "Co",
+          "similarity_score": -0.227544
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 61,
+          "candidate_element": "Tc",
+          "similarity_score": -0.237491
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 62,
+          "candidate_element": "Sm",
+          "similarity_score": -0.264497
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 63,
+          "candidate_element": "Cr",
+          "similarity_score": -0.279714
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 64,
+          "candidate_element": "Pa",
+          "similarity_score": -0.293747
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 65,
+          "candidate_element": "Cu",
+          "similarity_score": -0.326214
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 66,
+          "candidate_element": "Yb",
+          "similarity_score": -0.342441
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 67,
+          "candidate_element": "Pd",
+          "similarity_score": -0.355242
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 68,
+          "candidate_element": "Th",
+          "similarity_score": -0.356419
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 69,
+          "candidate_element": "Ag",
+          "similarity_score": -0.364077
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 70,
+          "candidate_element": "Au",
+          "similarity_score": -0.375033
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 71,
+          "candidate_element": "Tb",
+          "similarity_score": -0.375863
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 72,
+          "candidate_element": "Ta",
+          "similarity_score": -0.380608
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 73,
+          "candidate_element": "Re",
+          "similarity_score": -0.39205
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 74,
+          "candidate_element": "Dy",
+          "similarity_score": -0.39504
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 75,
+          "candidate_element": "Os",
+          "similarity_score": -0.403109
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 76,
+          "candidate_element": "Nb",
+          "similarity_score": -0.403215
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 77,
+          "candidate_element": "Gd",
+          "similarity_score": -0.405632
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 78,
+          "candidate_element": "Ir",
+          "similarity_score": -0.41598
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 79,
+          "candidate_element": "Pt",
+          "similarity_score": -0.418344
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 80,
+          "candidate_element": "Ho",
+          "similarity_score": -0.421716
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 81,
+          "candidate_element": "Er",
+          "similarity_score": -0.42301
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 82,
+          "candidate_element": "Tm",
+          "similarity_score": -0.430365
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 83,
+          "candidate_element": "Rh",
+          "similarity_score": -0.441358
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 84,
+          "candidate_element": "Lu",
+          "similarity_score": -0.442169
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 85,
+          "candidate_element": "W",
+          "similarity_score": -0.454147
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 86,
+          "candidate_element": "Ru",
+          "similarity_score": -0.456503
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 87,
+          "candidate_element": "Mo",
+          "similarity_score": -0.467386
+        }
+      ]
+    },
+    "seconds": 8.950004121288657e-05
+  },
+  {
+    "name": "Property:invalid_k:-1",
+    "requirement": "Reject negative, noninteger or boolean k",
+    "status": "failed",
+    "observation": {
+      "returned": [
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "In",
+          "similarity_score": 0.877063
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 2,
+          "candidate_element": "Sn",
+          "similarity_score": 0.838868
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 3,
+          "candidate_element": "Ge",
+          "similarity_score": 0.735219
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 4,
+          "candidate_element": "P",
+          "similarity_score": 0.622625
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 5,
+          "candidate_element": "Tl",
+          "similarity_score": 0.617729
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 6,
+          "candidate_element": "Bi",
+          "similarity_score": 0.617158
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 7,
+          "candidate_element": "Pb",
+          "similarity_score": 0.593032
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 8,
+          "candidate_element": "Sb",
+          "similarity_score": 0.578792
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 9,
+          "candidate_element": "S",
+          "similarity_score": 0.542735
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 10,
+          "candidate_element": "Se",
+          "similarity_score": 0.525944
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 11,
+          "candidate_element": "As",
+          "similarity_score": 0.5177
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 12,
+          "candidate_element": "Al",
+          "similarity_score": 0.494275
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 13,
+          "candidate_element": "Mg",
+          "similarity_score": 0.491503
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 14,
+          "candidate_element": "B",
+          "similarity_score": 0.484938
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 15,
+          "candidate_element": "Te",
+          "similarity_score": 0.477856
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 16,
+          "candidate_element": "Si",
+          "similarity_score": 0.456861
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 17,
+          "candidate_element": "Be",
+          "similarity_score": 0.392924
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 18,
+          "candidate_element": "Br",
+          "similarity_score": 0.380546
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 19,
+          "candidate_element": "Li",
+          "similarity_score": 0.378485
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 20,
+          "candidate_element": "Po",
+          "similarity_score": 0.373072
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 21,
+          "candidate_element": "I",
+          "similarity_score": 0.360761
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 22,
+          "candidate_element": "H",
+          "similarity_score": 0.340095
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 23,
+          "candidate_element": "At",
+          "similarity_score": 0.339758
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 24,
+          "candidate_element": "O",
+          "similarity_score": 0.306991
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 25,
+          "candidate_element": "N",
+          "similarity_score": 0.297146
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 26,
+          "candidate_element": "Sc",
+          "similarity_score": 0.271143
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 27,
+          "candidate_element": "Ti",
+          "similarity_score": 0.267286
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 28,
+          "candidate_element": "Cl",
+          "similarity_score": 0.231156
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 29,
+          "candidate_element": "F",
+          "similarity_score": 0.217821
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 30,
+          "candidate_element": "Na",
+          "similarity_score": 0.200419
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 31,
+          "candidate_element": "C",
+          "similarity_score": 0.136623
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 32,
+          "candidate_element": "Sr",
+          "similarity_score": 0.125098
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 33,
+          "candidate_element": "Ca",
+          "similarity_score": 0.118764
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 34,
+          "candidate_element": "V",
+          "similarity_score": 0.088729
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 35,
+          "candidate_element": "Mn",
+          "similarity_score": 0.073765
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 36,
+          "candidate_element": "Y",
+          "similarity_score": 0.000372
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 37,
+          "candidate_element": "K",
+          "similarity_score": -0.000207
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 38,
+          "candidate_element": "Ce",
+          "similarity_score": -0.007576
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 39,
+          "candidate_element": "Ra",
+          "similarity_score": -0.008525
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 40,
+          "candidate_element": "Ba",
+          "similarity_score": -0.011237
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 41,
+          "candidate_element": "La",
+          "similarity_score": -0.014546
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 42,
+          "candidate_element": "Zr",
+          "similarity_score": -0.023966
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 43,
+          "candidate_element": "Rb",
+          "similarity_score": -0.053381
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 44,
+          "candidate_element": "Ac",
+          "similarity_score": -0.074024
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 45,
+          "candidate_element": "Pr",
+          "similarity_score": -0.092434
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 46,
+          "candidate_element": "Fr",
+          "similarity_score": -0.092702
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 47,
+          "candidate_element": "Hg",
+          "similarity_score": -0.105571
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 48,
+          "candidate_element": "Cs",
+          "similarity_score": -0.134318
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 49,
+          "candidate_element": "Zn",
+          "similarity_score": -0.137143
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 50,
+          "candidate_element": "Pu",
+          "similarity_score": -0.146146
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 51,
+          "candidate_element": "Np",
+          "similarity_score": -0.157236
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 52,
+          "candidate_element": "Nd",
+          "similarity_score": -0.166034
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 53,
+          "candidate_element": "Ni",
+          "similarity_score": -0.186694
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 54,
+          "candidate_element": "Fe",
+          "similarity_score": -0.198682
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 55,
+          "candidate_element": "Hf",
+          "similarity_score": -0.199831
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 56,
+          "candidate_element": "U",
+          "similarity_score": -0.202311
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 57,
+          "candidate_element": "Cd",
+          "similarity_score": -0.210306
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 58,
+          "candidate_element": "Pm",
+          "similarity_score": -0.220103
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 59,
+          "candidate_element": "Eu",
+          "similarity_score": -0.223438
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 60,
+          "candidate_element": "Co",
+          "similarity_score": -0.227544
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 61,
+          "candidate_element": "Tc",
+          "similarity_score": -0.237491
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 62,
+          "candidate_element": "Sm",
+          "similarity_score": -0.264497
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 63,
+          "candidate_element": "Cr",
+          "similarity_score": -0.279714
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 64,
+          "candidate_element": "Pa",
+          "similarity_score": -0.293747
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 65,
+          "candidate_element": "Cu",
+          "similarity_score": -0.326214
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 66,
+          "candidate_element": "Yb",
+          "similarity_score": -0.342441
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 67,
+          "candidate_element": "Pd",
+          "similarity_score": -0.355242
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 68,
+          "candidate_element": "Th",
+          "similarity_score": -0.356419
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 69,
+          "candidate_element": "Ag",
+          "similarity_score": -0.364077
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 70,
+          "candidate_element": "Au",
+          "similarity_score": -0.375033
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 71,
+          "candidate_element": "Tb",
+          "similarity_score": -0.375863
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 72,
+          "candidate_element": "Ta",
+          "similarity_score": -0.380608
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 73,
+          "candidate_element": "Re",
+          "similarity_score": -0.39205
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 74,
+          "candidate_element": "Dy",
+          "similarity_score": -0.39504
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 75,
+          "candidate_element": "Os",
+          "similarity_score": -0.403109
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 76,
+          "candidate_element": "Nb",
+          "similarity_score": -0.403215
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 77,
+          "candidate_element": "Gd",
+          "similarity_score": -0.405632
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 78,
+          "candidate_element": "Ir",
+          "similarity_score": -0.41598
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 79,
+          "candidate_element": "Pt",
+          "similarity_score": -0.418344
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 80,
+          "candidate_element": "Ho",
+          "similarity_score": -0.421716
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 81,
+          "candidate_element": "Er",
+          "similarity_score": -0.42301
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 82,
+          "candidate_element": "Tm",
+          "similarity_score": -0.430365
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 83,
+          "candidate_element": "Rh",
+          "similarity_score": -0.441358
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 84,
+          "candidate_element": "Lu",
+          "similarity_score": -0.442169
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 85,
+          "candidate_element": "W",
+          "similarity_score": -0.454147
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 86,
+          "candidate_element": "Ru",
+          "similarity_score": -0.456503
+        }
+      ]
+    },
+    "seconds": 7.650000043213367e-05
+  },
+  {
+    "name": "Property:invalid_k:1.5",
+    "requirement": "Reject negative, noninteger or boolean k",
+    "status": "passed",
+    "observation": {
+      "exception": "TypeError",
+      "message": "slice indices must be integers or None or have an __index__ method"
+    },
+    "seconds": 3.8700003642588854e-05
+  },
+  {
+    "name": "Property:invalid_k:'10'",
+    "requirement": "Reject negative, noninteger or boolean k",
+    "status": "passed",
+    "observation": {
+      "exception": "TypeError",
+      "message": "slice indices must be integers or None or have an __index__ method"
+    },
+    "seconds": 2.8099981136620045e-05
+  },
+  {
+    "name": "Property:invalid_k:True",
+    "requirement": "Reject negative, noninteger or boolean k",
+    "status": "failed",
+    "observation": {
+      "returned": [
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "In",
+          "similarity_score": 0.877063
+        }
+      ]
+    },
+    "seconds": 2.9799994081258774e-05
+  },
+  {
+    "name": "Property:repeat",
+    "requirement": "Same input produces identical rankings",
+    "status": "passed",
+    "observation": {
+      "returned": true
+    },
+    "seconds": 6.819999543949962e-05
+  },
+  {
+    "name": "Property:all_pair_symmetry",
+    "requirement": "Symmetry within 1e-12",
+    "status": "passed",
+    "observation": {
+      "returned": 0.0
+    },
+    "seconds": 1.9000144675374031e-06
+  },
+  {
+    "name": "Property:all_self_similarity",
+    "requirement": "Self similarity within 1e-12",
+    "status": "passed",
+    "observation": {
+      "returned": 4.440892098500626e-16
+    },
+    "seconds": 6.00004568696022e-07
+  },
+  {
+    "name": "PNSimilarityEngine:missing_file",
+    "requirement": "Reject missing dataset",
+    "status": "passed",
+    "observation": {
+      "exception": "FileNotFoundError",
+      "message": "Master elements table not found at: C:\\Final Project\\results\\stage_01\\run_001\\fixtures\\missing.parquet"
+    },
+    "seconds": 0.00012499996228143573
+  },
+  {
+    "name": "PropertySimilarityEngine:missing_file",
+    "requirement": "Reject missing dataset",
+    "status": "passed",
+    "observation": {
+      "exception": "FileNotFoundError",
+      "message": "Master elements table not found at: C:\\Final Project\\results\\stage_01\\run_001\\fixtures\\missing.parquet"
+    },
+    "seconds": 6.699998630210757e-05
+  },
+  {
+    "name": "Property:duplicate",
+    "requirement": "Reject invalid master dataset before scoring",
+    "status": "failed",
+    "observation": {
+      "returned": [
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "In",
+          "similarity_score": 0.873378
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 2,
+          "candidate_element": "Sn",
+          "similarity_score": 0.833906
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 3,
+          "candidate_element": "Ge",
+          "similarity_score": 0.729676
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 4,
+          "candidate_element": "P",
+          "similarity_score": 0.617511
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 5,
+          "candidate_element": "Tl",
+          "similarity_score": 0.608976
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 6,
+          "candidate_element": "Bi",
+          "similarity_score": 0.608744
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 7,
+          "candidate_element": "Pb",
+          "similarity_score": 0.583237
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 8,
+          "candidate_element": "Sb",
+          "similarity_score": 0.570268
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 9,
+          "candidate_element": "S",
+          "similarity_score": 0.537584
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 10,
+          "candidate_element": "Se",
+          "similarity_score": 0.519926
+        }
+      ]
+    },
+    "seconds": 0.018957699998281896
+  },
+  {
+    "name": "PN:duplicate",
+    "requirement": "Reject invalid master dataset",
+    "status": "failed",
+    "observation": {
+      "returned": [
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "Al",
+          "similarity_score": 0.5
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 2,
+          "candidate_element": "In",
+          "similarity_score": 0.5
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 3,
+          "candidate_element": "B",
+          "similarity_score": 0.333333
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 4,
+          "candidate_element": "Tl",
+          "similarity_score": 0.333333
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 5,
+          "candidate_element": "C",
+          "similarity_score": 0.2
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 6,
+          "candidate_element": "Hg",
+          "similarity_score": 0.2
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 7,
+          "candidate_element": "Cd",
+          "similarity_score": 0.166667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 8,
+          "candidate_element": "Si",
+          "similarity_score": 0.166667
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 9,
+          "candidate_element": "Ge",
+          "similarity_score": 0.142857
+        },
+        {
+          "method": "PN",
+          "target_element": "Ga",
+          "rank": 10,
+          "candidate_element": "Zn",
+          "similarity_score": 0.142857
+        }
+      ]
+    },
+    "seconds": 0.0033927999902516603
+  },
+  {
+    "name": "Property:empty",
+    "requirement": "Reject invalid master dataset before scoring",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'Ga' not in property candidate universe."
+    },
+    "seconds": 0.040707700012717396
+  },
+  {
+    "name": "PN:empty",
+    "requirement": "Reject invalid master dataset",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "Target element 'Ga' not found in master database."
+    },
+    "seconds": 0.0032426000107079744
+  },
+  {
+    "name": "Property:missing_feature",
+    "requirement": "Reject invalid master dataset before scoring",
+    "status": "passed",
+    "observation": {
+      "exception": "KeyError",
+      "message": "\"['density'] not in index\""
+    },
+    "seconds": 0.011779299995396286
+  },
+  {
+    "name": "Property:nan_feature",
+    "requirement": "Reject invalid master dataset before scoring",
+    "status": "passed",
+    "observation": {
+      "exception": "AssertionError",
+      "message": "NaN values found in property candidate features!"
+    },
+    "seconds": 0.017712100001517683
+  },
+  {
+    "name": "Property:infinite_feature",
+    "requirement": "Reject invalid master dataset before scoring",
+    "status": "failed",
+    "observation": {
+      "returned": [
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "H",
+          "similarity_score": "NaN"
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 2,
+          "candidate_element": "Li",
+          "similarity_score": "NaN"
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 3,
+          "candidate_element": "Be",
+          "similarity_score": "NaN"
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 4,
+          "candidate_element": "B",
+          "similarity_score": "NaN"
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 5,
+          "candidate_element": "C",
+          "similarity_score": "NaN"
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 6,
+          "candidate_element": "N",
+          "similarity_score": "NaN"
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 7,
+          "candidate_element": "O",
+          "similarity_score": "NaN"
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 8,
+          "candidate_element": "F",
+          "similarity_score": "NaN"
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 9,
+          "candidate_element": "Na",
+          "similarity_score": "NaN"
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 10,
+          "candidate_element": "Mg",
+          "similarity_score": "NaN"
+        }
+      ]
+    },
+    "seconds": 0.017903400002978742
+  },
+  {
+    "name": "Property:negative_density",
+    "requirement": "Reject invalid master dataset before scoring",
+    "status": "failed",
+    "observation": {
+      "returned": [
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "In",
+          "similarity_score": 0.750418
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 2,
+          "candidate_element": "Sn",
+          "similarity_score": 0.720121
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 3,
+          "candidate_element": "Ge",
+          "similarity_score": 0.707316
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 4,
+          "candidate_element": "P",
+          "similarity_score": 0.651806
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 5,
+          "candidate_element": "Mg",
+          "similarity_score": 0.599424
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 6,
+          "candidate_element": "S",
+          "similarity_score": 0.564692
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 7,
+          "candidate_element": "Al",
+          "similarity_score": 0.53917
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 8,
+          "candidate_element": "Si",
+          "similarity_score": 0.537591
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 9,
+          "candidate_element": "B",
+          "similarity_score": 0.529321
+        },
+        {
+          "method": "Property",
+          "target_element": "Ga",
+          "rank": 10,
+          "candidate_element": "Sb",
+          "similarity_score": 0.521624
+        }
+      ]
+    },
+    "seconds": 0.01952170004369691
+  },
+  {
+    "name": "Property:invalid_type",
+    "requirement": "Reject invalid master dataset before scoring",
+    "status": "passed",
+    "observation": {
+      "exception": "ValueError",
+      "message": "could not convert string to float: 'bad'"
+    },
+    "seconds": 0.016561100026592612
+  },
+  {
+    "name": "Property:malformed_file",
+    "requirement": "Reject corrupt file",
+    "status": "passed",
+    "observation": {
+      "exception": "ArrowInvalid",
+      "message": "Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file."
+    },
+    "seconds": 0.017085200001019984
+  },
+  {
+    "name": "Atom2Vec:nan_cache",
+    "requirement": "Reject nonfinite cached vectors before scoring",
+    "status": "failed",
+    "observation": {
+      "returned": [
+        {
+          "method": "Atom2Vec",
+          "target_element": "Ga",
+          "rank": 1,
+          "candidate_element": "Al",
+          "similarity_score": "NaN"
+        }
+      ]
+    },
+    "seconds": 0.016439399973023683
+  },
+  {
+    "name": "Atom2Vec:shape_cache",
+    "requirement": "Reject symbol/vector shape mismatch",
+    "status": "passed",
+    "observation": {
+      "exception": "IndexError",
+      "message": "index 1 is out of bounds for axis 0 with size 1"
+    },
+    "seconds": 0.016759700025431812
+  },
+  {
+    "name": "Atom2Vec:missing_corpus",
+    "requirement": "Reject missing corpus when cache absent",
+    "status": "passed",
+    "observation": {
+      "exception": "FileNotFoundError",
+      "message": "Materials Project raw dataset not found at: C:\\Final Project\\results\\stage_01\\run_001\\fixtures\\none.gz"
+    },
+    "seconds": 0.0006841000285930932
+  },
+  {
+    "name": "Atom2Vec:cache_dimension",
+    "requirement": "Requested embedding dimension agrees with loaded cache",
+    "status": "failed",
+    "observation": {
+      "returned": 20
+    },
+    "seconds": 0.002303500019479543
+  }
+]

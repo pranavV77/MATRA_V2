@@ -1,0 +1,25 @@
+{
+  "original_files_checked": 47,
+  "original_files_changed": [],
+  "local_html_links_checked": 13,
+  "missing_local_links": [],
+  "strict_json_files_parsed": 17,
+  "audit_scripts_compiled": [
+    "audit_baseline.py",
+    "generate_report.py",
+    "supplemental_checks.py",
+    "verify_deliverables.py"
+  ],
+  "tracked_differences_from_HEAD": [
+    "results/runs/task2_benchmark_evaluation.json"
+  ],
+  "baseline_tag_commit": "d84caf89f4d55e8611424675ac648fb296954494",
+  "figures_visually_reviewed": [
+    "legacy_metrics.png",
+    "element_coverage.png",
+    "case_rank_heatmap.png"
+  ],
+  "audio_generated": false,
+  "audio_limitation": "Only en-US Windows voice exposed; no supported Telugu synthesis tool",
+  "overall_pass": true
+}

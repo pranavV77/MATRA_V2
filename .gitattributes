@@ -62,3 +62,17 @@ data/benchmark/energy_v0_1_0/** -text
 results/stage_06/** -text
 logs/stage_06/** -text
 docs/stages/stage_06/** -text
+
+# End-of-day handoff records
+README.md -text
+configs/base_environment_lock.txt -text
+logs/handoff/** -text
+results/handoff/** -text
+
+# Preserve historical audit snapshot and presentation-helper bytes
+/*.py -text
+docs/evaluation/** -text
+docs/stages/stage_01/** -text
+experiments/stage_01/** -text
+results/stage_01/** -text
+logs/stage_01/** -text

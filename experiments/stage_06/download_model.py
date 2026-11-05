@@ -11,7 +11,18 @@ EXPECTED_BYTES=67622684
 
 def main():
     folder=ROOT/'models/stage_06';path=folder/'mace_mp_0_small.model'
-    if path.exists() or (folder/'checkpoint.json').exists():raise FileExistsError('Preserve existing model and manifest')
+    folder.mkdir(parents=True,exist_ok=True)
+    manifest=folder/'checkpoint.json'
+    if manifest.exists():
+        existing=json.loads(manifest.read_text(encoding='utf-8'))
+        if existing.get('sha256')!=EXPECTED_SHA256 or existing.get('bytes')!=EXPECTED_BYTES:
+            raise ValueError('Existing manifest differs from frozen official model; it was preserved')
+    if path.exists():
+        if path.stat().st_size!=EXPECTED_BYTES or hashlib.sha256(path.read_bytes()).hexdigest()!=EXPECTED_SHA256:
+            raise ValueError('Existing checkpoint is different or corrupted; it was preserved')
+        if not manifest.exists():raise ValueError('Checkpoint exists without its provenance manifest; inspect before continuing')
+        print('Official checkpoint already present; size and checksum verified. No files changed.')
+        return
     partial=folder/('download_'+uuid.uuid4().hex+'.part')
     digest=hashlib.sha256();size=0
     with urlopen(Request(URL,headers={'User-Agent':'MATRA-local-academic-research'}),timeout=45) as response:
@@ -33,7 +44,8 @@ def main():
               'integrity_note':'Size and SHA-256 verified against official Hugging Face LFS metadata at frozen revision e291ace2bfae073c3ebc7ae2f9479a525989baa7.',
               'selection_note':'Original 0a small GitHub release routes reset connections. Official available 0b2 small selected within approved MACE-MP small-model family; no accuracy advantage claimed.',
               'scientific_accuracy_validated_locally':False}
-    with (folder/'checkpoint.json').open('x',encoding='utf-8') as out:json.dump(metadata,out,indent=2)
+    target=folder/('restoration_'+uuid.uuid4().hex+'.json') if manifest.exists() else manifest
+    with target.open('x',encoding='utf-8') as out:json.dump(metadata,out,indent=2)
     print(json.dumps(metadata,indent=2))
 
 

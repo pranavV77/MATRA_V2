@@ -1,0 +1,22 @@
+{
+  "command": [
+    "C:\\Final Project\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-m",
+    "pytest",
+    "tests",
+    "-v",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "C:\\Final Project\\results\\stage_01\\run_001\\temp\\pytest",
+    "--junitxml",
+    "C:\\Final Project\\results\\stage_01\\run_001\\existing_tests.xml"
+  ],
+  "cwd": "C:\\Final Project",
+  "exit_code": 0,
+  "seconds": 2.7525880000321195,
+  "log": "results\\stage_01\\run_001\\existing_tests.txt"
+}

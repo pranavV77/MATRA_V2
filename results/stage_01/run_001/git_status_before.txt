@@ -1,0 +1,8 @@
+ M results/runs/task2_benchmark_evaluation.json
+?? MATRA_S7_Mid_Review_Presentation.pptx
+?? "Mid review PPT Template.pptx"
+?? build_presentation.py
+?? check_slide1.py
+?? inspect_master.py
+?? inspect_template.py
+?? verify_generated_presentation.py

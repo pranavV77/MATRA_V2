@@ -1,0 +1,15 @@
+## main...origin/main
+ M results/runs/task2_benchmark_evaluation.json
+?? MATRA_S7_Mid_Review_Presentation.pptx
+?? "Mid review PPT Template.pptx"
+?? build_presentation.py
+?? check_slide1.py
+?? docs/evaluation/
+?? docs/progress.md
+?? docs/stages/
+?? experiments/
+?? inspect_master.py
+?? inspect_template.py
+?? logs/
+?? results/stage_01/
+?? verify_generated_presentation.py
